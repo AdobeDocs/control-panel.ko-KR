@@ -1,7 +1,7 @@
 ---
 title: 제품 설명서
 translation-type: tm+mt
-source-git-commit: 4d8c8cb517df36e814644127746550759d5d2a46
+source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
 
 ---
 
