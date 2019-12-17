@@ -1,14 +1,14 @@
 ---
 title: 제품 설명서
 translation-type: tm+mt
-source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
 
 # 도움말 센터 {#control-panel-documentation}
 
-![](assets/banner.png)
+![](assets/do-not-localize/banner.png)
 
 ## 제어판 정보 {#about-control-panel}
 
@@ -28,22 +28,22 @@ source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
 <table>
 <tr>
     <td>
-        <a href="discover/using/accessing-control-panel.md"><img alt="조건" src="assets/discover.png"/></a>
+        <a href="discover/using/accessing-control-panel.md"><img alt="조건" src="assets/do-not-localize/discover.png"/></a>
         <div><a href="discover/using/accessing-control-panel.md"><strong>Discover 제어판</strong></a></div>
         <em>제어판에서 자세한 내용을 살펴보고 액세스 방법에 대해 알아보십시오.</em>
     </td>
     <td>
-        <a href="sftp/using/about-sftp-management.md"><img alt="조건" src="assets/sftp.png"/></a>
+        <a href="sftp/using/about-sftp-management.md"><img alt="조건" src="assets/do-not-localize/sftp.png"/></a>
         <div><a href="sftp/using/about-sftp-management.md"><strong>SFTP 서버 모니터링</strong></a></div>
         <em>SFTP 서버를 관리하는 방법을 알아봅니다.</em>
     </td>
     <td>
-        <a href="subdomains-certificates/using/about-ssl-certificates.md"><img alt="조건" src="assets/subdomains.png"/></a>
-        <div><a href="subdomains-certificates/using/about-ssl-certificates.md"><strong>하위 도메인 모니터링</strong></a></div>
+        <a href="subdomains-certificates/using/subdomains-branding.md"><img alt="조건" src="assets/do-not-localize/subdomains.png"/></a>
+        <div><a href="subdomains-certificates/using/subdomains-branding.md"><strong>하위 도메인 모니터링</strong></a></div>
         <em>하위 도메인 및 해당 인증서를 모니터링하는 방법을 알아봅니다.</em>
     </td>
     <td>
-        <a href="instances-settings/using/ip-whitelisting-instance-access.md"><img alt="조건" src="assets/instance_settings.png"/></a>
+        <a href="instances-settings/using/ip-whitelisting-instance-access.md"><img alt="조건" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="instances-settings/using/ip-whitelisting-instance-access.md"><strong>인스턴스 설정 관리</strong></a></div>
         <br/><em>인스턴스 설정 관리 방법 알아보기(Campaign Classic에만 해당)</em>
     </td>
