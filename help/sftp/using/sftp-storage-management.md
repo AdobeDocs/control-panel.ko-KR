@@ -2,7 +2,7 @@
 title: SFTP 저장소 관리
 description: SFTP 서버의 저장소 모니터링 및 관리 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 111c8fd461f6f1c567288acd7a83aee5ef7fce97
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -15,18 +15,18 @@ source-git-commit: 111c8fd461f6f1c567288acd7a83aee5ef7fce97
 
 **관련 항목:**
 
-* [Campaign Standard 자습서 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/managing-sftp-servers.html)
+* [Campaign Standard 자습서 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/monitoring-server-capacity-whitelisting-adding-ssh-key.html)
 * [Campaign Classic 자습서 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/managing-sftp-servers.html)
 
 ## 스토리지 용량 정보 액세스 {#accessing-storage-capacity-information}
 
-헤더의 **[!UICONTROL Top utilized SFTP disk capacity]** 섹션에는 관리 액세스 권한이 있는 인스턴스에 연결된 가장 많이 사용되는 세 개의 서버가 포함되어 있습니다. 이 정보는 SFTP 카드의 모든 탭에서 사용할 수 있습니다.
+헤더의 **[!UICONTROL Top utilized SFTP disk capacity]**섹션에는 관리 액세스 권한이 있는 인스턴스에 연결된 가장 많이 사용되는 세 개의 서버가 포함되어 있습니다. 이 정보는 SFTP 카드의 모든 탭에서 사용할 수 있습니다.
 
-![](assets/control_panel_topspaceNEW.png)
+![](assets/control_panel_topspace.png)
 
-액세스 권한이 있는 모든 인스턴스에서 사용하는 공간에 대한 정보는 SFTP 카드의 **[!UICONTROL Storage]** 탭에서 사용할 수 있습니다. 새로 고칠 때마다 업데이트됩니다.
+액세스 권한이 있는 모든 인스턴스에서 사용하는 공간에 대한 정보는 SFTP 카드의 **[!UICONTROL Storage]**탭에서 사용할 수 있습니다. 새로 고칠 때마다 업데이트됩니다.
 
-![](assets/control_panel_spaceNEW.png)
+![](assets/control_panel_space.png)
 
 각 인스턴스에 대해 시각적 경고를 통해 스토리지 용량이 초과되는지 알 수 있습니다.
 
