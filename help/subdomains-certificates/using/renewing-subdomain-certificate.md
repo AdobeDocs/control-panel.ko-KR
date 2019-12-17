@@ -2,14 +2,14 @@
 title: 하위 도메인의 SSL 인증서 갱신
 description: 하위 도메인의 SSL 인증서를 갱신하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 5573fc7c098128b6672c2aaf0f6fc74b80849576
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
 
 # 하위 도메인의 SSL 인증서 갱신 {#renewing-subdomains-ssl-certificates}
 
-## 인증서 갱신 프로세스 정보 {#about-certificate-renewal-process}
+## 인증서 갱신 정보 {#about-certificate-renewal-process}
 
 SSL 인증서 갱신 프로세스에는 제어판에서 직접 수행되는 3단계가 포함됩니다.
 
@@ -17,7 +17,7 @@ SSL 인증서 갱신 프로세스에는 제어판에서 직접 수행되는 3단
 1. **SSL 인증서**&#x200B;구매 CSR이 생성되면 CSR을 다운로드하여 회사가 승인한 인증 기관에서 SSL 인증서를 구입하는 데 사용할 수 있습니다.
 1. **SSL 인증서**&#x200B;설치SSL 인증서를 구입하면 원하는 하위 도메인에 설치할 수 있습니다.
 
-### 인증서 서명 요청 생성(CSR) {#generating-csr}
+## 인증서 서명 요청 생성(CSR) {#generating-csr}
 
 CSR(인증서 서명 요청)을 생성하려면 다음 단계를 수행합니다.
 
@@ -51,6 +51,10 @@ CSR(인증서 서명 요청)을 생성하려면 다음 단계를 수행합니다
    ![](assets/renewal6.png)
 
 1. 선택한 항목에 해당하는 .csr 파일이 자동으로 생성되고 다운로드됩니다. 이제 회사에서 승인한 인증 기관에서 SSL 인증서를 구매할 수 있습니다.
+
+## CSR을 사용하여 인증서 구입 {#purchasing-certificate}
+
+제어판에서 CSR(Certificate Signing Request) CSR을 구입한 후 조직에서 승인한 인증 기관에서 SSL 인증서를 구매합니다.
 
 ## SSL 인증서 설치 {#installing-ssl-certificate}
 
