@@ -2,7 +2,7 @@
 title: 주요 관리
 description: SFTP 서버에 연결하기 위한 키 관리 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -41,7 +41,7 @@ Adobe는 모든 고객에게 **공개 및 개인 키 쌍**&#x200B;을 사용하�
 >
 >아래 단계는 SSH 키 생성의 예시입니다. SSH 키와 관련하여 조직 지침을 따르십시오. 아래 예제는 이러한 작업을 수행하는 방법에 대한 한 가지 예이며, 팀 또는 내부 네트워크 그룹에 대한 통신 요구 사항을 참조하기 위한 유용한 포인트 역할을 합니다.
 
-1. 탭으로 이동한 **[!UICONTROL Key Management]** 다음 **[!UICONTROL Add public key]** 단추를 클릭합니다.
+1. 탭으로 이동한 **[!UICONTROL Key Management]**다음**[!UICONTROL Add public key]** 단추를 클릭합니다.
 
    ![](assets/key0.png)
 
@@ -67,21 +67,21 @@ Adobe는 모든 고객에게 **공개 및 개인 키 쌍**&#x200B;을 사용하�
    1. 다음 명령을 입력합니다. `ssh-keygen -t rsa -C <your_email@example.com>`Adobe
    1. 메시지가 표시되면 키에 이름을 입력합니다. .ssh 디렉토리가 없는 경우 시스템에서 자동으로 생성합니다.
    1. 메시지가 표시되면 암호를 입력하고 다시 입력합니다. 또한 비워 둘 수 있습니다.
-   1. 시스템에서 키 쌍 "name" 및 "name.pub"을 만듭니다. "name.pub" 파일을 검색한 다음 엽니다. 지정한 이메일 주소로 끝나는 영숫자 문자열이 있어야 합니다.
+   1. 시스템에서 키 쌍 &quot;name&quot; 및 &quot;name.pub&quot;을 만듭니다. &quot;name.pub&quot; 파일을 검색한 다음 엽니다. 지정한 이메일 주소로 끝나는 영숫자 문자열이 있어야 합니다.
    **Windows:**
 
-   같은 형식의 "name.pub"으로 개인/공개 키 쌍을 생성하는 데 도움이 되는 타사 도구를 설치해야 할 수 있습니다.
+   같은 형식의 &quot;name.pub&quot;으로 개인/공개 키 쌍을 생성하는 데 도움이 되는 타사 도구를 설치해야 할 수 있습니다.
 
-1. .pub 파일을 연 다음 "ssh..."로 시작하는 전체 문자열을 복사하여 붙여 넣습니다. 컨트롤 패널로 이동합니다.
+1. .pub 파일을 연 다음 &quot;ssh...&quot;로 시작하는 전체 문자열을 복사하여 붙여 넣습니다. 컨트롤 패널로 이동합니다.
 
    ![](assets/publickey.png)
 
-1. 단추를 클릭하여 키를 만듭니다. **[!UICONTROL Save]** 제어판은 공개 키와 관련 지문을 SHA256 형식으로 암호화합니다.
+1. 단추를 클릭하여 키를 만듭니다. **[!UICONTROL Save]**제어판은 공개 키와 관련 지문을 SHA256 형식으로 암호화합니다.
 
 지문을 사용하여 제어판에 저장된 해당 공개 키를 사용하여 컴퓨터에 저장된 개인 키와 일치시킬 수 있습니다.
 
-![](assets/fingerprintNEW2.png)
+![](assets/fingerprint_compare.png)
 
-"**...**" 단추를 사용하면 기존 키를 삭제하거나 연결된 지문을 클립보드에 복사할 수 있습니다.
+&quot;**...**&quot; 단추를 사용하면 기존 키를 삭제하거나 연결된 지문을 클립보드에 복사할 수 있습니다.
 
 ![](assets/key_options.png)
