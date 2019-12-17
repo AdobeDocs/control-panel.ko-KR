@@ -2,7 +2,7 @@
 title: 제어판에 대한 권한 관리
 description: 제어판에 대한 권한 관리 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 79dff08ee60d220c09bdcc21387bb6fb4d2f4c9e
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 79dff08ee60d220c09bdcc21387bb6fb4d2f4c9e
 
 1. Adobe Experience [Cloud로](https://amc.experiencecloud.adobe.com/exc-content/login.html)이동한 다음 **[!UICONTROL Administration]**탭을 선택합니다.
 
-   ![](assets/control_panel_add_user1.png)
+   ![](assets/do-not-localize/control_panel_add_user1.png)
 
    >[!NOTE]
    >
@@ -21,11 +21,11 @@ source-git-commit: 79dff08ee60d220c09bdcc21387bb6fb4d2f4c9e
 
 1. 사용 가능한 **링크를** 클릭하여 관리 콘솔을 실행합니다.
 
-   ![](assets/control_panel_admin1.png)
+   ![](assets/do-not-localize/control_panel_admin1.png)
 
 1. 원하는 캠페인 제품을 선택합니다.
 
-   ![](assets/control_panel_add_user3.png)
+   ![](assets/do-not-localize/control_panel_add_user3.png)
 
    >[!NOTE]
    >
@@ -33,7 +33,7 @@ source-git-commit: 79dff08ee60d220c09bdcc21387bb6fb4d2f4c9e
 
 1. 캠페인 제품에 대한 인스턴스 목록이 표시됩니다. 관리 사용자를 추가할 인스턴스를 선택합니다.
 
-   ![](assets/control_panel_add_user4.png)
+   ![](assets/do-not-localize/control_panel_add_user4.png)
 
    >[!NOTE]
    >
@@ -41,7 +41,7 @@ source-git-commit: 79dff08ee60d220c09bdcc21387bb6fb4d2f4c9e
 
 1. 선택한 인스턴스에 대한 제품 프로필 목록이 표시됩니다. 관리 사용자 목록에 액세스하려면 **[!UICONTROL Administrators]**제품 프로필을 클릭합니다.
 
-   ![](assets/control_panel_add_user_5.png)
+   ![](assets/do-not-localize/control_panel_add_user_5.png)
 
    >[!NOTE]
    >
@@ -49,4 +49,4 @@ source-git-commit: 79dff08ee60d220c09bdcc21387bb6fb4d2f4c9e
 
 1. 관리자 사용자 목록이 표시됩니다. 단추를 클릭하여 원하는 사용자를 추가합니다. **[!UICONTROL Add User]**
 
-   ![](assets/control_panel_add_user_6.png)
+   ![](assets/do-not-localize/control_panel_add_user_6.png)
