@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -24,8 +24,13 @@ source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
    + [SFTP 서버에 로그인](sftp/using/logging-into-sftp-server.md)
    + [일반적인 질문](sftp/using/common-questions.md)
 + 하위 도메인 및 인증서 {#subdomains-and-certificates}
-   + [SSL 인증서 정보](subdomains-certificates/using/about-ssl-certificates.md)
-   + [하위 도메인의 SSL 인증서 관리](subdomains-certificates/using/managing-ssl-certificates.md)
+   + 하위 도메인 관리 {#managing-subdomains}
+      + [하위 도메인 브랜딩](subdomains-certificates/using/subdomains-branding.md)
+      + [하위 도메인 모니터링](subdomains-certificates/using/monitoring-subdomains.md)
+      + [새 하위 도메인 설정](subdomains-certificates/using/setting-up-new-subdomain.md)
+   + SSL 인증서 관리 {managing-certifications}
+      + [SSL 인증서 모니터링](subdomains-certificates/using/monitoring-ssl-certificates.md)
+      + [SSL 인증서 갱신](subdomains-certificates/using/renewing-subdomain-certificate.md)
 + 인스턴스 설정(Campaign Classic) {#instances-settings}
    + [인스턴스 액세스에 대한 IP 허용 목록](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL 권한](instances-settings/using/url-permissions.md)
