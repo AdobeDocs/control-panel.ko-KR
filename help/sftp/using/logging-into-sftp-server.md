@@ -2,7 +2,7 @@
 title: SFTP 서버에 로그인
 description: SFTP 서버에 로그인하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -21,25 +21,25 @@ source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
 
 SFTP 서버에 연결하려면 다음 단계를 따르십시오.
 
-1. Launch the Control Panel, then select the **[!UICONTROL Key Management]** tab from the **[!UICONTROL SFTP]** card.
+1. 제어판을 실행한 다음 **[!UICONTROL Key Management]**카드에서**[!UICONTROL SFTP]** 탭을 선택합니다.
 
-   ![](assets/fingerprintNEW2.png)
+   ![](assets/sftp_card.png)
 
-1. SFTP 클라이언트 애플리케이션을 실행한 다음 제어판에서 서버 주소를 복사하여 붙여 넣은 다음 "campaign.adobe.com"을 입력한 다음 사용자 이름을 입력합니다.
+1. SFTP 클라이언트 애플리케이션을 실행한 다음 제어판에서 서버 주소를 복사하여 붙여 넣은 다음 &quot;campaign.adobe.com&quot;을 입력한 다음 사용자 이름을 입력합니다.
 
-   ![](assets/connect1.png)
+   ![](assets/do-not-localize/connect1.png)
 
-1. 필드에서 **[!UICONTROL SSH Private Key]** 컴퓨터에 저장된 개인 키 파일을 선택합니다. ".pub" 확장명(예: "enable") 없이 공개 키와 동일한 이름을 가진 텍스트 파일에 해당합니다.
+1. 필드에서 **[!UICONTROL SSH Private Key]**컴퓨터에 저장된 개인 키 파일을 선택합니다. &quot;.pub&quot; 확장명(예: &quot;enable&quot;) 없이 공개 키와 동일한 이름을 가진 텍스트 파일에 해당합니다.
 
-   ![](assets/connect2.png)
+   ![](assets/do-not-localize/connect2.png)
 
-   이 **[!UICONTROL Password]** 필드는 파일의 개인 키로 자동으로 채워집니다.
+   이 **[!UICONTROL Password]**필드는 파일의 개인 키로 자동으로 채워집니다.
 
-   ![](assets/connect3.png)
+   ![](assets/do-not-localize/connect3.png)
 
    개인 또는 공개 키의 지문을 SFTP 카드의 [키 관리] 탭에 나타나는 키 지문과 비교하여 사용하려는 키가 제어판에 저장되었는지 확인할 수 있습니다.
 
-   ![](assets/fingerprint3.png)
+   ![](assets/fingerprint_compare.png)
 
    >[!NOTE]
    >
@@ -47,6 +47,6 @@ SFTP 서버에 연결하려면 다음 단계를 따르십시오.
    >
    >`ssh-keygen -lf <path of the privatekey>`
 
-1. 모든 정보가 입력되면 을 클릭하여 SFTP 서버에 **[!UICONTROL Connect]** 로그인합니다.
+1. 모든 정보가 입력되면 을 클릭하여 SFTP 서버에 **[!UICONTROL Connect]**로그인합니다.
 
-   ![](assets/sftpconnected.png)
+   ![](assets/do-not-localize/sftpconnected.png)
