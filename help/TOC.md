@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: bc7cf3633b7310fcb5842896172647659f0877eb
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
       + [하위 도메인 브랜딩](subdomains-certificates/using/subdomains-branding.md)
       + [하위 도메인 모니터링](subdomains-certificates/using/monitoring-subdomains.md)
       + [새 하위 도메인 설정](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + SSL 인증서 관리 {managing-certifications}
+   + SSL 인증서 관리 {#managing-ceritficates}
       + [SSL 인증서 모니터링](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [SSL 인증서 갱신](subdomains-certificates/using/renewing-subdomain-certificate.md)
 + 인스턴스 설정(Campaign Classic) {#instances-settings}
