@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: bc7cf3633b7310fcb5842896172647659f0877eb
+source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
 ---
 
@@ -24,11 +24,16 @@ source-git-commit: bc7cf3633b7310fcb5842896172647659f0877eb
    + [SFTP 서버에 로그인](sftp/using/logging-into-sftp-server.md)
    + [일반적인 질문](sftp/using/common-questions.md)
 + 하위 도메인 및 인증서 {#subdomains-and-certificates}
+   + [하위 도메인 브랜딩](subdomains-certificates/using/subdomains-branding.md)
+   + [새 하위 도메인 설정](subdomains-certificates/using/setting-up-new-subdomain.md)
+   + [SSL 인증서 모니터링](subdomains-certificates/using/monitoring-ssl-certificates.md)
+   + [SSL 인증서 갱신](subdomains-certificates/using/renewing-subdomain-certificate.md)
++ 하위 도메인 및 인증서 {#subdomains-and-certificates}
    + 하위 도메인 관리 {#managing-subdomains}
       + [하위 도메인 브랜딩](subdomains-certificates/using/subdomains-branding.md)
       + [하위 도메인 모니터링](subdomains-certificates/using/monitoring-subdomains.md)
       + [새 하위 도메인 설정](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + SSL 인증서 관리 {#managing-ceritficates}
+   + SSL 인증서 관리 {#managing-certificates}
       + [SSL 인증서 모니터링](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [SSL 인증서 갱신](subdomains-certificates/using/renewing-subdomain-certificate.md)
 + 인스턴스 설정(Campaign Classic) {#instances-settings}
