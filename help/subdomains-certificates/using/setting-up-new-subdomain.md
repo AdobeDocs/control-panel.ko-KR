@@ -2,12 +2,16 @@
 title: 새 하위 도메인 설정
 description: 캠페인 인스턴스에 대한 새 하위 도메인을 설정하는 방법에 대해 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
 ---
 
 
 # 새 하위 도메인 설정 {#setting-up-subdomain}
+
+>[!NOTE]
+>
+>제어판의 하위 도메인 위임은 현재 베타 버전이며 알림 없이 자주 업데이트되고 수정될 수 있습니다.
 
 ## 전체 하위 도메인 위임 {#full-subdomain-delegation}
 
@@ -15,25 +19,29 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 1. 카드에서 **[!UICONTROL Subdomains & Certificates]**원하는 프로덕션 인스턴스를 선택한 다음 을 클릭합니다**[!UICONTROL Setup new subdomain]**.
 
+   ![](assets/subdomain1.png)
+
    >[!NOTE]
    >
    >하위 도메인 위임은 **프로덕션** 인스턴스에만 사용할 수 있습니다.
 
-   ![](assets/subdomain1.png)
-
 1. 전체 위임 방법을 **[!UICONTROL Next]**확인하려면 을 클릭합니다.
+
+   ![](assets/subdomain3.png)
 
    >[!NOTE]
    >
    >[CNAME](#use-cnames) 및 사용자 지정 메서드는 현재 제어판에서 지원되지 않습니다.
 
-   ![](assets/subdomain3.png)
+1. 조직에서 사용하는 호스팅 솔루션에서 원하는 하위 도메인 및 이름을 만듭니다. 이렇게 하려면 마법사에 표시된 Adobe Nameserver 정보를 복사하여 붙여 넣습니다. 호스팅 솔루션에서 하위 도메인을 만드는 방법에 대한 자세한 내용은 [자습서 비디오를](https://video.tv.adobe.com/v/30175?captions=kor)참조하십시오.
 
-1. 조직에서 사용하는 호스팅 솔루션에서 원하는 하위 도메인 및 이름을 만듭니다. 이렇게 하려면 마법사에 표시된 Adobe Nameserver 정보를 복사하여 붙여 넣습니다.
-
-   호스팅 솔루션에서 하위 도메인을 만드는 방법에 대한 자세한 내용은 이 자습서 비디오를 참조하십시오.
+   >[!CAUTION]
+   >
+   >이름 서버를 구성할 때는 루트 하위 도메인을 Adobe에 위임하지 **않아야 합니다**. 그렇지 않으면 도메인은 Adobe에서만 작동할 수 있습니다. 내부 이메일을 조직의 직원에게 보내는 것과 같은 다른 모든 용도는 불가능합니다.
 
    ![](assets/subdomain4.png)
+
+   구성된 하위 도메인이 없으면 설정 중인 하위 도메인이 **주 하위 도메인으로**&#x200B;간주됩니다. 받은 편지함(보낸 사람, 오류, 회신 주소)은 이 하위 도메인에서 나중에 구성된 모든 하위 도메인에 대해 동일하게 유지됩니다.
 
    해당 Adobe 이름 서버 정보가 포함된 하위 도메인이 생성되면 을 클릭합니다. **[!UICONTROL Next]**
 
@@ -63,14 +71,30 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
    ![](assets/subdomain7.png)
 
-프로세스가 종료되면 하위 도메인이 Adobe Campaign 인스턴스와 작동하도록 구성되고 아래 요소가 만들어집니다.
+   >[!NOTE]
+   >
+   >어떤 경우에는 위임이 진행되지만 하위 도메인이 확인되지 않을 수도 있습니다. 하위 도메인은 **[!UICONTROL Verified subdomains]**목록에**[!UICONTROL Unverified]** 상태 및 오류에 대한 정보를 제공하는 작업 로그와 함께 바로 표시됩니다. 문제를 해결하는 데 문제가 있으면 고객 지원 센터에 문의하십시오.
+   >
+   >하위 도메인 위임을 실행하는 동안 성능 문제를 방지하기 위해 제어판을 통한 다른 요청은 큐에 입력되고 하위 도메인 위임이 완료된 후에만 수행됩니다.
+
+프로세스가 완료되면 하위 도메인이 Adobe Campaign 인스턴스와 함께 작동하도록 구성되며 아래 요소가 만들어집니다.
 
 * **다음 DNS 레코드가** 있는 **하위 도메인**:SOA, MX, CNAME, DKIM, SPF, TXT,
 * **미러, 리소스, 추적 페이지 및 도메인 키를 호스팅할 추가 하위 도메인** ,
 * **받은 편지함**:보낸 사람, 오류, 회신.
 
+하위 도메인에 대한 자세한 내용은 **[!UICONTROL Subdomain Details]**단추를 클릭하여 확인할 수 있습니다.
+
+![](assets/subdomain_details_general.png)
+
+![](assets/subdomains_details_senderinfo.png)
+
+>[!NOTE]
+>
+>또한 처리 단계까지 Adobe는 생성된 하위 도메인을 감사하기 위해 새 하위 도메인에 대해 제공 팀(제공 팀)에 통보합니다. 감사 프로세스는 하위 도메인을 위임한 후 최대 3일이 소요될 수 있습니다.
+>
+>수행되는 검사에는 피드백 루프와 스팸 비평 루프 테스트가 포함됩니다. 따라서 감사가 완료되기 전에 하위 도메인을 사용하는 것이 권장되지 않습니다. 이로 인해 잘못된 하위 도메인 문제가 발생할 수 있습니다.
+
 ## CNAME 사용 {#use-cnames}
 
-하위 도메인 위임에 CNAME을 사용하는 것은 Adobe에서 권장하지 않으며 제어판을 통해 지원되지 않습니다.
-
-이 방법을 사용하려면 Adobe 고객 지원 센터에 문의하십시오.
+하위 도메인 위임에 CNAME을 사용하는 것은 Adobe에서 권장하지 않으며 제어판을 통해 지원되지 않습니다. 이 방법을 사용하려면 Adobe 고객 지원 센터에 문의하십시오.
