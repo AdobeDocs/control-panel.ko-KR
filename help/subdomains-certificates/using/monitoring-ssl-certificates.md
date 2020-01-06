@@ -2,7 +2,7 @@
 title: 하위 도메인의 SSL 인증서 모니터링
 description: 하위 도메인의 SSL 인증서를 모니터링하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 001064877594a10733c054f925f254545f93145d
+source-git-commit: 7726a8ef8863d2e2d57e5be7ade7de636a7d2ea1
 
 ---
 
@@ -45,4 +45,4 @@ Adobe Campaign에서는 랜딩 페이지를 호스팅하는 하위 도메인, �
 
 >[!NOTE]
 >
->제어판의 인증서 갱신은 베타에서 곧 제공될 예정입니다. 제어판에서 인증서를 모니터링하는 방법에 대한 자세한 내용은 [이 페이지를](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html) 참조하십시오.
+>제어판의 인증서 갱신은 1월 말에 베타 버전으로 제공됩니다.
