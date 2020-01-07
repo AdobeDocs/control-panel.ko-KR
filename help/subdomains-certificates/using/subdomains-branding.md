@@ -2,16 +2,16 @@
 title: 하위 도메인 브랜딩
 description: 하위 도메인 브랜딩에 대한 자세한 내용
 translation-type: tm+mt
-source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
+source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 ---
 
 
 # 하위 도메인 브랜딩 {#subdomains-branding}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->제어판의 하위 도메인 위임은 현재 베타 버전이며 알림 없이 자주 업데이트되고 수정될 수 있습니다.
+>제어판의 하위 도메인 위임은 1월 말까지 베타에서 사용할 수 있으며, 예고 없이 자주 업데이트되고 수정될 수 있습니다.
 
 ## 하위 도메인을 설정하는 이유는 무엇입니까? {#why-setting-up-subdomains}
 
@@ -40,3 +40,5 @@ source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 | **CNAME, 사용자 지정 메서드** | 하위 도메인 및 네임스페이스 레코드를 만듭니다. 그런 다음 Adobe는 DNS 서버에 배치할 레코드를 제공하고 Adobe Campaign DNS 서버에서 해당 값을 구성합니다.<br/><br/>이 설정에서 사용자와 Adobe 모두 DNS 유지 관리에 대한 책임을 공유합니다. | 높음 |
 
 도메인 위임에 대한 추가 정보는 [이 문서에서](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)확인할 수 있습니다.
+
+하위 도메인 위임 방법에 대한 질문이 있는 경우 Adobe Delivery Ability 팀에 문의하거나 고객 지원 센터에 문의하여 배달 가능성 컨설팅 요청을 참조하십시오.
