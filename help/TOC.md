@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 84365863dae5309cd14560843f2e6ec4c021cbab
+source-git-commit: 904cd7376496e0138f5c4a29b59e3f8b248d499a
 
 ---
 
@@ -12,7 +12,9 @@ source-git-commit: 84365863dae5309cd14560843f2e6ec4c021cbab
 # 제어판 도움말 {#using}
 
 + [제품 설명서](control-panel-home.md)
++ [릴리스 정보](release-notes.md)
 + Discover 제어판 {#discover-control-panel}
+   + [주요 기능](discover/using/key-features.md)
    + [제어판 액세스](discover/using/accessing-control-panel.md)
    + [제어판에 대한 권한 관리](discover/using/managing-permissions.md)
    + [제어판 인터페이스 검색](discover/using/discovering-the-interface.md)
