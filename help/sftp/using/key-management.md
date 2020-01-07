@@ -2,7 +2,7 @@
 title: 주요 관리
 description: SFTP 서버에 연결하기 위한 키 관리 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: 46b78a83b1d613dc41983204ef9d9d371fb32156
 
 ---
 
@@ -41,7 +41,7 @@ Adobe는 모든 고객에게 **공개 및 개인 키 쌍**&#x200B;을 사용하�
 >
 >아래 단계는 SSH 키 생성의 예시입니다. SSH 키와 관련하여 조직 지침을 따르십시오. 아래 예제는 이러한 작업을 수행하는 방법에 대한 한 가지 예이며, 팀 또는 내부 네트워크 그룹에 대한 통신 요구 사항을 참조하기 위한 유용한 포인트 역할을 합니다.
 
-1. 탭으로 이동한 **[!UICONTROL Key Management]**다음**[!UICONTROL Add public key]** 단추를 클릭합니다.
+1. 탭으로 이동한 **[!UICONTROL Key Management]**다음**[!UICONTROL Add new public key]** 단추를 클릭합니다.
 
    ![](assets/key0.png)
 
