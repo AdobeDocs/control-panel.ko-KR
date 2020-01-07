@@ -2,7 +2,7 @@
 title: 하위 도메인의 SSL 인증서 모니터링
 description: 하위 도메인의 SSL 인증서를 모니터링하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 7726a8ef8863d2e2d57e5be7ade7de636a7d2ea1
+source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 ---
 
@@ -43,6 +43,6 @@ Adobe Campaign에서는 랜딩 페이지를 호스팅하는 하위 도메인, �
 
 하위 도메인의 SSL 인증서 중 하나가 만료될 예정이면 제어판에서 바로 갱신할 수 있습니다. 자세한 내용은 다음 섹션을 참조하십시오.하위 [도메인의 SSL 인증서를](../../subdomains-certificates/using/renewing-subdomain-certificate.md)갱신합니다.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->제어판의 인증서 갱신은 1월 말에 베타 버전으로 제공됩니다.
+>제어판의 인증서 갱신은 1월 말까지 베타 버전으로 제공되며, 예고 없이 자주 업데이트와 수정을 거쳐야 합니다.
