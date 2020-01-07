@@ -2,7 +2,7 @@
 title: 제어판 액세스
 description: 제어판에 액세스하는 방법 살펴보기
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: b7b48c01cb7d7c618f4622173c9bd059a8e7098e
 
 ---
 
@@ -33,7 +33,7 @@ Experience Cloud Platform에서 제어판에 액세스하려면 [Experience Clou
 
 >[!NOTE]
 >
->Campaign **Classic** 인스턴스의 경우 Campaign Classic 19.1 버전부터 제품 내에서 액세스할 수 있습니다.
+>제품 내에서 액세스 권한은 Campaign Standard에만 사용할 수 있습니다.
 
 1. Campaign Standard 제품을 연 다음 **[!UICONTROL Administration]**창에서**[!UICONTROL Navigation]** 메뉴를 선택합니다.
 
