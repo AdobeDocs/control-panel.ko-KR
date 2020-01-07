@@ -2,16 +2,16 @@
 title: 하위 도메인의 SSL 인증서 갱신
 description: 하위 도메인의 SSL 인증서를 갱신하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 2c5a4f4f48e975bd9c9de4a86d2691cfddf58354
+source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 ---
 
 
 # 하위 도메인의 SSL 인증서 갱신 {#renewing-subdomains-ssl-certificates}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->제어판의 인증서 갱신은 1월 말에 베타 버전으로 제공됩니다.
+>제어판의 하위 도메인 위임은 1월 말까지 베타에서 사용할 수 있으며, 예고 없이 자주 업데이트되고 수정될 수 있습니다.
 
 ## 인증서 갱신 정보 {#about-certificate-renewal-process}
 
