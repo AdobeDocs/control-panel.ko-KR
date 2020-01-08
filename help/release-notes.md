@@ -1,7 +1,7 @@
 ---
 title: 제어판 릴리스
 translation-type: tm+mt
-source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
+source-git-commit: 5a2c66df101516a33c194851263d309ad6f29971
 
 ---
 
@@ -18,7 +18,15 @@ source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
 
 *2020년 1월 22일*
 
-정의됨
+관리 사용자가 제어판에서 하위 도메인을 위임 및 SSL 인증서를 갱신할 수 있는 새로운 기능이 추가되었습니다.
+
+자세한 내용은 다음 페이지를 참조하십시오.
+* [새 하위 도메인 설정](subdomains-certificates/using/setting-up-new-subdomain.md)
+* [하위 도메인의 SSL 인증서 갱신](subdomains-certificates/using/renewing-subdomain-certificate.md)
+
+>[!IMPORTANT]
+>
+>이러한 기능은 베타에서 사용할 수 있으며, 사전 통보 없이 자주 업데이트하거나 수정할 수 있습니다.
 
 ## 2019년 9월 {#september-2019}
 
