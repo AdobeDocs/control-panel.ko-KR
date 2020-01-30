@@ -2,7 +2,7 @@
 title: 하위 도메인 브랜딩
 description: 하위 도메인 브랜딩에 대한 자세한 내용
 translation-type: tm+mt
-source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -41,4 +41,10 @@ source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 도메인 위임에 대한 추가 정보는 [이 문서에서](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)확인할 수 있습니다.
 
-하위 도메인 위임 방법에 대한 질문이 있는 경우 Adobe Delivery Ability 팀에 문의하거나 고객 지원 센터에 문의하여 배달 가능성 컨설팅 요청을 참조하십시오.
+하위 도메인 위임 방법에 대한 질문이 있는 경우 Adobe Deliverability 팀에 문의하거나 고객 지원 센터에 문의하여 배달 가능성 컨설팅 요청을 참조하십시오.
+
+**관련 항목:**
+
+* [새 하위 도메인 설정](../../subdomains-certificates/using/setting-up-new-subdomain.md)
+* [하위 도메인 위임(자습서 비디오)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [하위 도메인 모니터링](../../subdomains-certificates/using/monitoring-subdomains.md)
