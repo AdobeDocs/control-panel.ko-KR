@@ -2,7 +2,7 @@
 title: 제어판 FAQ
 description: 제어판과 관련된 일반적인 질문
 translation-type: tm+mt
-source-git-commit: b728dfe0289e44188adfa6e71aac2e9fc0abc1d2
+source-git-commit: 9bd57cd6d4430cf2cae8575547f8e332f94940c1
 
 ---
 
@@ -41,7 +41,7 @@ One way is to navigate to [Adobe Experience Cloud Home](https://exc-login.experi
 
 인스턴스가 AWS에서 호스팅되는지 확인하려면 다음 단계를 따르십시오.
 
-1. 로그인 URL을 검색합니다. Campaign 인스턴스에 로그인하는 데 사용하는 URL이며, 대부분 &quot;.campaign.adobe.com&quot;으로 끝납니다.
+1. 로그인 URL을 검색합니다. Campaign 인스턴스에 로그인하는 데 사용하는 URL이며, 대부분 &quot;.campaign.adobe.com&quot; 또는 &quot;.neolane.net&quot;으로 끝납니다.
 1. 터미널을 연 다음 로그인 URL에서 **[!DNL nslookup]**작업을 실행합니다.
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
