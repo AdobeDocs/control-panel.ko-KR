@@ -2,7 +2,7 @@
 title: 하위 도메인의 SSL 인증서 모니터링
 description: 하위 도메인의 SSL 인증서를 모니터링하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: c51a43fb310bbb8bd7570bc4ea668d708159535c
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -24,3 +24,9 @@ source-git-commit: c51a43fb310bbb8bd7570bc4ea668d708159535c
 검증을 시작할 때 하위 도메인이 올바르게 구성되었는지 확인하기 위해(인스턴스 테넌트 확인, 이메일 전송 테스트 등) 몇 가지 작업이 수행됩니다.
 
 하위 도메인의 확인이 실패할 경우 Adobe 고객 지원 센터에 문의하여 추가 조사를 받으십시오.
+
+**관련 항목:**
+
+* [SSL 인증서 추가(자습서 비디오)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [하위 도메인의 SSL 인증서 갱신](../..help/subdomains-certificates/using/renewing-subdomain-certificate.md)
+* [하위 도메인 브랜딩](../../subdomains-certificates/using/subdomains-branding.md)
