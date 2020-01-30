@@ -2,7 +2,7 @@
 title: 하위 도메인의 SSL 인증서 갱신
 description: 하위 도메인의 SSL 인증서를 갱신하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 50d29d25891adc866d624888ca72e16e529ae7bf
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -101,3 +101,9 @@ SSL 인증서를 구입하면 인스턴스에 설치할 수 있습니다. 계속
    ![](assets/install2.png)
 
 SSL 인증서가 설치되면 인증서의 만료 날짜 및 상태 아이콘이 그에 따라 업데이트됩니다.
+
+**관련 항목:**
+
+* [SSL 인증서 추가(자습서 비디오)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [하위 도메인 브랜딩](../../subdomains-certificates/using/subdomains-branding.md)
+* [하위 도메인 모니터링](../../subdomains-certificates/using/monitoring-subdomains.md)
