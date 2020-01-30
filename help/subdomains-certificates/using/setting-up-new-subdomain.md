@@ -2,7 +2,7 @@
 title: 새 하위 도메인 설정
 description: 캠페인 인스턴스에 대한 새 하위 도메인을 설정하는 방법에 대해 알아봅니다.
 translation-type: tm+mt
-source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 >
 >제어판의 하위 도메인 위임은 1월 말까지 베타에서 사용할 수 있으며, 예고 없이 자주 업데이트되고 수정될 수 있습니다.
 
-하위 도메인 위임 방법에 대한 질문이 있는 경우 Adobe Delivery Ability 팀에 문의하거나 고객 지원 센터에 문의하여 배달 가능성 컨설팅 요청을 참조하십시오.
+하위 도메인 위임 방법에 대한 질문이 있는 경우 Adobe Deliverability 팀에 문의하거나 고객 지원 센터에 문의하여 배달 가능성 컨설팅 요청을 참조하십시오.
 
 ## 전체 하위 도메인 위임 {#full-subdomain-delegation}
 
@@ -109,3 +109,9 @@ source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 ## CNAME 사용 {#use-cnames}
 
 하위 도메인 위임에 대한 CNAME의 사용은 제어판을 통해 지원되지 않습니다. 이 방법을 사용하려면 Adobe 고객 지원 센터에 문의하십시오.
+
+**관련 항목:**
+
+* [하위 도메인 위임(자습서 비디오)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [하위 도메인 브랜딩](../../subdomains-certificates/using/subdomains-branding.md)
+* [하위 도메인 모니터링](../../subdomains-certificates/using/monitoring-subdomains.md)
