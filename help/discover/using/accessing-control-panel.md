@@ -2,7 +2,7 @@
 title: 제어판 액세스
 description: 제어판에 액세스하는 방법 살펴보기
 translation-type: tm+mt
-source-git-commit: b7b48c01cb7d7c618f4622173c9bd059a8e7098e
+source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ---
 
@@ -15,13 +15,13 @@ source-git-commit: b7b48c01cb7d7c618f4622173c9bd059a8e7098e
 
 ## Experience Cloud 플랫폼에서 액세스 {#access-experience-cloud-platform}
 
-Experience Cloud Platform에서 제어판에 액세스하려면 [Experience Cloud Platform 홈페이지](https://amc.experiencecloud.adobe.com/)로 이동한 다음 **빠른 액세스** 섹션에서 전용 링크를 클릭합니다.
+Experience Cloud Platform에서 제어판에 액세스하려면 [Experience Cloud Platform 홈페이지](https://experiencecloud.adobe.com/)로 이동한 다음 **빠른 액세스** 섹션에서 전용 링크를 클릭합니다.
 
 ![](assets/do-not-localize/quickaccess.png)
 
 제어판은 Experience Cloud Platform **솔루션 선택기에서**&#x200B;액세스할 수도 있습니다.
 
-1. Adobe Experience [Cloud로](https://amc.experiencecloud.adobe.com/)이동한 다음 솔루션 **선택기에서** 캠페인을 선택합니다.
+1. Adobe Experience [Cloud로](https://experiencecloud.adobe.com/)이동한 다음 솔루션 **선택기에서** 캠페인을 선택합니다.
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
