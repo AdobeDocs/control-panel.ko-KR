@@ -2,7 +2,7 @@
 title: 제어판에 대한 권한 관리
 description: 제어판에 대한 권한 관리 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 제어판은 캠페인 인스턴스의 모든 관리자 사용자가 사용할 수 있습니다. 아래 절차에 따라 사용자를 관리자 그룹에 할당하고 제어판에 대한 액세스 권한을 부여합니다.
 
-1. Adobe Experience [Cloud로](https://amc.experiencecloud.adobe.com/exc-content/login.html)이동한 다음 **[!UICONTROL Administration]**탭을 선택합니다.
+1. Adobe Experience [Cloud로](https://experiencecloud.adobe.com/)이동한 다음 **[!UICONTROL Administration]**탭을 선택합니다.
 
    ![](assets/do-not-localize/control_panel_add_user1.png)
 
