@@ -2,7 +2,7 @@
 title: 제어판 FAQ
 description: 제어판과 관련된 일반적인 질문
 translation-type: tm+mt
-source-git-commit: 9bd57cd6d4430cf2cae8575547f8e332f94940c1
+source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Experience Cloud에 처음 로그인할 때 인스턴스에 제공되는 �
 
 **IMS 조직 ID는 어디에서 찾을 수 있습니까?**
 
-One way is to navigate to [Adobe Experience Cloud Home](https://exc-login.experiencecloud.adobe.com/exc-content/login.html?prefixtenantid=amc) > **[!UICONTROL Administration]**. You will find your IMS Org ID at the bottom of Administration**[!UICONTROL Quick Access]** section. [Adobe Experience Cloud 설명서](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)에서 자세한 정보를 찾을 수 있습니다.
+One way is to navigate to [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. You will find your IMS Org ID at the bottom of Administration**[!UICONTROL Quick Access]** section. [Adobe Experience Cloud 설명서](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)에서 자세한 정보를 찾을 수 있습니다.
 
 다른 방법은 Admin Console을 **실행하는 것입니다**. IMS 조직 ID는 URL에 표시되며 다음과 같이 표시됩니다.https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
