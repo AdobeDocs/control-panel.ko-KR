@@ -2,7 +2,7 @@
 title: 하위 도메인 브랜딩
 description: 하위 도메인 브랜딩에 대한 자세한 내용
 translation-type: tm+mt
-source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
+source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 >[!IMPORTANT]
 >
->제어판의 하위 도메인 위임은 1월 말까지 베타에서 사용할 수 있으며, 예고 없이 자주 업데이트되고 수정될 수 있습니다.
+>제어판의 하위 도메인 위임은 베타에서 사용할 수 있으며, 예고 없이 자주 업데이트와 수정이 가능합니다.
 
 ## 하위 도메인을 설정하는 이유는 무엇입니까? {#why-setting-up-subdomains}
 
