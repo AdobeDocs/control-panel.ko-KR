@@ -2,7 +2,7 @@
 title: 하위 도메인의 SSL 인증서 모니터링
 description: 하위 도메인의 SSL 인증서를 모니터링하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
+source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign에서는 랜딩 페이지를 호스팅하는 하위 도메인, �
 
 ## SSL 인증서 모니터링 {#monitoring-certificates}
 
-하위 도메인의 SSL 인증서 상태는 **[!UICONTROL Subdomains & Certificates]**카드를 선택할 때 하위 도메인 목록에서 직접 사용할 수 있습니다.
+하위 도메인의 SSL 인증서 상태는 **[!UICONTROL Subdomains & Certificates]** 카드를 선택할 때 하위 도메인 목록에서 직접 사용할 수 있습니다.
 
 하위 도메인은 SSL 인증서의 가장 가까운 만료 날짜별로 배열되며 만료 날짜(일)에 대한 시각적 정보를 제공합니다.
 
@@ -34,10 +34,10 @@ Adobe Campaign에서는 랜딩 페이지를 호스팅하는 하위 도메인, �
 
 ![](assets/subdomains_list.png)
 
-하위 도메인에 대한 자세한 내용을 보려면 **[!UICONTROL Subdomain Details]**단추를 클릭합니다.
+하위 도메인에 대한 자세한 내용을 보려면 **[!UICONTROL Subdomain Details]** 단추를 클릭합니다.
 모든 관련 하위 도메인 목록이 표시됩니다. 일반적으로 랜딩 페이지, 리소스 페이지 등의 하위 도메인을 포함합니다.
 
-이 **[!UICONTROL Sender info]**탭에는 구성된 받은 편지함(발신자, 회신, 오류 이메일)에 대한 정보가 표시됩니다.
+이 **[!UICONTROL Sender info]** 탭에는 구성된 받은 편지함(발신자, 회신, 오류 이메일)에 대한 정보가 표시됩니다.
 
 ![](assets/subdomain_details.png)
 
@@ -45,7 +45,7 @@ Adobe Campaign에서는 랜딩 페이지를 호스팅하는 하위 도메인, �
 
 >[!IMPORTANT]
 >
->제어판의 인증서 갱신은 1월 말까지 베타 버전으로 제공되며, 예고 없이 자주 업데이트와 수정을 거쳐야 합니다.
+>제어판의 인증서 갱신은 베타에서 제공되며, 예고 없이 자주 업데이트와 수정을 거쳐야 합니다.
 
 **관련 항목:**
 
