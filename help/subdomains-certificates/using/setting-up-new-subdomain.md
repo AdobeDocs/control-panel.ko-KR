@@ -2,7 +2,7 @@
 title: 새 하위 도메인 설정
 description: 캠페인 인스턴스에 대한 새 하위 도메인을 설정하는 방법에 대해 알아봅니다.
 translation-type: tm+mt
-source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
+source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
 
 ---
 
@@ -12,8 +12,6 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 >[!IMPORTANT]
 >
 >제어판의 하위 도메인 위임은 베타에서 사용할 수 있으며, 예고 없이 자주 업데이트와 수정이 가능합니다.
-
-하위 도메인 위임 방법에 대한 질문이 있는 경우 Adobe Deliverability 팀에 문의하거나 고객 지원 센터에 문의하여 배달 가능성 컨설팅 요청을 참조하십시오.
 
 ## 전체 하위 도메인 위임 {#full-subdomain-delegation}
 
@@ -25,7 +23,7 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 >
 >기본 하위 도메인을 사용하는 다른 하위 도메인에 대해 역방향 DNS 레코드가 만들어집니다. 다른 하위 도메인의 회신 주소 및 바운스 주소는 기본 하위 도메인에서 생성됩니다.
 
-1. 카드에서 **[!UICONTROL Subdomains & Certificates]**원하는 프로덕션 인스턴스를 선택한 다음 을 클릭합니다**[!UICONTROL Setup new subdomain]**.
+1. 카드에서 **[!UICONTROL Subdomains & Certificates]** 원하는 프로덕션 인스턴스를 선택한 다음 을 클릭합니다 **[!UICONTROL Setup new subdomain]**.
 
    ![](assets/subdomain1.png)
 
@@ -33,7 +31,7 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
    >
    >하위 도메인 위임은 **프로덕션** 인스턴스에만 사용할 수 있습니다.
 
-1. 전체 위임 방법을 **[!UICONTROL Next]**확인하려면 을 클릭합니다.
+1. 전체 위임 방법을 **[!UICONTROL Next]** 확인하려면 을 클릭합니다.
 
    ![](assets/subdomain3.png)
 
@@ -63,7 +61,7 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 
    ![](assets/subdomain5.png)
 
-1. 호스팅 솔루션에 만든 하위 도메인을 입력한 다음 을 **[!UICONTROL Submit]**클릭합니다.
+1. 호스팅 솔루션에 만든 하위 도메인을 입력한 다음 을 **[!UICONTROL Submit]**&#x200B;클릭합니다.
 
    >[!NOTE]
    >
@@ -73,13 +71,13 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 
 1. 하위 도메인이 제출되면 제어판이 Adobe NS 레코드를 올바르게 가리키는지, 이 하위 도메인에 대해 SOA(Start of Authority) 레코드가 없는지 확인합니다.
 
-1. 확인이 성공하면 제어판이 DNS 레코드, 추가 URL, 받은 편지함 등이 있는 하위 도메인 설정을 시작합니다. 이 **[!UICONTROL Process details]**단추를 클릭하여 구성 진행 상황을 자세히 알 수 있습니다.
+1. 확인이 성공하면 제어판이 DNS 레코드, 추가 URL, 받은 편지함 등이 있는 하위 도메인 설정을 시작합니다. 이 **[!UICONTROL Process details]** 단추를 클릭하여 구성 진행 상황을 자세히 알 수 있습니다.
 
    ![](assets/subdomain7.png)
 
    >[!NOTE]
    >
-   >일부 경우 위임이 진행되지만 하위 도메인이 확인되지 않을 수 있습니다. 하위 도메인은 **[!UICONTROL Verified subdomains]**목록으로 바로 이동하며**[!UICONTROL Unverified]** 상태와 오류에 대한 정보를 제공하는 작업 로그가 있습니다. 문제를 해결하는 데 문제가 있으면 고객 지원 센터에 문의하십시오.
+   >일부 경우 위임이 진행되지만 하위 도메인이 확인되지 않을 수 있습니다. 하위 도메인은 **[!UICONTROL Verified subdomains]** 목록으로 바로 이동하며 **[!UICONTROL Unverified]** 상태와 오류에 대한 정보를 제공하는 작업 로그가 있습니다. 문제를 해결하는 데 문제가 있으면 고객 지원 센터에 문의하십시오.
    >
    >하위 도메인 위임을 실행하는 동안 성능 문제를 방지하기 위해 제어판을 통한 다른 요청은 큐에 입력되고 하위 도메인 위임이 완료된 후에만 수행됩니다.
 
@@ -94,15 +92,15 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 >기본적으로 제어판의 &quot;회신&quot; 받은 편지함은 이메일을 지우도록 구성되며 다시 볼 수 없습니다. 마케팅 캠페인에 대한 &quot;회신&quot; 받은 편지함을 모니터링하려면 이 주소를 사용하지 마십시오.
 
 
-하위 도메인에 대한 자세한 내용은 **[!UICONTROL Subdomain Details]**단추를 클릭하여 확인할 수 있습니다.
+하위 도메인에 대한 자세한 내용은 **[!UICONTROL Subdomain Details]** 단추를 클릭하여 확인할 수 있습니다.
 
 ![](assets/subdomain_details_general.png)
 
 ![](assets/subdomains_details_senderinfo.png)
 
->[!NOTE]
+>[!IMPORTANT]
 >
->또한 처리 단계까지 Adobe는 생성된 하위 도메인을 감사하기 위해 새 하위 도메인에 대해 제공 팀(제공 팀)에 통보합니다. 감사 프로세스는 하위 도메인을 위임한 후 최대 3일이 소요될 수 있습니다.
+>처리 단계에 따라 Adobe 고객 지원 센터에 문의하여 제공 팀이 생성된 새 하위 도메인을 감사하도록 감사 요청을 받았는지 확인해야 합니다. 감사 프로세스는 하위 도메인을 위임한 후 영업일 기준으로 최대 310일이 소요될 수 있습니다.
 >
 >수행되는 검사에는 피드백 루프와 스팸 비평 루프 테스트가 포함됩니다. 따라서 감사가 완료되기 전에 하위 도메인을 사용하는 것이 좋지 않은 하위 도메인 명성을 초래할 수 있으므로 권장하지 않습니다.
 
