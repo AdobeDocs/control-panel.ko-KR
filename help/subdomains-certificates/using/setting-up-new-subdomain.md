@@ -2,12 +2,18 @@
 title: 새 하위 도메인 설정
 description: 캠페인 인스턴스에 대한 새 하위 도메인을 설정하는 방법에 대해 알아봅니다.
 translation-type: tm+mt
-source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # 새 하위 도메인 설정 {#setting-up-subdomain}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_subdomain_management&quot;
+>title=&quot;새 하위 도메인 설정 및 인증서 관리&quot;
+>abstract=&quot;새 하위 도메인을 설정하고 하위 도메인의 SSL 인증서를 관리해야 이메일 전송을 시작하거나 Adobe Campaign을 사용하여 랜딩 페이지를 게시할 수 있습니다.&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;하위 도메인&#39; SSL 인증서를 모니터링하는 방법&quot;
 
 >[!IMPORTANT]
 >
@@ -21,7 +27,7 @@ source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
 >
 >선택한 인스턴스에 이전에 구성된 하위 도메인이 없는 경우 Adobe에 위임된 첫 번째 하위 도메인이 해당 인스턴스에 대한 **주 하위 도메인이** 되면 나중에 변경할 수 없습니다.
 >
->기본 하위 도메인을 사용하는 다른 하위 도메인에 대해 역방향 DNS 레코드가 만들어집니다. 다른 하위 도메인의 회신 주소 및 바운스 주소는 기본 하위 도메인에서 생성됩니다.
+>주 하위 도메인을 사용하는 다른 하위 도메인에 대해 역방향 DNS 레코드가 만들어집니다. 다른 하위 도메인의 회신 주소 및 바운스 주소는 기본 하위 도메인에서 생성됩니다.
 
 1. 카드에서 **[!UICONTROL Subdomains & Certificates]** 원하는 프로덕션 인스턴스를 선택한 다음 을 클릭합니다 **[!UICONTROL Setup new subdomain]**.
 
