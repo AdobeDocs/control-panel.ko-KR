@@ -2,12 +2,18 @@
 title: 제어판 액세스
 description: 제어판에 액세스하는 방법 살펴보기
 translation-type: tm+mt
-source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # 주요 기능 {#key-features}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_overview&quot;
+>title=&quot;제어판 정보&quot;
+>abstract=&quot;제어판 홈 페이지에서 Campaign 인스턴스에서 수행할 수 있는 모든 작업에 액세스할 수 있습니다.&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/discovering-the-interface.html&quot; text=&quot;인터페이스 검색&quot;
 
 제어판은 Adobe Campaign Standard 및/또는 Classic의 제품 관리자로서 각 인스턴스에 대한 설정을 관리하고 사용을 추적할 수 있도록 하여 작업의 효율성을 높이는 데 도움이 됩니다. 직관적인 인터페이스를 통해 주요 자산의 사용을 쉽게 모니터링할 수 있을 뿐만 아니라 IP 주소 화이트리스트, SFTP 저장소 모니터링, 키 관리 등과 같은 관리 작업을 수행할 수 있습니다.
 
