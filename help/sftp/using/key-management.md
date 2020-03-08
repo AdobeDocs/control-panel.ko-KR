@@ -2,12 +2,18 @@
 title: 주요 관리
 description: SFTP 서버에 연결하기 위한 키 관리 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 46b78a83b1d613dc41983204ef9d9d371fb32156
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # 주요 관리 {#key-management}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_key_management&quot;
+>title=&quot;키 관리 정보&quot;
+>abstract=&quot;이 탭에서 공개 키를 관리할 수 있습니다.&quot;
+>additional-url=&quot;https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166&quot; text=&quot;데모 비디오 보기&quot;
 
 Adobe는 모든 고객에게 **공개 및 개인 키 쌍**&#x200B;을 사용하여 SFTP 서버에 연결할 것을 권장합니다.
 
@@ -37,11 +43,16 @@ Adobe는 모든 고객에게 **공개 및 개인 키 쌍**&#x200B;을 사용하�
 
 ## SSH 키 설치 {#installing-ssh-key}
 
+>[!CONTEXTUALHELP]
+>id=&quot;cp_sftp_publickey_add&quot;
+>title=&quot;새 공개 키 추가&quot;
+>abstract=&quot;인스턴스에 새 공개 키를 추가합니다.&quot;
+
 >[!CAUTION]
 >
 >아래 단계는 SSH 키 생성의 예시입니다. SSH 키와 관련하여 조직 지침을 따르십시오. 아래 예제는 이러한 작업을 수행하는 방법에 대한 한 가지 예이며, 팀 또는 내부 네트워크 그룹에 대한 통신 요구 사항을 참조하기 위한 유용한 포인트 역할을 합니다.
 
-1. 탭으로 이동한 **[!UICONTROL Key Management]**다음**[!UICONTROL Add new public key]** 단추를 클릭합니다.
+1. 탭으로 이동한 **[!UICONTROL Key Management]** 다음 **[!UICONTROL Add new public key]** 단추를 클릭합니다.
 
    ![](assets/key0.png)
 
@@ -76,7 +87,7 @@ Adobe는 모든 고객에게 **공개 및 개인 키 쌍**&#x200B;을 사용하�
 
    ![](assets/publickey.png)
 
-1. 단추를 클릭하여 키를 만듭니다. **[!UICONTROL Save]**제어판은 공개 키와 관련 지문을 SHA256 형식으로 암호화합니다.
+1. 단추를 클릭하여 키를 만듭니다. **[!UICONTROL Save]** 제어판은 공개 키와 관련 지문을 SHA256 형식으로 암호화합니다.
 
 지문을 사용하여 제어판에 저장된 해당 공개 키를 사용하여 컴퓨터에 저장된 개인 키와 일치시킬 수 있습니다.
 
