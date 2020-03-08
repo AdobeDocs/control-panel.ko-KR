@@ -2,12 +2,18 @@
 title: URL 권한
 description: 제어판에서 URL 권한을 관리하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # URL 권한 {#url-permissions}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instanceettings_urlpermissions&quot;
+>title=&quot;URL 권한 정보&quot;
+>abstract=&quot;Adobe Campaign 인스턴스가 연결할 수 있는 URL을 관리합니다.&quot;
+>additional-url=&quot;https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4&quot; text=&quot;데모 비디오 보기&quot;
 
 >[!CAUTION]
 >
@@ -35,6 +41,11 @@ URL이 추가되면 인스턴스의 구성 파일(serverConf.xml)에서 참조�
 
 ## URL 권한 관리 {#managing-url-permissions}
 
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instanceettings_url_add&quot;
+>title=&quot;새 URL 추가&quot;
+>abstract=&quot;URL을 추가하여 캠페인 인스턴스에 연결할 수 있습니다.&quot;
+
 인스턴스에 연결할 수 있는 URL을 추가하려면 다음 단계를 따르십시오.
 
 1. 카드를 **[!UICONTROL Instances Settings]** 열어 탭에 액세스합니다 **[!UICONTROL URL Permissions]** .
@@ -53,7 +64,7 @@ URL이 추가되면 인스턴스의 구성 파일(serverConf.xml)에서 참조�
    >
    >모든 Campaign 인스턴스가 왼쪽 창 목록에 표시됩니다.
    >
-   >URL 권한 관리는 Campaign Classic 인스턴스에만 적용되므로, Campaign Standard 인스턴스를 선택하면 "적용되지 않는 인스턴스" 메시지가 표시됩니다.
+   >URL 권한 관리는 Campaign Classic 인스턴스에만 적용되므로, Campaign Standard 인스턴스를 선택하면 &quot;적용되지 않는 인스턴스&quot; 메시지가 표시됩니다.
 
 1. 승인할 URL을 관련 프로토콜(http, https 또는 sftp)과 함께 입력합니다.
 
@@ -67,7 +78,7 @@ URL이 추가되면 인스턴스의 구성 파일(serverConf.xml)에서 참조�
 
    >[!NOTE]
    >
-   >"/.*" 문자는 입력한 페이지의 모든 하위 페이지를 덮기 위해 확인 후 입력한 URL 끝에 자동으로 추가됩니다.
+   >&quot;/.*&quot; 문자는 입력한 페이지의 모든 하위 페이지를 덮기 위해 확인 후 입력한 URL 끝에 자동으로 추가됩니다.
 
    ![](assets/add_url_listnew.png)
 
