@@ -2,16 +2,22 @@
 title: SFTP 저장소 관리
 description: SFTP 서버의 저장소 모니터링 및 관리 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # SFTP 저장소 관리 {#sftp-storage-management}
 
+>[!CONTEXTUALHELP]
+>id=&quot;cp_storage&quot;
+>title=&quot;스토리지 용량 정보&quot;
+>abstract=&quot;이 탭에서 SFTP 서버에 대한 저장소 용량 및 사용률 정보를 볼 수 있습니다. 액세스 권한이 있는 SFTP 서버만 여기에 표시됩니다. 다른 SFTP 서버에 대한 액세스를 요청하려면 관리자에게 문의하십시오.&quot;
+>additional-url=&quot;https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4&quot; text=&quot;데모 비디오 보기&quot;
+
 계약 약관에 따라 SFTP 서버에서 프로비저닝된 저장소 용량이 다를 수 있습니다.
 
-각 SFTP 서버에 대해 사용 가능한 공간을 정기적으로 모니터링해야 합니다. 그렇지 않으면 더 이상 서버에 추가 파일을 저장할 수 없거나 이 서버의 업데이트를 사용하는 워크플로를 성공적으로 실행할 수 없습니다.
+각 SFTP 서버의 사용 가능한 공간을 정기적으로 모니터링하는 것이 중요합니다. 그렇지 않으면 더 이상 서버에 추가 파일을 저장할 수 없거나 이 서버의 업데이트를 사용하는 워크플로를 성공적으로 실행할 수 없습니다.
 
 **관련 항목:**
 
@@ -20,11 +26,11 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ## 스토리지 용량 정보 액세스 {#accessing-storage-capacity-information}
 
-헤더의 **[!UICONTROL Top utilized SFTP disk capacity]**섹션에는 관리 액세스 권한이 있는 인스턴스에 연결된 가장 많이 사용되는 세 개의 서버가 포함되어 있습니다. 이 정보는 SFTP 카드의 모든 탭에서 사용할 수 있습니다.
+헤더의 **[!UICONTROL Top utilized SFTP disk capacity]** 섹션에는 관리 액세스 권한이 있는 인스턴스에 연결된 가장 많이 사용되는 세 개의 서버가 포함되어 있습니다. 이 정보는 SFTP 카드의 모든 탭에서 사용할 수 있습니다.
 
 ![](assets/control_panel_topspace.png)
 
-액세스 권한이 있는 모든 인스턴스에서 사용하는 공간에 대한 정보는 SFTP 카드의 **[!UICONTROL Storage]**탭에서 사용할 수 있습니다. 새로 고칠 때마다 업데이트됩니다.
+액세스 권한이 있는 모든 인스턴스에서 사용하는 공간에 대한 정보는 SFTP 카드의 **[!UICONTROL Storage]** 탭에서 사용할 수 있습니다. 새로 고칠 때마다 업데이트됩니다.
 
 ![](assets/control_panel_space.png)
 
