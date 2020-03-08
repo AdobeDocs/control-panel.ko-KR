@@ -2,12 +2,19 @@
 title: 인스턴스 세부 사항
 description: 제어판에서 인스턴스 세부 사항을 모니터링하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # 인스턴스 세부 사항 {#instance-details}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instanceettings_instancedetails&quot;
+>title=&quot;인스턴스 세부 정보&quot;
+>abstract=&quot;Adobe Campaign 인스턴스의 세부 사항을 봅니다.유형, 이름, 빌드 정보 및 가능한 업그레이드 권장 사항.&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html&quot; text=&quot;Campaign Classic 릴리스 노트&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html&quot; text=&quot;Campaign Standard 릴리스 노트&quot;
 
 >[!CAUTION]
 >
@@ -42,7 +49,7 @@ Adobe Campaign Classic 인스턴스 아키텍처에는 마케팅 활동의 유�
 
    >[!NOTE]
    >
-   >모든 Campaign 인스턴스가 왼쪽 창 목록에 표시됩니다. 인스턴스 세부 사항 기능은 Campaign Classic 인스턴스에만 해당되므로 Campaign Standard 인스턴스를 선택하면 "적용되지 않는 인스턴스" 메시지가 표시됩니다.
+   >모든 Campaign 인스턴스가 왼쪽 창 목록에 표시됩니다. 인스턴스 세부 사항 기능은 Campaign Classic 인스턴스에만 해당되므로 Campaign Standard 인스턴스를 선택하면 &quot;적용되지 않는 인스턴스&quot; 메시지가 표시됩니다.
 
 1. 인스턴스에 연결된 서버가 표시됩니다.
 
@@ -66,4 +73,4 @@ Adobe Campaign Classic 인스턴스 아키텍처에는 마케팅 활동의 유�
 
 자체 인스턴스는 매우 다르게 보일 수 있으며 일부 유형의 서버가 없거나 여러 개의 동일한 서버를 가질 수 있습니다. 서버 유형이 없거나 다른 유형이 없다면 실시간 메시지를 보내거나 다른 종류의 활동을 수행할 수 없습니다. 추가 서버 용량을 요청할 수 있으며 추가 비용이 적용됩니다.
 
-일부 서버가 "인스턴스 세부 정보" 페이지에 표시되지 않는 경우 고객 지원 센터에 문의하십시오. 메시지의 특정 인스턴스 URL을 메모해야 합니다.
+일부 서버가 &quot;인스턴스 세부 정보&quot; 페이지에 표시되지 않는 경우 고객 지원 센터에 문의하십시오. 메시지의 특정 인스턴스 URL을 메모해야 합니다.
