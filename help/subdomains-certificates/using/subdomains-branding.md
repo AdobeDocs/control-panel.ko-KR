@@ -2,12 +2,18 @@
 title: 하위 도메인 브랜딩
 description: 하위 도메인 브랜딩에 대한 자세한 내용
 translation-type: tm+mt
-source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # 하위 도메인 브랜딩 {#subdomains-branding}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_certificate_management&quot;
+>title=&quot;하위 도메인 및 SSL 인증서 정보&quot;
+>abstract=&quot;하위 도메인 및 관련 SSL 인증서 모니터링&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;하위 도메인&#39; SSL 인증서를 모니터링하는 방법&quot;
 
 >[!IMPORTANT]
 >
