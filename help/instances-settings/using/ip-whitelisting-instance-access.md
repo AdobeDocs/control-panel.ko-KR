@@ -2,12 +2,18 @@
 title: IP 화이트리스트
 description: 인스턴스 액세스를 위한 제어판의 IP 허용 목록에 대한 자세한 내용
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # IP 화이트리스트 {#ip-whitelisting}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instanceettings_iprange&quot;
+>title=&quot;IP 화이트리스트 정보&quot;
+>abstract=&quot;IP 화이트리스트를 관리하여 인스턴스에 액세스합니다.&quot;
+>additional-url=&quot;https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4&quot; text=&quot;데모 비디오 보기&quot;
 
 >[!CAUTION]
 >
@@ -33,9 +39,14 @@ IP 주소가 허용 목록에 추가되면 사용자가 인스턴스에 액세�
 
 ## 인스턴스 액세스에 대한 허용 IP 주소 {#whistelisting-ip-addresses}
 
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instanceettings_iprange_add&quot;
+>title=&quot;새 Ip 범위 추가&quot;
+>abstract=&quot;화이트리스트에 추가할 IP 범위를 정의하여 인스턴스에 연결합니다.&quot;
+
 IP 주소를 허용 목록에 추가하려면 다음 단계를 따르십시오.
 
-1. 를 **[!UICONTROL Instances Settings card]**열어 IP 허용 목록 탭에 액세스한 다음 을 클릭합니다**[!UICONTROL Add new IP Range]**.
+1. 를 **[!UICONTROL Instances Settings card]** 열어 IP 허용 목록 탭에 액세스한 다음 을 클릭합니다 **[!UICONTROL Add new IP Range]**.
 
    >[!NOTE]
    >
@@ -66,11 +77,11 @@ IP 주소를 허용 목록에 추가하려면 다음 단계를 따르십시오.
    * **[!UICONTROL External API connection]**:지정된 IP 주소가 있는 외부 API는 마케팅 및/또는 메시지 센터(RT) 인스턴스에 연결할 수 있습니다. RT 인스턴스의 콘솔에 대한 연결은 활성화되지 않습니다.
    ![](assets/ip_whitelist_acesstype.png)
 
-1. 단추를 **[!UICONTROL Save]**클릭합니다. IP 범위가 화이트리스트 IP 주소 목록에 추가됩니다.
+1. 단추를 **[!UICONTROL Save]** 클릭합니다. IP 범위가 화이트리스트 IP 주소 목록에 추가됩니다.
 
    ![](assets/ip_whitelist_added.png)
 
-화이트리스트 IP 범위를 삭제하려면 해당 범위를 선택한 다음 **[!UICONTROL Delete IP range]**단추를 클릭합니다.
+화이트리스트 IP 범위를 삭제하려면 해당 범위를 선택한 다음 **[!UICONTROL Delete IP range]** 단추를 클릭합니다.
 
 **관련 항목:**
 * [IP 화이트 리스트(자습서 비디오)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-whitelisting.html)
