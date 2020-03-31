@@ -2,7 +2,7 @@
 title: 하위 도메인의 SSL 인증서 갱신
 description: 하위 도메인의 SSL 인증서를 갱신하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: f08b0e68cf0a208b1385052510c06ca1eb679e63
 
 ---
 
@@ -124,6 +124,10 @@ SSL 인증서를 구입하면 인스턴스에 설치할 수 있습니다. 계속
 1. 설치할 인증서가 포함된 .zip 파일을 선택한 다음 을 **[!UICONTROL Submit]**&#x200B;클릭합니다.
 
    ![](assets/install2.png)
+
+>[!NOTE]
+>
+>인증서는 CSR에 포함된 모든 도메인/하위 도메인에 설치됩니다. 인증서에 있는 추가 도메인/하위 도메인이 고려되지 않습니다.
 
 SSL 인증서가 설치되면 인증서의 만료 날짜 및 상태 아이콘이 그에 따라 업데이트됩니다.
 
