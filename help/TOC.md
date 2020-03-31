@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 3719f10ecd962b8398c89f0649153628ca73c518
+source-git-commit: d81f76a07c294fdab4ed31e7741cf7ec4fb2f985
 
 ---
 
@@ -31,6 +31,11 @@ source-git-commit: 3719f10ecd962b8398c89f0649153628ca73c518
    + [새 하위 도메인 설정](subdomains-certificates/using/setting-up-new-subdomain.md)
    + [SSL 인증서 모니터링](subdomains-certificates/using/monitoring-ssl-certificates.md)
    + [SSL 인증서 갱신](subdomains-certificates/using/renewing-subdomain-certificate.md)
+   + [TXT 레코드 관리](subdomains-certificates/using/managing-txt-records.md)
++ 성능 모니터링 {#performance-monitoring}
+   + [성능 모니터링 정보](performance-monitoring/using/about-performance-monitoring.md)
+   + [데이터베이스 모니터링](performance-monitoring/using/database-monitoring.md)
+   + [이메일 알림](performance-monitoring/using/email-alerting.md)
 + 인스턴스 설정(Campaign Classic) {#instances-settings}
    + [인스턴스 액세스에 대한 IP 허용 목록](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL 권한](instances-settings/using/url-permissions.md)
