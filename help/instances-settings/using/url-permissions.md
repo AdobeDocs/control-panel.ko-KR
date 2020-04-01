@@ -2,7 +2,7 @@
 title: URL 권한
 description: 제어판에서 URL 권한을 관리하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 >abstract=&quot;Adobe Campaign 인스턴스가 연결할 수 있는 URL을 관리합니다.&quot;
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4&quot; text=&quot;데모 비디오 보기&quot;
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >이 기능은 Campaign Classic 인스턴스에만 사용할 수 있습니다.
 
@@ -33,7 +33,7 @@ URL이 추가되면 인스턴스의 구성 파일(serverConf.xml)에서 참조�
 * [송신 연결 보호](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
 * [URL 권한 추가(자습서 비디오)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html)
 
-## 모범 사례 {#best-practices}
+## 권장사항 {#best-practices}
 
 * 연결하지 않을 웹 사이트/서버에 캠페인 인스턴스를 연결하지 마십시오.
 * 더 이상 사용하지 않는 URL을 삭제합니다. 그러나 회사의 다른 섹션이 사용자가 삭제한 URL에 계속 연결하는 경우 아무도 다시 사용할 수 없습니다.
