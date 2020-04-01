@@ -2,7 +2,7 @@
 title: IP 화이트리스트
 description: 인스턴스 액세스를 위한 제어판의 IP 허용 목록에 대한 자세한 내용
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 >abstract=&quot;IP 화이트리스트를 관리하여 인스턴스에 액세스합니다.&quot;
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4&quot; text=&quot;데모 비디오 보기&quot;
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >이 기능은 Campaign Classic 인스턴스에만 사용할 수 있습니다.
 
@@ -29,7 +29,7 @@ IP 주소가 허용 목록에 없으면 이 주소에서는 인스턴스에 로�
 
 IP 주소가 허용 목록에 추가되면 사용자가 인스턴스에 액세스할 수 있도록 캠페인 연산자를 만들어 연결할 수 있습니다.
 
-## 모범 사례 {#best-practices}
+## 권장사항 {#best-practices}
 
 제어판에서 허용 IP 주소를 사용할 때는 아래 권장 사항과 제한 사항을 따라야 합니다.
 
