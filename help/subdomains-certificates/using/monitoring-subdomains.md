@@ -2,7 +2,7 @@
 title: 하위 도메인의 SSL 인증서 모니터링
 description: 하위 도메인의 SSL 인증서를 모니터링하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -11,13 +11,13 @@ source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
 
 하위 도메인을 모니터링하여 Adobe Campaign과 함께 작동하도록 모두 올바르게 구성되어 있는지 확인해야 합니다.
 
-각 프로덕션 인스턴스에 대한 하위 도메인 목록은 **[!UICONTROL Subdomains & Certificates]**카드를 선택할 때 직접 액세스할 수 있습니다.
+각 프로덕션 인스턴스에 대한 하위 도메인 목록은 **[!UICONTROL Subdomains & Certificates]** 카드를 선택할 때 직접 액세스할 수 있습니다.
 
-이 **[!UICONTROL Last verification]**열은 하위 도메인이 마지막으로 확인된 시점을 나타냅니다.** 언제든지 **...을 클릭하여 검증을 시작할 수 있습니다./**[!UICONTROL Verify subdomain]** button.
+이 **[!UICONTROL Last verification]** 열은 하위 도메인이 마지막으로 확인된 시점을 나타냅니다. 언제든지 **...을 클릭하여 검증을 시작할 수 있습니다.** / **[!UICONTROL Verify subdomain]** button.
 
 ![](assets/subdomain_verification.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >인증서 날짜가 없는 하위 도메인을 사용하는 것은 이러한 하위 도메인이 제공 가능성 문제를 일으킬 수 있기 때문에 권장하지 않습니다.
 
