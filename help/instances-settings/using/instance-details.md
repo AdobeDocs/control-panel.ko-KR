@@ -2,7 +2,7 @@
 title: 인스턴스 세부 사항
 description: 제어판에서 인스턴스 세부 사항을 모니터링하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 >additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html&quot; text=&quot;Campaign Classic 릴리스 노트&quot;
 >additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html&quot; text=&quot;Campaign Standard 릴리스 노트&quot;
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >이 기능은 Campaign Classic 인스턴스에만 사용할 수 있습니다.
 
