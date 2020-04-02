@@ -2,7 +2,7 @@
 title: 새 하위 도메인 설정
 description: 캠페인 인스턴스에 대한 새 하위 도메인을 설정하는 방법에 대해 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 9bcf83c85628a59671cd5580144d86bee88e35de
+source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 9bcf83c85628a59671cd5580144d86bee88e35de
 
 >[!NOTE]
 >
->선택한 인스턴스에 이전에 구성된 하위 도메인이 없는 경우 Adobe에 위임된 첫 번째 하위 도메인이 해당 인스턴스에 대한 **주 하위 도메인이** 되면 나중에 변경할 수 없습니다.
+>선택한 인스턴스에 이전에 구성된 하위 도메인이 없는 경우 Adobe에 위임된 첫 번째 하위 도메인이 해당 인스턴스에 대한 **주 하위 도메인이** 되므로 나중에 변경할 수 없습니다.
 >
 >주 하위 도메인을 사용하는 다른 하위 도메인에 대해 역방향 DNS 레코드가 만들어집니다. 다른 하위 도메인의 회신 주소 및 바운스 주소는 기본 하위 도메인에서 생성됩니다.
 
@@ -101,12 +101,13 @@ source-git-commit: 9bcf83c85628a59671cd5580144d86bee88e35de
 >
 >기본적으로 제어판의 &quot;회신&quot; 받은 편지함은 이메일을 지우도록 구성되며 다시 볼 수 없습니다. 마케팅 캠페인에 대한 &quot;회신&quot; 받은 편지함을 모니터링하려면 이 주소를 사용하지 마십시오.
 
+하위 도메인에 대한 자세한 내용은 **[!UICONTROL Subdomain details]** 및 **[!UICONTROL Sender info]** 단추를 클릭하여 확인할 수 있습니다.
 
-하위 도메인에 대한 자세한 내용은 **[!UICONTROL Subdomain Details]** 단추를 클릭하여 확인할 수 있습니다.
+![](assets/detail_buttons.png)
 
-![](assets/subdomain_details_general.png)
+![](assets/subdomain_details.png)
 
-![](assets/subdomains_details_senderinfo.png)
+![](assets/sender_info.png)
 
 >[!IMPORTANT]
 >
