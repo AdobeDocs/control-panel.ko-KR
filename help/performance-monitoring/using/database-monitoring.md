@@ -2,7 +2,7 @@
 title: 데이터베이스 모니터링
 description: 제어판에서 Campaign 데이터베이스를 모니터링하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: f995e0dc51fd95d00fdcaa2eb347b2aedfdef60d
+source-git-commit: 296cbcfa8588b05c03452afdb5bdbad8da1595d0
 
 ---
 
@@ -21,11 +21,13 @@ source-git-commit: f995e0dc51fd95d00fdcaa2eb347b2aedfdef60d
 
 >[!NOTE]
 >
->현재 데이터베이스 공간 용량에 차이가 있을 수 있으며, 성능이 향상될 수 있도록 특정 기간 동안 계약에 지정된 양에 차이가 있을 수 있습니다.
+>제어판에 표시된 대로 제공되는 데이터베이스 공간의 크기는 계약에 지정된 데이터베이스 공간의 양을 반영하지 않을 수 있습니다. 대부분의 경우 시스템의 성능을 보장하기 위해 일시적으로 더 큰 데이터베이스 공간이 제공됩니다.
 
 ## 데이터베이스 사용 모니터링 {#monitoring-instances-database}
 
-1. 카드를 **[!UICONTROL Health Monitoring]** 열고 **[!UICONTROL Databases]** 탭을 선택합니다.
+제어판에서 각 Campaign 인스턴스에 대한 데이터베이스 사용을 모니터링할 수 있습니다. 이렇게 하려면 아래 절차를 따르십시오.
+
+1. 카드를 **[!UICONTROL Performance Monitoring]** 열고 **[!UICONTROL Databases]** 탭을 선택합니다.
 
 1. 에서 원하는 인스턴스를 **[!UICONTROL Instance List]**&#x200B;선택합니다.
 
@@ -38,6 +40,10 @@ source-git-commit: f995e0dc51fd95d00fdcaa2eb347b2aedfdef60d
    그래프 위로 마우스를 가져가면 선택한 기간에 대한 자세한 정보를 얻을 수 있습니다.
 
    ![](assets/databases_dashboard_detail.png)
+
+>[!NOTE]
+>
+>데이터베이스 중 하나가 용량에 도달하면 알림을 받을 수도 있습니다. 이렇게 하려면 [이메일 알림 구독](../../performance-monitoring/using/email-alerting.md)
 
 ## 데이터베이스 오버로드 방지 {#preventing-database-overload}
 
@@ -52,7 +58,7 @@ Campaign Standard 및 Classic에서는 데이터베이스 디스크 공간의 �
 
 **데이터베이스 유지 관리**
 
-* 데이터베이스 정리 기술 워크플로우([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflowshtml#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
+* 데이터베이스 정리 기술 워크플로우([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [데이터베이스 유지 관리 안내서](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
 * [데이터베이스 성능 문제 해결](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html) (Campaign Classic)
 * [데이터베이스 관련 옵션](https://docs.adobe.com/help/en/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
