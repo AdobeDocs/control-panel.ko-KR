@@ -2,7 +2,7 @@
 title: SFTP 저장소 관리
 description: SFTP 서버의 저장소 모니터링 및 관리 방법 알아보기
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: 834adb7c937a9927901f91e257a8df44e72ca45b
 
 ---
 
@@ -25,10 +25,6 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 * [Campaign Classic 자습서 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/managing-sftp-servers.html)
 
 ## 스토리지 용량 정보 액세스 {#accessing-storage-capacity-information}
-
-헤더의 **[!UICONTROL Top utilized SFTP disk capacity]** 섹션에는 관리 액세스 권한이 있는 인스턴스에 연결된 가장 많이 사용되는 세 개의 서버가 포함되어 있습니다. 이 정보는 SFTP 카드의 모든 탭에서 사용할 수 있습니다.
-
-![](assets/control_panel_topspace.png)
 
 액세스 권한이 있는 모든 인스턴스에서 사용하는 공간에 대한 정보는 SFTP 카드의 **[!UICONTROL Storage]** 탭에서 사용할 수 있습니다. 새로 고칠 때마다 업데이트됩니다.
 
