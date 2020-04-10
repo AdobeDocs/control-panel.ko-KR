@@ -2,7 +2,7 @@
 title: 데이터베이스 모니터링
 description: 제어판에서 Campaign 데이터베이스를 모니터링하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 296cbcfa8588b05c03452afdb5bdbad8da1595d0
+source-git-commit: 1facd377fd1276b6bf87b52c69ff599f2ecf0228
 
 ---
 
@@ -35,7 +35,11 @@ source-git-commit: 296cbcfa8588b05c03452afdb5bdbad8da1595d0
 
    ![](assets/databases_dashboard.png)
 
-   하위 영역은 지난 7일 동안 데이터베이스 사용률을 그래픽으로 표시합니다. 오른쪽 위 모서리에서 사용 가능한 필터를 사용하여 표시되는 기간을 변경할 수 있습니다.
+   하한영역에서는 지난 7일 동안 최소, 평균 및 최대 데이터베이스 사용률을 그래픽으로 표시하고 빨간색 점선 곡선으로 표시된 90% 데이터베이스 사용률 임계값을 제공합니다.
+
+   오른쪽 위 모서리에서 사용 가능한 필터를 사용하여 표시되는 기간을 변경할 수 있습니다.
+
+   또한 가독성을 높이기 위해 그래프에서 하나 또는 여러 개의 곡선을 강조 표시할 수도 있습니다. 이렇게 하려면 **[!UICONTROL Aggregation Type]** 범례에서 해당 범례를 선택합니다.
 
    그래프 위로 마우스를 가져가면 선택한 기간에 대한 자세한 정보를 얻을 수 있습니다.
 
@@ -43,7 +47,7 @@ source-git-commit: 296cbcfa8588b05c03452afdb5bdbad8da1595d0
 
 >[!NOTE]
 >
->데이터베이스 중 하나가 용량에 도달하면 알림을 받을 수도 있습니다. 이렇게 하려면 [이메일 알림 구독](../../performance-monitoring/using/email-alerting.md)
+>또한 이 대시보드에서는 데이터베이스 중 하나가 용량에 도달하면 알림을 받을 수 있습니다. 이렇게 하려면 [이메일 알림 구독](../../performance-monitoring/using/email-alerting.md)
 
 ## 데이터베이스 오버로드 방지 {#preventing-database-overload}
 
