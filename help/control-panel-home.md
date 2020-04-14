@@ -1,7 +1,7 @@
 ---
 title: 제품 설명서
 translation-type: tm+mt
-source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
+source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
 
 ---
 
@@ -12,13 +12,17 @@ source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
 
 ## 새로운 기능
 
-* [SSL 인증서 모니터링](subdomains-certificates/using/monitoring-ssl-certificates.md)
+* [Google TXT 레코드 관리](subdomains-certificates/using/managing-txt-records.md)
 
-   하위 도메인의 SSL 인증서 만료 날짜를 모니터링하는 방법 알아보기
+   캠페인 제어판을 통해 Gmail 주소로 이메일을 전송하는 데 사용되는 모든 하위 도메인에 Google TXT 사이트 확인 레코드를 추가합니다.
 
-* [하위 도메인 위임](subdomains-certificates/using/subdomains-branding.md)
+* [데이터베이스 공간 모니터링](performance-monitoring/using/database-monitoring.md)
 
-   제어판을 사용하여 하위 도메인 브랜딩과 하위 도메인을 Adobe로 위임하는 주요 단계에 대한 자세한 내용
+   On-Demand 및 시간의 경과에 따라 데이터베이스 공간 활용도 확인
+
+* [이메일 알림](performance-monitoring/using/email-alerting.md)
+
+   시스템이 성능이 저하될 위험이 있거나 향후 높은 성능을 위해 조치가 필요할 때 제어판에 로그인하여 경고를 수신합니다.
 
 ## 추가 자료 {#additional-resources}
 
