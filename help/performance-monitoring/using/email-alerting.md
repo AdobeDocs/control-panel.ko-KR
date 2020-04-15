@@ -2,16 +2,12 @@
 title: 이메일 알림
 description: Campaign 인스턴스 문제 시 이메일 알림을 받는 방법 학습
 translation-type: tm+mt
-source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
+source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 ---
 
 
 # 이메일 알림 {#email-alerting}
-
->[!IMPORTANT]
->
->제어판에서 발송하는 이메일 알림은 4월 말까지 제공됩니다.
 
 ## 이메일 경고 정보 {#about-email-alerts}
 
