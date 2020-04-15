@@ -2,16 +2,13 @@
 title: 데이터베이스 모니터링
 description: 제어판에서 Campaign 데이터베이스를 모니터링하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
+source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 ---
 
 
 # 데이터베이스 모니터링 {#database-monitoring}
 
->[!IMPORTANT]
->
->제어판에서 데이터베이스 모니터링은 4월 말까지 사용할 수 있습니다.
 
 ## 인스턴스 데이터베이스 정보 {#about-instances-databases}
 
