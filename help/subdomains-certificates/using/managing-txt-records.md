@@ -2,7 +2,7 @@
 title: TXT 레코드 관리
 description: 도메인 소유권 확인을 위해 TXT 레코드를 관리하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
+source-git-commit: 5a70141e0198946928723b34c9097c5cf8a24f97
 
 ---
 
@@ -28,8 +28,8 @@ TXT 레코드는 외부 소스에서 읽을 수 있는 도메인에 대한 텍�
 
 추가 리소스:
 
-* [Campaign Standard 자습서 비디오를](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)참조하십시오.
-* [Campaign Classic 자습서 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)
+* [Campaign Standard 자습서 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)
+* [Campaign Classic 자습서 비디오](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/google-txt-record-management.html)
 
 ## 하위 도메인에 대한 Google TXT 레코드 추가 {#adding-a-google-txt-record}
 
