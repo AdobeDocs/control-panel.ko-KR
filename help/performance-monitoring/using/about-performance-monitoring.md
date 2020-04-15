@@ -2,16 +2,12 @@
 title: 성능 모니터링 정보
 description: 제어판에서 인스턴스 성능을 모니터링하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 135d8101c1dc3f902844de08e7382a2eb8b548ee
+source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 ---
 
 
 # 성능 모니터링 정보 {#about-performance-monitoring}
-
->[!IMPORTANT]
->
->제어판에서 성능 모니터링은 4월 말까지 사용할 수 있습니다.
 
 제어판은 인스턴스를 모니터링하고 최적의 성능을 보장하는 데 도움이 되는 몇 가지 기능을 제공합니다.
 
