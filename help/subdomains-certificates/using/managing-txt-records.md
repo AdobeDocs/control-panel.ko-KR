@@ -2,7 +2,7 @@
 title: TXT 레코드 관리
 description: 도메인 소유권 확인을 위해 TXT 레코드를 관리하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 5a70141e0198946928723b34c9097c5cf8a24f97
+source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 ---
 
@@ -13,10 +13,6 @@ source-git-commit: 5a70141e0198946928723b34c9097c5cf8a24f97
 >id="cp_siteverification_add"
 >title="TXT 레코드 관리"
 >abstract="Google과 같은 일부 서비스에서는 도메인 소유임을 확인하기 위해 도메인 설정에 TXT 레코드를 추가해야 합니다."
-
->[!IMPORTANT]
->
->제어판의 TXT 레코드 관리는 4월 말까지 제공됩니다.
 
 ## TXT 레코드 정보 {#about-txt-records}
 
