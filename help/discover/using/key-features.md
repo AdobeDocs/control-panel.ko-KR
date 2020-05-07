@@ -2,7 +2,10 @@
 title: 제어판 액세스
 description: 제어판에 액세스하는 방법 살펴보기
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+workflow-type: tm+mt
+source-wordcount: '274'
+ht-degree: 2%
 
 ---
 
@@ -10,21 +13,21 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 # 주요 기능 {#key-features}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_overview&quot;
->title=&quot;제어판 정보&quot;
->abstract=&quot;제어판 홈 페이지에서 Campaign 인스턴스에서 수행할 수 있는 모든 작업에 액세스할 수 있습니다.&quot;
->additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/discovering-the-interface.html&quot; text=&quot;인터페이스 검색&quot;
+>id="cp_overview"
+>title="제어판 정보"
+>abstract="제어판 홈 페이지에서는 캠페인 인스턴스에서 수행할 수 있는 모든 작업에 액세스할 수 있습니다."
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/discovering-the-interface.html" text="인터페이스 살펴보기"
 
-제어판은 Adobe Campaign Standard 및/또는 Classic의 제품 관리자로서 각 인스턴스에 대한 설정을 관리하고 사용을 추적할 수 있도록 하여 작업의 효율성을 높이는 데 도움이 됩니다. 직관적인 인터페이스를 통해 주요 자산의 사용을 쉽게 모니터링할 수 있을 뿐만 아니라 IP 주소 화이트리스트, SFTP 저장소 모니터링, 키 관리 등과 같은 관리 작업을 수행할 수 있습니다.
+제어판을 사용하면 Adobe Campaign Standard 및/또는 Classic의 제품 관리자로서 각 인스턴스에 대한 설정을 관리하고 사용을 추적할 수 있으므로 작업의 효율성을 높일 수 있습니다. 직관적인 인터페이스를 통해 주요 자산의 사용을 손쉽게 모니터링할 수 있을 뿐만 아니라 IP 주소 화이트리스트, SFTP 저장소 모니터링, 키 관리 등과 같은 관리 작업을 수행할 수 있습니다.
 
 주요 이점:
 
-* 고객 지원 센터에 문의하지 않고도 직접 설정을 신속하게 변경할 수 있습니다.
-* 각기 다른 비즈니스 요구에 따라 설정을 구성합니다.
+* 고객 지원 센터에 문의하지 않고도 직접 설정을 변경할 수 있습니다.
+* 각기 다른 비즈니스 요구 사항에 따라 설정을 구성합니다.
 * 필요에 따라 액세스 설정을 제어하여 보안을 강화할 수 있습니다.
 
 >[!NOTE]
->제어판은 관리 사용자만 액세스할 수 있고 AWS에서 호스팅된 모든 고객도 사용할 수 있습니다. 사용자에게 관리자 액세스 권한을 부여하는 단계는 [이 섹션에](../../discover/using/managing-permissions.md)자세히 설명되어 있습니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 섹션에](../../faq.md)설명된 단계를 따르십시오.
+>제어판은 관리 사용자만 액세스할 수 있고 아직 지원되지 않는 하이브리드 환경을 제외하고 AWS에서 호스팅되는 모든 고객이 사용할 수 있습니다. 사용자에게 관리자 액세스 권한을 부여하는 단계는 [이 섹션에 자세히 설명되어 있습니다](../../discover/using/managing-permissions.md). 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 섹션에 설명된 단계를 따르십시오](../../faq.md).
 >
 >제어판에 액세스하기 위해 최신 캠페인 빌드로 업그레이드할 필요는 없습니다.
 
