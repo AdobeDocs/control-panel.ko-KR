@@ -2,9 +2,9 @@
 title: GPG 키 관리
 description: Adobe Campaign 내에서 데이터를 암호화하고 해독하는 GPG 키를 관리하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 385f1c19b43d30e34d55ae655018e61aa1d2dc04
+source-git-commit: d44c0557904f0e6f6688c12687fbf84e42553d6b
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1028'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # GPG 키 관리 {#gpg-keys-management}
 
-## GPG 암호화 {about-gpg-encryption} 정보
+## GPG 암호화 정보 {#about-gpg-encryption}
 
 GPG 암호화를 사용하면 [OpenPGP 사양을 따르는 공개/비공개 키 쌍 시스템을 통해 데이터를 보호할 수](https://www.openpgp.org/about/standard/) 있습니다.
 
