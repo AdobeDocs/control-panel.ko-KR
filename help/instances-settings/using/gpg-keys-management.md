@@ -2,7 +2,7 @@
 title: GPG 키 관리
 description: Adobe Campaign 내에서 데이터를 암호화하고 해독하는 GPG 키를 관리하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 2c0bd8f3583423b3b2f981390a32416e8bbcbc4a
+source-git-commit: 59b91342b6bec1f78fce87b973d9f2d32cd5c698
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 제어판에서 직접
 
 이렇게 하려면 PGP 암호화 도구에서 GPG 키 쌍을 생성한 다음 공개 키를 제어판에 설치해야 합니다. 그런 다음 인스턴스에서 데이터를 보내기 전에 데이터를 암호화할 수 있습니다. 이렇게 하려면 다음 단계를 수행합니다.
 
-1. OpenPGP 사양 다음에 나오는 GPG 암호화 도구를 사용하여 공개/ [비공개 키 쌍을 생성합니다](https://www.openpgp.org/about/standard/). 이렇게 하려면 GPG 유틸리티 또는 GNuPG 소프트웨어를 설치합니다.
+1. OpenPGP 사양 다음에 나오는 GPG 암호화 도구를 사용하여 공개/ [비공개 키 쌍을 생성합니다](https://www.openpgp.org/about/standard/). 이렇게 하려면 GPG 유틸리티 또는 GNuGP 소프트웨어를 설치합니다.
 
    >[!NOTE]
    >
@@ -105,7 +105,7 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 제어판에서 직접
 
 1. 단추를 **!UICONTROL Install Key]** 클릭합니다.
 
-공개 키가 설치되면 목록에 표시됩니다. ... **.** 버튼을 사용하여 다운로드하거나 지문을 복사할 수 있습니다.
+공개 키가 설치되면 목록에 표시됩니다. ... **** 버튼을 사용하여 다운로드하거나 지문을 복사할 수 있습니다.
 
 ![](assets/gpg_install_download.png)
 
