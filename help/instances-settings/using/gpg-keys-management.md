@@ -2,7 +2,7 @@
 title: GPG 키 관리
 description: Adobe Campaign 내에서 데이터를 암호화하고 해독하는 GPG 키를 관리하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: d44c0557904f0e6f6688c12687fbf84e42553d6b
+source-git-commit: 2c0bd8f3583423b3b2f981390a32416e8bbcbc4a
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 0%
@@ -69,9 +69,9 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 제어판에서 직접
 
    >[!NOTE]
    >
-   >키를 생성하기 위해 오픈 소스 무료 소프트웨어를 사용할 수 있습니다. 그러나 조직의 지침을 따르고 IT/보안 조직에서 추천하는 PGP 유틸리티를 사용해야 합니다.
+   >키를 생성하는 오픈 소스 무료 소프트웨어를 사용할 수 있습니다. 그러나 조직의 지침을 따르고 IT/보안 조직에서 추천하는 GPG 유틸리티를 사용해야 합니다.
 
-1. 유틸리티가 설치되면 Mac Terminal 또는 Windows Machine에서 아래 명령을 실행합니다.
+1. 유틸리티가 설치되면 Mac Terminal 또는 Windows 명령에서 아래 명령을 실행합니다.
 
    `gpg --full-generate-key`
 
