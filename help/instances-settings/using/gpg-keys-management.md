@@ -2,7 +2,7 @@
 title: GPG 키 관리
 description: Adobe Campaign 내에서 데이터를 암호화하고 해독하는 GPG 키를 관리하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 59b91342b6bec1f78fce87b973d9f2d32cd5c698
+source-git-commit: 110e77e00fcc0ea893fa91c3b2d3d8788216a8dd
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 0%
@@ -103,7 +103,7 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 제어판에서 직접
 
    ![](assets/gpg_install_paste.png)
 
-1. 단추를 **!UICONTROL Install Key]** 클릭합니다.
+1. 단추를 **[!UICONTROL Install Key]** 클릭합니다.
 
 공개 키가 설치되면 목록에 표시됩니다. ... **** 버튼을 사용하여 다운로드하거나 지문을 복사할 수 있습니다.
 
@@ -113,10 +113,15 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 제어판에서 직접
 
 자세한 내용은 Adobe Campaign 설명서를 참조하십시오.
 
-| Campaign Classic | Campaign Standard |
----------|----------
-| [파일 압축 또는 암호화](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file) | [암호화된 데이터 관리](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data) |
-| [데이터 추출(파일) 활동](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/action-activities/extraction--file-.html) | [파일 작업 추출](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/extract-file.html) |
+**Campaign Classic:**
+
+* [파일 압축 또는 암호화](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
+* [데이터 추출(파일) 활동](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/action-activities/extraction--file-.html)
+
+**Campaign Standard:**
+
+* [암호화된 데이터 관리](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
+* [파일 작업 추출](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/extract-file.html)
 
 ## 데이터 암호 해독 {#decrypting-data}
 
@@ -149,7 +154,12 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 제어판에서 직접
 
 자세한 내용은 Adobe Campaign 설명서를 참조하십시오.
 
-| Campaign Classic | Campaign Standard |
----------|----------
-| [처리 전 파일 지핑 또는 해독](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing) | [암호화된 데이터 관리](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data) |
-| [데이터 로드(파일) 활동](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/action-activities/data-loading--file-.html) | [파일 작업 로드](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/load-file.html) |
+**Campaign Classic:**
+
+* [처리 전 파일 지핑 또는 해독](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing)
+* [데이터 로드(파일) 활동](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/action-activities/data-loading--file-.html)
+
+**Campaign Standard:**
+
+* [암호화된 데이터 관리](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
+* [파일 작업 로드](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/load-file.html)
