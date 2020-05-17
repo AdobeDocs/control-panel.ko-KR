@@ -2,9 +2,9 @@
 title: GPG 키 관리
 description: Adobe Campaign 내에서 데이터를 암호화하고 해독하는 GPG 키를 관리하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
+source-git-commit: a160b542a6f00a605a80605be2ab3b934f26ba72
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -25,39 +25,6 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 제어판에서 직접
 * **전송된 데이터 암호화**: Adobe Campaign은 설치된 공개 키로 암호화한 후 데이터를 전송합니다.
 
 * **들어오는 데이터의 암호 해독**: Adobe Campaign은 제어판에서 다운로드한 공개 키를 사용하여 외부 시스템에서 암호화된 데이터를 수신합니다. Adobe Campaign은 제어판에서 생성된 개인 키를 사용하여 데이터를 해독합니다.
-
-## GPG 키 모니터링
-
-인스턴스에 대해 설치 및 생성된 GPG 키에 액세스하려면 **[!UICONTROL Instance settings]** 카드를 연 다음 **[!UICONTROL GPG keys]** 탭을 선택합니다.
-
-![](assets/gpg_list.png)
-
-목록에는 각 키에 대한 세부 정보와 함께 인스턴스에 대해 설치 및 생성된 모든 암호화 및 암호 해독 GPG 키가 표시됩니다.
-
-* **[!UICONTROL Name]**: 키를 설치하거나 생성할 때 정의된 이름입니다.
-* **[!UICONTROL Use case]**: 이 열은 키의 사용 사례를 지정합니다.
-
-   ![](assets/gpg_icon_encrypt.png): 데이터 암호화를 위해 키가 설치되었습니다.
-
-   ![](assets/gpg_icon_decrypt.png): 데이터 암호 해독을 허용하는 키가 생성되었습니다.
-
-* **[!UICONTROL Fingerprint]**: 키의 지문.
-* **[!UICONTROL Expires]**: 키의 만료 날짜입니다. 제어판은 키 만료 날짜가 다가오면 시각적 표시를 제공합니다.
-
-   * 30일 전에 긴급한(빨간색)이 표시됩니다.
-   * 경고(노란색)는 60일 전에 표시됩니다.
-   * 키가 만료되면 &quot;만료된&quot; 빨간색 배너가 표시됩니다.
-   >[!NOTE]
-   >
-   >제어판에서 이메일 알림이 전송되지 않습니다.
-
-더 이상 필요하지 않은 모든 키를 제거하는 것이 좋습니다. 이렇게 하려면 **..** 단추를 클릭한 다음 **[!UICONTROL Delete Key].**.
-
-![](assets/gpg_delete.png)
-
->[!IMPORTANT]
->
->키를 제거하기 전에 오류가 발생하지 않도록 Adobe Campaign 워크플로우에서 키를 사용하지 않도록 하십시오.
 
 ## 데이터 암호화 {#encrypting-data}
 
@@ -89,7 +56,7 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 제어판에서 직접
 
    `gpg -a --export <fingerprint>`
 
-1. 제어판에 공개 키를 설치하려면 탭에 액세스한 **[!UICONTROL GPG Keys]** 다음 원하는 인스턴스를 선택합니다.
+1. 제어판에 공개 키를 설치하려면 **[!UICONTROL Instance settings]** 카드를 연 다음 **[!UICONTROL GPG keys]** 탭과 원하는 인스턴스를 선택합니다.
 
 1. 단추를 **[!UICONTROL Install Key]** 클릭합니다.
 
@@ -134,7 +101,7 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 제어판에서 직접
 
 제어판에서 키 쌍을 생성하려면 다음 단계를 수행합니다.
 
-1. 탭에 **[!UICONTROL GPG Keys]** 액세스한 다음 원하는 Adobe Campaign 인스턴스를 선택합니다.
+1. 카드를 열고 **[!UICONTROL Instance settings]** 탭 및 원하는 Adobe Campaign 인스턴스를 **[!UICONTROL GPG keys]** 선택합니다.
 
 1. 단추를 **[!UICONTROL Generate Key]** 클릭합니다.
 
@@ -163,3 +130,36 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 제어판에서 직접
 
 * [암호화된 데이터 관리](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
 * [파일 작업 로드](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/load-file.html)
+
+## GPG 키 모니터링
+
+인스턴스에 대해 설치 및 생성된 GPG 키에 액세스하려면 **[!UICONTROL Instance settings]** 카드를 연 다음 **[!UICONTROL GPG keys]** 탭을 선택합니다.
+
+![](assets/gpg_list.png)
+
+목록에는 각 키에 대한 세부 정보와 함께 인스턴스에 대해 설치 및 생성된 모든 암호화 및 암호 해독 GPG 키가 표시됩니다.
+
+* **[!UICONTROL Name]**: 키를 설치하거나 생성할 때 정의된 이름입니다.
+* **[!UICONTROL Use case]**: 이 열은 키의 사용 사례를 지정합니다.
+
+   ![](assets/gpg_icon_encrypt.png): 데이터 암호화를 위해 키가 설치되었습니다.
+
+   ![](assets/gpg_icon_decrypt.png): 데이터 암호 해독을 허용하는 키가 생성되었습니다.
+
+* **[!UICONTROL Fingerprint]**: 키의 지문.
+* **[!UICONTROL Expires]**: 키의 만료 날짜입니다. 제어판은 키 만료 날짜가 다가오면 시각적 표시를 제공합니다.
+
+   * 30일 전에 긴급한(빨간색)이 표시됩니다.
+   * 경고(노란색)는 60일 전에 표시됩니다.
+   * 키가 만료되면 &quot;만료된&quot; 빨간색 배너가 표시됩니다.
+   >[!NOTE]
+   >
+   >제어판에서 이메일 알림이 전송되지 않습니다.
+
+더 이상 필요하지 않은 모든 키를 제거하는 것이 좋습니다. 이렇게 하려면 **..** 단추를 클릭한 다음 **[!UICONTROL Delete Key].**.
+
+![](assets/gpg_delete.png)
+
+>[!IMPORTANT]
+>
+>키를 제거하기 전에 오류가 발생하지 않도록 Adobe Campaign 워크플로우에서 키를 사용하지 않도록 하십시오.
