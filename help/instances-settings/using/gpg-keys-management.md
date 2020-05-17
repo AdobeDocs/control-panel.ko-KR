@@ -2,7 +2,7 @@
 title: GPG 키 관리
 description: Adobe Campaign 내에서 데이터를 암호화하고 해독하는 GPG 키를 관리하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 110e77e00fcc0ea893fa91c3b2d3d8788216a8dd
+source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 제어판에서 직접
    * **comment**: 주석 필드에 레이블을 추가하면 제어판 키 목록에서 쉽게 키를 식별할 수 있습니다.
    * **만료**: 만료 날짜가 없는 날짜 또는 &quot;0&quot;입니다.
    * **암호**
-   ![](assets/gpg_command.png)
+   ![](assets/do-not-localize/gpg_command.png)
 
 1. 스크립트가 확인되면 파일에 내보낼 수 있는 키를 생성하거나 제어판에 직접 붙여넣을 수 있습니다. 파일을 내보내려면 이 명령을 실행한 다음 생성한 키의 지문을 실행합니다.
 
