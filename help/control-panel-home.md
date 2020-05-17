@@ -1,7 +1,10 @@
 ---
 title: 제품 설명서
 translation-type: tm+mt
-source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
+source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 11%
 
 ---
 
@@ -12,17 +15,13 @@ source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
 
 ## 새로운 기능
 
-* [Google TXT 레코드 관리](subdomains-certificates/using/managing-txt-records.md)
+* [GPG 키 관리](instances-settings/using/gpg-keys-management.md)
 
-   캠페인 제어판을 통해 Gmail 주소로 이메일을 전송하는 데 사용되는 모든 하위 도메인에 Google TXT 사이트 확인 레코드를 추가합니다.
+   Campaign에서 전송된 데이터를 암호화하고 들어오는 데이터를 해독하기 위해 마케팅 인스턴스에 GPG 키를 설치 및/또는 생성합니다.
 
-* [데이터베이스 공간 모니터링](performance-monitoring/using/database-monitoring.md)
+* [CNAME 하위 도메인을 위한 인증서 관리](subdomains-certificates/using/renewing-subdomain-certificate.md))
 
-   On-Demand 및 시간의 경과에 따라 데이터베이스 공간 활용도 확인
-
-* [이메일 알림](performance-monitoring/using/email-alerting.md)
-
-   시스템이 성능이 저하될 위험이 있거나 향후 높은 성능을 위해 조치가 필요할 때 제어판에 로그인하여 경고를 수신합니다.
+   이제 제어판에서 CNAME 메서드로 위임된 하위 도메인의 SSL 인증서를 갱신할 수 있습니다.
 
 ## 추가 자료 {#additional-resources}
 
