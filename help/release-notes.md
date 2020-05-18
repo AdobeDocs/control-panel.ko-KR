@@ -1,9 +1,9 @@
 ---
 title: 제어판 릴리스
 translation-type: tm+mt
-source-git-commit: 032a4bd28b7f246771b3f246768fca083afe487b
+source-git-commit: 49d84c42446ed1fc996b9d57005565b15ca24e77
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 **GPG 키 관리**
 
-Campaign에서 전송된 데이터를 암호화하고 들어오는 데이터를 해독하기 위해 마케팅 인스턴스에 GPG 키를 설치 및/또는 생성합니다. [자세한 내용](instances-settings/using/gpg-keys-management.md)
+이제 제어판에서 GPG 키 쌍을 생성할 수 있으므로 외부에서 Campaign으로 오는 데이터의 암호를 손쉽게 해독할 수 있습니다. 또한 Adobe는 Adobe Campaign에서 데이터를 암호화하는 공개 GPG 키를 설치할 수 있도록 기능을 추가했습니다. [자세한 내용](instances-settings/using/gpg-keys-management.md)
 
 **CNAME 하위 도메인을 위한 인증서 관리**
 
