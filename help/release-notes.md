@@ -1,9 +1,9 @@
 ---
 title: 제어판 릴리스
 translation-type: tm+mt
-source-git-commit: 49d84c42446ed1fc996b9d57005565b15ca24e77
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 0%
 >제어판은 아직 지원되지 않는 하이브리드 환경을 제외하고 AWS에서 호스팅되는 고객에게만 제공됩니다. 제어판에 액세스하려면 업그레이드할 필요가 없습니다. 액세스 권한이 있는 관리자 사용자인지 확인하십시오.
 
 ## 2020년 5월(#5월-2020일)
-
-**GPG 키 관리**
-
-이제 제어판에서 GPG 키 쌍을 생성할 수 있으므로 외부에서 Campaign으로 오는 데이터의 암호를 손쉽게 해독할 수 있습니다. 또한 Adobe는 Adobe Campaign에서 데이터를 암호화하는 공개 GPG 키를 설치할 수 있도록 기능을 추가했습니다. [자세한 내용](instances-settings/using/gpg-keys-management.md)
 
 **CNAME 하위 도메인을 위한 인증서 관리**
 
