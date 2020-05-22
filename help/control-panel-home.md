@@ -1,10 +1,10 @@
 ---
 title: 제품 설명서
 translation-type: tm+mt
-source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 11%
+source-wordcount: '96'
+ht-degree: 14%
 
 ---
 
@@ -14,10 +14,6 @@ ht-degree: 11%
 ![](assets/do-not-localize/banner.png)
 
 ## 새로운 기능
-
-* [GPG 키 관리](instances-settings/using/gpg-keys-management.md)
-
-   Campaign에서 전송된 데이터를 암호화하고 들어오는 데이터를 해독하기 위해 마케팅 인스턴스에 GPG 키를 설치 및/또는 생성합니다.
 
 * [CNAME 하위 도메인을 위한 인증서 관리](subdomains-certificates/using/renewing-subdomain-certificate.md))
 
