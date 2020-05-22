@@ -4,9 +4,9 @@ sub-product: 제어판
 audience: end-user
 user-guide-title: 제어판 도움말
 translation-type: tm+mt
-source-git-commit: 22f84071d825004b8a8aaf32cc9c1579476ee1de
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 4%
 
 ---
@@ -43,5 +43,4 @@ ht-degree: 4%
    + [인스턴스 액세스에 대한 IP 허용 목록](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL 권한](instances-settings/using/url-permissions.md)
    + [인스턴스 세부 사항](instances-settings/using/instance-details.md)
-   + [GPG 키 관리](instances-settings/using/gpg-keys-management.md)
 + [FAQ](faq.md)
