@@ -1,8 +1,11 @@
 ---
 title: URL 권한
-description: 제어판에서 URL 권한을 관리하는 방법 알아보기
-translation-type: tm+mt
+description: 컨트롤 패널에서 URL 권한을 관리하는 방법 알아보기
+translation-type: ht
 source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+workflow-type: ht
+source-wordcount: '590'
+ht-degree: 100%
 
 ---
 
@@ -10,53 +13,53 @@ source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 # URL 권한 {#url-permissions}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_instanceettings_urlpermissions&quot;
->title=&quot;URL 권한 정보&quot;
->abstract=&quot;Adobe Campaign 인스턴스가 연결할 수 있는 URL을 관리합니다.&quot;
->additional-url=&quot;https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4&quot; text=&quot;데모 비디오 보기&quot;
+>id="cp_instancesettings_urlpermissions"
+>title="URL 권한"
+>abstract="Adobe Campaign 인스턴스가 연결할 수 있는 URL을 관리합니다."
+>additional-url="https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4" text="데모 비디오 시청"
 
 >[!IMPORTANT]
 >
 >이 기능은 Campaign Classic 인스턴스에만 사용할 수 있습니다.
 
-## URL 권한 정보 {#about-url-permissions}
+## URL 권한 {#about-url-permissions}
 
-JavaScript 코드(워크플로우 등)에서 호출할 수 있는 URL의 기본 목록 캠페인 클래식 인스턴스는 제한됩니다. 이러한 URL은 인스턴스가 제대로 작동하도록 하는 URL입니다.
+Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 통해 호출할 수 있는 URL의 기본 목록은 제한되어 있습니다. 인스턴스는 이러한 URL이 있어야 정상 작동합니다.
 
-기본적으로 인스턴스는 외부 URL에 연결할 수 없습니다. 제어판을 사용하면 외부 URL을 인증된 URL 목록에 추가하여 인스턴스가 URL에 연결할 수 있습니다. 이렇게 하면 파일 및/또는 데이터 전송을 활성화하기 위해 SFTP 서버나 웹 사이트와 같은 외부 시스템에 Campaign 인스턴스를 연결할 수 있습니다.
+기본적으로 인스턴스는 외부 URL에 연결할 수 없습니다. 컨트롤 패널에서는 인스턴스가 연결할 수 있도록 권한이 부여된 URL 목록에 일부 외부 URL을 추가할 수 있습니다. 이렇게 하면 파일 및/또는 데이터를 전송할 수 있도록 SFTP 서버나 웹 사이트 등의 외부 시스템에 Campaign 인스턴스를 연결할 수 있습니다.
 
-URL이 추가되면 인스턴스의 구성 파일(serverConf.xml)에서 참조됩니다.
+추가한 URL은 인스턴스의 구성 파일(serverConf.xml)에서 참조됩니다.
 
 **관련 항목:**
 
-* [캠페인 서버 구성](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
-* [송신 연결 보호](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
-* [URL 권한 추가(자습서 비디오)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html)
+* [Campaign 서버 구성](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
+* [발신 연결 보호](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
+* [URL 권한 추가(튜토리얼 비디오)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html)
 
 ## 권장사항 {#best-practices}
 
-* 연결하지 않을 웹 사이트/서버에 캠페인 인스턴스를 연결하지 마십시오.
-* 더 이상 사용하지 않는 URL을 삭제합니다. 그러나 회사의 다른 섹션이 사용자가 삭제한 URL에 계속 연결하는 경우 아무도 다시 사용할 수 없습니다.
-* 제어판은 **http**, **https**&#x200B;및 **sftp** 프로토콜을지원합니다. 잘못된 URL 또는 프로토콜을 입력하면 오류가 발생합니다.
+* 연결하지 않을 웹 사이트/서버에는 Campaign 인스턴스를 연결하지 마십시오.
+* 더 이상 사용하지 않는 URL은 삭제하십시오. 단, 회사의 다른 부서가 삭제한 URL에 계속 연결하는 경우에는 해당 URL을 다시 사용할 수 없게 됩니다.
+* 컨트롤 패널에서는 **http**, **https** 및 **sftp** 프로토콜이 지원됩니다. 잘못된 URL이나 프로토콜을 입력하면 오류가 발생합니다.
 
 ## URL 권한 관리 {#managing-url-permissions}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_instanceettings_url_add&quot;
->title=&quot;새 URL 추가&quot;
->abstract=&quot;URL을 추가하여 캠페인 인스턴스에 연결할 수 있습니다.&quot;
+>id="cp_instancesettings_url_add"
+>title="새 URL 추가"
+>abstract="Campaign 인스턴스에 연결할 수 있도록 URL을 추가합니다."
 
-인스턴스에 연결할 수 있는 URL을 추가하려면 다음 단계를 따르십시오.
+인스턴스가 연결할 수 있는 URL을 추가하려면 다음 단계를 수행합니다.
 
-1. 카드를 **[!UICONTROL Instances Settings]** 열어 탭에 액세스합니다 **[!UICONTROL URL Permissions]** .
+1. **[!UICONTROL Instances Settings]** 카드를 열고 **[!UICONTROL URL Permissions]** 탭에 액세스합니다.
 
    >[!NOTE]
    >
-   >인스턴스 설정 카드가 제어판의 홈 페이지에 표시되지 않으면 IMS ORG ID가 Adobe Campaign Classic 인스턴스와 연결되어 있지 않음을 의미합니다.
+   >컨트롤 패널 홈 페이지에 인스턴스 설정 카드가 표시되지 않으면 IMS 조직 ID가 Adobe Campaign Classic 인스턴스와 연결되어 있지 않은 것입니다.
    >
-   >URL <b><span class="uicontrol">권한</span></b> 탭에는 인스턴스가 연결할 수 있는 외부 URL이 모두 나열됩니다. 이 목록에는 Campaign이 작동하는 데 필요한 URL이 포함되지 않습니다(예: 인프라 조각 간 연결).
+   >인스턴스가 연결할 수 있는 모든 외부 URL이 <b><span class="uicontrol">URL 권한</span></b> 탭에 나열됩니다. Campaign의 작동에 필요한 URL(예: 인프라의 각 요소 간 연결)은 이 목록에 포함되지 않습니다.
 
-1. 왼쪽 창에서 원하는 인스턴스를 선택한 다음 **[!UICONTROL Add new URL]** 단추를 클릭합니다.
+1. 왼쪽 창에서 원하는 인스턴스를 선택하고 **[!UICONTROL Add new URL]** 버튼을 클릭합니다.
 
    ![](assets/add_url1.png)
 
@@ -64,30 +67,30 @@ URL이 추가되면 인스턴스의 구성 파일(serverConf.xml)에서 참조�
    >
    >모든 Campaign 인스턴스가 왼쪽 창 목록에 표시됩니다.
    >
-   >URL 권한 관리는 Campaign Classic 인스턴스에만 적용되므로, Campaign Standard 인스턴스를 선택하면 &quot;적용되지 않는 인스턴스&quot; 메시지가 표시됩니다.
+   >URL 권한 관리는 Campaign Classic 인스턴스 전용이므로 Campaign Standard 인스턴스를 선택하면 &quot;미해당 인스턴스&quot; 메시지가 표시됩니다.
 
-1. 승인할 URL을 관련 프로토콜(http, https 또는 sftp)과 함께 입력합니다.
+1. 권한을 부여할 URL과 관련 프로토콜(http, https, sftp)을 입력합니다.
 
    >[!NOTE]
    >
-   >여러 인스턴스를 인증하여 URL에 연결할 수 있습니다. 이렇게 하려면 첫 번째 문자를 입력하여 인스턴스 필드에서 직접 추가합니다.
+   >여러 인스턴스에 URL 연결 권한을 부여할 수 있습니다. 이렇게 하려면 인스턴스의 첫 글자를 입력하여 인스턴스 필드에서 해당 인스턴스를 직접 추가합니다.
 
    ![](assets/add_url2.png)
 
-1. 이제 목록에 URL이 추가되어 연결할 수 있습니다.
+1. 목록에 URL을 추가하고 나면 해당 URL에 연결할 수 있습니다.
 
    >[!NOTE]
    >
-   >&quot;/.*&quot; 문자는 입력한 페이지의 모든 하위 페이지를 덮기 위해 확인 후 입력한 URL 끝에 자동으로 추가됩니다.
+   >입력한 URL의 유효성 검사가 완료되고 나면 입력한 페이지의 모든 하위 페이지도 포함되도록 URL 끝에 &quot;/.*&quot; 문자가 자동으로 추가됩니다.
 
    ![](assets/add_url_listnew.png)
 
-URL을 선택하고 **[!UICONTROL Delete URL]** 단추를 클릭하여 언제든지 삭제할 수 있습니다.
+언제든지 URL을 선택하고 **[!UICONTROL Delete URL]** 버튼을 클릭하면 URL을 삭제할 수 있습니다.
 
-URL을 삭제하면 인스턴스가 다시 호출할 수 없다는 점을 염두에 두십시오.
+URL을 삭제하면 인스턴스가 해당 URL을 다시 호출할 수 없습니다.
 
 ## 일반적인 질문 {#common-questions}
 
-**새 URL을 추가했지만 인스턴스가 해당 URL에 계속 연결할 수 없습니다. 왜 그럴까.**
+**새 URL을 추가했는데 인스턴스에서 해당 URL에 계속 연결할 수 없는 이유는 무엇입니까?**
 
-경우에 따라, 화이트리스트, 암호 입력 또는 다른 형태의 인증이 필요하도록 연결하려고 하는 URL이 있습니다. 제어판은 추가 인증을 관리하지 않습니다.
+연결하려는 URL을 화이트리스트에 추가하거나, 암호를 입력해야 하거나, 기타 형식의 인증을 진행해야 하는 경우도 있습니다. 컨트롤 패널에서는 추가 인증을 관리하지 않습니다.
