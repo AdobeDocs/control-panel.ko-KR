@@ -1,59 +1,62 @@
 ---
 title: 하위 도메인의 SSL 인증서 모니터링
 description: 하위 도메인의 SSL 인증서를 모니터링하는 방법 알아보기
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+workflow-type: ht
+source-wordcount: '402'
+ht-degree: 100%
 
 ---
 
 
 # 하위 도메인의 SSL 인증서 모니터링 {#monitoring-ssl-certificates}
 
-## SSL 인증서 정보 {#about-ssl-certificates}
+## SSL 인증서 {#about-ssl-certificates}
 
-Adobe Campaign에서는 랜딩 페이지를 호스팅하는 하위 도메인, 특히 고객의 민감한 정보를 수집하는 하위 도메인을 보호하는 것이 좋습니다.
+랜딩 페이지를 호스팅하는 하위 도메인(특히 고객의 중요한 정보를 수집하는 하위 도메인)은 보호하는 것이 좋습니다.
 
-**SSL(Secure Socket Layer) 암호화를** 통해 Adobe에 위임한 하위 도메인이 보호됩니다. 고객이 웹 양식을 작성하거나 Adobe Campaign에서 호스팅하는 랜딩 페이지를 방문하면 기본적으로 정보가 비보안 프로토콜(HTTP)을 통해 전송됩니다. 추가 보안을 위해 HTTPS 프로토콜을 사용하여 안전하게 전송된 정보를 제공합니다. 예를 들어 &quot;http://info.mywebsite.com/&quot; 하위 도메인 주소는 이제 &quot;https://info.mywebsite.com/&quot;이 됩니다.
+**SSL(Secure Socket Layer) 암호화**&#x200B;를 사용하면 인해 Adobe로 위임한 하위 도메인을 보호할 수 있습니다. 고객이 웹 양식을 작성하거나 Adobe Campaign에서 호스팅하는 랜딩 페이지를 방문할 때는 기본적으로 정보가 비보안 프로토콜(HTTP)을 통해 전송됩니다. 보안을 강화하려면 전송되는 정보를 HTTPS 프로토콜로 보호해야 합니다. 예를 들어 하위 도메인 주소 &quot;http://info.mywebsite.com/&quot;은 보안 강화를 위해 이제 &quot;https://info.mywebsite.com/&quot;으로 설정됩니다.
 
-**SSL 인증서는 위임된 하위 도메인 자체에**&#x200B;설치되지 않습니다. 이러한 도메인은 주로 랜딩 페이지, 리소스 페이지 등을 호스팅하는 연관된 하위 도메인에 설치됩니다.
+**위임된 하위 도메인 자체에는 SSL 인증서가 설치되지 않습니다**. SSL 인증서는 연결된 하위 도메인(주로 랜딩 페이지, 리소스 페이지 등을 호스팅하는 하위 도메인)에 설치됩니다.
 
-**SSL 인증서는 특정 기간** (1년, 60일 등)에 대해 제공됩니다. 인증서가 만료되면 랜딩 페이지에 액세스하거나 하위 도메인의 리소스를 사용할 때 문제가 발생할 수 있습니다. 이를 방지하기 위해 제어판에서 하위 도메인의 SSL 인증서를 모니터링하고 갱신 프로세스를 시작할 수 있습니다.
+**SSL 인증서는 일정 기간**(1년, 60일 등) 동안 제공됩니다. 인증서가 만료되면 랜딩 페이지에 액세스하거나 하위 도메인의 리소스를 사용할 때 문제가 발생할 수 있습니다. 이러한 상황을 방지하기 위해 컨트롤 패널에서 하위 도메인의 SSL 인증서를 모니터링하고 인증서 갱신 프로세스를 시작할 수 있습니다.
 
 ![](assets/no_certificate.png)
 
 ## SSL 인증서 모니터링 {#monitoring-certificates}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_subdomain_details&quot;
->title=&quot;하위 도메인 세부 사항&quot;
->abstract=&quot;하위 도메인에 대한 정보를 검색합니다.&quot;
+>id="cp_subdomain_details"
+>title="하위 도메인 세부 사항"
+>abstract="하위 도메인 관련 정보를 검색합니다."
 
-하위 도메인의 SSL 인증서 상태는 **[!UICONTROL Subdomains & Certificates]** 카드를 선택할 때 하위 도메인 목록에서 직접 사용할 수 있습니다.
+**[!UICONTROL Subdomains & Certificates]** 카드를 선택하면 하위 도메인 목록에서 하위 도메인 SSL 인증서 상태를 바로 확인할 수 있습니다.
 
-하위 도메인은 SSL 인증서의 가장 가까운 만료 날짜별로 배열되며 만료 날짜(일)에 대한 시각적 정보를 제공합니다.
+하위 도메인은 SSL 인증서의 만료 날짜가 임박한 항목부터 차례로 정렬되며, 만료까지 남은 기간(일) 정보가 각기 다른 색상으로 표시됩니다.
 
-* **녹색**:다음 60일 이내에 하위 도메인이 만료되지 않았습니다.
-* **주황**:하나 이상의 하위 도메인에 다음 60일 이내에 만료되는 인증서가 있습니다.
-* **빨간색**:하나 이상의 하위 도메인에 다음 30일 이내에 만료되는 인증서가 있습니다.
-* **회색**:하위 도메인에 대한 인증서가 설치되어 있지 않습니다.
+* **녹색**: 하위 도메인에 앞으로 60일 이내에 만료되는 인증서가 없습니다.
+* **주황**: 하위 도메인 하나 이상에 앞으로 60일 이내에 만료되는 인증서가 있습니다.
+* **빨강**: 하위 도메인 하나 이상에 앞으로 30일 이내에 만료되는 인증서가 있습니다.
+* **회색**: 하위 도메인용 인증서가 설치되어 있지 않습니다.
 
 ![](assets/subdomains_list.png)
 
-하위 도메인에 대한 자세한 내용을 보려면 **[!UICONTROL Subdomain Details]** 단추를 클릭합니다.
-모든 관련 하위 도메인 목록이 표시됩니다. 일반적으로 랜딩 페이지, 리소스 페이지 등의 하위 도메인을 포함합니다.
+하위 도메인 관련 정보를 자세히 확인하려면 **[!UICONTROL Subdomain Details]** 버튼을 클릭합니다.
+모든 관련 하위 도메인 목록이 표시됩니다. 이 목록에는 보통 랜딩 페이지, 리소스 페이지 등의 하위 도메인이 포함됩니다.
 
-이 **[!UICONTROL Sender info]** 탭에는 구성된 받은 편지함(발신자, 회신, 오류 이메일)에 대한 정보가 표시됩니다.
+**[!UICONTROL Sender info]** 탭에서는 구성된 받은 편지함 관련 정보(보낸 사람, 회신, 오류 이메일)가 제공됩니다.
 
 ![](assets/subdomain_details.png)
 
-하위 도메인의 SSL 인증서 중 하나가 만료될 예정이면 제어판에서 바로 갱신할 수 있습니다. 자세한 내용은 다음 섹션을 참조하십시오.하위 [도메인의 SSL 인증서를](../../subdomains-certificates/using/renewing-subdomain-certificate.md)갱신합니다.
+하위 도메인의 SSL 인증서 중 하나가 곧 만료되는 경우 컨트롤 패널에서 바로 갱신할 수 있습니다. 인증서 갱신과 관련된 자세한 내용은 [하위 도메인의 SSL 인증서 갱신](../../subdomains-certificates/using/renewing-subdomain-certificate.md) 섹션을 참조하십시오.
 
 >[!IMPORTANT]
 >
->제어판의 인증서 갱신은 베타에서 제공되며, 예고 없이 자주 업데이트와 수정을 거쳐야 합니다.
+>컨트롤 패널의 인증서 갱신 기능은 베타로 제공되며, 별도의 고지 없이 자주 업데이트 및 수정될 수 있습니다.
 
 **관련 항목:**
 
-* [SSL 인증서 추가(자습서 비디오)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [SSL 인증서 추가(튜토리얼 비디오)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
 * [하위 도메인의 SSL 인증서 갱신](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 * [하위 도메인 브랜딩](../../subdomains-certificates/using/subdomains-branding.md)
