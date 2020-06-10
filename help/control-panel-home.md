@@ -4,7 +4,7 @@ translation-type: tm+mt
 source-git-commit: 941bf59ab345e685c37114ac21359e8f5310684d
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 14%
 
 ## 새로운 기능
 
-[CNAME 하위 도메인을 위한 인증서 관리](subdomains-certificates/using/renewing-subdomain-certificate.md)
+[CNAME 하위 도메인용 인증서 관리](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
-이제 제어판에서 CNAME 메서드로 위임된 하위 도메인의 SSL 인증서를 갱신할 수 있습니다.
+이제 컨트롤 패널에서 CNAME 방법을 통해 위임된 하위 도메인의 SSL 인증서를 갱신할 수 있습니다.
 
 ## 추가 자료 {#additional-resources}
 
@@ -25,14 +25,14 @@ ht-degree: 14%
     <tr>
         <td><b>Campaign Standard</b><br/>
         <ul>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">Campaign Standard용 제어판 자습서 비디오</a></li>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html">Campaign Standard 제품 설명서</a></li>
+            <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">Campaign Standard용 컨트롤 패널 튜토리얼 비디오</a></li>
+            <li><a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/campaign-standard-home.html">Campaign Standard 제품 설명서</a></li>
         </ul>
         </td>
         <td><b>Campaign Classic</b><br/>
         <ul>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">Campaign Classic용 제어판 자습서 비디오</a></li>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html">Campaign Classic 제품 설명서</a></li>
+            <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">Campaign Classic용 컨트롤 패널 튜토리얼 비디오</a></li>
+            <li><a href="https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/campaign-classic-home.html">Campaign Classic 제품 설명서</a></li>
         </ul>
         </td>
     </tr>
