@@ -1,31 +1,31 @@
 ---
 product: adobe campaign
-sub-product: 제어판
+sub-product: 컨트롤 패널
 audience: end-user
-user-guide-title: 제어판 도움말
+user-guide-title: 컨트롤 패널 도움말
 translation-type: tm+mt
 source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 
-# 제어판 도움말 {#using}
+# 컨트롤 패널 도움말 {#using}
 
 + [제품 설명서](control-panel-home.md)
 + [릴리스 정보](release-notes.md)
-+ Discover 제어판 {#discover-control-panel}
++ 컨트롤 패널 살펴보기 {#discover-control-panel}
    + [주요 기능](discover/using/key-features.md)
-   + [제어판 액세스](discover/using/accessing-control-panel.md)
-   + [제어판에 대한 권한 관리](discover/using/managing-permissions.md)
-   + [제어판 인터페이스 검색](discover/using/discovering-the-interface.md)
+   + [컨트롤 패널 액세스](discover/using/accessing-control-panel.md)
+   + [컨트롤 패널에 대한 권한 관리](discover/using/managing-permissions.md)
+   + [컨트롤 패널 인터페이스 살펴보기](discover/using/discovering-the-interface.md)
 + SFTP 관리 {#sftp-management}
-   + [SFTP 관리 정보](sftp/using/about-sftp-management.md)
-   + [SFTP 저장소 관리](sftp/using/sftp-storage-management.md)
-   + [IP 범위 허용 목록](sftp/using/ip-range-whitelisting.md)
-   + [주요 관리](sftp/using/key-management.md)
+   + [SFTP 관리](sftp/using/about-sftp-management.md)
+   + [SFTP 스토리지 관리](sftp/using/sftp-storage-management.md)
+   + [화이트리스트에 IP 범위 추가](sftp/using/ip-range-whitelisting.md)
+   + [키 관리](sftp/using/key-management.md)
    + [SFTP 서버에 로그인](sftp/using/logging-into-sftp-server.md)
    + [일반적인 질문](sftp/using/common-questions.md)
 + 하위 도메인 및 인증서 {#subdomains-and-certificates}
@@ -36,11 +36,11 @@ ht-degree: 4%
    + [SSL 인증서 갱신](subdomains-certificates/using/renewing-subdomain-certificate.md)
    + [TXT 레코드 관리](subdomains-certificates/using/managing-txt-records.md)
 + 성능 모니터링 {#performance-monitoring}
-   + [성능 모니터링 정보](performance-monitoring/using/about-performance-monitoring.md)
+   + [성능 모니터링](performance-monitoring/using/about-performance-monitoring.md)
    + [데이터베이스 모니터링](performance-monitoring/using/database-monitoring.md)
-   + [이메일 알림](performance-monitoring/using/email-alerting.md)
+   + [이메일 경고](performance-monitoring/using/email-alerting.md)
 + 인스턴스 설정(Campaign Classic) {#instances-settings}
-   + [인스턴스 액세스에 대한 IP 허용 목록](instances-settings/using/ip-whitelisting-instance-access.md)
+   + [인스턴스 액세스를 위해 화이트리스트에 IP 추가](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL 권한](instances-settings/using/url-permissions.md)
    + [인스턴스 세부 사항](instances-settings/using/instance-details.md)
 + [FAQ](faq.md)
