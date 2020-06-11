@@ -1,10 +1,10 @@
 ---
 title: 제품 설명서
 translation-type: tm+mt
-source-git-commit: 941bf59ab345e685c37114ac21359e8f5310684d
+source-git-commit: 8c1bf6fbd36d12ff498f7316f764fda24a9b4fc9
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 100%
+ht-degree: 72%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 100%
 
 ## 새로운 기능
 
-[CNAME 하위 도메인용 인증서 관리](subdomains-certificates/using/renewing-subdomain-certificate.md)
+[활성 프로파일 모니터링](performance-monitoring/using/active-profiles-monitoring.md)
 
-이제 컨트롤 패널에서 CNAME 방법을 통해 위임된 하위 도메인의 SSL 인증서를 갱신할 수 있습니다.
+이제 제어판을 통해 인스턴스 및 대금 청구 용도로 계산되는 활성 프로필의 수를 모니터링할 수 있습니다.
 
 ## 추가 자료 {#additional-resources}
 
