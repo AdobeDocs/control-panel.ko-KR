@@ -1,11 +1,11 @@
 ---
 title: 컨트롤 패널 액세스
 description: 컨트롤 패널에 액세스하는 방법 알아보기
-translation-type: ht
-source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
-workflow-type: ht
-source-wordcount: '274'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3752494c9de9de3ccb4d8dc29853d2c20df89062
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 91%
 
 ---
 
@@ -51,7 +51,12 @@ ht-degree: 100%
     <td>
         <a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><img alt="조건" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><strong>인스턴스 설정 관리</strong></a></div>
-        <br/><em>인스턴스 설정 관리 방법을 알아봅니다(Campaign Classic에만 해당됨).</em>
+        <br/><em>인스턴스 설정을 관리하는 방법을 알아봅니다(Campaign Classic에만 해당).</em>
+    </td>
+    <td>
+        <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="조건" src="assets/do-not-localize/monitoring-performance.png"/></a>
+        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>모니터 성능</strong></a></div>
+        <br/><em>인스턴스 내 주요 리소스의 사용을 모니터링하는 방법을 알아봅니다.</em>
     </td>
 </tr>
 </table>
