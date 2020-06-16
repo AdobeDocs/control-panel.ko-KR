@@ -1,11 +1,11 @@
 ---
 title: URL 권한
 description: 컨트롤 패널에서 URL 권한을 관리하는 방법 알아보기
-translation-type: ht
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
-workflow-type: ht
-source-wordcount: '590'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8d2fb9c03fb628dda78bf5e915bbb69bda5ef64d
+workflow-type: tm+mt
+source-wordcount: '607'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->이 기능은 Campaign Classic 인스턴스에만 사용할 수 있습니다.
+>이 기능은 빌드 8850에서 Campaign Classic 인스턴스에만 사용할 수 있습니다. 이전 빌드를 사용하는 경우 이 기능을 사용하려면 업그레이드해야 합니다.
 
 ## URL 권한 {#about-url-permissions}
 
