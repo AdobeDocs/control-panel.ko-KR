@@ -2,10 +2,10 @@
 title: URL 권한
 description: 컨트롤 패널에서 URL 권한을 관리하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 8d2fb9c03fb628dda78bf5e915bbb69bda5ef64d
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 95%
+source-wordcount: '608'
+ht-degree: 92%
 
 ---
 
@@ -93,4 +93,4 @@ URL을 삭제하면 인스턴스가 해당 URL을 다시 호출할 수 없습니
 
 **새 URL을 추가했는데 인스턴스에서 해당 URL에 계속 연결할 수 없는 이유는 무엇입니까?**
 
-연결하려는 URL을 화이트리스트에 추가하거나, 암호를 입력해야 하거나, 기타 형식의 인증을 진행해야 하는 경우도 있습니다. 컨트롤 패널에서는 추가 인증을 관리하지 않습니다.
+경우에 따라 목록, 암호 입력 또는 다른 인증 양식이 필요한 연결 URL이 있습니다. 컨트롤 패널에서는 추가 인증을 관리하지 않습니다.
