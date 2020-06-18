@@ -1,10 +1,10 @@
 ---
 title: 컨트롤 패널 릴리스
 translation-type: tm+mt
-source-git-commit: fce9635ff6086ba6826bddc4a5af9dbfe310e3e1
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 82%
+source-wordcount: '459'
+ht-degree: 77%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 82%
 >
 >제어판에서 활성 프로파일 모니터링은 베타에서 제공되며 예고 없이 자주 업데이트하거나 수정할 수 있습니다.
 >
->이 기능은 Campaign Standard 10368 빌드 및 Campaign Classic 8931 빌드에서 AWS에서 호스팅되는 고객이 사용할 수 있습니다. 이전 빌드를 사용하는 경우 이 기능을 사용하려면 업그레이드해야 합니다.
+>이 기능은 Campaign Standard 10368 빌드 및 Campaign Classic 8931 빌드에서 AWS를 통해 호스팅되는 고객에게 제공됩니다. 이전 빌드를 사용하는 경우 이 기능을 사용하려면 업그레이드해야 합니다.
 
 ## 2020년 5월 {#may-2020}
 
@@ -67,7 +67,7 @@ Campaign 컨트롤 패널에 포함된 실시간 이메일 경고 기능을 사�
 
 *2019년 9월 16일*
 
-관리자가 Campaign Classic 인스턴스에 연결하기 위해 IP 주소를 화이트리스트에 추가할 수 있는 새 기능이 추가되었습니다.
+Campaign Classic 인스턴스에 연결하기 위해 관리자 사용자가 허용 목록에 IP 주소를 추가하는 새로운 기능을 추가했습니다.
 또한 관리자는 이제 Campaign Classic 인스턴스 목록과 빌드 업그레이드 가능 여부를 확인할 수 있습니다.
 
 자세한 내용은 [전용 설명서](instances-settings/using/ip-whitelisting-instance-access.md)를 참조하십시오.
