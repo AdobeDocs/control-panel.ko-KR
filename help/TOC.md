@@ -4,10 +4,10 @@ sub-product: 컨트롤 패널
 audience: end-user
 user-guide-title: 컨트롤 패널 도움말
 translation-type: tm+mt
-source-git-commit: b2447b30314f4bd46b2b6e144f7f713ff2f1ec59
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 96%
+source-wordcount: '99'
+ht-degree: 86%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 + SFTP 관리 {#sftp-management}
    + [SFTP 관리](sftp/using/about-sftp-management.md)
    + [SFTP 스토리지 관리](sftp/using/sftp-storage-management.md)
-   + [화이트리스트에 IP 범위 추가](sftp/using/ip-range-whitelisting.md)
+   + [IP 범위 목록 허용](sftp/using/ip-range-whitelisting.md)
    + [키 관리](sftp/using/key-management.md)
    + [SFTP 서버에 로그인](sftp/using/logging-into-sftp-server.md)
    + [일반적인 질문](sftp/using/common-questions.md)
@@ -41,7 +41,7 @@ ht-degree: 96%
    + [활성 프로파일 모니터링](performance-monitoring/using/active-profiles-monitoring.md)
    + [이메일 경고](performance-monitoring/using/email-alerting.md)
 + 인스턴스 설정(Campaign Classic) {#instances-settings}
-   + [인스턴스 액세스를 위해 화이트리스트에 IP 추가](instances-settings/using/ip-whitelisting-instance-access.md)
+   + [인스턴스 액세스에 대한 IP 허용 목록](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL 권한](instances-settings/using/url-permissions.md)
    + [인스턴스 세부 사항](instances-settings/using/instance-details.md)
 + [FAQ](faq.md)
