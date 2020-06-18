@@ -2,10 +2,10 @@
 title: 컨트롤 패널 액세스
 description: 컨트롤 패널에 액세스하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 3752494c9de9de3ccb4d8dc29853d2c20df89062
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 91%
+source-wordcount: '291'
+ht-degree: 81%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 91%
 >abstract="컨트롤 패널 홈 페이지에서는 Campaign 인스턴스에서 수행 가능한 모든 작업에 액세스할 수 있습니다."
 >additional-url="https://docs.adobe.com/content/help/ko-KR/control-panel/using/discover-control-panel/discovering-the-interface.html" text="인터페이스 살펴보기"
 
-컨트롤 패널에서는 각 인스턴스의 사용 방식을 추적하고 설정을 관리하여 Adobe Campaign Standard 및/또는 Classic의 제품 관리자 작업 효율성을 높일 수 있습니다. 컨트롤 패널의 직관적인 인터페이스를 활용하면 주요 자산의 사용을 손쉽게 모니터링할 수 있을 뿐만 아니라 화이트리스트에 IP 주소 추가, SFTP 스토리지 모니터링, 키 관리 등의 관리 작업도 수행할 수 있습니다.
+컨트롤 패널에서는 각 인스턴스의 사용 방식을 추적하고 설정을 관리하여 Adobe Campaign Standard 및/또는 Classic의 제품 관리자 작업 효율성을 높일 수 있습니다. 직관적인 인터페이스를 통해 주요 자산의 사용을 쉽게 모니터링할 수 있을 뿐만 아니라 IP 주소 추가, SFTP 저장소 모니터링, 키 관리 등과 같은 관리 작업을 수행할 수 있습니다.
 
 컨트롤 패널에서 제공되는 주요 이점은 다음과 같습니다.
 
@@ -51,7 +51,7 @@ ht-degree: 91%
     <td>
         <a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><img alt="조건" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><strong>인스턴스 설정 관리</strong></a></div>
-        <br/><em>인스턴스 설정을 관리하는 방법을 알아봅니다(Campaign Classic에만 해당).</em>
+        <br/><em>인스턴스 설정을 관리하는 방법을 알아봅니다(Campaign Classic만 해당).</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="조건" src="assets/do-not-localize/monitoring-performance.png"/></a>
