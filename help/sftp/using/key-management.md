@@ -2,10 +2,10 @@
 title: 키 관리
 description: SFTP 서버에 연결하기 위해 키를 관리하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 197b3fc6726ccd12f59f85d021a5abf56535386c
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 100%
+source-wordcount: '601'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe는 모든 고객에게 **공개 및 개인 키 쌍**&#x200B;을 사용하�
 
 아래에서는 공개 SSH 키를 생성한 다음 SFTP 서버 액세스를 위해 추가하는 단계와, 인증 관련 권장 사항에 대해 설명합니다.
 
-서버 액세스를 설정한 후에는 해당 서버에 연결할 수 있도록 서버 액세스 권한이 필요한 **IP 주소를 화이트리스트에 추가**&#x200B;해야 합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../instances-settings/using/ip-whitelisting-instance-access.md)을 참조하십시오.
+Once access to the server is set up, remember to **add the IP addresses that will require access to the server to the allow list** so that you can connect to it. 이 작업에 대한 자세한 정보는 [이 섹션](../../instances-settings/using/ip-whitelisting-instance-access.md)을 참조하십시오.
 
 >[!NOTE]
 >
