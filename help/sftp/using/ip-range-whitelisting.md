@@ -1,24 +1,24 @@
 ---
-title: 화이트리스트에 IP 범위 추가
-description: SFTP 서버 액세스용 IP 범위를 화이트리스트에 추가하는 방법 알아보기
-translation-type: ht
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
-workflow-type: ht
-source-wordcount: '521'
-ht-degree: 100%
+title: IP 범위 목록 허용
+description: SFTP 서버 액세스 허용 목록에 IP 범위를 추가하는 방법을 알아봅니다.
+translation-type: tm+mt
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+workflow-type: tm+mt
+source-wordcount: '601'
+ht-degree: 40%
 
 ---
 
 
-# 화이트리스트에 IP 범위 추가 {#ip-range-whitelisting}
+# IP 범위 목록 허용 {#ip-range-whitelisting}
 
 >[!CONTEXTUALHELP]
 >id="cp_ip_whitelist"
->title="화이트리스트에 IP 추가"
->abstract="이 탭에서 IP 범위를 화이트리스트에 추가해 SFTP 서버로의 연결을 설정할 수 있습니다. 여기에는 액세스 권한이 있는 SFTP 서버만 표시됩니다. 다른 SFTP 서버 액세스 권한을 요청하려면 관리자에게 문의하십시오."
+>title="IP 허용 목록 정보"
+>abstract="이 탭에서 허용 목록에 IP 범위를 추가하여 SFTP 서버에 연결을 설정할 수 있습니다. 여기에는 액세스 권한이 있는 SFTP 서버만 표시됩니다. 다른 SFTP 서버 액세스 권한을 요청하려면 관리자에게 문의하십시오."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98" text="데모 비디오 시청"
 
-SFTP 서버는 보호되어 있으므로 파일을 확인하거나 새 파일을 작성하기 위해 SFTP 서버에 액세스하려면 서버에 액세스하는 클라이언트나 시스템의 공개 IP 주소를 화이트리스트에 추가해야 합니다.
+SFTP 서버는 보호되어 있으므로 파일을 보거나 새 파일을 작성하려면 서버에 액세스하는 시스템 또는 클라이언트의 공개 IP 주소를 허용 목록에 추가해야 합니다.
 
 ## CIDR 형식 {#about-cidr-format}
 
@@ -30,28 +30,28 @@ CIDR의 구문에는 IP 주소, &#39;/&#39; 문자, 십진수가 차례로 포�
 
 ## 권장사항 {#best-practices}
 
-컨트롤 패널에서 IP 주소를 화이트리스트에 추가할 때는 아래 권장 사항과 제한을 따라야 합니다.
+제어판의 허용 목록에 IP 주소를 추가할 때는 아래 권장 사항과 제한 사항을 따라야 합니다.
 
-* IP 주소 하나가 아닌 **IP 범위를 화이트리스트에 추가**&#x200B;합니다. IP 주소 하나를 화이트리스트에 추가하려면 범위에 IP가 하나만 포함되어 있음을 나타내는 &#39;/32&#39;를 추가합니다.
-* 265개가 넘는 IP 주소를 포함하는 등 **너무 넓은 범위를 화이트리스트에 추가**&#x200B;하지 않습니다. /0~/23 사이의 CIDR 형식 범위는 컨트롤 패널에서 거부됩니다.
-* **공개 IP 주소**&#x200B;만 화이트리스트에 추가할 수 있습니다.
-* 화이트리스트에 추가한 IP 주소 중 **더 이상 필요하지 않은 IP 주소는 정기적으로 삭제**&#x200B;해야 합니다.
+* **단일 IP 주소가 아닌 허용 목록에** IP 범위를 추가합니다. 허용 목록에 단일 IP 주소를 추가하려면 범위에 단일 IP만 포함됨을 나타내는 &#39;/32&#39;를 추가하십시오.
+* **허용 목록에**&#x200B;범위가 너무 넓은 범위를 추가하지 마십시오(예: > 265개 IP 주소 포함). /0~/23 사이의 CIDR 형식 범위는 컨트롤 패널에서 거부됩니다.
+* 공개 **IP 주소만** 허용 목록에 추가할 수 있습니다.
+* 허용 목록에서 더 이상 필요하지 않은 IP 주소를 **정기적으로** 삭제해야 합니다.
 
-## 화이트리스트에 IP 주소 추가 {#whitelisting-ip-addresses}
+## 허용 목록에 IP 주소 추가 {#whitelisting-ip-addresses}
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_add"
 >title="새 IP 범위 추가"
->abstract="SFTP 서버에 연결하기 위해 화이트리스트에 추가할 IP 범위를 정의합니다."
+>abstract="SFTP 서버에 연결하기 위해 허용 목록에 추가할 IP 범위를 정의합니다."
 
-IP 범위를 화이트리스트에 추가하려면 다음 단계를 수행합니다.
+허용 목록에 IP 범위를 추가하려면 다음 단계를 따르십시오.
 
 1. **[!UICONTROL SFTP]** 카드를 열고 **[!UICONTROL IP Whistelisting]** 탭을 선택합니다.
-1. 각 인스턴스에 대해 화이트리스트에 추가된 IP 주소의 목록이 표시됩니다. 왼쪽 목록에서 원하는 인스턴스를 선택하고 **[!UICONTROL Add new IP range]** 버튼을 클릭합니다.
+1. 허용 목록의 IP 주소 목록이 각 인스턴스에 대해 표시됩니다. 왼쪽 목록에서 원하는 인스턴스를 선택하고 **[!UICONTROL Add new IP range]** 버튼을 클릭합니다.
 
    ![](assets/control_panel_add_range.png)
 
-1. 화이트리스트에 추가할 IP 범위를 CDR 형식으로 정의한 다음 목록에 표시할 레이블을 정의합니다.
+1. 허용 목록에 추가할 IP 범위를 CIDR 형식으로 정의한 다음 목록에 표시할 레이블을 정의합니다.
 
    >[!NOTE]
    >
@@ -62,25 +62,25 @@ IP 범위를 화이트리스트에 추가하려면 다음 단계를 수행합니
 
    >[!IMPORTANT]
    >
-   >IP 범위가 기존에 화이트리스트에 추가했던 범위와 겹치면 안 됩니다. IP 범위가 겹치는 경우에는 겹치는 IP가 포함된 범위를 먼저 삭제하십시오.
+   >IP 범위가 허용 목록의 기존 범위와 겹칠 수 없습니다. IP 범위가 겹치는 경우에는 겹치는 IP가 포함된 범위를 먼저 삭제하십시오.
    >
-   >범위 하나를 여러 인스턴스용으로 화이트리스트에 추가할 수 있습니다. 이렇게 하려면 아래쪽 화살표 키를 누르거나 원하는 인스턴스의 첫 번째 문자를 입력한 다음 제안 목록에서 인스턴스를 선택합니다.
+   >여러 인스턴스에 대해 허용 목록에 범위를 추가할 수 있습니다. 이렇게 하려면 아래쪽 화살표 키를 누르거나 원하는 인스턴스의 첫 번째 문자를 입력한 다음 제안 목록에서 인스턴스를 선택합니다.
 
    ![](assets/control_panel_add_range3.png)
 
-1. **[!UICONTROL Save]** 버튼을 클릭합니다. 요청이 완전히 처리될 때까지 화이트리스트에 IP를 추가하는 작업은 보류 중으로 표시됩니다. 요청은 몇 초 이내에 처리됩니다.
+1. **[!UICONTROL Save]** 버튼을 클릭합니다. 허용 목록에 추가된 IP는 요청이 완전히 처리될 때까지 보류 중으로 표시됩니다. 요청은 몇 초 이내에 처리됩니다.
 
-화이트리스트에 추가한 IP 범위를 삭제하려면 해당 범위를 선택하고 **[!UICONTROL Delete IP range]** 버튼을 클릭합니다.
+허용 목록에서 IP 범위를 삭제하려면 해당 범위를 선택한 다음 **[!UICONTROL Delete IP range]** 단추를 클릭합니다.
 
 ![](assets/control_panel_delete_range2.png)
 
 >[!NOTE]
 >
->현재는 화이트리스트에 추가한 범위를 편집할 수 없습니다. IP 범위를 수정하려면 해당 범위를 삭제한 다음 필요에 따라 새로 만듭니다.
+>현재 허용 목록에서 범위를 편집할 수 없습니다. IP 범위를 수정하려면 해당 범위를 삭제한 다음 필요에 따라 새로 만듭니다.
 
 ## 변경 사항 모니터링 {#monitoring-changes}
 
-컨트롤 패널 홈 페이지의 **[!UICONTROL Job Logs]**&#x200B;에서는 화이트리스트에 추가한 IP 주소의 모든 변경 사항을 모니터링할 수 있습니다.
+The **[!UICONTROL Job Logs]** in the Control Panel home page let you monitor all changes that have been made to IP addresses on the allow list.
 
 컨트롤 패널 인터페이스에 대한 자세한 내용은 [이 섹션](../../discover/using/discovering-the-interface.md)을 참조하십시오.
 
