@@ -1,11 +1,11 @@
 ---
 title: 하위 도메인 브랜딩
 description: 하위 도메인 브랜딩에 대해 자세히 알아보기
-translation-type: ht
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
-workflow-type: ht
-source-wordcount: '459'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 * 구매 확인, 암호 재설정 등의 트랜잭션 메시지용 &quot;info.mybrand.com&quot; 하위 도메인
 * 잠재 고객 대상 이메일 전송용 &quot;marketing.mybrand.com&quot; 하위 도메인
 
-이러한 하위 도메인을 설정하면 사용 중인 도메인과 다른 하위 도메인의 평판을 유지할 수 있습니다. 예를 들어 인터넷 서비스 공급자가 게재 품질 불량을 이유로 &quot;marketing.mybrand.com&quot; 하위 도메인을 블랙리스트에 추가하더라도 전체 &quot;mybrand.com&quot; 도메인과 &quot;info.mybrand.com&quot; 하위 도메인은 블랙리스트에 추가되지 않습니다.
+이러한 하위 도메인을 설정하면 사용 중인 도메인과 다른 하위 도메인의 평판을 유지할 수 있습니다. 예를 들어 &quot;marketing.mybrand.com&quot; 하위 도메인이 배달 불량으로 인해 인터넷 서비스 제공업체가 차단 목록에 추가되는 경우 전체 &quot;mybrand.com&quot; 도메인과 &quot;info.mybrand.com&quot; 하위 도메인이 차단 목록에 추가되지 않습니다.
 
 ## 하위 도메인 위임 방법 {#subdomain-delegation-methods}
 
