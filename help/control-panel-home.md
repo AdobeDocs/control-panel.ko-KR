@@ -1,10 +1,10 @@
 ---
 title: 제품 설명서
 translation-type: tm+mt
-source-git-commit: 99fbe1670d470172a2103e2b60b36b5b56c6a53d
+source-git-commit: 5b7e8126789690662e72e72c885700b971362004
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 66%
+source-wordcount: '136'
+ht-degree: 75%
 
 ---
 
@@ -15,9 +15,15 @@ ht-degree: 66%
 
 ## 새로운 기능
 
-* &#39;화이트 리스트&#39;와 &#39;블랙 리스트&#39; 용어 모두 Adobe Campaign 문서에서 제거되었습니다. [자세한 내용](release-notes.md)
+* **하위 도메인 제공 기능 감사**
 
-* **활성 프로필 모니터링**: 이제 제어판을 통해 인스턴스 및 대금 청구 용도로 계산되는 활성 프로필의 수를 모니터링할 수 있습니다. [자세한 내용](performance-monitoring/using/active-profiles-monitoring.md)
+   이제 제어 패널을 통해 새 하위 도메인을 위임한 후 제공 팀이 수행한 감사를 추적할 수 있습니다. [자세한 내용](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+* **GPG 키 관리**
+
+   Campaign에서 전송된 데이터를 암호화하고 들어오는 데이터를 해독하기 위해 마케팅 인스턴스에서 GPG 키를 설치 및/또는 생성합니다. [자세한 내용](instances-settings/using/gpg-keys-management.md)
+
+* &#39;화이트 리스트&#39;와 &#39;블랙 리스트&#39; 용어 모두 Adobe Campaign 문서에서 제거되었습니다. [자세한 내용](release-notes.md)
 
 ## 추가 자료 {#additional-resources}
 
