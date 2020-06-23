@@ -2,10 +2,10 @@
 title: 하위 도메인 브랜딩
 description: 하위 도메인 브랜딩에 대해 자세히 알아보기
 translation-type: tm+mt
-source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
+source-git-commit: 80b35e82116b064a7b141d957ab79ecfc9a99026
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 91%
 
 | 위임 방법 | 작동 방법 | 작업량 |
 |---|---|---|
-| **전체 위임** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 Adobe에서 Adobe Campaign에 필요한 모든 DNS 레코드를 구성합니다.<br/><br/>이 설정에서는 하위 도메인 및 모든 DNS 레코드를 Adobe에서 관리합니다. | 낮음 |
+| **전체 위임** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 Adobe에서 Adobe Campaign에 필요한 모든 DNS 레코드를 구성합니다.<br/><br/>이 설정에서 Adobe는 하위 도메인 및 모든 DNS 레코드를 관리할 책임이 있습니다. | 낮음 |
 | **CNAME, 사용자 지정 방법** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 Adobe에서 DNS 서버에 배치할 레코드를 제공하고 Adobe Campaign DNS 서버에서 해당 값을 구성합니다.<br/><br/>이 설정에서는 사용자와 Adobe가 DNS 유지 관리를 공동으로 수행합니다. | 높음 |
 
 도메인 위임에 대한 추가 정보는 [이 설명서](https://helpx.adobe.com/kr/campaign/kb/domain-name-delegation.html)에서 확인할 수 있습니다.
