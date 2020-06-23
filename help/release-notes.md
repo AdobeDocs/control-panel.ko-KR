@@ -1,9 +1,9 @@
 ---
 title: 컨트롤 패널 릴리스
 translation-type: tm+mt
-source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
+source-git-commit: 5b7e8126789690662e72e72c885700b971362004
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '577'
 ht-degree: 70%
 
 ---
@@ -18,6 +18,14 @@ ht-degree: 70%
 >컨트롤 패널은 AWS에서 호스팅되는 고객에게만 제공됩니다. 단, 아직 지원되지 않는 하이브리드 환경에서는 컨트롤 패널이 제공되지 않습니다. 최신 빌드로 업그레이드하지 않아도 컨트롤 패널에 액세스할 수 있습니다. 컨트롤 패널에 액세스하려면 관리자 권한이 있는지 확인하십시오.
 
 ## 2020년 6월 {#june-2020}
+
+**하위 도메인 제공 기능 감사**
+
+이제 제어 패널을 통해 새 하위 도메인을 위임한 후 제공 팀이 수행한 감사를 추적할 수 있습니다. [자세한 내용](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+**GPG 키 관리**
+
+이제 컨트롤 패널에서 GPG 키 쌍을 관리할 수 있으므로 외부에서 Campaign으로 전송되는 데이터의 암호를 쉽게 해독할 수 있습니다. 또한 Campaign에서 전송되는 데이터를 암호화하기 위해 공개 GPG 키를 설치할 수 있는 기능도 추가되었습니다. [자세한 내용](instances-settings/using/gpg-keys-management.md)
 
 **&#39;화이트 리스트&#39; / &#39;블랙 리스트&#39; 제거**
 
