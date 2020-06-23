@@ -4,10 +4,10 @@ sub-product: 컨트롤 패널
 audience: end-user
 user-guide-title: 컨트롤 패널 도움말
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 5445ac36b81af3b23bc64788f010f497ec9d049c
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 86%
+source-wordcount: '100'
+ht-degree: 85%
 
 ---
 
@@ -40,8 +40,9 @@ ht-degree: 86%
    + [데이터베이스 모니터링](performance-monitoring/using/database-monitoring.md)
    + [활성 프로파일 모니터링](performance-monitoring/using/active-profiles-monitoring.md)
    + [이메일 경고](performance-monitoring/using/email-alerting.md)
-+ 인스턴스 설정(Campaign Classic) {#instances-settings}
++ Instances settings {#instances-settings}
    + [인스턴스 액세스에 대한 IP 허용 목록](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL 권한](instances-settings/using/url-permissions.md)
    + [인스턴스 세부 사항](instances-settings/using/instance-details.md)
+   + [GPG 키 관리](instances-settings/using/gpg-keys-management.md)
 + [FAQ](faq.md)
