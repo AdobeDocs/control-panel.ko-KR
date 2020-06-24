@@ -2,9 +2,9 @@
 title: GPG 키 관리
 description: Adobe Campaign 내에서 데이터를 암호화하고 해독하기 위해 GPG 키를 관리하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 18c9c946301fab81f617e3cba1f72989645d552e
+source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1110'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,12 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 제어판에서 직접
 * **전송된 데이터 암호화**: Adobe Campaign은 설치된 공개 키로 암호화한 후 데이터를 전송합니다.
 
 * **들어오는 데이터의 암호 해독**: Adobe Campaign은 제어판에서 다운로드한 공개 키를 사용하여 외부 시스템에서 암호화된 데이터를 받습니다. Adobe Campaign은 제어판에서 생성된 개인 키를 사용하여 데이터를 해독합니다.
+
+**관련 항목:**
+
+* [Campaign Standard 튜토리얼 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
+* [Campaign Classic 튜토리얼 비디오](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
+
 
 ## 데이터 암호화 {#encrypting-data}
 
