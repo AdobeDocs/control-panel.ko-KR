@@ -2,10 +2,10 @@
 title: IP 허용 목록
 description: 인스턴스 액세스를 위해 제어판의 허용 목록에 IP 주소를 추가하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 50%
+ht-degree: 49%
 
 ---
 
@@ -87,5 +87,5 @@ IP 주소가 허용 목록에 추가되지 않은 경우 이 주소에서 인스
 허용 목록에서 IP 범위를 삭제하려면 해당 범위를 선택한 다음 **[!UICONTROL Delete IP range]** 단추를 클릭합니다.
 
 **관련 항목:**
-* [IP 허용 목록(자습서 비디오)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-whitelisting.html)
+* [IP 허용 목록(자습서 비디오)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
 * [연산자에 보안 영역 연결](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
