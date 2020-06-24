@@ -1,10 +1,10 @@
 ---
 title: 제품 설명서
 translation-type: tm+mt
-source-git-commit: 5b7e8126789690662e72e72c885700b971362004
+source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 75%
+source-wordcount: '122'
+ht-degree: 81%
 
 ---
 
@@ -22,8 +22,6 @@ ht-degree: 75%
 * **GPG 키 관리**
 
    Campaign에서 전송된 데이터를 암호화하고 들어오는 데이터를 해독하기 위해 마케팅 인스턴스에서 GPG 키를 설치 및/또는 생성합니다. [자세한 내용](instances-settings/using/gpg-keys-management.md)
-
-* &#39;화이트 리스트&#39;와 &#39;블랙 리스트&#39; 용어 모두 Adobe Campaign 문서에서 제거되었습니다. [자세한 내용](release-notes.md)
 
 ## 추가 자료 {#additional-resources}
 
