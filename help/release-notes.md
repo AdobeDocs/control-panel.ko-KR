@@ -1,7 +1,7 @@
 ---
 title: 컨트롤 패널 릴리스
 translation-type: tm+mt
-source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
+source-git-commit: 7625d291486772c6f68924a70c57e85c3aee9606
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 68%
@@ -31,7 +31,7 @@ ht-degree: 68%
 
 **&#39;화이트 리스트&#39; / &#39;블랙 리스트&#39; 제거**
 
-&#39;화이트 리스트&#39;와 &#39;블랙 리스트&#39; 용어 모두 Adobe Campaign 문서에서 제거되었습니다. 이러한 용어의 일부 항목은 여전히 제품 UI, 옵션 이름 및 내부 코드에 존재할 수 있지만, 향후 캠페인 릴리스에서 &#39;blocklist&#39; 및 &#39;allowlist&#39;로 대체될 예정입니다.
+&#39;화이트 리스트&#39;와 &#39;블랙 리스트&#39; 용어 모두 Adobe Campaign 문서에서 제거되었습니다. 이러한 용어의 일부 항목은 여전히 제품 UI, 옵션 이름 및 내부 코드에 존재할 수 있지만, 향후 캠페인 릴리스에서 &#39;&#39; 및 &#39;허용 목록에 추가하다&#39;로 차단 목록에 추가하다 대체될 것입니다.
 
 **활성 프로파일 모니터링**
 
@@ -81,10 +81,10 @@ Campaign 컨트롤 패널에 포함된 실시간 이메일 경고 기능을 사�
 
 *2019년 9월 16일*
 
-Campaign Classic 인스턴스에 연결하기 위해 관리자 사용자가 허용 목록에 IP 주소를 추가하는 새로운 기능을 추가했습니다.
+Campaign Classic 인스턴스에 연결하기 위해 관리자 사용자가 허용 목록에 IP 주소를 추가할 수 있는 새로운 기능이 추가되었습니다.
 또한 관리자는 이제 Campaign Classic 인스턴스 목록과 빌드 업그레이드 가능 여부를 확인할 수 있습니다.
 
-자세한 내용은 [전용 설명서](instances-settings/using/ip-whitelisting-instance-access.md)를 참조하십시오.
+자세한 내용은 [전용 설명서](instances-settings/using/ip-allow-listing-instance-access.md)를 참조하십시오.
 
 ## 2019년 8월 {#august-2019}
 
