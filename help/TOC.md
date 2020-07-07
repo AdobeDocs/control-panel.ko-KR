@@ -4,7 +4,7 @@ sub-product: 컨트롤 패널
 audience: end-user
 user-guide-title: 컨트롤 패널 도움말
 translation-type: tm+mt
-source-git-commit: 5445ac36b81af3b23bc64788f010f497ec9d049c
+source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 85%
@@ -24,7 +24,7 @@ ht-degree: 85%
 + SFTP 관리 {#sftp-management}
    + [SFTP 관리](sftp/using/about-sftp-management.md)
    + [SFTP 스토리지 관리](sftp/using/sftp-storage-management.md)
-   + [IP 범위 목록 허용](sftp/using/ip-range-whitelisting.md)
+   + [IP 범위 목록 허용](sftp/using/ip-range-allow-listing.md)
    + [키 관리](sftp/using/key-management.md)
    + [SFTP 서버에 로그인](sftp/using/logging-into-sftp-server.md)
    + [일반적인 질문](sftp/using/common-questions.md)
@@ -41,7 +41,7 @@ ht-degree: 85%
    + [활성 프로파일 모니터링](performance-monitoring/using/active-profiles-monitoring.md)
    + [이메일 경고](performance-monitoring/using/email-alerting.md)
 + Instances settings {#instances-settings}
-   + [인스턴스 액세스에 대한 IP 허용 목록](instances-settings/using/ip-whitelisting-instance-access.md)
+   + [인스턴스 액세스에 대한 IP 허용 목록](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL 권한](instances-settings/using/url-permissions.md)
    + [인스턴스 세부 사항](instances-settings/using/instance-details.md)
    + [GPG 키 관리](instances-settings/using/gpg-keys-management.md)
