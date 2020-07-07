@@ -2,7 +2,7 @@
 title: SFTP 서버에 로그인
 description: SFTP 서버에 로그인하는 방법 학습
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 5%
@@ -19,7 +19,7 @@ ht-degree: 5%
 * SFTP 서버는 **Adobe에서 호스팅합니다**.
 * 서버에 **사용자 이름**&#x200B;이 설정되었습니다. You can check this information directly in the Control Panel, in the **Key management** tab from the SFTP Card.
 * SFTP 서버에 로그인할 **개인 및 공개 키 쌍이** 있습니다. SSH 키를 추가하는 방법에 대한 자세한 내용은 [이 섹션을](../../sftp/using/key-management.md) 참조하십시오.
-* 공개 **IP 주소가 SFTP 서버의 허용 목록에** 추가되었습니다. 그렇지 않은 경우 허용 목록에 IP 범위를 추가하는 방법에 대한 자세한 내용은 [이 섹션을](../../sftp/using/ip-range-whitelisting.md) 참조하십시오.
+* 공개 **IP 주소가 SFTP 서버의 허용 목록** 에 추가되었습니다. 그렇지 않은 경우 허용 목록에 IP 범위를 추가하는 방법에 대한 자세한 내용은 [이 섹션을](../../sftp/using/ip-range-allow-listing.md) 참조하십시오.
 * SFTP 클라이언트 소프트웨어에 액세스할 수 **있습니다**. 회사 정책에 의해 허용되는 경우 IT 부서에서 사용할 것을 권장하는 SFTP 클라이언트 응용 프로그램을 참조하거나 인터넷에서 검색할 수 있습니다.
 
 SFTP 서버에 연결하려면 다음 단계를 따르십시오.
