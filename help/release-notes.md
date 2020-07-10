@@ -1,10 +1,10 @@
 ---
 title: 컨트롤 패널 릴리스
 translation-type: tm+mt
-source-git-commit: 7625d291486772c6f68924a70c57e85c3aee9606
+source-git-commit: c91a37883a883cdfa118c5c7e6315ff69e5ad0f5
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 68%
+source-wordcount: '561'
+ht-degree: 74%
 
 ---
 
@@ -28,10 +28,6 @@ ht-degree: 68%
 이제 컨트롤 패널에서 GPG 키 쌍을 관리할 수 있으므로 외부에서 Campaign으로 전송되는 데이터의 암호를 쉽게 해독할 수 있습니다. 또한 Campaign에서 전송되는 데이터를 암호화하기 위해 공개 GPG 키를 설치할 수 있는 기능도 추가되었습니다. [자세한 내용](instances-settings/using/gpg-keys-management.md)
 * [Campaign Standard 튜토리얼 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
 * [Campaign Classic 튜토리얼 비디오](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
-
-**&#39;화이트 리스트&#39; / &#39;블랙 리스트&#39; 제거**
-
-&#39;화이트 리스트&#39;와 &#39;블랙 리스트&#39; 용어 모두 Adobe Campaign 문서에서 제거되었습니다. 이러한 용어의 일부 항목은 여전히 제품 UI, 옵션 이름 및 내부 코드에 존재할 수 있지만, 향후 캠페인 릴리스에서 &#39;&#39; 및 &#39;허용 목록에 추가하다&#39;로 차단 목록에 추가하다 대체될 것입니다.
 
 **활성 프로파일 모니터링**
 
