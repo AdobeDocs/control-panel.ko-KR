@@ -2,9 +2,9 @@
 title: GPG 키 관리
 description: Adobe Campaign 내에서 데이터를 암호화하고 해독하기 위해 GPG 키를 관리하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
+source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1112'
 ht-degree: 2%
 
 ---
@@ -28,9 +28,8 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 제어판에서 직접
 
 **관련 항목:**
 
-* [Campaign Standard 튜토리얼 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
-* [Campaign Classic 튜토리얼 비디오](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
-
+* [Campaign Standard 자습서 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Classic 자습서 비디오](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 ## 데이터 암호화 {#encrypting-data}
 
@@ -56,6 +55,7 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 제어판에서 직접
    * **comment**: 주석 필드에 레이블을 추가하면 데이터 암호화에 사용할 키를 쉽게 식별할 수 있습니다.
    * **만료**: 만료 날짜가 없는 날짜 또는 &quot;0&quot;입니다.
    * **암호**
+
    ![](assets/do-not-localize/gpg_command.png)
 
 1. 스크립트가 확인되면 관련 지문으로 키를 생성하여 파일로 내보내거나 제어판에 직접 붙여넣을 수 있습니다. 파일을 내보내려면 이 명령을 실행한 다음 생성한 키의 지문을 실행합니다.
@@ -158,6 +158,7 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 제어판에서 직접
    * 30일 전에 긴급한(빨간색)이 표시됩니다.
    * 경고(노란색)는 60일 전에 표시됩니다.
    * 키가 만료되면 &quot;만료된&quot; 빨간색 배너가 표시됩니다.
+
    >[!NOTE]
    >
    >제어판에서 이메일 알림이 전송되지 않습니다.
