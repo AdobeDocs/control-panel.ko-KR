@@ -2,10 +2,10 @@
 title: IP 허용 목록
 description: 인스턴스 액세스를 위해 제어판의 허용 목록에 IP 주소를 추가하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: abe22509e3389874e0b3586a99a1ad2d49681ed8
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 49%
+ht-degree: 45%
 
 ---
 
@@ -53,7 +53,7 @@ IP 주소가 허용 목록에 추가되지 않은 경우 이 주소에서 인스
 
    >[!NOTE]
    >
-   >컨트롤 패널 홈 페이지에 인스턴스 설정 카드가 표시되지 않으면 IMS 조직 ID가 Adobe Campaign Classic 인스턴스와 연결되어 있지 않은 것입니다.
+   >인스턴스 설정 카드가 제어판의 홈 페이지에 표시되지 않으면 IMS를 의미합니다. 조직 ID는 Adobe Campaign 클래식 인스턴스와 연결되지 않습니다
 
    ![](assets/ip_whitelist_list1.png)
 
@@ -63,6 +63,7 @@ IP 주소가 허용 목록에 추가되지 않은 경우 이 주소에서 인스
 
    * **[!UICONTROL Instance(s)]**: IP 주소가 연결할 수 있는 인스턴스입니다. 여러 인스턴스를 동시에 조작할 수 있습니다. 예를 들어 동일한 단계를 통해 프로덕션 및 스테이지 인스턴스 모두에서 IP 허용 목록을 수행할 수 있습니다.
    * **[!UICONTROL IP Range]**: 허용 목록에 추가할 IP 범위(CIDR 형식)입니다. IP 범위는 허용 목록의 기존 범위와 겹칠 수 없습니다. IP 범위가 겹치는 경우에는 겹치는 IP가 포함된 범위를 먼저 삭제하십시오.
+
    >[!NOTE]
    >
    >CIDR(Classless Inter-Domain Routing)은 컨트롤 패널 인터페이스를 사용하여 IP 범위를 추가할 때 지원되는 형식입니다. CIDR의 구문에는 IP 주소, &#39;/&#39; 문자, 십진수가 차례로 포함됩니다. [이 문서](https://whatismyipaddress.com/cidr)에서 CIDR의 형식과 구문을 자세히 확인할 수 있습니다.
@@ -78,6 +79,7 @@ IP 주소가 허용 목록에 추가되지 않은 경우 이 주소에서 인스
    * **[!UICONTROL Campaign Console Access]**: IP 주소가 Campaign Classic 콘솔에 연결할 수 있습니다. 마케팅 인스턴스만 콘솔에 액세스하도록 설정할 수 있습니다. MID 및 RT 인스턴스는 콘솔에 액세스할 수 없으므로 콘솔에 액세스하도록 설정되지 않습니다.
    * **[!UICONTROL AEM connection]**: 지정한 AEM IP 주소가 마케팅 인스턴스에 연결할 수 있습니다.
    * **[!UICONTROL External API connection]**: 지정한 IP 주소를 사용하는 외부 API가 마케팅 및/또는 메시지 센터(RT) 인스턴스에 연결할 수 있습니다. RT 인스턴스는 콘솔에 연결하도록 설정되지 않습니다.
+
    ![](assets/ip_whitelist_acesstype.png)
 
 1. **[!UICONTROL Save]** 버튼을 클릭합니다. IP 범위가 허용 목록에 추가됩니다.
