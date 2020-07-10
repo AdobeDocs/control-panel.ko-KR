@@ -2,7 +2,7 @@
 title: IP 범위 목록 허용
 description: SFTP 서버 액세스를 위한 허용 목록에 IP 범위를 추가하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
+source-git-commit: d96c044e83d37f020b5fd6ea55199c1223b9fa39
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 40%
@@ -46,7 +46,7 @@ CIDR의 구문에는 IP 주소, &#39;/&#39; 문자, 십진수가 차례로 포�
 
 허용 목록에 IP 범위를 추가하려면 다음 단계를 수행합니다.
 
-1. **[!UICONTROL SFTP]** 카드를 열고 **[!UICONTROL IP Whistelisting]** 탭을 선택합니다.
+1. **[!UICONTROL SFTP]** 카드를 열고 **[!UICONTROL IP Allow Listing]** 탭을 선택합니다.
 1. 허용 목록의 IP 주소 목록이 각 인스턴스에 대해 표시됩니다. 왼쪽 목록에서 원하는 인스턴스를 선택하고 **[!UICONTROL Add new IP range]** 버튼을 클릭합니다.
 
    ![](assets/control_panel_add_range.png)
