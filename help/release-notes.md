@@ -1,10 +1,10 @@
 ---
 title: 컨트롤 패널 릴리스
 translation-type: tm+mt
-source-git-commit: c91a37883a883cdfa118c5c7e6315ff69e5ad0f5
+source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 74%
+source-wordcount: '563'
+ht-degree: 72%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 74%
 **GPG 키 관리**
 
 이제 컨트롤 패널에서 GPG 키 쌍을 관리할 수 있으므로 외부에서 Campaign으로 전송되는 데이터의 암호를 쉽게 해독할 수 있습니다. 또한 Campaign에서 전송되는 데이터를 암호화하기 위해 공개 GPG 키를 설치할 수 있는 기능도 추가되었습니다. [자세한 내용](instances-settings/using/gpg-keys-management.md)
-* [Campaign Standard 튜토리얼 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
-* [Campaign Classic 튜토리얼 비디오](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
+* [Campaign Standard 자습서 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Classic 자습서 비디오](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 **활성 프로파일 모니터링**
 
