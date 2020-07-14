@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 66%
+ht-degree: 71%
 
 ---
 
@@ -92,7 +92,7 @@ Adobe Experience Cloud에 처음 로그인할 때 인스턴스에 제공되는 �
 
 **컨트롤 패널에서는 현재 어떤 기능이 제공됩니까?**
 
-제어판에서는 사용자의 요구 사항 및 기타 작업을 기반으로 저장 공간을 추적하고, 허용 목록에 IP를 추가하고, SFTP 서버에 대한 SSH 키를 관리할 수 있습니다.
+컨트롤 패널에서는 스토리지 추적, 허용 목록에 IP 추가, 요구에 따라 SFTP 서버용 SSH 키 직접 관리 등의 작업을 수행할 수 있습니다.
 
 자세한 내용은 컨트롤 패널에서 지원되는 작업 설명서를 참조하십시오.
 
