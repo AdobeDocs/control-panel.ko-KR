@@ -1,10 +1,10 @@
 ---
 title: 제품 설명서
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '122'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 81%
 
 ## 새로운 기능
 
-* **하위 도메인 제공 기능 감사**
+* **하위 도메인 게재 가능성 감사**
 
-   이제 제어 패널을 통해 새 하위 도메인을 위임한 후 제공 팀이 수행한 감사를 추적할 수 있습니다. [자세한 내용](subdomains-certificates/using/setting-up-new-subdomain.md)
+   새 하위 도메인을 위임한 후, 이제 컨트롤 패널을 통해 게재 가능성 팀이 수행한 감사를 추적할 수 있습니다. [자세한 내용](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 * **GPG 키 관리**
 
