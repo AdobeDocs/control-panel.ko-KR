@@ -1,11 +1,11 @@
 ---
 title: 하위 도메인 브랜딩
 description: 하위 도메인 브랜딩에 대해 자세히 알아보기
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 80b35e82116b064a7b141d957ab79ecfc9a99026
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 88%
 * 구매 확인, 암호 재설정 등의 트랜잭션 메시지용 &quot;info.mybrand.com&quot; 하위 도메인
 * 잠재 고객 대상 이메일 전송용 &quot;marketing.mybrand.com&quot; 하위 도메인
 
-이러한 하위 도메인을 설정하면 사용 중인 도메인과 다른 하위 도메인의 평판을 유지할 수 있습니다. 예를 들어 &quot;marketing.mybrand.com&quot; 하위 도메인이 배달 불량으로 인해 인터넷 서비스 제공업체가 차단 목록에 추가되는 경우 전체 &quot;mybrand.com&quot; 도메인과 &quot;info.mybrand.com&quot; 하위 도메인이 차단 목록에 추가되지 않습니다.
+이러한 하위 도메인을 설정하면 사용 중인 도메인과 다른 하위 도메인의 평판을 유지할 수 있습니다. 예를 들어 인터넷 서비스 공급자가 게재 가능성 불량을 이유로 &quot;marketing.mybrand.com&quot; 하위 도메인을 차단 목록에 추가하더라도 전체 &quot;mybrand.com&quot; 도메인과 &quot;info.mybrand.com&quot; 하위 도메인은 차단 목록에 추가되지 않습니다.
 
 ## 하위 도메인 위임 방법 {#subdomain-delegation-methods}
 
@@ -45,7 +45,7 @@ ht-degree: 88%
 
 | 위임 방법 | 작동 방법 | 작업량 |
 |---|---|---|
-| **전체 위임** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 Adobe에서 Adobe Campaign에 필요한 모든 DNS 레코드를 구성합니다.<br/><br/>이 설정에서 Adobe는 하위 도메인 및 모든 DNS 레코드를 관리할 책임이 있습니다. | 낮음 |
+| **전체 위임** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 Adobe에서 Adobe Campaign에 필요한 모든 DNS 레코드를 구성합니다.<br/><br/>이 설정에서는 Adobe가 하위 도메인 및 모든 DNS 레코드를 관리를 전적으로 책임집니다. | 낮음 |
 | **CNAME, 사용자 지정 방법** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 Adobe에서 DNS 서버에 배치할 레코드를 제공하고 Adobe Campaign DNS 서버에서 해당 값을 구성합니다.<br/><br/>이 설정에서는 사용자와 Adobe가 DNS 유지 관리를 공동으로 수행합니다. | 높음 |
 
 도메인 위임에 대한 추가 정보는 [이 설명서](https://helpx.adobe.com/kr/campaign/kb/domain-name-delegation.html)에서 확인할 수 있습니다.
