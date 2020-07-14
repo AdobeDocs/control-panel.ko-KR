@@ -4,7 +4,7 @@ translation-type: tm+mt
 source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 72%
+ht-degree: 94%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 72%
 
 ## 2020년 6월 {#june-2020}
 
-**하위 도메인 제공 기능 감사**
+**하위 도메인 게재 가능성 감사**
 
-이제 제어 패널을 통해 새 하위 도메인을 위임한 후 제공 팀이 수행한 감사를 추적할 수 있습니다. [자세한 내용](subdomains-certificates/using/setting-up-new-subdomain.md)
+새 하위 도메인을 위임한 후, 이제 제어 패널을 통해 게재 가능성 팀이 수행한 감사를 추적할 수 있습니다. [자세한 내용](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 **GPG 키 관리**
 
@@ -29,13 +29,13 @@ ht-degree: 72%
 * [Campaign Standard 자습서 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
 * [Campaign Classic 자습서 비디오](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
-**활성 프로파일 모니터링**
+**활성 프로필 모니터링**
 
-이제 제어판을 통해 인스턴스 및 대금 청구 용도로 계산되는 활성 프로필의 수를 모니터링할 수 있습니다. [자세한 내용](performance-monitoring/using/active-profiles-monitoring.md)
+이제 컨트롤 패널을 통해 인스턴스 및 대금 청구 용도로 계산되는 활성 프로필의 수를 모니터링할 수 있습니다. [자세한 내용](performance-monitoring/using/active-profiles-monitoring.md)
 
 >[!IMPORTANT]
 >
->제어판에서 활성 프로파일 모니터링은 베타에서 제공되며 예고 없이 자주 업데이트하거나 수정할 수 있습니다.
+>컨트롤 패널의 활성 파일 모니터링은 베타로 제공되며, 별도의 고지 없이 자주 업데이트 및 수정될 수 있습니다.
 >
 >이 기능은 Campaign Standard 10368 빌드 및 Campaign Classic 8931 빌드에서 AWS를 통해 호스팅되는 고객에게 제공됩니다. 이전 빌드를 사용하는 경우 이 기능을 사용하려면 업그레이드해야 합니다.
 
@@ -77,7 +77,7 @@ Campaign 컨트롤 패널에 포함된 실시간 이메일 경고 기능을 사�
 
 *2019년 9월 16일*
 
-Campaign Classic 인스턴스에 연결하기 위해 관리자 사용자가 허용 목록에 IP 주소를 추가할 수 있는 새로운 기능이 추가되었습니다.
+Campaign Classic 인스턴스에 연결하기 위해 관리자가 허용 목록에 IP 주소를 추가할 수 있는 새로운 기능이 추가되었습니다.
 또한 관리자는 이제 Campaign Classic 인스턴스 목록과 빌드 업그레이드 가능 여부를 확인할 수 있습니다.
 
 자세한 내용은 [전용 설명서](instances-settings/using/ip-allow-listing-instance-access.md)를 참조하십시오.
