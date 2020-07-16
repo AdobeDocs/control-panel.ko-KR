@@ -46,7 +46,7 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   >인스턴스 설정 카드가 제어판의 홈 페이지에 표시되지 않으면 IMS를 의미합니다. 조직 ID는 Adobe Campaign 클래식 인스턴스와 연결되지 않습니다
+   >Campaign 컨트롤 패널 홈 페이지에 인스턴스 설정 카드가 표시되지 않으면 IMS를 의미합니다. 조직 ID는 Adobe Campaign 클래식 인스턴스와 연결되지 않습니다
 
 1. 왼쪽 창에서 원하는 Campaign Classic 인스턴스를 선택합니다.
 
