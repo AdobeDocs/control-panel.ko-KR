@@ -1,7 +1,7 @@
 ---
 title: SFTP 관리
 description: Campaign 컨트롤 패널의 SFTP 관리에 대한 자세한 내용
-testing: SSECD-836
+testing: SSECD-836 2
 translation-type: tm+mt
 source-git-commit: 9fe5f25ef2f3d7dafe9ae63d430279c354fce25a
 workflow-type: tm+mt
