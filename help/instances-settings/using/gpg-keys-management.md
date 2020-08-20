@@ -2,10 +2,10 @@
 title: GPG 키 관리
 description: Adobe Campaign 내에서 데이터를 암호화하고 해독하기 위해 GPG 키를 관리하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
+source-git-commit: 1fe1bf8cd90218c54076988780b53819e9fad304
 workflow-type: tm+mt
 source-wordcount: '1112'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -18,13 +18,13 @@ GPG 암호화를 사용하면 [OpenPGP 사양을 따르는 공개/비공개 키 
 
 구현되면 전송 전에 수신 데이터의 암호를 해독하고 나가는 데이터를 암호화하여 유효한 일치하는 키 쌍 없이는 아무도 이 데이터에 액세스하지 못하도록 할 수 있습니다.
 
-Campaign을 사용하여 GPG 암호화를 구현하려면 제어판에서 직접 관리자가 마케팅 인스턴스에 GPG 키를 설치 및/또는 생성해야 합니다.
+Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 Campaign 컨트롤 패널에서 직접 마케팅 인스턴스에 GPG 키를 설치 및/또는 생성해야 합니다.
 
 그러면 다음 작업을 수행할 수 있습니다.
 
-* **전송된 데이터 암호화**: Adobe Campaign은 설치된 공개 키로 암호화한 후 데이터를 전송합니다.
+* **전송된 데이터 암호화**:Adobe Campaign은 설치된 공개 키로 암호화한 후 데이터를 전송합니다.
 
-* **들어오는 데이터의 암호 해독**: Adobe Campaign은 제어판에서 다운로드한 공개 키를 사용하여 외부 시스템에서 암호화된 데이터를 받습니다. Adobe Campaign은 제어판에서 생성된 개인 키를 사용하여 데이터를 해독합니다.
+* **들어오는 데이터의 암호 해독**:Adobe Campaign은 Campaign 컨트롤 패널에서 다운로드한 공개 키를 사용하여 외부 시스템에서 암호화된 데이터를 받습니다. Adobe Campaign은 Campaign 컨트롤 패널에서 생성된 개인 키를 사용하여 데이터를 해독합니다.
 
 **관련 항목:**
 
@@ -33,9 +33,9 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 제어판에서 직접
 
 ## 데이터 암호화 {#encrypting-data}
 
-제어판을 사용하면 Adobe Campaign 인스턴스에서 나오는 데이터를 암호화할 수 있습니다.
+Campaign 컨트롤 패널을 사용하면 Adobe Campaign 인스턴스에서 나오는 데이터를 암호화할 수 있습니다.
 
-이렇게 하려면 PGP 암호화 도구에서 GPG 키 쌍을 생성한 다음 공개 키를 제어판에 설치해야 합니다. 그런 다음 인스턴스에서 데이터를 보내기 전에 데이터를 암호화할 수 있습니다. 이렇게 하려면 다음 단계를 수행합니다.
+이렇게 하려면 PGP 암호화 도구에서 GPG 키 쌍을 생성한 다음 공개 키를 Campaign 컨트롤 패널에 설치해야 합니다. 그런 다음 인스턴스에서 데이터를 보내기 전에 데이터를 암호화할 수 있습니다. 이렇게 하려면 다음 단계를 수행합니다.
 
 1. OpenPGP 사양 다음에 나오는 PGP 암호화 도구를 사용하여 공개/ [개인 키 쌍을 생성합니다](https://www.openpgp.org/about/standard/). 이렇게 하려면 GPG 유틸리티 또는 GNuGP 소프트웨어를 설치합니다.
 
@@ -49,22 +49,22 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 제어판에서 직접
 
 1. 메시지가 표시되면 키에 원하는 매개 변수를 지정합니다. 필수 매개 변수는 다음과 같습니다.
 
-   * **키 유형**: RSA
-   * **키 길이**: 1024 - 4096비트
-   * **실제 이름** 및 **이메일 주소**: 키 쌍을 만든 사람을 추적할 수 있습니다. 조직 또는 부서에 연결된 이름 및 이메일 주소를 입력합니다.
-   * **comment**: 주석 필드에 레이블을 추가하면 데이터 암호화에 사용할 키를 쉽게 식별할 수 있습니다.
-   * **만료**: 만료 날짜가 없는 날짜 또는 &quot;0&quot;입니다.
+   * **키 유형**:RSA
+   * **키 길이**:1024 - 4096비트
+   * **실제 이름** 및 **이메일 주소**:키 쌍을 만든 사람을 추적할 수 있습니다. 조직 또는 부서에 연결된 이름 및 이메일 주소를 입력합니다.
+   * **comment**:주석 필드에 레이블을 추가하면 데이터 암호화에 사용할 키를 쉽게 식별할 수 있습니다.
+   * **만료**:만료 날짜가 없는 날짜 또는 &quot;0&quot;입니다.
    * **암호**
 
    ![](assets/do-not-localize/gpg_command.png)
 
-1. 스크립트가 확인되면 관련 지문으로 키를 생성하여 파일로 내보내거나 제어판에 직접 붙여넣을 수 있습니다. 파일을 내보내려면 이 명령을 실행한 다음 생성한 키의 지문을 실행합니다.
+1. 스크립트가 확인되면 관련 지문으로 키를 생성하여 파일로 내보내거나 Campaign 컨트롤 패널에 직접 붙여넣을 수 있습니다. 파일을 내보내려면 이 명령을 실행한 다음 생성한 키의 지문을 실행합니다.
 
    `gpg -a --export <fingerprint>`
 
-1. 제어판에 공개 키를 설치하려면 **[!UICONTROL Instance settings]** 카드를 연 다음 **[!UICONTROL GPG keys]** 탭과 원하는 인스턴스를 선택합니다.
+1. 공개 키를 Campaign 컨트롤 패널에 설치하려면 **[!UICONTROL Instance settings]** 카드를 연 다음 **[!UICONTROL GPG keys]** 탭과 원하는 인스턴스를 선택합니다.
 
-1. **[!UICONTROL Install Key]** 버튼을 클릭합니다. 
+1. **[!UICONTROL Install Key]** 버튼을 클릭합니다.
 
    ![](assets/gpg_install_button.png)
 
@@ -76,44 +76,44 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 제어판에서 직접
 
    ![](assets/gpg_install_paste.png)
 
-1. **[!UICONTROL Install Key]** 버튼을 클릭합니다. 
+1. **[!UICONTROL Install Key]** 버튼을 클릭합니다.
 
 공개 키가 설치되면 목록에 표시됩니다. ... **** 버튼을 사용하여 다운로드하거나 지문을 복사할 수 있습니다.
 
 ![](assets/gpg_install_download.png)
 
-그런 다음 Adobe Campaign 워크플로우에서 키를 사용할 수 있습니다. 데이터 추출 활동을 사용할 때 데이터를 암호화할 수 있습니다.
+그러면 Adobe Campaign 워크플로우에서 키를 사용할 수 있습니다. 데이터 추출 활동을 사용할 때 데이터를 암호화할 수 있습니다.
 
 자세한 내용은 Adobe Campaign 설명서를 참조하십시오.
 
 **Campaign Classic:**
 
 * [파일 압축 또는 암호화](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
-* [사용 사례: 제어판에 설치된 키를 사용하여 데이터 암호화 및 내보내기](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
+* [사용 사례:Campaign 컨트롤 패널에 설치된 키를 사용하여 데이터 암호화 및 내보내기](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
 * [암호화된 데이터 관리](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [사용 사례: 제어판에 설치된 키를 사용하여 데이터 암호화 및 내보내기](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
+* [사용 사례:Campaign 컨트롤 패널에 설치된 키를 사용하여 데이터 암호화 및 내보내기](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
 ## 데이터 암호 해독 {#decrypting-data}
 
-제어판을 사용하면 Adobe Campaign 인스턴스로 들어오는 외부 데이터를 해독할 수 있습니다.
+Campaign 컨트롤 패널을 사용하면 Adobe Campaign 인스턴스로 들어오는 외부 데이터를 해독할 수 있습니다.
 
-이를 위해서는 제어판에서 바로 GPG 키 쌍을 생성해야 합니다.
+이렇게 하려면 Campaign 컨트롤 패널에서 직접 GPG 키 쌍을 생성해야 합니다.
 
 * 공개 **키는** Campaign으로 전송할 데이터를 암호화하는 데 사용하는 외부 시스템과 공유됩니다.
 * Campaign에서 **개인 키를** 사용하여 들어오는 암호화된 데이터를 해독합니다.
 
-제어판에서 키 쌍을 생성하려면 다음 단계를 수행합니다.
+Campaign 컨트롤 패널에서 키 쌍을 생성하려면 다음 단계를 수행합니다.
 
 1. 카드를 **[!UICONTROL Instance settings]** 연 다음 **[!UICONTROL GPG keys]** 탭과 원하는 Adobe Campaign 인스턴스를 선택합니다.
 
-1. **[!UICONTROL Generate Key]** 버튼을 클릭합니다. 
+1. **[!UICONTROL Generate Key]** 버튼을 클릭합니다.
 
    ![](assets/gpg_generate.png)
 
-1. 키 이름을 지정한 다음 을 클릭합니다 **!UICONTROL Generate Key]**. 이 이름은 캠페인 워크플로우에서 암호 해독에 사용할 키를 식별하는 데 도움이 됩니다
+1. 키 이름을 지정한 다음 을 클릭합니다 **[!UICONTROL Generate Key]**. 이 이름은 캠페인 워크플로우에서 암호 해독에 사용할 키를 식별하는 데 도움이 됩니다
 
    ![](assets/gpg_generate_name.png)
 
@@ -123,19 +123,19 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 제어판에서 직접
 
 ![](assets/gpg_generate_list.png)
 
-공개 키는 외부 시스템과 공유할 수 있습니다. Adobe Campaign은 데이터 로드 활동에 개인 키를 사용하여 공개 키로 암호화된 데이터의 암호를 해독할 수 있습니다.
+공개 키는 외부 시스템과 공유할 수 있습니다. Adobe Campaign은 공개 키로 암호화된 데이터를 해독하기 위해 데이터 로드 활동에 개인 키를 사용할 수 있게 됩니다.
 
 자세한 내용은 Adobe Campaign 설명서를 참조하십시오.
 
 **Campaign Classic:**
 
 * [처리 전 파일 지핑 또는 해독](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing)
-* [사용 사례: 제어판에서 생성한 키를 사용하여 데이터를 암호화 가져오기](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#use-case-gpg-decrypt)
+* [사용 사례:Campaign 컨트롤 패널에서 생성된 키를 사용하여 데이터를 암호화 가져오기](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#use-case-gpg-decrypt)
 
 **Campaign Standard:**
 
 * [암호화된 데이터 관리](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [사용 사례: 제어판에서 생성한 키를 사용하여 데이터를 암호화 가져오기](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
+* [사용 사례:Campaign 컨트롤 패널에서 생성된 키를 사용하여 데이터를 암호화 가져오기](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## GPG 키 모니터링
 
@@ -145,15 +145,15 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 제어판에서 직접
 
 목록에는 각 키에 대한 세부 정보와 함께 인스턴스에 대해 설치 및 생성된 모든 암호화 및 암호 해독 GPG 키가 표시됩니다.
 
-* **[!UICONTROL Name]**: 키를 설치하거나 생성할 때 정의된 이름입니다.
-* **[!UICONTROL Use case]**: 이 열은 키의 사용 사례를 지정합니다.
+* **[!UICONTROL Name]**:키를 설치하거나 생성할 때 정의된 이름입니다.
+* **[!UICONTROL Use case]**:이 열은 키의 사용 사례를 지정합니다.
 
-   ![](assets/gpg_icon_encrypt.png): 데이터 암호화를 위해 키가 설치되었습니다.
+   ![](assets/gpg_icon_encrypt.png):데이터 암호화를 위해 키가 설치되었습니다.
 
-   ![](assets/gpg_icon_decrypt.png): 데이터 암호 해독을 허용하는 키가 생성되었습니다.
+   ![](assets/gpg_icon_decrypt.png):데이터 암호 해독을 허용하는 키가 생성되었습니다.
 
-* **[!UICONTROL Fingerprint]**: 키의 지문.
-* **[!UICONTROL Expires]**: 키의 만료 날짜입니다. 제어판은 키 만료 날짜가 다가오면 시각적 표시를 제공합니다.
+* **[!UICONTROL Fingerprint]**:키의 지문.
+* **[!UICONTROL Expires]**:키의 만료 날짜입니다. Campaign 컨트롤 패널은 키 만료 날짜가 다가오면 시각적 표시를 제공합니다.
 
    * 30일 전에 긴급한(빨간색)이 표시됩니다.
    * 경고(노란색)는 60일 전에 표시됩니다.
@@ -161,7 +161,7 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 제어판에서 직접
 
    >[!NOTE]
    >
-   >제어판에서 이메일 알림이 전송되지 않습니다.
+   >Campaign 컨트롤 패널은 이메일 알림을 전송하지 않습니다.
 
 더 이상 필요하지 않은 모든 키를 제거하는 것이 좋습니다. 이렇게 하려면 **..** 단추를 클릭한 다음 **[!UICONTROL Delete Key].**.
 
