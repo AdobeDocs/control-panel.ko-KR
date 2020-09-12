@@ -2,17 +2,17 @@
 product: adobe campaign
 sub-product: 컨트롤 패널
 audience: end-user
-user-guide-title: 컨트롤 패널 도움말
+user-guide-title: Campaign 컨트롤 패널 안내서
 translation-type: tm+mt
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
+source-git-commit: 060bda7df761b0da491fe3c443656ec36d4e6fb0
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 
-# 컨트롤 패널 도움말 {#using}
+# Campaign 컨트롤 패널 안내서 {#using}
 
 + [제품 설명서](control-panel-home.md)
 + [릴리스 정보](release-notes.md)
