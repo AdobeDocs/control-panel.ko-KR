@@ -1,11 +1,11 @@
 ---
 title: 하위 도메인의 SSL 인증서 모니터링
 description: 하위 도메인의 SSL 인증서를 모니터링하는 방법 알아보기
-translation-type: ht
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
-workflow-type: ht
-source-wordcount: '402'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 93%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 랜딩 페이지를 호스팅하는 하위 도메인(특히 고객의 중요한 정보를 수집하는 하위 도메인)은 보호하는 것이 좋습니다.
 
-**SSL(Secure Socket Layer) 암호화**&#x200B;를 사용하면 인해 Adobe로 위임한 하위 도메인을 보호할 수 있습니다. 고객이 웹 양식을 작성하거나 Adobe Campaign에서 호스팅하는 랜딩 페이지를 방문할 때는 기본적으로 정보가 비보안 프로토콜(HTTP)을 통해 전송됩니다. 보안을 강화하려면 전송되는 정보를 HTTPS 프로토콜로 보호해야 합니다. 예를 들어 하위 도메인 주소 &quot;http://info.mywebsite.com/&quot;은 보안 강화를 위해 이제 &quot;https://info.mywebsite.com/&quot;으로 설정됩니다.
+**SSL(Secure Socket Layer) 암호화로** 인해 Adobe에서 작동하도록 구성한 하위 도메인이 보호됩니다. 고객이 웹 양식을 작성하거나 Adobe Campaign에서 호스팅하는 랜딩 페이지를 방문할 때는 기본적으로 정보가 비보안 프로토콜(HTTP)을 통해 전송됩니다. 보안을 강화하려면 전송되는 정보를 HTTPS 프로토콜로 보호해야 합니다. 예를 들어 하위 도메인 주소 &quot;http://info.mywebsite.com/&quot;은 보안 강화를 위해 이제 &quot;https://info.mywebsite.com/&quot;으로 설정됩니다.
 
-**위임된 하위 도메인 자체에는 SSL 인증서가 설치되지 않습니다**. SSL 인증서는 연결된 하위 도메인(주로 랜딩 페이지, 리소스 페이지 등을 호스팅하는 하위 도메인)에 설치됩니다.
+**구성된 하위 도메인 자체에는 SSL 인증서가 설치되어 있지 않습니다**. SSL 인증서는 연결된 하위 도메인(주로 랜딩 페이지, 리소스 페이지 등을 호스팅하는 하위 도메인)에 설치됩니다.
 
 **SSL 인증서는 일정 기간**(1년, 60일 등) 동안 제공됩니다. 인증서가 만료되면 랜딩 페이지에 액세스하거나 하위 도메인의 리소스를 사용할 때 문제가 발생할 수 있습니다. 이러한 상황을 방지하기 위해 컨트롤 패널에서 하위 도메인의 SSL 인증서를 모니터링하고 인증서 갱신 프로세스를 시작할 수 있습니다.
 
