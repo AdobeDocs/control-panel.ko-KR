@@ -1,11 +1,11 @@
 ---
 title: 하위 도메인의 SSL 인증서 갱신
 description: 하위 도메인의 SSL 인증서를 갱신하는 방법 알아보기
-translation-type: ht
-source-git-commit: bc29433167d4699ad9b840381abd0d5bbff8c630
-workflow-type: ht
-source-wordcount: '840'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+workflow-type: tm+mt
+source-wordcount: '842'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->컨트롤 패널의 하위 도메인 위임 기능은 베타로 제공되며, 별도의 고지 없이 자주 업데이트 및 수정될 수 있습니다.
+>Campaign 컨트롤 패널의 하위 도메인 구성은 베타에서 사용 가능하며 예고 없이 자주 업데이트하거나 수정할 수 있습니다.
 
 ## 인증서 갱신 {#about-certificate-renewal-process}
 
@@ -62,6 +62,7 @@ CSR(인증서 서명 요청)을 생성하려면 다음 단계를 수행합니다
    * **[!UICONTROL Organization]**: 공식 조직 이름
    * **[!UICONTROL Organization Unit]**: 하위 도메인에 연결된 사업부(예: 마케팅, IT)
    * **[!UICONTROL Instance]**(사전 입력되어 있음): 하위 도메인에 연결된 Campaign 인스턴스의 URL
+
    ![](assets/renewal3.png)
 
 1. CSR에 포함할 하위 도메인을 선택하고 **[!UICONTROL OK]**&#x200B;을 클릭합니다.
@@ -97,7 +98,7 @@ CSR(인증서 서명 요청)을 생성하려면 다음 단계를 수행합니다
 구매한 SSL 인증서는 인스턴스에 설치할 수 있습니다. 계속 진행하기 전에 아래 사전 요구 사항을 숙지하십시오.
 
 * 컨트롤 패널에서 CSR(인증서 서명 요청)을 생성한 상태여야 합니다. CSR을 생성하지 않은 경우에는 컨트롤 패널에서 인증서를 설치할 수 없습니다.
-* CSR(인증서 서명 요청)은 Adobe에 위임한 하위 도메인과 일치해야 합니다. 예를 들어 이미 위임된 하위 도메인은 더 이상 포함할 수 없습니다.
+* CSR(인증서 서명 요청)은 Adobe에서 작동하도록 구성된 하위 도메인과 일치해야 합니다. 예를 들어 구성된 하위 도메인을 더 이상 포함할 수 없습니다.
 * 인증서의 날짜가 현재 날짜여야 합니다. 날짜가 오늘 이후인 인증서는 설치할 수 없습니다. 또한 인증서가 만료되지 않은 상태이며, 시작 날짜와 종료 날짜가 유효해야 합니다.
 * Comodo, DigiCert, GoDaddy 등의 신뢰할 수 있는 CA(인증 기관)에서 발급한 인증서를 사용해야 합니다.
 * 인증서 크기는 2048비트여야 하며 알고리즘은 RSA여야 합니다.
