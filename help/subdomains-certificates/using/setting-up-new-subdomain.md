@@ -2,9 +2,9 @@
 title: 새 하위 도메인 설정
 description: Campaign 인스턴스용 새 하위 도메인을 설정하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+source-git-commit: c215836129487530e50398ca1454895a2f319867
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1098'
 ht-degree: 50%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 50%
 **관련 항목:**
 
 * [하위 도메인 위임(튜토리얼 비디오)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
-
+* [CNAME을 사용하여 하위 도메인 구성](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
 * [하위 도메인 모니터링](../../subdomains-certificates/using/monitoring-subdomains.md)
 
 ## 반드시 알아야 할 사항 {#must-read}
