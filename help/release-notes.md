@@ -1,9 +1,9 @@
 ---
 title: 컨트롤 패널 릴리스
 translation-type: tm+mt
-source-git-commit: 1c7e5a830ff9a6b6a726cfbe30ca2ad264f1d8c6
+source-git-commit: ee5c44c8b22b1053b7993744aa4898a10761782a
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '620'
 ht-degree: 79%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 79%
 
 **향상된 데이터베이스 모니터링**
 
-추가 지표와 함께 **[!UICONTROL Database monitoring]** 탭이 개선되어 데이터베이스의 공간을 사용하는 리소스에 대한 자세한 정보를 얻을 수 있습니다. [자세한 내용](performance-monitoring/using/database-monitoring.md)
+데이터베이스 모니터링은 데이터베이스에서 공간을 사용하는 리소스에 대한 자세한 정보를 얻을 수 있는 추가 지표를 통해 향상되었습니다. [자세한 내용](performance-monitoring/using/database-monitoring.md)
 
 ## 2020년 6월 {#june-2020}
 
