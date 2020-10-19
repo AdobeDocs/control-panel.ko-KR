@@ -1,10 +1,10 @@
 ---
 title: 제품 설명서
-translation-type: ht
-source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
-workflow-type: ht
-source-wordcount: '122'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 75a10bc5c9886cf99df5d2bffb087b91ce81bb10
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 59%
 
 ---
 
@@ -15,13 +15,14 @@ ht-degree: 100%
 
 ## 새로운 기능
 
-* **하위 도메인 게재 가능성 감사**
 
-   새 하위 도메인을 위임한 후, 이제 컨트롤 패널을 통해 게재 가능성 팀이 수행한 감사를 추적할 수 있습니다. [자세한 내용](subdomains-certificates/using/setting-up-new-subdomain.md)
+**CNAME을 사용한 하위 도메인 구성**
 
-* **GPG 키 관리**
+이제 Campaign 컨트롤 패널에서 인터페이스에서 직접 CNAME을 사용하여 Adobe에서 작동하도록 하위 도메인을 구성할 수 있습니다. [자세한 내용](subdomains-certificates/using/setting-up-new-subdomain.md)
 
-   Campaign에서 전송된 데이터를 암호화하고 들어오는 데이터를 해독하기 위해 마케팅 인스턴스에서 GPG 키를 설치 및/또는 생성합니다. [자세한 내용](instances-settings/using/gpg-keys-management.md)
+**향상된 데이터베이스 모니터링**
+
+추가 지표와 함께 **[!UICONTROL Database monitoring]** 탭이 개선되어 데이터베이스의 공간을 사용하는 리소스에 대한 자세한 정보를 얻을 수 있습니다. [자세한 내용](performance-monitoring/using/database-monitoring.md)
 
 ## 추가 자료 {#additional-resources}
 
