@@ -4,14 +4,14 @@ translation-type: tm+mt
 source-git-commit: ee5c44c8b22b1053b7993744aa4898a10761782a
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 79%
+ht-degree: 95%
 
 ---
 
 
 # 컨트롤 패널 릴리스 {#control-panel-releases}
 
-여기에서 최신 Campaign 컨트롤 패널 릴리스에 대한 정보를 확인할 수 있습니다.
+여기서는 최신 컨트롤 패널 릴리스 관련 정보를 확인할 수 있습니다.
 
 >[!NOTE]
 >
@@ -21,9 +21,9 @@ ht-degree: 79%
 
 **CNAME을 사용한 하위 도메인 구성**
 
-이제 Campaign 컨트롤 패널에서 인터페이스에서 직접 CNAME을 사용하여 Adobe에서 작동하도록 하위 도메인을 구성할 수 있습니다. [자세한 내용](subdomains-certificates/using/setting-up-new-subdomain.md)
+이제 컨트롤 패널을 통해 인터페이스에서 직접 CNAME을 사용하여 Adobe에서 작동하도록 하위 도메인을 구성할 수 있습니다. [자세한 내용](subdomains-certificates/using/setting-up-new-subdomain.md)
 
-**향상된 데이터베이스 모니터링**
+**데이터베이스 모니터링 개선**
 
 데이터베이스 모니터링은 데이터베이스에서 공간을 사용하는 리소스에 대한 자세한 정보를 얻을 수 있는 추가 지표를 통해 향상되었습니다. [자세한 내용](performance-monitoring/using/database-monitoring.md)
 
@@ -36,8 +36,8 @@ ht-degree: 79%
 **GPG 키 관리**
 
 이제 컨트롤 패널에서 GPG 키 쌍을 관리할 수 있으므로 외부에서 Campaign으로 전송되는 데이터의 암호를 쉽게 해독할 수 있습니다. 또한 Campaign에서 전송되는 데이터를 암호화하기 위해 공개 GPG 키를 설치할 수 있는 기능도 추가되었습니다. [자세한 내용](instances-settings/using/gpg-keys-management.md)
-* [Campaign Standard 자습서 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
-* [Campaign Classic 자습서 비디오](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Standard 튜토리얼 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Classic 튜토리얼 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
 
 **활성 프로필 모니터링**
 
@@ -53,7 +53,7 @@ ht-degree: 79%
 
 **CNAME 하위 도메인용 인증서 관리**
 
-이제 Campaign 컨트롤 패널에서 CNAME 메서드로 구성된 하위 도메인의 SSL 인증서를 갱신할 수 있습니다. [자세한 내용](subdomains-certificates/using/renewing-subdomain-certificate.md)
+이제 컨트롤 패널에서 CNAME 방법을 통해 구성된 하위 도메인의 SSL 인증서를 갱신할 수 있습니다. [자세한 내용](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## 2020년 4월 {#april-2020}
 
@@ -73,7 +73,7 @@ Campaign 컨트롤 패널에 포함된 실시간 이메일 경고 기능을 사�
 
 *2020년 1월 22일*
 
-관리 사용자가 하위 도메인을 구성하고 Campaign 컨트롤 패널에서 SSL 인증서를 갱신할 수 있는 새로운 기능을 추가했습니다.
+관리자가 컨트롤 패널에서 하위 도메인을 구성하고 SSL 인증서를 갱신할 수 있는 새 기능이 추가되었습니다.
 
 자세한 내용은 다음 페이지를 참조하십시오.
 * [새 하위 도메인 설정](subdomains-certificates/using/setting-up-new-subdomain.md)
