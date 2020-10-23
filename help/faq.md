@@ -1,11 +1,11 @@
 ---
 title: 컨트롤 패널 FAQ
 description: 컨트롤 패널 관련 일반적인 질문
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '629'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -22,23 +22,23 @@ Adobe Experience Cloud에 처음 로그인할 때 인스턴스에 제공되는 �
 
 **IMS 조직 ID는 어디에서 찾을 수 있습니까?**
 
-[Adobe Experience Cloud 홈](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**&#x200B;로 이동하면 You will find your IMS Organization ID at the bottom of Administration **[!UICONTROL Quick Access]** section. [Adobe Experience Cloud 설명서](https://marketing.adobe.com/resources/help/ko_KR/mcloud/organizations.html)에서 자세한 정보를 찾을 수 있습니다.
+[Adobe Experience Cloud 홈](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**(으)로 이동하는 방법이 있습니다. 관리 **[!UICONTROL Quick Access]** 섹션 아래쪽에서 IMS 조직 ID를 확인할 수 있습니다. [Adobe Experience Cloud 설명서](https://marketing.adobe.com/resources/help/ko_KR/mcloud/organizations.html)에서 자세한 정보를 찾을 수 있습니다.
 
-**관리 콘솔**&#x200B;을 시작하여 ID를 확인할 수도 있습니다. IMS 조직 ID는 URL에 표시되며 다음과 같이 표시됩니다. https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
+**관리 콘솔**&#x200B;을 시작하여 ID를 확인할 수도 있습니다. IMS 조직 ID는 https://adminconsole.adobe.com/xxx@AdobeOrg/overview와 같은 형태로 URL에 표시됩니다.
 
-**IMS 조직 ID를 알아야 하는 이유는 무엇입니까?**
+**IMS 조직 ID를 알고 있어야 하는 이유는 무엇입니까?**
 
 회사에서 여러 인스턴스를 사용하는 경우 인스턴스의 설정을 관리하려면 적절한 인스턴스의 올바른 정보를 파악할 수 있어야 합니다.
 
-**여러 개의 IMS 조직 ID가 있는 경우 어떻게 됩니까?**
+**IMS 조직 ID가 여러 개일 경우 어떻게 해야 합니까?**
 
-여러 Adobe 솔루션에 액세스할 수 있는 경우 두 개 이상의 IMS 조직 ID가 있을 수 있습니다. 이 경우 사용해야 하는 올바른 IMS 조직 ID가 Adobe Campaign 인스턴스 아래에 표시되는 ID입니다.
+여러 Adobe 솔루션 액세스 권한이 있는 경우에는 IMS 조직 ID가 여러 개일 수 있습니다. 이 경우 사용해야 하는 올바른 IMS 조직 ID는 Adobe Campaign 인스턴스 아래에 표시되는 ID입니다.
 
 >[!NOTE]
 >
->Adobe Campaign 및 Adobe Analytics에 대해 동일한 IMS 조직 ID가 있는 경우 이는 매우 좋습니다. 장바구니 포기와 같은 복잡한 사용 사례(AA + AC의 경우)를 활용하기 위해 솔루션을 통합하려는 경우 Analytics과 캠페인 간에 IMS 조직 ID가 하나만 있어야 합니다.
+>Adobe Campaign과 Adobe Analytics용 IMS 조직 ID가 같으면 더 효율적입니다. 구매 중단 등의 복잡한 사용 사례를 활용하기 위해 솔루션을 통합하려는 경우(AA + AC)에는 Adobe Analytics와 Adobe Campaign 간 IMS 조직 ID가 같아야 합니다.
 >
->Adobe Campaign 및 Adobe Analytics에 대해 다른 IMS 조직 ID가 있는 경우 고객 지원 센터에 연락하여 정렬하십시오.
+>Adobe Campaign 및 Adobe Analytics용 IMS 조직 ID가 다르다면 고객 지원 센터에 연락하여 ID를 통일하십시오.
 
 **Adobe Campaign 인스턴스가 AWS에서 호스팅되는지 여부는 어떻게 확인할 수 있습니까?**
 
