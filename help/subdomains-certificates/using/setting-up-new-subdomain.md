@@ -2,10 +2,10 @@
 title: 새 하위 도메인 설정
 description: Campaign 인스턴스용 새 하위 도메인을 설정하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 4488040118bac708348bc73c5e525f35f6b1e6c1
+source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 50%
+source-wordcount: '1106'
+ht-degree: 49%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 50%
 >
 >Campaign 컨트롤 패널의 하위 도메인 구성은 베타에서 사용 가능하며 예고 없이 자주 업데이트하거나 수정할 수 있습니다.
 
-이 페이지에서는 전체 하위 도메인 위임 또는 CNAME을 사용하여 새 하위 도메인을 설정하는 방법에 대한 정보를 제공합니다. 이 두 가지 방법에 대한 글로벌 개념은 다음 섹션에 제공됩니다. [](../../subdomains-certificates/using/subdomains-branding.md).
+이 페이지에서는 전체 하위 도메인 위임 또는 CNAME을 사용하여 새 하위 도메인을 설정하는 방법에 대한 정보를 제공합니다. 이 두 가지 방법에 대한 글로벌 개념은 다음 섹션에 제공됩니다. [하위 도메인 브랜딩](../../subdomains-certificates/using/subdomains-branding.md).
 
 **관련 항목:**
 
@@ -74,7 +74,7 @@ Subdomain configuration is available for **production** instances only.
 
    ![](assets/subdomain6.png)
 
-하위 도메인이 제출되면 Campaign 컨트롤 패널에서 다양한 검사 및 구성 단계가 수행됩니다. 자세한 내용은 []((../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-checks-and-configuration)을 참조하십시오.
+하위 도메인이 제출되면 Campaign 컨트롤 패널에서 다양한 검사 및 구성 단계가 수행됩니다. 자세한 내용은 하위 [도메인 검사 및 구성을 참조하십시오](#subdomain-checks-and-configuration).
 
 ## CNAME을 사용한 하위 도메인 구성 {#use-cnames}
 
@@ -112,7 +112,7 @@ CNAME을 사용하여 하위 도메인을 구성하려면 다음 단계를 따�
    >
    >서버에 배치할 DNS 레코드는 30일 Campaign 컨트롤 패널에 보관됩니다. 그 기간 이후에는 하위 도메인을 처음부터 구성해야 합니다.
 
-하위 도메인이 제출되면 Campaign 컨트롤 패널에서 다양한 검사 및 구성 단계가 수행됩니다. 자세한 내용은 [](../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-checks-and-configuration)를 참조하십시오.
+하위 도메인이 제출되면 Campaign 컨트롤 패널에서 다양한 검사 및 구성 단계가 수행됩니다. 자세한 내용은 하위 [도메인 검사 및 구성을 참조하십시오](#subdomain-checks-and-configuration).
 
 ## 하위 도메인 검사 및 구성 {#subdomain-checks-and-configuration}
 
