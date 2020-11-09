@@ -2,10 +2,10 @@
 title: 하위 도메인 브랜딩
 description: 하위 도메인 브랜딩에 대해 자세히 알아보기
 translation-type: tm+mt
-source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 80%
+source-wordcount: '707'
+ht-degree: 79%
 
 ---
 
@@ -54,7 +54,7 @@ Additional information on domain configuration is available in [this documentati
 
 ## 하위 도메인의 사용 사례(Campaign Classic)(#subdomain-use-cases)
 
-Campaign Classic 인스턴스에 대한 하위 도메인을 설정할 때는 하위 도메인을 사용할 사용 사례를 선택해야 합니다(참조). [](../../subdomains-certificates/using/setting-up-new-subdomain.md)
+Campaign Classic 인스턴스에 대한 하위 도메인을 설정할 때는 하위 도메인을 사용할 사용 사례를 선택해야 합니다(새 하위 도메인 [설정 참조](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 가능한 사용 사례는 다음과 같습니다.
 
