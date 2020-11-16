@@ -2,9 +2,9 @@
 title: 하위 도메인 브랜딩
 description: 하위 도메인 브랜딩에 대해 자세히 알아보기
 translation-type: tm+mt
-source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
+source-git-commit: 3ff864e7e8c896d49c89d49800b7471d00b777e7
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '706'
 ht-degree: 79%
 
 ---
@@ -52,7 +52,7 @@ Additional information on domain configuration is available in [this documentati
 
 하위 도메인 구성 방법에 대해 질문이 있는 경우 Adobe 제공 팀에 문의하거나 고객 지원 센터에 문의하여 배달 가능 컨설팅 서비스를 요청하십시오.
 
-## 하위 도메인의 사용 사례(Campaign Classic)(#subdomain-use-cases)
+## 하위 도메인의 사용 사례(Campaign Classic){#subdomains-use-cases}
 
 Campaign Classic 인스턴스에 대한 하위 도메인을 설정할 때는 하위 도메인을 사용할 사용 사례를 선택해야 합니다(새 하위 도메인 [설정 참조](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
