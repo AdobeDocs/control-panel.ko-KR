@@ -1,9 +1,11 @@
 ---
+product: campaign
+solution: Campaign
 title: TXT 레코드 관리
 description: 도메인 소유권 확인을 위해 TXT 레코드를 관리하는 방법을 알아봅니다.
-translation-type: ht
-source-git-commit: 7c2dd60c70b5f9c0b2567df289582b972a7f76b8
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%
 
