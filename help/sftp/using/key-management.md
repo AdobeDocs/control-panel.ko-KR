@@ -1,8 +1,10 @@
 ---
+product: campaign
+solution: Campaign
 title: 키 관리
 description: SFTP 서버에 연결하기 위해 키를 관리하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 067921a32d0b99107fc148609f78ac664da717dd
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 100%
