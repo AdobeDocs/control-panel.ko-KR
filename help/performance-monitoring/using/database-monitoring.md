@@ -1,8 +1,10 @@
 ---
+product: campaign
+solution: Campaign
 title: 데이터베이스 모니터링
 description: Campaign 컨트롤 패널에서 Campaign 데이터베이스를 모니터링하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 3dca1a261c4c92104170f70e6dbd12ba72e61e7d
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 0%
