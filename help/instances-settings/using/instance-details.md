@@ -1,8 +1,10 @@
 ---
+product: campaign
+solution: Campaign
 title: 인스턴스 세부 사항
 description: 컨트롤 패널에서 인스턴스 세부 사항을 모니터링하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 94%
@@ -46,7 +48,7 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   >Campaign 컨트롤 패널 홈 페이지에 인스턴스 설정 카드가 표시되지 않으면 IMS를 의미합니다. 조직 ID는 Adobe Campaign 클래식 인스턴스와 연결되지 않습니다
+   >Campaign 컨트롤 패널 홈 페이지에 인스턴스 설정 카드가 표시되지 않으면 IMS를 의미합니다. 조직 ID는 Adobe Campaign Classic 인스턴스와 연결되지 않습니다
 
 1. 왼쪽 창에서 원하는 Campaign Classic 인스턴스를 선택합니다.
 
