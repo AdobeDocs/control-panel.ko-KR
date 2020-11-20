@@ -1,8 +1,10 @@
 ---
+product: campaign
+solution: Campaign
 title: 하위 도메인의 SSL 인증서 모니터링
 description: 하위 도메인의 SSL 인증서를 모니터링하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 93%
