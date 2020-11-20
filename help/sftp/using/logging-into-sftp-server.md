@@ -1,8 +1,10 @@
 ---
+product: campaign
+solution: Campaign
 title: SFTP 서버에 로그인
 description: SFTP 서버에 로그인하는 방법 학습
 translation-type: tm+mt
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 5%
@@ -16,7 +18,7 @@ ht-degree: 5%
 
 서버에 로그인하기 전에 다음을 확인하십시오.
 
-* SFTP 서버는 **Adobe에서 호스팅합니다**.
+* SFTP 서버는 Adobe에 **의해 호스팅됩니다**.
 * 서버에 **사용자 이름**&#x200B;이 설정되었습니다. You can check this information directly in the Control Panel, in the **Key management** tab from the SFTP Card.
 * SFTP 서버에 로그인할 **개인 및 공개 키 쌍이** 있습니다. SSH 키를 추가하는 방법에 대한 자세한 내용은 [이 섹션을](../../sftp/using/key-management.md) 참조하십시오.
 * 공개 **IP 주소가 SFTP 서버의 허용 목록** 에 추가되었습니다. 그렇지 않은 경우 허용 목록에 IP 범위를 추가하는 방법에 대한 자세한 내용은 [이 섹션을](../../sftp/using/ip-range-allow-listing.md) 참조하십시오.
@@ -24,11 +26,11 @@ ht-degree: 5%
 
 SFTP 서버에 연결하려면 다음 단계를 따르십시오.
 
-1. 제어판을 실행한 다음 카드에서 **[!UICONTROL Key Management]** 탭을 **[!UICONTROL SFTP]** 선택합니다.
+1. Campaign 컨트롤 패널을 실행한 다음 카드에서 **[!UICONTROL Key Management]** 탭을 **[!UICONTROL SFTP]** 선택합니다.
 
    ![](assets/sftp_card.png)
 
-1. SFTP 클라이언트 애플리케이션을 실행한 다음 제어판에서 서버 주소를 복사하여 붙여 넣은 다음 &quot;campaign.adobe.com&quot;을 입력한 다음 사용자 이름을 입력합니다.
+1. SFTP 클라이언트 애플리케이션을 실행한 다음 Campaign 컨트롤 패널에서 서버 주소를 복사하여 붙여 넣은 다음 &quot;campaign.adobe.com&quot;을 입력한 다음 사용자 이름을 입력합니다.
 
    ![](assets/do-not-localize/connect1.png)
 
@@ -40,7 +42,7 @@ SFTP 서버에 연결하려면 다음 단계를 따르십시오.
 
    ![](assets/do-not-localize/connect3.png)
 
-   개인 또는 공개 키의 지문을 SFTP 카드의 [키 관리] 탭에 나타나는 키 지문과 비교하여 사용하려는 키가 제어판에 저장되었는지 확인할 수 있습니다.
+   개인 또는 공개 키의 지문을 SFTP 카드의 [키 관리] 탭에 나타나는 키 지문과 비교하여 사용하려는 키가 Campaign 컨트롤 패널에 저장되었는지 확인할 수 있습니다.
 
    ![](assets/fingerprint_compare.png)
 
