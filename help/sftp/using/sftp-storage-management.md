@@ -1,9 +1,11 @@
 ---
+product: campaign
+solution: Campaign
 title: SFTP 스토리지 관리
 description: SFTP 서버 스토리지 모니터링 및 관리 방법 알아보기
-translation-type: ht
-source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 100%
 
