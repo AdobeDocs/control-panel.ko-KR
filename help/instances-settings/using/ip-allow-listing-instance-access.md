@@ -4,10 +4,10 @@ solution: Campaign
 title: IP 허용 목록
 description: 인스턴스 액세스를 위해 컨트롤 패널의 허용 목록에 IP 주소를 추가하는 방법을 배웁니다.
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -33,6 +33,8 @@ IP 주소를 허용 목록에 추가하지 않은 경우에는 해당 주소에�
 컨트롤 패널에서는 IP 주소 범위를 허용 목록에 추가하여 인스턴스에 대한 새 연결을 설정할 수 있습니다. 이렇게 하려면 아래에서 설명하는 단계를 수행합니다.
 
 IP 주소를 허용 목록에 추가하고 나면 사용자가 인스턴스에 액세스할 수 있도록 Campaign 연산자를 만들어 IP 주소에 연결할 수 있습니다.
+
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=en#instance-settings)
 
 ## 권장사항 {#best-practices}
 
@@ -91,5 +93,5 @@ IP 주소를 허용 목록에 추가하고 나면 사용자가 인스턴스에 �
 허용 목록에서 IP 범위를 삭제하려면 해당 범위를 선택한 다음 **[!UICONTROL Delete IP range]** 버튼을 클릭합니다.
 
 **관련 항목:**
-* [IP 허용 목록(튜토리얼 비디오)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
+
 * [연산자에 보안 영역 연결](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
