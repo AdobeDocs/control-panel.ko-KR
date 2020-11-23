@@ -4,10 +4,10 @@ solution: Campaign
 title: SFTP 스토리지 관리
 description: SFTP 서버 스토리지 모니터링 및 관리 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 100%
+source-wordcount: '352'
+ht-degree: 91%
 
 ---
 
@@ -24,10 +24,7 @@ ht-degree: 100%
 
 각 SFTP 서버의 사용 가능한 공간을 정기적으로 모니터링해야 합니다. 이렇게 하지 않으면 서버에 파일을 추가로 저장할 수 없거나, 이 서버의 업데이트를 사용하는 워크플로우를 정상적으로 실행하지 못할 수 있습니다.
 
-**관련 항목:**
-
-* [Campaign Standard 튜토리얼 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/monitoring-server-capacity-allow-listing-adding-ssh-key.html)
-* [Campaign Classic 튜토리얼 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/monitoring-server-capacity-allow-listing-adding-ssh-key.html)
+![](assets/do-not-localize/how-to-video.png) Campaign Classic [또는](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management) [Campaign Standard을 사용하여 비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management)
 
 ## 스토리지 용량 정보 액세스 {#accessing-storage-capacity-information}
 
