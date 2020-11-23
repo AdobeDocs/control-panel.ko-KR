@@ -4,7 +4,7 @@ solution: Campaign
 title: IP 허용 목록
 description: 인스턴스 액세스를 위해 컨트롤 패널의 허용 목록에 IP 주소를 추가하는 방법을 배웁니다.
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 94%
@@ -20,11 +20,11 @@ ht-degree: 94%
 >abstract="허용 목록에 IP 주소를 추가하여 인스턴스에 액세스합니다."
 >additional-url="https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4" text="데모 비디오 시청"
 
+## IP 허용 목록 정보 {#about-ip-allow-listing}
+
 >[!IMPORTANT]
 >
 >이 기능은 Campaign Classic 인스턴스에만 사용할 수 있습니다.
-
-## IP 허용 목록 정보 {#about-ip-allow-listing}
 
 기본적으로는 여러 IP 주소에서 Adobe Campaign Classic 인스턴스에 액세스할 수 없습니다.
 
