@@ -4,10 +4,10 @@ solution: Campaign
 title: 새 하위 도메인 설정
 description: Campaign 인스턴스용 새 하위 도메인을 설정하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 49%
+source-wordcount: '1140'
+ht-degree: 47%
 
 ---
 
@@ -28,8 +28,6 @@ ht-degree: 49%
 
 **관련 항목:**
 
-* [하위 도메인 위임(튜토리얼 비디오)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
-* [CNAME을 사용하여 하위 도메인 구성(자습서 비디오)](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
 * [하위 도메인 모니터링](../../subdomains-certificates/using/monitoring-subdomains.md)
 
 ## 반드시 알아야 할 사항 {#must-read}
@@ -50,7 +48,9 @@ Subdomain configuration is available for **production** instances only.
 
 ## 전체 하위 도메인 위임 {#full-subdomain-delegation}
 
-하위 도메인을 Adobe Campaign에 완전히 위임하려면 다음 단계를 따르십시오.
+하위 도메인을 Adobe Campaign에 완전히 위임하려면 아래 단계를 따르십시오.
+
+![](assets/do-not-localize/how-to-video.png) Campaign Classic [또는](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates) [Campaign Standard을 사용하여 비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates)
 
 1. **[!UICONTROL Subdomains & Certificates]** 카드에서 원하는 프로덕션 인스턴스를 선택하고 **[!UICONTROL Setup new subdomain]**&#x200B;을 클릭합니다.
 
@@ -80,7 +80,9 @@ Subdomain configuration is available for **production** instances only.
 
 ## CNAME을 사용한 하위 도메인 구성 {#use-cnames}
 
-CNAME을 사용하여 하위 도메인을 구성하려면 다음 단계를 따르십시오.
+CNAME을 사용하여 하위 도메인을 구성하려면 아래 단계를 따르십시오.
+
+![](assets/do-not-localize/how-to-video.png) Campaign Classic [또는](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en#subdomains-and-certificates) [Campaign Standard을 사용하여 비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en)
 
 1. **[!UICONTROL Subdomains & Certificates]** 카드에서 원하는 프로덕션 인스턴스를 선택하고 **[!UICONTROL Setup new subdomain]**&#x200B;을 클릭합니다.
 
