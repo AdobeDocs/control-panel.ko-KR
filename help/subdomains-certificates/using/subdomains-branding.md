@@ -4,7 +4,7 @@ solution: Campaign
 title: 하위 도메인 브랜딩
 description: 하위 도메인 브랜딩에 대해 자세히 알아보기
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 79%
@@ -20,11 +20,11 @@ ht-degree: 79%
 >abstract="하위 도메인 및 관련 SSL 인증서를 모니터링하는 방법을 알아봅니다."
 >additional-url="https://docs.adobe.com/content/help/ko-KR/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="하위 도메인의 SSL 인증서를 모니터링하는 방법"
 
+## 하위 도메인을 설정하는 이유 {#why-setting-up-subdomains}
+
 >[!IMPORTANT]
 >
 >Campaign 컨트롤 패널의 하위 도메인 구성은 베타에서 사용 가능하며 예고 없이 자주 업데이트하거나 수정할 수 있습니다.
-
-## 하위 도메인을 설정하는 이유 {#why-setting-up-subdomains}
 
 하위 도메인은 브랜드나 다양한 트래픽 유형(트랜잭션 메시지, 마케팅 정보 등)을 분리하는 데 사용할 수 있는 도메인의 개별 부분입니다.
 
