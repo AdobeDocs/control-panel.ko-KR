@@ -3,10 +3,10 @@ product: campaign
 solution: Campaign
 title: 제품 설명서
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 100%
+source-wordcount: '116'
+ht-degree: 89%
 
 ---
 
@@ -32,13 +32,13 @@ ht-degree: 100%
     <tr>
         <td><b>Campaign Standard</b><br/>
         <ul>
-            <li><a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/control-panel/control-panel-overview.html">Campaign Standard용 컨트롤 패널 튜토리얼 비디오</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html">Campaign Standard용 컨트롤 패널 튜토리얼 비디오</a></li>
             <li><a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/campaign-standard-home.html">Campaign Standard 제품 설명서</a></li>
         </ul>
         </td>
         <td><b>Campaign Classic</b><br/>
         <ul>
-            <li><a href="https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/control-panel/control-panel-overview.html">Campaign Classic용 컨트롤 패널 튜토리얼 비디오</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html">Campaign Classic용 컨트롤 패널 튜토리얼 비디오</a></li>
             <li><a href="https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/campaign-classic-home.html">Campaign Classic 제품 설명서</a></li>
         </ul>
         </td>
