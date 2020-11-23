@@ -4,10 +4,10 @@ solution: Campaign
 title: GPG 키 관리
 description: Adobe Campaign 내에서 데이터를 암호화하고 해독하기 위해 GPG 키를 관리하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '1221'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ GPG 암호화를 사용하면 [OpenPGP 사양을 따르는 공개/비공개 키 
 
 구현되면 전송 전에 수신 데이터의 암호를 해독하고 나가는 데이터를 암호화하여 유효한 일치하는 키 쌍 없이는 아무도 이 데이터에 액세스하지 못하도록 할 수 있습니다.
 
-![](assets/do-not-localize/how-to-video.png) Campaign Classic [또는](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html) [Campaign Standard을 사용하여 비디오에서 이 기능 살펴보기](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
+![](assets/do-not-localize/how-to-video.png) Campaign Classic [또는](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings) [Campaign Standard을 사용하여 비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings)
 
 Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 Campaign 컨트롤 패널에서 직접 마케팅 인스턴스에 GPG 키를 설치 및/또는 생성해야 합니다.
 
@@ -85,6 +85,8 @@ Campaign 컨트롤 패널을 사용하면 Adobe Campaign 인스턴스에서 나�
 
 그러면 Adobe Campaign 워크플로우에서 키를 사용할 수 있습니다. 데이터 추출 활동을 사용할 때 데이터를 암호화할 수 있습니다.
 
+![](assets/do-not-localize/how-to-video.png) Campaign Classic [또는](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings) [Campaign Standard을 사용하여 비디오에서 데이터를 암호화하는 방법 살펴보기](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)
+
 이 항목에 대한 자세한 내용은 Adobe Campaign 설명서를 참조하십시오.
 
 **Campaign Classic:**
@@ -96,8 +98,6 @@ Campaign 컨트롤 패널을 사용하면 Adobe Campaign 인스턴스에서 나�
 
 * [암호화된 데이터 관리](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [사용 사례:Campaign 컨트롤 패널에 설치된 키를 사용하여 데이터 암호화 및 내보내기](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
-
-![](assets/do-not-localize/how-to-video.png) Campaign Classic [또는](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings) [Campaign Standard을 사용하여 비디오에서 데이터를 암호화하는 방법 살펴보기](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)
 
 ## 데이터 암호 해독 {#decrypting-data}
 
