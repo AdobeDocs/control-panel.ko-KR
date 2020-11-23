@@ -4,7 +4,7 @@ solution: Campaign
 title: 인스턴스 세부 사항
 description: 컨트롤 패널에서 인스턴스 세부 사항을 모니터링하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 94%
@@ -21,11 +21,11 @@ ht-degree: 94%
 >additional-url="https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/latest-release.html" text="Campaign Classic 릴리스 정보"
 >additional-url="https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-notes.html" text="Campaign Standard 릴리스 정보"
 
+## 인스턴스 세부 사항 {#about-instance-details}
+
 >[!IMPORTANT]
 >
 >이 기능은 Campaign Classic 인스턴스에만 사용할 수 있습니다.
-
-## 인스턴스 세부 사항 {#about-instance-details}
 
 마케팅 활동을 유동적으로 진행하기 위해 Adobe Campaign Classic 인스턴스 아키텍처에 서버를 여러 개 포함할 수 있습니다. 예를 들어 인스턴스를 지원하는 마케팅, 실시간/메시지 센터 및 중간 소싱 서버를 포함할 수 있습니다.
 
