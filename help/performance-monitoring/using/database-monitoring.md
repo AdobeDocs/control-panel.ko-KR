@@ -4,9 +4,9 @@ solution: Campaign
 title: 데이터베이스 모니터링
 description: Campaign 컨트롤 패널에서 Campaign 데이터베이스를 모니터링하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 0%
 >Campaign 컨트롤 패널에 표시된 대로 제공된 데이터베이스 공간의 크기가 계약에 지정된 금액을 반영하지 않는 경우 고객 지원 센터에 문의하십시오.
 
 ## 데이터베이스 사용 모니터링 {#monitoring-instances-database}
+
+![](assets/do-not-localize/how-to-video.png) Campaign Classic [또는](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring) [Campaign Standard을 사용하여 비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring)
 
 Campaign 컨트롤 패널을 사용하면 각 캠페인 인스턴스에 대한 데이터베이스 사용을 모니터링할 수 있습니다. 이렇게 하려면 **[!UICONTROL Performance Monitoring]** 카드를 연 다음 **[!UICONTROL Databases]** 탭을 선택합니다.
 
