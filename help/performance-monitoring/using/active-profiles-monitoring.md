@@ -4,7 +4,7 @@ solution: Campaign
 title: 활성 프로필 모니터링
 description: 각 Campaign 인스턴스에 대한 최신 및 과거 활성 프로필 사용 및 진화에 대한 실시간 정보를 얻는 방법을 배웁니다.
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 100%
@@ -14,13 +14,13 @@ ht-degree: 100%
 
 # 활성 프로필 모니터링 {#active-profiles-monitoring}
 
+## 활성 프로필 정보 {#about-active-profiles}
+
 >[!IMPORTANT]
 >
 >컨트롤 패널의 활성 파일 모니터링은 베타로 제공되며, 별도의 고지 없이 자주 업데이트 및 수정될 수 있습니다.
 >
 >이 기능은 Campaign Standard 10368 빌드 및 Campaign Classic 8931 빌드에서 AWS를 통해 호스팅되는 고객에게 제공됩니다. 이전 빌드를 사용하는 경우 이 기능을 사용하려면 업그레이드해야 합니다.
-
-## 활성 프로필 정보 {#about-active-profiles}
 
 계약에 따라 각 캠페인 인스턴스에는 청구 용도로 계산되는 특정 양의 활성 프로필이 제공됩니다. 구입한 활성 프로필 수에 대한 자세한 내용은 최신 계약서를 참조하십시오.
 
