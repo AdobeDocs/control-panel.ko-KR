@@ -4,7 +4,7 @@ solution: Campaign
 title: URL 권한
 description: 컨트롤 패널에서 URL 권한을 관리하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 93%
@@ -20,11 +20,11 @@ ht-degree: 93%
 >abstract="Adobe Campaign 인스턴스가 연결할 수 있는 URL을 관리합니다."
 >additional-url="https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4" text="데모 비디오 시청"
 
+## URL 권한 {#about-url-permissions}
+
 >[!IMPORTANT]
 >
 >이 기능은 Campaign Classic 인스턴스 빌드 8850 이상에서만 사용할 수 있습니다. 이전 빌드를 사용하는 경우, 이 기능을 사용하려면 업그레이드해야 합니다.
-
-## URL 권한 {#about-url-permissions}
 
 Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 통해 호출할 수 있는 URL의 기본 목록은 제한되어 있습니다. 인스턴스는 이러한 URL이 있어야 정상 작동합니다.
 
