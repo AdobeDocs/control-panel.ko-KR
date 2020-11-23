@@ -4,10 +4,10 @@ solution: Campaign
 title: URL 권한
 description: 컨트롤 패널에서 URL 권한을 관리하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 95%
+ht-degree: 93%
 
 ---
 
@@ -32,11 +32,12 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 
 추가한 URL은 인스턴스의 구성 파일(serverConf.xml)에서 참조됩니다.
 
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=en#instance-settings)
+
 **관련 항목:**
 
 * [Campaign 서버 구성](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
 * [발신 연결 보호](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
-* [URL 권한 추가(튜토리얼 비디오)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html)
 
 ## 권장사항 {#best-practices}
 
