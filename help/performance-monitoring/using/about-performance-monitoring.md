@@ -4,10 +4,10 @@ solution: Campaign
 title: 성능 모니터링 정보
 description: Campaign 컨트롤 패널에서 인스턴스 성능을 모니터링하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 14%
+source-wordcount: '143'
+ht-degree: 11%
 
 ---
 
@@ -25,3 +25,5 @@ Campaign 컨트롤 패널 홈 페이지의 **[!UICONTROL Performance monitoring]
 >예정된 Campaign 컨트롤 패널 릴리스에서는 이 카드에서 추가 모니터링 기능을 사용할 수 있게 됩니다.
 
 또한 Campaign 컨트롤 패널을 사용하면 캠페인 인스턴스 중 하나에서 문제가 발견될 때마다 이메일 알림을 수신하도록 등록할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../performance-monitoring/using/email-alerting.md)을 참조하십시오.
+
+![](assets/do-not-localize/how-to-video.png) Campaign Classic [또는](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring) [Campaign Standard을 사용하여 비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring)
