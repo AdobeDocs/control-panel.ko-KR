@@ -4,19 +4,19 @@ solution: Campaign
 title: Campaign 컨트롤 패널 권한 관리
 description: Campaign 컨트롤 패널에 대한 권한 관리 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: b3eb3dd5144a0d29ac4c684a151525cc5a37287b
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 0%
+source-wordcount: '269'
+ht-degree: 4%
 
 ---
 
 
-# Managing permsissions to Control Panel {#managing-permissions-control-panel}
+# 컨트롤 패널에 대한 권한 관리 {#managing-permissions-control-panel}
 
 Campaign 컨트롤 패널은 캠페인 인스턴스의 모든 관리 사용자가 사용할 수 있습니다. 사용자를 관리자 그룹에 할당하고 Campaign 컨트롤 패널에 대한 액세스 권한을 부여하려면 아래 절차를 따르십시오.
 
-![](assets/do-not-localize/how-to-video.png) Campaign Classic [또는](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html?lang=en#administrator-rights) [Campaign Standard을 사용하여 비디오에서 이 기능 살펴보기](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html?lang=en#administrator-rights)
+![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](#video)
 
 1. Adobe Experience Cloud으로 [이동한](https://experiencecloud.adobe.com/)다음 **[!UICONTROL Administration]** 탭을 선택합니다.
 
@@ -61,3 +61,7 @@ Campaign 컨트롤 패널은 캠페인 인스턴스의 모든 관리 사용자�
 >[!NOTE]
 >
 >액세스를 구성한 후에는 사용자가 Adobe Experience Cloud에서 로그아웃한 후 다시 로그인해야 제어판에 액세스할 수 있습니다.
+
+## 자습서 비디오 {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
