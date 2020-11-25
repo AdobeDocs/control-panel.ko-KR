@@ -4,10 +4,10 @@ solution: Campaign
 title: GPG 키 관리
 description: Adobe Campaign 내에서 데이터를 암호화하고 해독하기 위해 GPG 키를 관리하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: c56aba50fd3b79fba996e87fed5556dc54ccc7c8
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 6%
+source-wordcount: '1116'
+ht-degree: 10%
 
 ---
 
@@ -19,8 +19,6 @@ ht-degree: 6%
 GPG 암호화를 사용하면 [OpenPGP 사양을 따르는 공개/비공개 키 쌍 시스템을 통해 데이터를 보호할 수](https://www.openpgp.org/about/standard/) 있습니다.
 
 구현되면 전송 전에 수신 데이터의 암호를 해독하고 나가는 데이터를 암호화하여 유효한 일치하는 키 쌍 없이는 아무도 이 데이터에 액세스하지 못하도록 할 수 있습니다.
-
-![](assets/do-not-localize/how-to-video.png) Campaign Classic [또는](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings) [Campaign Standard을 사용하여 비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings)
 
 Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 Campaign 컨트롤 패널에서 직접 마케팅 인스턴스에 GPG 키를 설치 및/또는 생성해야 합니다.
 
@@ -36,7 +34,7 @@ Campaign 컨트롤 패널을 사용하면 Adobe Campaign 인스턴스에서 나�
 
 이렇게 하려면 PGP 암호화 도구에서 GPG 키 쌍을 생성한 다음 공개 키를 Campaign 컨트롤 패널에 설치해야 합니다. 그런 다음 인스턴스에서 데이터를 보내기 전에 데이터를 암호화할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
-![](assets/do-not-localize/how-to-video.png) 비디오에서 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html?lang=en#instance-settings) 또는 [Campaign Standard을 사용하여 GPG 키를 생성 및 설치하는 방법 살펴보기](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html?lang=en#instance-settings)
+![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](#video-generate-key)
 
 1. OpenPGP 사양 다음에 나오는 PGP 암호화 도구를 사용하여 공개/ [개인 키 쌍을 생성합니다](https://www.openpgp.org/about/standard/). 이렇게 하려면 GPG 유틸리티 또는 GNuGP 소프트웨어를 설치합니다.
 
@@ -85,7 +83,7 @@ Campaign 컨트롤 패널을 사용하면 Adobe Campaign 인스턴스에서 나�
 
 그러면 Adobe Campaign 워크플로우에서 키를 사용할 수 있습니다. 데이터 추출 활동을 사용할 때 데이터를 암호화할 수 있습니다.
 
-![](assets/do-not-localize/how-to-video.png) Campaign Classic [또는](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings) [Campaign Standard을 사용하여 비디오에서 데이터를 암호화하는 방법 살펴보기](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)
+![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](#video-use-key)
 
 이 항목에 대한 자세한 내용은 Adobe Campaign 설명서를 참조하십시오.
 
@@ -108,7 +106,7 @@ Campaign 컨트롤 패널을 사용하면 Adobe Campaign 인스턴스로 들어�
 * 공개 **키는** Campaign으로 전송할 데이터를 암호화하는 데 사용하는 외부 시스템과 공유됩니다.
 * Campaign에서 **개인 키를** 사용하여 들어오는 암호화된 데이터를 해독합니다.
 
-![](assets/do-not-localize/how-to-video.png) Campaign Classic [또는](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#decrypting-data) [Campaign Standard을 사용하여 비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings)
+![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](#video-decrypt)
 
 Campaign 컨트롤 패널에서 키 쌍을 생성하려면 다음 단계를 수행합니다.
 
@@ -175,3 +173,17 @@ Campaign 컨트롤 패널에서 키 쌍을 생성하려면 다음 단계를 수�
 >[!IMPORTANT]
 >
 >키를 제거하기 전에 오류가 발생하지 않도록 Adobe Campaign 워크플로우에서 사용되지 않도록 하십시오.
+
+## 튜토리얼 비디오 {#video}
+
+### 데이터 암호화에 대한 GPG 키 생성 및 설치 {#video-generate-key}
+
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
+
+### GPG 키를 사용하여 데이터 암호화 {#video-use-key}
+
+>[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
+
+### 데이터 암호 해독 {#video-decrypt}
+
+>[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
