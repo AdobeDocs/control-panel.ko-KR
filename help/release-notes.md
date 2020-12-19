@@ -5,8 +5,8 @@ title: 컨트롤 패널 릴리스
 translation-type: tm+mt
 source-git-commit: 1e1421494e5a6e357e56a77ee192475a03d18a28
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 95%
 
 **데이터베이스 모니터링 개선**
 
-데이터베이스 모니터링은 데이터베이스에서 공간을 사용하는 리소스에 대한 자세한 정보를 얻을 수 있는 추가 지표를 통해 향상되었습니다. [자세한 내용](performance-monitoring/using/database-monitoring.md)
+데이터베이스 모니터링은 데이터베이스에서 공간을 사용하는 리소스에 대한 자세한 정보를 얻을 수 있는 추가 지표와 함께 개선되었습니다. [자세한 내용](performance-monitoring/using/database-monitoring.md)
 
 ## 2020년 6월 {#june-2020}
 
