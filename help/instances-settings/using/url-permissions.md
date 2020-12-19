@@ -6,8 +6,8 @@ description: 컨트롤 패널에서 URL 권한을 관리하는 방법 알아보�
 translation-type: tm+mt
 source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -58,7 +58,7 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 
    >[!NOTE]
    >
-   >Campaign 컨트롤 패널 홈 페이지에 인스턴스 설정 카드가 표시되지 않으면 IMS를 의미합니다. 조직 ID는 Adobe Campaign Classic 인스턴스와 연결되지 않습니다
+   >Campaign 컨트롤 패널 홈 페이지에 인스턴스 설정 카드가 표시되지 않으면 IMS를 의미합니다. 조직 ID는 Adobe Campaign Classic 인스턴스와 연결되어 있지 않습니다.
    >
    >인스턴스가 연결할 수 있는 모든 외부 URL이 <b><span class="uicontrol">URL 권한</span></b> 탭에 나열됩니다. Campaign의 작동에 필요한 URL(예: 인프라의 각 요소 간 연결)은 이 목록에 포함되지 않습니다.
 
