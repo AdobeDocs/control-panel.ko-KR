@@ -6,8 +6,8 @@ description: 각 Campaign 인스턴스에 대한 최신 및 과거 활성 프로
 translation-type: tm+mt
 source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
