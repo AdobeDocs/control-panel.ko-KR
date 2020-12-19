@@ -6,8 +6,8 @@ description: Adobe Campaign 내에서 데이터를 암호화하고 해독하기 
 translation-type: tm+mt
 source-git-commit: e41f92fc80f77a8d4a4067360725ce3d6efe3f4c
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
