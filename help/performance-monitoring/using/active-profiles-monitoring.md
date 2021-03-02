@@ -4,10 +4,10 @@ solution: Campaign
 title: 활성 프로필 모니터링
 description: 각 Campaign 인스턴스에 대한 최신 및 과거 활성 프로필 사용 및 진화에 대한 실시간 정보를 얻는 방법을 배웁니다.
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 90c6d50dcb0d70616745170b5c35e42b7e5d784e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '387'
+ht-degree: 97%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 >활성 프로필은 인스턴스에서 매일 실행되는 전용 기술 워크플로우를 기반으로 계산됩니다.
 >
 >* Campaign Standard를 위한 [&quot;청구&quot;](https://docs.adobe.com/help/ko-KR/campaign-standard/using/administrating/application-settings/technical-workflows.html) 워크플로우
->* Campaign Classic에 대한 [&quot;활성 청구 프로필 수&quot;](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/automating-with-workflows/technical-workflows/deliveries.html) 워크플로우입니다.
+>* Campaign Classic에 대한 [&quot;활성 청구 프로필 수&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) 워크플로우입니다.
 
 
 아래쪽 영역은 지난 30일 동안 활성 프로필 사용의 그래픽 표현을 제공합니다. 오른쪽 위 모서리의 사용 가능한 필터를 사용하여 표시된 기간을 1년으로 변경할 수 있습니다.
