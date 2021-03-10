@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: 새 하위 도메인 설정
 description: Campaign 인스턴스용 새 하위 도메인을 설정하는 방법 알아보기
+feature: 'Campaign 컨트롤 패널   '
+role: 건축가
+level: 경험
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1144'
+ht-degree: 47%
 
 ---
 
@@ -60,7 +63,7 @@ ht-degree: 0%
 
    ![](assets/subdomain3.png)
 
-1. 조직에서 사용하는 호스팅 솔루션에서 원하는 하위 도메인 및 이름 서버를 만듭니다. 이렇게 하려면 마법사에 표시된 Adobe Nameserver 정보를 복사하여 붙여넣습니다. 호스팅 솔루션에서 하위 도메인을 만드는 방법에 대한 자세한 내용은 [튜토리얼 비디오](https://video.tv.adobe.com/v/30175?captions=kor)를 참조하십시오.
+1. 조직에서 사용하는 호스팅 솔루션에서 원하는 하위 도메인 및 이름 서버를 만듭니다. 이렇게 하려면 마법사에 표시된 Adobe Nameserver 정보를 복사하여 붙여넣습니다. 호스팅 솔루션에서 하위 도메인을 만드는 방법에 대한 자세한 내용은 [튜토리얼 비디오](https://video.tv.adobe.com/v/30175)를 참조하십시오.
 
    ![](assets/subdomain4.png)
 
