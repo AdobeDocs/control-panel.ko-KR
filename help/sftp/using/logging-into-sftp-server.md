@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: SFTP 서버에 로그인
 description: SFTP 서버에 로그인하는 방법 알아보기
+feature: 'Campaign 컨트롤 패널   '
+role: 건축가
+level: 경험
 translation-type: tm+mt
-source-git-commit: 54d3239a566491c854e5d46c297e72afeff83792
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '352'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +19,7 @@ ht-degree: 0%
 
 아래 단계에서는 SFTP 클라이언트 응용 프로그램을 통해 SFTP 서버를 연결하는 방법을 자세히 설명합니다.
 
-![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](https://video.tv.adobe.com/v/27263?quality=12&captions=kor)
+![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](https://video.tv.adobe.com/v/27263?quality=12)
 
 서버에 로그인하기 전에 다음을 확인하십시오.
 
