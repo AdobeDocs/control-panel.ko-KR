@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: 데이터베이스 모니터링
 description: Campaign 컨트롤 패널에서 Campaign 데이터베이스를 모니터링하는 방법 알아보기
+feature: 'Campaign 컨트롤 패널   '
+role: 건축가
+level: 경험
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -68,7 +71,7 @@ Campaign 컨트롤 패널을 사용하면 각 캠페인 인스턴스에 대한 �
 
 * **[!UICONTROL System resources]**
 
-   시스템 리소스가 데이터베이스 공간의 많은 부분을 차지하는 경우 고객 지원 센터에 문의하는 것이 좋습니다.
+   시스템 리소스에 데이터베이스 공간의 많은 부분이 사용되는 경우 고객 지원 센터에 연결하는 것이 좋습니다.
 
 * **[!UICONTROL Out-of-the-box tables]** 기본적으로 캠페인 인스턴스와 함께 제공됩니다.
 * **[!UICONTROL Temporary tables]** 워크플로우 및 게재별로 작성됨
