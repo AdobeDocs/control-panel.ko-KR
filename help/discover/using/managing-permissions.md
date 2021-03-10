@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: Campaign 컨트롤 패널 권한 관리
 description: Campaign 컨트롤 패널 권한을 관리하는 방법 알아보기
+feature: 'Campaign 컨트롤 패널   '
+role: 건축가
+level: 중간
 translation-type: tm+mt
-source-git-commit: b3eb3dd5144a0d29ac4c684a151525cc5a37287b
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '273'
+ht-degree: 5%
 
 ---
 
