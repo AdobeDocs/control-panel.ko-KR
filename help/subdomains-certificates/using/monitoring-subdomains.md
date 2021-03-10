@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: 하위 도메인의 SSL 인증서 모니터링
 description: 하위 도메인의 SSL 인증서를 모니터링하는 방법 알아보기
+feature: 'Campaign 컨트롤 패널   '
+role: 건축가
+level: 경험
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '146'
+ht-degree: 17%
 
 ---
 
@@ -24,7 +27,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->인증서 날짜가 없는 하위 도메인을 사용하는 것은 이러한 하위 도메인이 배달 문제가 있을 수 있음을 의미하므로 Adobe은 권장하지 않습니다.
+>인증서 날짜가 없는 하위 도메인을 사용하는 것은 이러한 하위 도메인이 배달 문제가 있을 수 있음을 의미하므로 Adobe에서는 권장하지 않습니다.
 
 확인을 시작할 때 하위 도메인이 올바르게 구성되었는지 확인하기 위해(인스턴스 테넌트 확인, 이메일 전송 테스트 등) 여러 작업이 수행됩니다.
 
