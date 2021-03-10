@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: 컨트롤 패널 액세스
 description: 컨트롤 패널에 액세스하는 방법 알아보기
+feature: 'Campaign 컨트롤 패널   '
+role: 건축가
+level: 초급
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '295'
+ht-degree: 99%
 
 ---
 
