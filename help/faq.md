@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: 컨트롤 패널 FAQ
 description: 컨트롤 패널 관련 일반적인 질문
-translation-type: ht
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
-workflow-type: ht
-source-wordcount: '629'
-ht-degree: 100%
+feature: 'Campaign 컨트롤 패널   '
+role: 건축가
+level: 중간
+translation-type: tm+mt
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+workflow-type: tm+mt
+source-wordcount: '633'
+ht-degree: 99%
 
 ---
 
@@ -24,7 +27,7 @@ Adobe Experience Cloud에 처음 로그인할 때 인스턴스에 제공되는 �
 
 **IMS 조직 ID는 어디에서 찾을 수 있습니까?**
 
-[Adobe Experience Cloud 홈](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**(으)로 이동하는 방법이 있습니다. 관리 **[!UICONTROL Quick Access]** 섹션 아래쪽에서 IMS 조직 ID를 확인할 수 있습니다. [Adobe Experience Cloud 설명서](https://marketing.adobe.com/resources/help/ko_KR/mcloud/organizations.html)에서 자세한 정보를 찾을 수 있습니다.
+[Adobe Experience Cloud 홈](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**(으)로 이동하는 방법이 있습니다. 관리 **[!UICONTROL Quick Access]** 섹션 아래쪽에서 IMS 조직 ID를 확인할 수 있습니다. [Adobe Experience Cloud 설명서](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)에서 자세한 정보를 찾을 수 있습니다.
 
 **관리 콘솔**&#x200B;을 시작하여 ID를 확인할 수도 있습니다. IMS 조직 ID는 https://adminconsole.adobe.com/xxx@AdobeOrg/overview와 같은 형태로 URL에 표시됩니다.
 
