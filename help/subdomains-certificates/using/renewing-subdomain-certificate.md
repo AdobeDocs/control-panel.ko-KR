@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: 하위 도메인의 SSL 인증서 갱신
 description: 하위 도메인의 SSL 인증서를 갱신하는 방법 알아보기
+feature: 'Campaign 컨트롤 패널   '
+role: 건축가
+level: 경험
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '862'
+ht-degree: 90%
 
 ---
 
