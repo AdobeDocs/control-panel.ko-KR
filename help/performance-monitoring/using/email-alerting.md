@@ -3,18 +3,21 @@ product: campaign
 solution: Campaign
 title: 이메일 경고
 description: 캠페인 인스턴스 문제가 발생하는 경우 이메일 알림을 받는 방법에 대해 알아봅니다.
+feature: 'Campaign 컨트롤 패널   '
+role: 건축가
+level: 경험
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '170'
+ht-degree: 3%
 
 ---
 
 
 # 이메일 경고 {#email-alerting}
 
-Campaign 컨트롤 패널은 작업에 대한 유연성을 높이기 위해 실시간 이메일 알림 기능을 갖추고 있습니다.
+Campaign 컨트롤 패널은 작업에 보다 유연하게 대처할 수 있도록 실시간 이메일 경고 기능을 갖추고 있습니다.
 
 이러한 경고를 구독하려면 다음 단계를 수행합니다.
 
