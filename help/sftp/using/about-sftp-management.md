@@ -4,11 +4,14 @@ solution: Campaign
 title: SFTP 관리
 description: Campaign 컨트롤 패널의 SFTP 관리에 대한 자세한 내용
 testing: SSECD-836 2
+feature: 'Campaign 컨트롤 패널   '
+role: 건축가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '172'
+ht-degree: 4%
 
 ---
 
