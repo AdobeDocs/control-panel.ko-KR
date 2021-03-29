@@ -7,7 +7,7 @@ feature: 'Campaign 컨트롤 패널   '
 role: 건축가
 level: 초급
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: c6401d8aba84e414f37eada9da593c353dcf3080
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 99%
@@ -36,7 +36,7 @@ ht-degree: 99%
 >
 >최신 Campaign 빌드로 업그레이드하지 않아도 컨트롤 패널에 액세스할 수 있습니다.
 
-<table>
+<table style="table-layout:fixed">
 <tr>
     <td>
         <a href="../../discover/using/accessing-control-panel.md"><img alt="조건" src="assets/do-not-localize/discover.png"/></a>
