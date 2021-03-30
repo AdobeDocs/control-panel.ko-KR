@@ -7,10 +7,10 @@ feature: 'Campaign 컨트롤 패널   '
 role: 건축가
 level: 초급
 translation-type: tm+mt
-source-git-commit: c6401d8aba84e414f37eada9da593c353dcf3080
+source-git-commit: 56797d4d418f353738a241534eab3938fc5f747f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,9 +32,10 @@ ht-degree: 99%
 * 필요에 따라 액세스 설정을 제어하여 보안을 강화할 수 있습니다.
 
 >[!NOTE]
->컨트롤 패널은 관리자만 액세스 가능하며, AWS에서 호스팅되는 모든 고객에게 제공됩니다. 단, 아직 지원되지 않는 하이브리드 환경에서는 컨트롤 패널이 제공되지 않습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 섹션](../../discover/using/managing-permissions.md)에 자세히 설명되어 있습니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 섹션](../../faq.md)에 자세히 나와 있는 단계를 따르십시오.
 >
->최신 Campaign 빌드로 업그레이드하지 않아도 컨트롤 패널에 액세스할 수 있습니다.
+>Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 섹션](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)에 자세히 설명되어 있습니다.
+>
+>Campaign Classic의 경우 인스턴스는 AWS에서 호스팅되어야 하며 최신 [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html) 빌드 또는 [최신 GA 빌드(21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)로 업그레이드되어야 합니다. [이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version)에서 자신의 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](../../faq.md)에 설명된 단계를 따르십시오.
 
 <table style="table-layout:fixed">
 <tr>
