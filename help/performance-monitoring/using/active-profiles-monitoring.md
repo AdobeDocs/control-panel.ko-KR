@@ -7,10 +7,10 @@ feature: 'Campaign 컨트롤 패널   '
 role: 건축가
 level: 경험
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 5a74107daaff7e3470e1db45f4ef8d75e40c83c1
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,9 +21,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->컨트롤 패널의 활성 파일 모니터링은 베타로 제공되며, 별도의 고지 없이 자주 업데이트 및 수정될 수 있습니다.
->
->이 기능은 Campaign Standard 10368 빌드 및 Campaign Classic 8931 빌드에서 AWS를 통해 호스팅되는 고객에게 제공됩니다. 이전 빌드를 사용하는 경우 이 기능을 사용하려면 업그레이드해야 합니다.
+>컨트롤 패널의 활성 파일 모니터링은 베타로 제공되며, 별도의 고지 없이 자주 업데이트 및 수정될 수 있습니다. Campaign Standard 10368 빌드에서 사용할 수 있습니다.
 
 계약에 따라 각 캠페인 인스턴스에는 청구 용도로 계산되는 특정 양의 활성 프로필이 제공됩니다. 구입한 활성 프로필 수에 대한 자세한 내용은 최신 계약서를 참조하십시오.
 
