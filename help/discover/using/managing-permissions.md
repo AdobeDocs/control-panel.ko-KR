@@ -7,7 +7,7 @@ feature: 'Campaign 컨트롤 패널   '
 role: 건축가
 level: 중간
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 5%
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 Campaign 컨트롤 패널은 캠페인 인스턴스의 모든 관리 사용자가 사용할 수 있습니다. 사용자를 관리자 그룹에 할당하고 Campaign 컨트롤 패널에 대한 액세스 권한을 부여하려면 아래 절차를 따르십시오.
 
-![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](#video)
+![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](../../discover/using/managing-permissions.md#video)
 
 1. [Adobe Experience Cloud](https://experiencecloud.adobe.com/)으로 이동한 다음 **[!UICONTROL Administration]** 탭을 선택합니다.
 
