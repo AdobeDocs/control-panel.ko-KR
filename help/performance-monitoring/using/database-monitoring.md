@@ -7,9 +7,9 @@ feature: 'Campaign 컨트롤 패널   '
 role: 건축가
 level: 경험
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -45,13 +45,9 @@ Campaign 컨트롤 패널을 사용하면 각 캠페인 인스턴스에 대한 �
 >
 >이 대시보드의 데이터는 캠페인 인스턴스에서 실행되는 **[!UICONTROL Database cleanup technical workflow]**&#x200B;을 기준으로 업데이트됩니다([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) 및 [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html) 설명서 참조).
 >
->워크플로우가 **[!UICONTROL Used Space]** 및 **[!UICONTROL Provided Space]** 지표 아래로 실행된 마지막 시간을 확인할 수 있습니다. 워크플로우가 3일 이상 실행된 적이 없는 경우 워크플로우가 실행 중이 아닌 이유를 조사할 수 있도록 Adobe 고객 지원 센터에 문의하는 것이 좋습니다.
+>또한, 작업 과정이 **[!UICONTROL Used Space]** 및 **[!UICONTROL Provided Space]** 지표 아래로 실행된 마지막 시간에 데이터베이스 중 하나가 c에 도달하면 알림을 받을 수 있습니다. 워크플로우가 3일 이상 실행된 적이 없는 경우 워크플로우가 실행 중이 아닌 이유를 조사할 수 있도록 Adobe 고객 지원 센터에 문의하는 것이 좋습니다.
 
 아래 설명된 추가 지표를 이 대시보드에서 사용하여 인스턴스의 데이터베이스 사용을 분석할 수 있습니다.
-
-* [데이터베이스 사용](../../performance-monitoring/using/database-monitoring.md#database-utilization)
-* [저장소 개요](../../performance-monitoring/using/database-monitoring.md#storage-overview)
-* [상위 10개의 임시 리소스](../../performance-monitoring/using/database-monitoring.md#top-10)
 
 ### 데이터베이스 사용률 {#database-utilization}
 
@@ -130,7 +126,7 @@ Campaign Standard 및 Classic에서는 데이터베이스 디스크 공간 과�
 
 * 데이터베이스 정리 기술 워크플로([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [데이터베이스 유지 관리 안내서](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
-* [데이터베이스 성능 문제 해결](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html) (Campaign Classic)
+* [데이터베이스 성능 문제 해결](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html) (Campaign Classic)
 * [데이터베이스 관련 옵션](https://docs.adobe.com/help/en/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
 * 데이터 유지([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/data-retention.html) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html#data-retention))
 
