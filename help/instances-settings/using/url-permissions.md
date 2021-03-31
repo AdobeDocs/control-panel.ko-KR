@@ -7,10 +7,10 @@ feature: 'Campaign 컨트롤 패널   '
 role: 건축가
 level: 중간
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 93%
+source-wordcount: '607'
+ht-degree: 91%
 
 ---
 
@@ -40,7 +40,7 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 **관련 항목:**
 
 * [Campaign 서버 구성](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
-* [발신 연결 보호](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
+* [발신 연결 보호](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html#outgoing-connection-protection)
 
 ## 권장사항 {#best-practices}
 
