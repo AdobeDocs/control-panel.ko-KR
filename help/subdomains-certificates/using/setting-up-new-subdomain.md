@@ -3,17 +3,17 @@ product: campaign
 solution: Campaign
 title: 새 하위 도메인 설정
 description: Campaign 인스턴스용 새 하위 도메인을 설정하는 방법 알아보기
-feature: 'Campaign 컨트롤 패널   '
-role: 건축가
-level: 경험
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 47%
+feature: Campaign 컨트롤 패널
+role: Architect
+level: Experienced
+exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '1142'
+ht-degree: 100%
 
 ---
-
 
 # 새 하위 도메인 설정 {#setting-up-subdomain}
 
@@ -27,9 +27,9 @@ ht-degree: 47%
 
 >[!IMPORTANT]
 >
->Campaign 컨트롤 패널의 하위 도메인 구성은 베타에서 볼 수 있으며 자주 업데이트되거나 예고 없이 변경될 수 있습니다.
+>베타에서 Campaign 컨트롤 패널의 하위 도메인 위임 기능을 사용할 수 있으며, 별도의 공지 없이 업데이트 및 수정될 수 있습니다.
 
-이 페이지에서는 전체 하위 도메인 위임 또는 CNAME을 사용하여 새 하위 도메인을 설정하는 방법에 대한 정보를 제공합니다. 이 두 가지 방법에 대한 글로벌 개념이 이 섹션에 제공됩니다.[하위 도메인 브랜딩](../../subdomains-certificates/using/subdomains-branding.md).
+이 페이지에서는 전체 하위 도메인 위임 또는 CNAME을 사용하여 새 하위 도메인을 설정하는 방법에 대한 정보를 제공합니다. 이 두 가지 방법에 대한 전체적인 개념이 다음의 섹션에 제공됩니다.[하위 도메인 브랜딩](../../subdomains-certificates/using/subdomains-branding.md).
 
 **관련 항목:**
 
@@ -37,11 +37,11 @@ ht-degree: 47%
 
 ### 인스턴스 선택
 
-하위 도메인 구성은 **production** 인스턴스에만 사용할 수 있습니다.
+ **프로덕션** 인스턴스의 경우에만 하위 도메인을 위임할 수 있습니다.
 
-마법사에서 선택하는 인스턴스에 이전에 설정한 하위 도메인이 없는 경우, 처음 구성된 하위 도메인이 해당 인스턴스에 대해 **기본 하위 도메인**&#x200B;이 되고 나중에 변경할 수 없습니다.
+마법사에서 선택하는 인스턴스에 이전에 설정한 하위 도메인이 없는 경우, 처음 구성된 하위 도메인이 해당 인스턴스에 대해 **주 하위 도메인**&#x200B;이 되고 나중에 변경할 수 없습니다.
 
-따라서 이 주 하위 도메인을 사용하는 다른 하위 도메인에 대해 **역방향 DNS 레코드**&#x200B;이 생성됩니다. **다른 하위 도메인용 회신 주소 및 바운스 주소는 주 하위 도메인에서 생성됩니다.**
+따라서 이 주 하위 도메인을 사용하는 다른 하위 도메인에 대해 **역방향 DNS 레코드**&#x200B;이 만들어집니다. 다른 하위 도메인용 **회신 주소 및 바운스 주소**&#x200B;는 주 하위 도메인에서 생성됩니다.
 
 ### 이름 서버 구성
 
@@ -53,9 +53,9 @@ ht-degree: 47%
 
 하위 도메인을 Adobe Campaign에 완전히 위임하려면 아래 단계를 따르십시오.
 
-![](assets/do-not-localize/how-to-video.png) Campaign Classicor  [Campaign Standard을 사용하여 비디오에서 이 ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates)   [기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates)
+비디오에서 ![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/control-panel/subdomains-and-certificates/subdomains-branding.html?lang=ko#subdomains-and-certificates) 또는 [Campaign Standard](https://experienceleague.adobe.com/docs/control-panel/subdomains-and-certificates/subdomains-branding.html?lang=ko#subdomains-and-certificates)를 사용하여 이 기능 살펴보기
 
-1. **[!UICONTROL Subdomains & Certificates]** 카드에서 원하는 프로덕션 인스턴스를 선택하고 **[!UICONTROL Setup new subdomain]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Subdomains & Certificates]**&#x200B;카드에서 원하는 프로덕션 인스턴스를 선택하고 **[!UICONTROL Setup new subdomain]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/subdomain1.png)
 
@@ -67,9 +67,9 @@ ht-degree: 47%
 
    ![](assets/subdomain4.png)
 
-1. 해당 Adobe 이름 서버 정보를 사용하여 하위 도메인을 만든 후 **[!UICONTROL Next]**&#x200B;을 클릭합니다.
+1. 해당 Adobe 이름 서버 정보를 사용하여 하위 도메인을 만든 후 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-1. Campaign Classic 인스턴스를 선택한 경우 하위 도메인에 대해 원하는 사용 사례를 선택합니다.**마케팅 통신** 또는 **거래 및 운영 통신**. 하위 도메인의 사용 사례에 대한 글로벌 개념은 [이 섹션](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)에 있습니다.
+1. Campaign Classic 인스턴스를 선택한 경우, 다음과 같은 하위 도메인에 대해 원하는 사용 사례를 선택합니다.**마케팅 통신** 또는 **거래 및 운영 통신**. 하위 도메인의 사용 사례에 대한 전체 개념은 [이 섹션](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)에서 살펴볼 수 있습니다.
 
    ![](assets/subdomain5.png)
 
@@ -85,21 +85,21 @@ ht-degree: 47%
 
 CNAME을 사용하여 하위 도메인을 구성하려면 아래 단계를 따르십시오.
 
-![](assets/do-not-localize/how-to-video.png) Campaign Classicor  [Campaign Standard을 사용하여 비디오에서 이 ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en#subdomains-and-certificates)   [기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en)
+비디오에서 ![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/control-panel/subdomains-and-certificates/subdomains-branding.html?lang=ko#subdomains-and-certificates) 또는 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=ko)를 사용하여 이 기능 살펴보기
 
-1. **[!UICONTROL Subdomains & Certificates]** 카드에서 원하는 프로덕션 인스턴스를 선택하고 **[!UICONTROL Setup new subdomain]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Subdomains & Certificates]** 카드에서 원하는 프로덕션 인스턴스를 선택하고 **[!UICONTROL Setup new subdomain]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/subdomain1.png)
 
-1. **[!UICONTROL CNAME]** 메서드를 선택한 다음 **[!UICONTROL Next]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL CNAME]** 방법을 선택한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/cname-method-selection.png)
 
-1. Campaign Classic 인스턴스를 선택한 경우 하위 도메인에 대해 원하는 사용 사례를 선택합니다.**마케팅 통신** 또는 **거래 및 운영 통신**. 하위 도메인의 사용 사례에 대한 글로벌 개념은 [이 섹션](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)에 있습니다.
+1. Campaign Classic 인스턴스를 선택한 경우, 다음과 같은 하위 도메인에 대해 원하는 사용 사례를 선택합니다.**마케팅 통신** 또는 **거래 및 운영 통신**. 하위 도메인의 사용 사례에 대한 전체 개념은 [이 섹션](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)에서 살펴볼 수 있습니다.
 
    ![](assets/cname-use-case.png)
 
-1. 만든 하위 도메인을 호스팅 솔루션에 입력하고 **[!UICONTROL Next]**&#x200B;을 클릭합니다.
+1. 만든 하위 도메인을 호스팅 솔루션에 입력하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    설정할 하위 도메인의 **전체 이름**&#x200B;을 입력해야 합니다. 예를 들어 &quot;usoffers.email.weretail.com&quot; 하위 도메인을 구성하려면 &quot;usoffers.email.weretail.com&quot;을 입력합니다.
 
@@ -109,39 +109,39 @@ CNAME을 사용하여 하위 도메인을 구성하려면 아래 단계를 따�
 
    ![](assets/cname-generate-record.png)
 
-1. 이전 단계의 모든 DNS 레코드가 도메인 호스팅 솔루션에 생성되었는지 확인합니다. 모든 것이 올바르게 구성된 경우 첫 번째 문을 선택한 다음 **[!UICONTROL Submit]**&#x200B;을 클릭하여 확인합니다.
+1. 이전 단계의 모든 DNS 레코드가 도메인 호스팅 솔루션에 생성되었는지 확인합니다. 모든 것이 올바르게 구성된 경우, 첫 번째 문을 선택한 다음 **[!UICONTROL Submit]**&#x200B;을(를) 클릭하여 확인합니다.
 
    ![](assets/cname-confirmation.png)
 
    >[!NOTE]
    >
-   >나중에 레코드를 만들고 하위 도메인 구성을 제출하려면 두 번째 문을 선택하고 **[!UICONTROL Submit later]**&#x200B;을 클릭합니다. 그런 다음 하위 도메인 관리 화면 **[!UICONTROL Processing]** 영역에서 바로 하위 도메인 구성을 다시 시작할 수 있습니다.
+   >나중에 레코드를 만들고 하위 도메인 구성을 제출하려면 두 번째 문을 선택하고 **[!UICONTROL Submit later]**&#x200B;을(를) 클릭합니다. 그런 다음 하위 도메인 관리 화면 **[!UICONTROL Processing]** 영역에서 바로 하위 도메인 구성을 다시 시작할 수 있습니다.
    >
-   >서버에 배치할 DNS 레코드는 Campaign 컨트롤 패널에 30일 동안 보관됩니다. 이 기간이 지나면 하위 도메인을 처음부터 구성해야 합니다.
+   >서버에 배치할 DNS 레코드는 Campaign 컨트롤 패널에 30일 동안 보관됩니다. 해당 기간이 지나면 하위 도메인을 처음부터 구성해야 합니다.
 
 하위 도메인을 제출하면 Campaign 컨트롤 패널에서 다양한 검사 및 구성 단계를 수행합니다. 자세한 내용은 [하위 도메인 확인 및 구성](#subdomain-checks-and-configuration)을 참조하십시오.
 
-## 하위 도메인 검사 및 구성 {#subdomain-checks-and-configuration}
+## 하위 도메인 확인 및 구성 {#subdomain-checks-and-configuration}
 
-1. 하위 도메인이 제출되면 Campaign 컨트롤 패널은 Adobe NS 레코드를 올바르게 가리키는지, 이 하위 도메인에 대해 SOA(Start of Authority) 레코드가 없는지 확인합니다.
+1. 하위 도메인을 제출하면 Campaign 컨트롤 패널에서 이 하위 도메인이 Adobe NS 레코드를 올바르게 가리키는지와 이 하위 도메인에 해당하는 SOA(권한 시작) 레코드가 없는지를 확인합니다.
 
    >[!NOTE]
    >
-   >하위 도메인 구성이 실행되지만 성능 문제를 방지하기 위해 Campaign 컨트롤 패널을 통한 다른 요청은 큐에 입력되어 하위 도메인 구성이 완료된 후에만 수행됩니다.
+   >하위 도메인 위임을 실행하는 동안에는 성능 문제를 방지하기 위해 Campaign 컨트롤 패널을 통해 제출하는 다른 요청은 큐에 저장되며 하위 도메인 위임이 완료된 후에만 수행됩니다.
 
-1. 이 두 가지 사항이 정상적으로 확인되면 컨트롤 패널에서 DNS 레코드, 추가 URL, 받은 편지함 등을 사용하여 하위 도메인 설정을 시작합니다.
+1. 이 두 가지 사항이 성공적으로 확인되면 Campaign 컨트롤 패널에서 DNS 레코드, 추가 URL, 받은 편지함 등으로 하위 도메인 설정을 시작합니다.
 
    ![](assets/subdomain7.png)
 
-   하위 도메인 구성 **[!UICONTROL Details]** 단추를 클릭하여 구성 진행 상태에 대한 자세한 내용을 볼 수 있습니다.
+   하위 도메인 구성&#x200B;**[!UICONTROL Details]** 버튼을 클릭하면 구성 진행에 관해 자세히 확인할 수 있습니다.
 
    ![](assets/subdomain_audit.png)
 
-1. 결국, **게재 가능성 팀은** 새로운 하위 도메인을 감사하기 위해 통보 받게 됩니다. 감사 프로세스는 하위 도메인을 구성한 후 영업일 기준으로 최대 10일이 소요될 수 있습니다.
+1. 그러면 **게재 팀은** 새로운 하위 도메인을 감사하기 위해 알림을 받습니다. 감사 프로세스는 하위 도메인이 위임된 후 영업일 기준으로 최대 10일이 소요됩니다.
 
    >[!IMPORTANT]
    >
-   >수행되는 전달 검사는 피드백 루프 및 스팸 불만 사항 루프 테스트를 포함합니다. 그러므로 감사가 완료되기 전에는 하위 도메인을 사용하지 않는 것이 좋습니다. 감사 완료 전에 하위 도메인을 사용하면 하위 도메인 평판이 낮아질 수 있기 때문입니다.
+   >이 프로세스의 게재 확인에는 피드백 루프, 스팸 위반 루프 테스트 등이 포함됩니다. 그러므로 감사가 완료되기 전에는 하위 도메인을 사용하지 않는 것이 좋습니다. 감사 완료 전에 하위 도메인을 사용하면 하위 도메인 평판이 낮아질 수 있기 때문입니다.
 
 1. 프로세스가 종료되면 하위 도메인이 Adobe Campaign 인스턴스에서 사용 가능하도록 구성되며, 아래 요소가 작성됩니다.
 
@@ -161,6 +161,6 @@ CNAME을 사용하여 하위 도메인을 구성하려면 아래 단계를 따�
 
 ## 문제 해결 {#troubleshooting}
 
-* 하위 도메인 구성은 통과되지만 하위 도메인이 확인되지 않는 경우도 있습니다. 하위 도메인은 오류에 대한 정보를 제공하는 작업 로그와 함께 **[!UICONTROL Configured]** 목록에 유지됩니다. 이 문제를 해결하기가 어렵다면 고객 지원 센터에 문의하십시오.
+* 하위 도메인이 구성되었지만 올바르게 확인되지 않는 경우도 있습니다. 하위 도메인은 오류에 대한 정보를 제공하는 작업 로그와 함께 **[!UICONTROL Configured]** 목록에 유지됩니다. 이 문제를 해결하기가 어렵다면 고객 지원 센터에 문의하십시오.
 * 구성 후 하위 도메인이 &quot;확인되지 않음&quot;으로 표시되는 경우 새 하위 도메인 확인을 시작합니다(**...** /) **[!UICONTROL Verify subdomain]**. 여전히 동일한 상태를 표시하는 경우, 표준 프로세스를 사용하여 확인할 수 없는 수신자 스키마에 대해 일부 사용자 지정이 수행되기 때문일 수 있습니다. 해당 하위 도메인이 있는 캠페인을 보내십시오.
 * 게재 가능성 감사 단계에서 하위 도메인 구성이 너무 오래(영업일 기준 10일 이상) 걸리면 고객 지원 센터에 문의하십시오.
