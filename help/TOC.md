@@ -3,14 +3,14 @@ product: adobe campaign
 sub-product: 컨트롤 패널
 audience: end-user
 user-guide-title: Campaign 컨트롤 패널 안내서
-feature: 'Campaign 컨트롤 패널   '
-role: 건축가
-level: 초급
-translation-type: tm+mt
+feature: Campaign 컨트롤 패널
+role: Architect
+level: Beginner
+translation-type: ht
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '102'
+ht-degree: 100%
 
 ---
 
