@@ -9,14 +9,14 @@ tutorials-title: 자습서
 tutorials-url: https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/control-panel.ko-KR
 index: true
-feature: 'Campaign 컨트롤 패널   '
-role: 건축가
-level: 초급
-translation-type: tm+mt
+feature: Campaign 컨트롤 패널
+role: Architect
+level: Beginner
+translation-type: ht
 source-git-commit: 0079a7e893595c3825f0ab2b44b341c379462de8
-workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '35'
+ht-degree: 100%
 
 ---
 
