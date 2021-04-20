@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: 하위 도메인 브랜딩
 description: 하위 도메인 브랜딩에 대해 자세히 알아보기
-feature: 'Campaign 컨트롤 패널   '
-role: 건축가
-level: 중간
+feature: Control Panel
+role: Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

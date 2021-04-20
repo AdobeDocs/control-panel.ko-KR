@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: 컨트롤 패널 FAQ
 description: 컨트롤 패널 관련 일반적인 질문
-feature: Campaign 컨트롤 패널
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d

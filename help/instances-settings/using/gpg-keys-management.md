@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: GPG 키 관리
 description: Adobe Campaign 내에서 데이터를 암호화하고 해독하기 위해 GPG 키를 관리하는 방법을 알아봅니다.
-feature: 'Campaign 컨트롤 패널   '
-role: 건축가
-level: 경험
+feature: Control Panel
+role: Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt

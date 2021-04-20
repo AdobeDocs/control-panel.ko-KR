@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: SFTP 서버에 로그인
 description: SFTP 서버에 로그인하는 방법 알아보기
-feature: 'Campaign 컨트롤 패널   '
-role: 건축가
-level: 경험
+feature: Control Panel
+role: Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

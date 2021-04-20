@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: 인스턴스 세부 사항
 description: 컨트롤 패널에서 인스턴스 세부 사항을 모니터링하는 방법 알아보기
-feature: 'Campaign 컨트롤 패널   '
-role: 건축가
-level: 경험
+feature: Control Panel
+role: Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

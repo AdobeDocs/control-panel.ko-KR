@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: 활성 프로필 모니터링
 description: 각 Campaign 인스턴스에 대한 최신 및 과거 활성 프로필 사용 및 진화에 대한 실시간 정보를 얻는 방법을 배웁니다.
-feature: 'Campaign 컨트롤 패널   '
-role: 건축가
-level: 경험
+feature: Control Panel
+role: Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 5a74107daaff7e3470e1db45f4ef8d75e40c83c1
 workflow-type: tm+mt

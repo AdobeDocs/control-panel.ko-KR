@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: 키 관리
 description: SFTP 서버에 연결하기 위해 키를 관리하는 방법 알아보기
-feature: 'Campaign 컨트롤 패널   '
-role: 건축가
-level: 경험
+feature: Control Panel
+role: Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

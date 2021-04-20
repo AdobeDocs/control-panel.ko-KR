@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: 새 하위 도메인 설정
 description: Campaign 인스턴스용 새 하위 도메인을 설정하는 방법 알아보기
-feature: Campaign 컨트롤 패널
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e

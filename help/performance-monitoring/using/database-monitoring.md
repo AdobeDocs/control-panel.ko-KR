@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: 데이터베이스 모니터링
 description: Campaign 컨트롤 패널에서 Campaign 데이터베이스를 모니터링하는 방법을 알아봅니다.
-feature: Campaign 컨트롤 패널
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e

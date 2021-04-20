@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: URL 권한
 description: 컨트롤 패널에서 URL 권한을 관리하는 방법 알아보기
-feature: 'Campaign 컨트롤 패널   '
-role: 건축가
-level: 중간
+feature: Control Panel
+role: Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt

@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: IP 허용 목록
 description: 인스턴스 액세스를 위해 컨트롤 패널의 허용 목록에 IP 주소를 추가하는 방법을 배웁니다.
-feature: 'Campaign 컨트롤 패널   '
-role: 건축가
-level: 중간
+feature: Control Panel
+role: Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

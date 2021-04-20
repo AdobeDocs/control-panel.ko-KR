@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: 이메일 경고
 description: 캠페인 인스턴스 문제가 발생하는 경우 이메일 알림을 받는 방법에 대해 알아봅니다.
-feature: 'Campaign 컨트롤 패널   '
-role: 건축가
-level: 경험
+feature: Control Panel
+role: Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: SFTP 스토리지 관리
 description: SFTP 서버 스토리지 모니터링 및 관리 방법 알아보기
-feature: 'Campaign 컨트롤 패널   '
-role: 건축가
-level: 경험
+feature: Control Panel
+role: Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt

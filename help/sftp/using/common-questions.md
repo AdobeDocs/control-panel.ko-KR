@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: 일반적인 질문
 description: SFTP 관리와 관련된 일반적인 질문에 대한 자세한 내용을 배웁니다.
-feature: 'Campaign 컨트롤 패널   '
-role: 건축가
-level: 중간
+feature: Control Panel
+role: Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

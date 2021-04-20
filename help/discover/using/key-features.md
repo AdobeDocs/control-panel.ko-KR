@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: 컨트롤 패널 액세스
 description: 컨트롤 패널에 액세스하는 방법 알아보기
-feature: 'Campaign 컨트롤 패널   '
-role: 건축가
-level: 초급
+feature: Control Panel
+role: Architect
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 56797d4d418f353738a241534eab3938fc5f747f
 workflow-type: tm+mt

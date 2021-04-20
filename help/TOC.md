@@ -3,7 +3,7 @@ product: adobe campaign
 sub-product: 컨트롤 패널
 audience: end-user
 user-guide-title: Campaign 컨트롤 패널 안내서
-feature: Campaign 컨트롤 패널
+feature: Control Panel
 role: Architect
 level: Beginner
 translation-type: ht

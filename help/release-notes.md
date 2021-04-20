@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: 컨트롤 패널 릴리스
 description: 최신 Campaign 컨트롤 패널 릴리스 노트입니다.
-feature: Campaign 컨트롤 패널
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
