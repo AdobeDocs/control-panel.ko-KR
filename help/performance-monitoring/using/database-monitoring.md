@@ -3,15 +3,15 @@ product: campaign
 solution: Campaign
 title: 데이터베이스 모니터링
 description: Campaign 컨트롤 패널에서 Campaign 데이터베이스를 모니터링하는 방법을 알아봅니다.
-feature: Control Panel
+feature: Campaign 컨트롤 패널
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '943'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 263f86fb08cdfdc42e84812d07ac790119bd302f
+workflow-type: tm+mt
+source-wordcount: '952'
+ht-degree: 85%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Campaign 컨트롤 패널에 표시된 데이터베이스 공간의 양이 계약의 내용과 다른 경우 고객 지원 센터에 문의하십시오.
+>Campaign 컨트롤 패널에 표시된 대로 사용 가능한 데이터베이스 공간의 양이 계약에 지정된 금액을 반영하지 않으면 고객 지원 센터에 문의하십시오.
 
 ## 데이터베이스 사용량 모니터링 {#monitoring-instances-database}
 
@@ -45,7 +45,7 @@ Campaign 컨트롤 패널을 사용하면 각 캠페인 인스턴스에 대한 �
 >
 >이 대시보드의 데이터는 Campaign 인스턴스에서 실행되는 **[!UICONTROL Database cleanup technical workflow]**&#x200B;를 기준으로 업데이트됩니다([Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ko#administrating) 및 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=ko) 설명서 참조).
 >
->또한 기존의 방식으로 확인할 수 있습니다. 워크플로우가 **[!UICONTROL Used Space]** 및 **[!UICONTROL Provided Space]** 메트릭 아래에 실행된 지난 번 데이터베이스 중 하나가 c에 도달하면 알림을 받을 수 있습니다. 워크플로우가 3일 이상 실행된 적이 없는 경우, 워크플로우가 실행 중이 아닌 이유를 조사할 수 있도록 Adobe 고객 지원 센터에 문의하는 것이 좋습니다.
+>또한 데이터베이스 중 하나가 마지막으로 워크플로가 **[!UICONTROL Used Space]** 및 **[!UICONTROL Provided Space]** 지표 아래로 실행된 시간에 도달하면 알림을 받을 수 있습니다. 워크플로우가 3일 이상 실행된 적이 없는 경우, 워크플로우가 실행 중이 아닌 이유를 조사할 수 있도록 Adobe 고객 지원 센터에 문의하는 것이 좋습니다.
 
 이 대시보드에서 아래 설명된 추가 메트릭을 사용하여 인스턴스의 데이터베이스 사용량을 분석할 수 있습니다.
 
@@ -105,11 +105,13 @@ Campaign 컨트롤 패널을 사용하면 각 캠페인 인스턴스에 대한 �
 
 ![](assets/database-top10-view.png)
 
->[!NOTE]
+**[!UICONTROL Keep interim results]** 열의 값은 Campaign에서 옵션이 활성화되었는지(&quot;1&quot;), 비활성화되었는지(&quot;0&quot;)를 나타냅니다. 이 옵션을 사용하면 워크플로우의 다양한 활동 사이에 전환 결과를 저장할 수 있습니다([Campaign Standard](https://docs.adobe.com/content/help/ko/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) 및 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html?lang=ko#logs) 설명서 참조).
+
+>[!IMPORTANT]
 >
->**[!UICONTROL Keep interim results]** 열의 값은 Campaign에서 옵션이 활성화되었는지(&quot;1&quot;), 비활성화되었는지(&quot;0&quot;)를 나타냅니다. **[!UICONTROL Keep interim results]** 옵션은 워크플로우 속성에서 액세스할 수 있습니다. 워크플로우의 다양한 활동 중에 전환 결과를 저장할 수 있습니다([Campaign Standard](https://docs.adobe.com/content/help/ko/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) 및 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html?lang=ko#logs) 설명서 참조).
+>프로덕션 워크플로우에서는 이 옵션을 체크해서는 안 됩니다. 결과를 분석하는 데 사용되며 테스트 목적으로만 설계되므로 개발 또는 스테이징 환경에서만 사용해야 합니다.
 >
->워크플로우 중 하나에 대해 이 옵션을 활성화하면 데이터베이스 정리 워크플로우에서 중간 결과로 사용된 공간을 다시 확보할 수 없습니다. 따라서 옵션을 끌 수 있을지 확인하기 위해 워크플로우를 검토할 것을 권장합니다.
+>Campaign 컨트롤 패널의 값이 워크플로우 중 하나에 대해 옵션이 활성화되었음을 나타내는 경우 Campaign에서 비활성화하는 것이 좋습니다.
 
 ## 데이터베이스 오버로드 방지 {#preventing-database-overload}
 
@@ -124,7 +126,7 @@ Campaign Standard 및 Classic에서는 데이터베이스 디스크 공간 과�
 
 **데이터베이스 유지 관리**
 
-* 데이터베이스 정리 기술 워크플로우([Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ko#administrating) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=ko))
+* 데이터베이스 정리 기술 워크플로우([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [데이터베이스 유지 관리 안내서](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=ko) (Campaign Classic)
 * [데이터베이스 성능 문제 해결](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=ko) (Campaign Classic)
 * [데이터베이스 관련 옵션](https://docs.adobe.com/help/ko-KR/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
