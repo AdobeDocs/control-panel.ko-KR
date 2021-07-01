@@ -7,7 +7,7 @@ feature: Campaign 컨트롤 패널
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: c8a17ca49f83282070c4ab50883454433970f2a7
+source-git-commit: 27b5baaf67a23799a3ecb56fcfcb7f5e891a25b9
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 98%
@@ -66,7 +66,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   > Adobe Campaign Standard 인스턴스의 경우 하위 도메인을 사용하면 마케팅 및 거래 커뮤니케이션을 모두 보낼 수 있습니다.
+   > Adobe Campaign Standard의 경우, 위임된 하위 도메인을 사용하면 **마케팅** 및 **트랜잭션** 통신을 모두 보낼 수 있습니다.
 
    ![](assets/subdomain4.png)
 
