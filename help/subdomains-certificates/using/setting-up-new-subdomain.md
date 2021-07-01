@@ -3,15 +3,14 @@ product: campaign
 solution: Campaign
 title: 새 하위 도메인 설정
 description: Campaign 인스턴스용 새 하위 도메인을 설정하는 방법 알아보기
-feature: Control Panel
+feature: Campaign 컨트롤 패널
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '1142'
-ht-degree: 100%
+source-git-commit: c8a17ca49f83282070c4ab50883454433970f2a7
+workflow-type: tm+mt
+source-wordcount: '1158'
+ht-degree: 98%
 
 ---
 
@@ -65,6 +64,10 @@ ht-degree: 100%
 
 1. 조직에서 사용하는 호스팅 솔루션에서 원하는 하위 도메인 및 이름 서버를 만듭니다. 이렇게 하려면 마법사에 표시된 Adobe Nameserver 정보를 복사하여 붙여넣습니다. 호스팅 솔루션에서 하위 도메인을 만드는 방법에 대한 자세한 내용은 [튜토리얼 비디오](https://video.tv.adobe.com/v/30175)를 참조하십시오.
 
+   >[!NOTE]
+   >
+   > Adobe Campaign Standard 인스턴스의 경우 하위 도메인을 사용하면 마케팅 및 거래 커뮤니케이션을 모두 보낼 수 있습니다.
+
    ![](assets/subdomain4.png)
 
 1. 해당 Adobe 이름 서버 정보를 사용하여 하위 도메인을 만든 후 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
@@ -73,7 +76,7 @@ ht-degree: 100%
 
    ![](assets/subdomain5.png)
 
-1. 만든 하위 도메인을 호스팅 솔루션에 입력하고 **[!UICONTROL Submit]**&#x200B;을 클릭합니다.
+1. 만든 하위 도메인을 호스팅 솔루션에 입력하고 **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
    위임할 하위 도메인의 **전체 이름** 을 입력해야 합니다. 예를 들어 &quot;usoffers.email.weretail.com&quot; 하위 도메인을 위임하려면 &quot;usoffers.email.weretail.com&quot;을 입력합니다.
 
