@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: 인스턴스 세부 사항
 description: 컨트롤 패널에서 인스턴스 세부 사항을 모니터링하는 방법 알아보기
-feature: Control Panel
+feature: Campaign 컨트롤 패널
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
-
 
 # 인스턴스 세부 사항 {#instance-details}
 
@@ -28,9 +27,9 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->이 기능은 Campaign Classic 인스턴스에만 사용할 수 있습니다.
+>이 기능은 Campaign Classic v7 및 Campaign v8 인스턴스에만 사용할 수 있습니다.
 
-마케팅 활동을 유동적으로 진행하기 위해 Adobe Campaign Classic 인스턴스 아키텍처에 서버를 여러 개 포함할 수 있습니다. 예를 들어 인스턴스를 지원하는 마케팅, 실시간/메시지 센터 및 중간 소싱 서버를 포함할 수 있습니다.
+마케팅 활동을 유동적으로 진행하기 위해 Adobe Campaign 인스턴스 아키텍처에 서버를 여러 개 포함할 수 있습니다. 예를 들어 인스턴스를 지원하는 마케팅, 실시간/메시지 센터 및 중간 소싱 서버를 포함할 수 있습니다.
 
 인스턴스 세부 사항 기능을 사용하면 인스턴스의 단순 아키텍처를 확인할 수 있습니다. 또한 서버 정보 외에 인스턴스 빌드가 최신 상태인지 여부도 확인할 수 있으며, 필요 시에는 업그레이드 권장 메시지도 표시됩니다.
 
@@ -51,9 +50,9 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   >Campaign 컨트롤 패널 홈 페이지에 인스턴스 설정 카드가 표시되지 않으면 IMS를 의미합니다. 조직 ID는 Adobe Campaign Classic 인스턴스와 연결되어 있지 않습니다.
+   >Campaign 컨트롤 패널 홈 페이지에 인스턴스 설정 카드가 표시되지 않으면 IMS 조직 ID가 Adobe Campaign Classic 인스턴스와 연결되어 있지 않은 것입니다
 
-1. 왼쪽 창에서 원하는 Campaign Classic 인스턴스를 선택합니다.
+1. 왼쪽 창에서 원하는 Campaign 인스턴스를 선택합니다.
 
    >[!NOTE]
    >
