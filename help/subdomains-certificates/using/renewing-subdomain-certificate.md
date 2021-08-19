@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: 하위 도메인의 SSL 인증서 갱신
 description: 하위 도메인의 SSL 인증서를 갱신하는 방법 알아보기
-feature: Control Panel
+feature: Campaign 컨트롤 패널
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 90%
+source-wordcount: '868'
+ht-degree: 93%
 
 ---
-
 
 # 하위 도메인의 SSL 인증서 갱신 {#renewing-subdomains-ssl-certificates}
 
@@ -28,7 +27,9 @@ ht-degree: 90%
 
 >[!IMPORTANT]
 >
->Campaign 컨트롤 패널의 하위 도메인 구성은 베타에서 볼 수 있으며 자주 업데이트되거나 예고 없이 변경될 수 있습니다.
+>베타에서 Campaign 컨트롤 패널의 하위 도메인 위임 기능을 사용할 수 있으며, 별도의 공지 없이 업데이트 및 수정될 수 있습니다.
+>
+>이 기능은 Campaign v8에는 사용할 수 없습니다.
 
 SSL 인증서 갱신 프로세스에는 다음의 세 단계를 수행합니다.
 
@@ -36,7 +37,7 @@ SSL 인증서 갱신 프로세스에는 다음의 세 단계를 수행합니다.
 1. **SSL 인증서 구매** CSR이 생성되면 다운로드하여 회사가 승인하는 인증 기관에서 SSL 인증서를 구매하는 데 사용할 수 있습니다.
 1. **SSL 인증서 설치** 구매한 SSL 인증서를 원하는 하위 도메인에 설치할 수 있습니다.
 
-![](assets/do-not-localize/how-to-video.png) Campaign Classicor  [Campaign Standard을 사용하여 비디오에서 이 ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates)   [기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
+![](assets/do-not-localize/how-to-video.png) 이 비디오에서 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) 또는 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)를 사용하여 해당 기능 살펴보기
 
 ## CSR(인증서 서명 요청) 생성 {#generating-csr}
 
@@ -105,7 +106,7 @@ CSR(인증서 서명 요청)을 생성하려면 다음 단계를 수행합니다
 구매한 SSL 인증서는 인스턴스에 설치할 수 있습니다. 계속 진행하기 전에 아래 사전 요구 사항을 숙지하십시오.
 
 * 컨트롤 패널에서 CSR(인증서 서명 요청)을 생성한 상태여야 합니다. CSR을 생성하지 않은 경우에는 컨트롤 패널에서 인증서를 설치할 수 없습니다.
-* CSR(인증서 서명 요청)은 Adobe에서 작동하도록 구성된 하위 도메인과 일치해야 합니다. 예를 들어 구성된 하위 도메인을 더 이상 포함할 수 없습니다.
+* CSR(인증서 서명 요청)은 Adobe에서 작동하도록 구성된 하위 도메인과 일치해야 합니다. 예를 들어 구성된 하위 도메인은 더 이상 포함할 수 없습니다.
 * 인증서의 날짜가 현재 날짜여야 합니다. 날짜가 오늘 이후인 인증서는 설치할 수 없습니다. 또한 인증서가 만료되지 않은 상태이며, 시작 날짜와 종료 날짜가 유효해야 합니다.
 * Comodo, DigiCert, GoDaddy 등의 신뢰할 수 있는 CA(인증 기관)에서 발급한 인증서를 사용해야 합니다.
 * 인증서 크기는 2048비트여야 하며 알고리즘은 RSA여야 합니다.
