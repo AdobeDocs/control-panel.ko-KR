@@ -7,10 +7,10 @@ feature: Campaign 컨트롤 패널
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 27b5baaf67a23799a3ecb56fcfcb7f5e891a25b9
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 98%
+source-wordcount: '1166'
+ht-degree: 97%
 
 ---
 
@@ -22,11 +22,14 @@ ht-degree: 98%
 >abstract="Adobe Campaign을 사용하여 이메일 전송을 시작하거나 랜딩 페이지를 게시하려면 새 하위 도메인을 설정하고 하위 도메인의 SSL 인증서를 관리해야 합니다."
 >additional-url="https://docs.adobe.com/content/help/ko-KR/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="하위 도메인의 SSL 인증서를 모니터링하는 방법"
 
+
 ## 반드시 알아야 할 사항 {#must-read}
 
 >[!IMPORTANT]
 >
 >베타에서 Campaign 컨트롤 패널의 하위 도메인 위임 기능을 사용할 수 있으며, 별도의 공지 없이 업데이트 및 수정될 수 있습니다.
+>
+>이 기능은 Campaign v8에는 사용할 수 없습니다.
 
 이 페이지에서는 전체 하위 도메인 위임 또는 CNAME을 사용하여 새 하위 도메인을 설정하는 방법에 대한 정보를 제공합니다. 이 두 가지 방법에 대한 전체적인 개념이 다음의 섹션에 제공됩니다.[하위 도메인 브랜딩](../../subdomains-certificates/using/subdomains-branding.md).
 
