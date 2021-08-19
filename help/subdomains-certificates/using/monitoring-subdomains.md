@@ -3,35 +3,38 @@ product: campaign
 solution: Campaign
 title: 하위 도메인의 SSL 인증서 모니터링
 description: 하위 도메인의 SSL 인증서를 모니터링하는 방법 알아보기
-feature: Control Panel
+feature: Campaign 컨트롤 패널
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '152'
 ht-degree: 17%
 
 ---
 
-
 # 하위 도메인 모니터링 {#monitoring-subdomains}
 
-하위 도메인을 모니터링하여 모든 항목이 Adobe Campaign에서 작동하도록 적절하게 구성되어 있는지 확인해야 합니다.
+>[!AVAILABILITY]
+>
+>이 기능은 Campaign v8에는 사용할 수 없습니다.
 
-**[!UICONTROL Subdomains & Certificates]** 카드를 선택하면 각 프로덕션 인스턴스에 대한 하위 도메인 목록에 직접 액세스할 수 있습니다.
+Adobe Campaign에서 작동하도록 하위 도메인을 모니터링하는 것이 중요합니다.
 
-**[!UICONTROL Last verification]** 열은 하위 도메인이 마지막으로 확인된 시점을 나타냅니다. **..을 클릭하여 언제든지 검증을 시작할 수 있습니다.** / **[!UICONTROL Verify subdomain]** 단추.
+각 프로덕션 인스턴스의 하위 도메인 목록은 **[!UICONTROL Subdomains & Certificates]** 카드를 선택할 때 직접 액세스할 수 있습니다.
+
+**[!UICONTROL Last verification]** 열은 하위 도메인이 마지막으로 확인된 시점을 나타냅니다. 언제든지 **..** / **[!UICONTROL Verify subdomain]** 단추.
 
 ![](assets/subdomain_verification.png)
 
 >[!IMPORTANT]
 >
->인증서 날짜가 없는 하위 도메인을 사용하는 것은 이러한 하위 도메인이 배달 문제가 있을 수 있음을 의미하므로 Adobe에서는 권장하지 않습니다.
+>Adobe은 인증서 날짜가 없는 하위 도메인을 사용하는 것이 아니라 이러한 하위 도메인에 배달 가능성 문제가 있을 수 있다는 의미입니다.
 
-확인을 시작할 때 하위 도메인이 올바르게 구성되었는지 확인하기 위해(인스턴스 테넌트 확인, 이메일 전송 테스트 등) 여러 작업이 수행됩니다.
+확인을 시작할 때 하위 도메인이 올바르게 구성되었는지( 인스턴스 테넌트 확인, 이메일 전송 테스트 등) 확인하는 여러 작업이 수행됩니다.
 
-하위 도메인의 확인에 실패하는 경우 Adobe 고객 지원 센터에 문의하여 자세한 내용을 확인하십시오.
+하위 도메인의 확인이 실패하면 Adobe 고객 지원 센터에 문의하여 추가 조사를 받으십시오.
 
 **관련 항목:**
 
