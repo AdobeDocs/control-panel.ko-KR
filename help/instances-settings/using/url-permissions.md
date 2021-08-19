@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: URL 권한
 description: 컨트롤 패널에서 URL 권한을 관리하는 방법 알아보기
-feature: Control Panel
+feature: Campaign 컨트롤 패널
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
+exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
-
 
 # URL 권한 {#url-permissions}
 
@@ -27,7 +26,7 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->이 기능은 Campaign Classic 인스턴스 빌드 8850 이상에서만 사용할 수 있습니다. 이전 빌드를 사용하는 경우, 이 기능을 사용하려면 업그레이드해야 합니다.
+>이 기능은 빌드 8850에서 Campaign v8 및 Campaign Classic v7 인스턴스에만 사용할 수 있습니다. 이전 빌드를 사용하는 경우 이 기능을 사용하려면 업그레이드해야 합니다.
 
 Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 통해 호출할 수 있는 URL의 기본 목록은 제한되어 있습니다. 인스턴스는 이러한 URL이 있어야 정상 작동합니다.
 
@@ -42,7 +41,7 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 * [Campaign 서버 구성](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
 * [발신 연결 보호](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html#outgoing-connection-protection)
 
-## 권장사항 {#best-practices}
+## 모범 사례 {#best-practices}
 
 * 연결하지 않을 웹 사이트/서버에는 Campaign 인스턴스를 연결하지 마십시오.
 * 더 이상 사용하지 않는 URL은 삭제하십시오. 단, 회사의 다른 부서가 삭제한 URL에 계속 연결하는 경우에는 해당 URL을 다시 사용할 수 없게 됩니다.
@@ -61,7 +60,7 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 
    >[!NOTE]
    >
-   >Campaign 컨트롤 패널 홈 페이지에 인스턴스 설정 카드가 표시되지 않으면 IMS를 의미합니다. 조직 ID는 Adobe Campaign Classic 인스턴스와 연결되어 있지 않습니다.
+   >Campaign 컨트롤 패널 홈 페이지에 인스턴스 설정 카드가 표시되지 않으면 IMS 조직 ID가 Adobe Campaign 인스턴스와 연결되어 있지 않은 것입니다
    >
    >인스턴스가 연결할 수 있는 모든 외부 URL이 <b><span class="uicontrol">URL 권한</span></b> 탭에 나열됩니다. Campaign의 작동에 필요한 URL(예: 인프라의 각 요소 간 연결)은 이 목록에 포함되지 않습니다.
 
