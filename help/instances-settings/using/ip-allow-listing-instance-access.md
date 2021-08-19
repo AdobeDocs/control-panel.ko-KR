@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: IP 허용 목록
 description: 인스턴스 액세스를 위해 컨트롤 패널의 허용 목록에 IP 주소를 추가하는 방법을 배웁니다.
-feature: Control Panel
+feature: Campaign 컨트롤 패널
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 94%
+source-wordcount: '770'
+ht-degree: 91%
 
 ---
-
 
 # IP 허용 목록 {#ip-allow-listing}
 
@@ -27,9 +26,9 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->이 기능은 Campaign Classic 인스턴스에만 사용할 수 있습니다.
+>이 기능은 Campaign Classic v7 및 Campaign v8 인스턴스에만 사용할 수 있습니다.
 
-기본적으로는 여러 IP 주소에서 Adobe Campaign Classic 인스턴스에 액세스할 수 없습니다.
+기본적으로는 여러 IP 주소에서 Adobe Campaign 인스턴스에 액세스할 수 없습니다.
 
 IP 주소를 허용 목록에 추가하지 않은 경우에는 해당 주소에서 인스턴스에 로그인할 수 없습니다. 마찬가지로 IP 주소를 인스턴스의 허용 목록에 명시적으로 추가하지 않은 경우 메시지 센터 또는 마케팅 인스턴스에 API를 연결하지 못할 수 있습니다.
 
@@ -39,7 +38,7 @@ IP 주소를 허용 목록에 추가하고 나면 사용자가 인스턴스에 �
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=en#instance-settings)
 
-## 권장사항 {#best-practices}
+## 모범 사례 {#best-practices}
 
 컨트롤 패널에서 IP 주소를 허용 목록에 추가할 때는 아래 권장 사항과 제한을 따라야 합니다.
 
@@ -60,7 +59,7 @@ IP 주소를 허용 목록에 추가하고 나면 사용자가 인스턴스에 �
 
    >[!NOTE]
    >
-   >Campaign 컨트롤 패널 홈 페이지에 인스턴스 설정 카드가 표시되지 않으면 IMS를 의미합니다. 조직 ID는 Adobe Campaign Classic 인스턴스와 연결되어 있지 않습니다.
+   >Campaign 컨트롤 패널 홈 페이지에 인스턴스 설정 카드가 표시되지 않으면 IMS 조직 ID가 Adobe Campaign Classic 인스턴스와 연결되어 있지 않은 것입니다
 
    ![](assets/ip_whitelist_list1.png)
 
@@ -83,7 +82,7 @@ IP 주소를 허용 목록에 추가하고 나면 사용자가 인스턴스에 �
 
 1. IP 주소에 부여할 액세스 권한 유형을 지정합니다.
 
-   * **[!UICONTROL Campaign Console Access]**: IP 주소가 Campaign Classic 콘솔에 연결할 수 있습니다. 마케팅 인스턴스만 콘솔에 액세스하도록 설정할 수 있습니다. MID 및 RT 인스턴스는 콘솔에 액세스할 수 없으므로 콘솔에 액세스하도록 설정되지 않습니다.
+   * **[!UICONTROL Campaign Console Access]**: IP 주소가 Campaign 클라이언트 콘솔에 연결할 수 있습니다. 마케팅 인스턴스만 콘솔에 액세스하도록 설정할 수 있습니다. MID 및 RT 인스턴스는 콘솔에 액세스할 수 없으므로 콘솔에 액세스하도록 설정되지 않습니다.
    * **[!UICONTROL AEM connection]**: 지정한 AEM IP 주소가 마케팅 인스턴스에 연결할 수 있습니다.
    * **[!UICONTROL External API connection]**: 지정한 IP 주소를 사용하는 외부 API가 마케팅 및/또는 메시지 센터(RT) 인스턴스에 연결할 수 있습니다. RT 인스턴스는 콘솔에 연결하도록 설정되지 않습니다.
 
