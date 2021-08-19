@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: 활성 프로필 모니터링
 description: 각 Campaign 인스턴스에 대한 최신 및 과거 활성 프로필 사용 및 진화에 대한 실시간 정보를 얻는 방법을 배웁니다.
-feature: Control Panel
+feature: Campaign 컨트롤 패널
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 5a74107daaff7e3470e1db45f4ef8d75e40c83c1
+exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '365'
+ht-degree: 92%
 
 ---
-
 
 # 활성 프로필 모니터링 {#active-profiles-monitoring}
 
@@ -33,7 +32,7 @@ ht-degree: 0%
 >
 >페이스북과 트위터 채널은 고려되지 않습니다.
 
-활성 프로필에 대한 자세한 내용은 [Campaign Standard](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) 및 [Campaign Classic](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) 설명서를 참조하십시오.
+활성 프로필에 대한 자세한 내용은 [Campaign Standard](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) 및 [Campaign Classic v7](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) 설명서를 참조하십시오.
 
 ## 활성 프로필 모니터링 {#monitoring-active-profiles}
 
