@@ -7,7 +7,7 @@ feature: Campaign 컨트롤 패널
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 008edcd915017d147ee496ae7c0130a868b099b9
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 92%
@@ -21,11 +21,11 @@ ht-degree: 92%
 >title="TXT 레코드 관리"
 >abstract="Google 등의 일부 서비스에서는 자신이 도메인 소유자임을 확인하기 위해 도메인 설정에 TXT 레코드를 추가해야 합니다."
 
+## TXT 레코드 {#about-txt-records}
+
 >[!AVAILABILITY]
 >
 >이 기능은 Campaign v8에는 사용할 수 없습니다.
-
-## TXT 레코드 {#about-txt-records}
 
 TXT 레코드는 외부 소스에서 읽을 수 있는 도메인 관련 텍스트 정보를 제공하는 데 사용되는 DNS 레코드 유형입니다.
 
