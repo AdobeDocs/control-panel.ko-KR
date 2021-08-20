@@ -3,15 +3,14 @@ product: campaign
 solution: Campaign
 title: 컨트롤 패널 FAQ
 description: 컨트롤 패널 관련 일반적인 질문
-feature: Control Panel
+feature: Campaign 컨트롤 패널
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '631'
-ht-degree: 100%
+source-git-commit: c88e18e97d2f6fa1fc308050c337a2a578187f9b
+workflow-type: tm+mt
+source-wordcount: '669'
+ht-degree: 94%
 
 ---
 
@@ -27,7 +26,7 @@ Adobe Experience Cloud에 처음 로그인할 때 인스턴스에 제공되는 �
 
 **IMS 조직 ID는 어디에서 찾을 수 있습니까?**
 
-[Adobe Experience Cloud 홈](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**(으)로 이동하는 방법이 있습니다. 관리 **[!UICONTROL Quick Access]** 섹션 아래쪽에서 IMS 조직 ID를 확인할 수 있습니다. [Adobe Experience Cloud 설명서](https://marketing.adobe.com/resources/help/ko_KR/mcloud/organizations.html)에서 자세한 정보를 찾을 수 있습니다.
+[Adobe Experience Cloud 홈](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**(으)로 이동하는 방법이 있습니다. 관리 **[!UICONTROL Quick Access]** 섹션 아래쪽에서 IMS 조직 ID를 확인할 수 있습니다. [Adobe Experience Cloud 설명서](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)에서 자세한 정보를 찾을 수 있습니다.
 
 **관리 콘솔**&#x200B;을 시작하여 ID를 확인할 수도 있습니다. IMS 조직 ID는 https://adminconsole.adobe.com/xxx@AdobeOrg/overview와 같은 형태로 URL에 표시됩니다.
 
@@ -89,7 +88,7 @@ Adobe Experience Cloud에 처음 로그인할 때 인스턴스에 제공되는 �
 >
 >AWS로 마이그레이션하는 경우에는 Customer Success Manager에게 문의하여 해당 프로세스를 시작하십시오.
 
-## 컨트롤 패널 {#control-panel}
+## Campaign 컨트롤 패널 {#control-panel}
 
 **컨트롤 패널이란 무엇입니까?**
 
@@ -100,6 +99,10 @@ Adobe Experience Cloud에 처음 로그인할 때 인스턴스에 제공되는 �
 컨트롤 패널에서는 스토리지 추적, 허용 목록에 IP 추가, 요구에 따라 SFTP 서버용 SSH 키 직접 관리 등의 작업을 수행할 수 있습니다.
 
 자세한 내용은 컨트롤 패널에서 지원되는 작업 설명서를 참조하십시오.
+
+**Campaign v8에서는 지원되지 않지만, Campaign Classic v7에서는 사용할 수 있는 기능**
+
+하위 도메인 및 인증서 관리 관련 기능은 아직 Campaign v8의 Campaign 컨트롤 패널을 통해 지원되지 않습니다. 관련 지원이 필요하면 Campaign 고객 지원 센터에 문의하십시오.
 
 **컨트롤 패널은 Adobe Campaign에만 사용할 수 있습니까?**
 
