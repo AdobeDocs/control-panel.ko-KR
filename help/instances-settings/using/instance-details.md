@@ -7,10 +7,10 @@ feature: Campaign 컨트롤 패널
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 92%
+source-wordcount: '556'
+ht-degree: 89%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 92%
 >id="cp_instancesettings_instancedetails"
 >title="인스턴스 세부 사항"
 >abstract="유형, 이름, 빌드 정보, 가능한 업그레이드 관련 권장 사항 등 Adobe Campaign 인스턴스의 세부 사항을 확인하는 방법을 설명합니다."
->additional-url="https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/latest-release.html" text="Campaign Classic 릴리스 정보"
->additional-url="https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/release-notes/release-notes.html" text="Campaign Standard 릴리스 정보"
+>additional-url="https://https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html" text="Campaign Classic 릴리스 정보"
+>additional-url="https://https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html" text="Campaign Standard 릴리스 정보"
 
 ## 인스턴스 세부 사항 {#about-instance-details}
 
