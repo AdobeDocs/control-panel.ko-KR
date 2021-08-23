@@ -7,10 +7,10 @@ feature: Campaign 컨트롤 패널
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: b915b78858810c1ad6600fb459f3ce0d6978897e
+source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 87%
+source-wordcount: '776'
+ht-degree: 85%
 
 ---
 
@@ -62,11 +62,11 @@ Campaign Classic v7의 경우 인스턴스는 Amazon 웹 서비스(AWS)에서 �
 
 Adobe Experience Cloud에 처음 로그인할 때 인스턴스에 제공되는 고유 ID입니다. 이 ID는 xxx@AdobeOrg 형식입니다.
 
-자세한 내용은 [Adobe Experience Cloud 설명서](https://marketing.adobe.com/resources/help/ko_KR/mcloud/organizations.html)를 참조하십시오.
+자세한 내용은 [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en)를 참조하십시오.
 
 ### IMS 조직 ID는 어디에서 찾을 수 있습니까?
 
-[Adobe Experience Cloud 홈](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**(으)로 이동하는 방법이 있습니다. 관리 **[!UICONTROL Quick Access]** 섹션 아래쪽에서 IMS 조직 ID를 확인할 수 있습니다. [Adobe Experience Cloud 설명서](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)에서 자세한 정보를 찾을 수 있습니다.
+[Adobe Experience Cloud 홈](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**(으)로 이동하는 방법이 있습니다. 관리 **[!UICONTROL Quick Access]** 섹션 아래쪽에서 IMS 조직 ID를 확인할 수 있습니다. [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en)에서 자세한 정보를 찾을 수 있습니다.
 
 **관리 콘솔**&#x200B;을 시작하여 ID를 확인할 수도 있습니다. IMS 조직 ID는 https://adminconsole.adobe.com/xxx@AdobeOrg/overview와 같은 형태로 URL에 표시됩니다.
 
