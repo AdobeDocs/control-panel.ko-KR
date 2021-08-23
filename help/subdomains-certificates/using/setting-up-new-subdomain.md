@@ -7,9 +7,9 @@ feature: Campaign 컨트롤 패널
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1165'
 ht-degree: 97%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 97%
 >id="cp_subdomain_management"
 >title="새 하위 도메인 설정 및 인증서 관리"
 >abstract="Adobe Campaign을 사용하여 이메일 전송을 시작하거나 랜딩 페이지를 게시하려면 새 하위 도메인을 설정하고 하위 도메인의 SSL 인증서를 관리해야 합니다."
->additional-url="https://docs.adobe.com/content/help/ko-KR/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="하위 도메인의 SSL 인증서를 모니터링하는 방법"
+>additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="하위 도메인의 SSL 인증서를 모니터링하는 방법"
 
 
 ## 반드시 알아야 할 사항 {#must-read}
