@@ -5,10 +5,10 @@ feature: Campaign 컨트롤 패널
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: b915b78858810c1ad6600fb459f3ce0d6978897e
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 83%
+source-wordcount: '192'
+ht-degree: 76%
 
 ---
 
@@ -26,15 +26,15 @@ ht-degree: 83%
 
 추가 지표와 함께 **[!UICONTROL Database monitoring]** 탭이 개선되어 데이터베이스의 공간을 사용하는 리소스에 대한 자세한 정보를 얻을 수 있습니다. [자세히 알아보기](performance-monitoring/using/database-monitoring.md)
 
->[!NOTE]
+>[!CAUTION]
 >
 >* Campaign 컨트롤 패널은 관리 사용자만 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)
    >
    >
-* Campaign Classic v7의 경우 인스턴스는 Amazon 웹 서비스(AWS)에서 호스팅되어야 하며 최신 [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses) 빌드로 업그레이드해야 합니다. [이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ko#getting-your-campaign-version)에서 사용 중인 Campaign Classic의 버전을 확인하는 방법을 알아봅니다. Campaign Classic 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](faq.md)에 설명된 단계를 수행합니다.
+* Campaign Classic v7의 경우 배포 제한이 적용됩니다. [자세히 알아보기](faq.md#v7-restrictions)
    >
    >
-* 다음 기능은 Campaign v8에 사용할 수 없습니다. 하위 도메인 관리 및 인증서 관리.
+* Campaign v8의 경우 일부 기능을 사용할 수 없습니다. [자세히 알아보기](faq.md#v8-restrictions)
 
 
 ## 추가 리소스 {#additional-resources}
@@ -47,10 +47,16 @@ ht-degree: 83%
             <li><a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/campaign-standard-home.html">Campaign Standard 제품 설명서</a></li>
         </ul>
         </td>
-        <td><b>Campaign Classic</b><br/>
+        <td><b>Campaign Classic v7</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=ko">Campaign Classic용 컨트롤 패널 튜토리얼 비디오</a></li>
-            <li><a href="https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/campaign-classic-home.html">Campaign Classic 제품 설명서</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=ko">Campaign Classic v7용 Campaign 컨트롤 패널 튜토리얼 비디오</a></li>
+            <li><a href="https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/campaign-classic-home.html">Campaign Classic v7 제품 설명서</a></li>
+        </ul>
+        </td>
+        <td><b>Campaign v8</b><br/>
+        <ul>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=en">Campaign v8용 Campaign 컨트롤 패널 튜토리얼 비디오</a></li>
+            <li><a href="https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html">Campaign v8 제품 설명서</a></li>
         </ul>
         </td>
     </tr>
