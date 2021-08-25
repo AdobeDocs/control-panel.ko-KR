@@ -7,10 +7,10 @@ feature: Campaign 컨트롤 패널
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 92%
+source-wordcount: '364'
+ht-degree: 84%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 92%
 >
 >페이스북과 트위터 채널은 고려되지 않습니다.
 
-활성 프로필에 대한 자세한 내용은 [Campaign Standard](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) 및 [Campaign Classic v7](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) 설명서를 참조하십시오.
+활성 프로필에 대한 자세한 내용은 [Campaign Standard](https://https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) 및 [Campaign Classic v7](https://https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) 설명서를 참조하십시오.
 
 ## 활성 프로필 모니터링 {#monitoring-active-profiles}
 
@@ -52,7 +52,7 @@ ht-degree: 92%
 >
 >활성 프로필은 인스턴스에서 매일 실행되는 전용 기술 워크플로우를 기반으로 계산됩니다.
 >
->* Campaign Standard를 위한 [&quot;청구&quot;](https://docs.adobe.com/help/ko-KR/campaign-standard/using/administrating/application-settings/technical-workflows.html) 워크플로우
+>* Campaign Standard를 위한 [&quot;청구&quot;](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=en) 워크플로우
 >* Campaign Classic에 대한 [&quot;활성 청구 프로필 수&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) 워크플로우입니다.
 
 
