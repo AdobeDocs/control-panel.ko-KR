@@ -3,78 +3,78 @@ product: campaign
 solution: Campaign
 title: 컨트롤 패널 FAQ
 description: 컨트롤 패널 관련 일반적인 질문
-feature: Campaign 컨트롤 패널
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
-workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 85%
+workflow-type: ht
+source-wordcount: '774'
+ht-degree: 100%
 
 ---
 
-# FAQ {#faq}
+# FAQ(자주 묻는 질문) {#faq}
 
 ## Campaign 컨트롤 패널 {#control-panel}
 
-### 컨트롤 패널이란 무엇입니까?
+### 컨트롤 패널이란 무엇인가요?
 
 컨트롤 패널은 제품 관리자가 Adobe Campaign에 연결된 SFTP 서버의 용량을 모니터링하고 다양한 설정을 직접 관리할 수 있는 구성 요소입니다.
 
-### 컨트롤 패널에서는 현재 어떤 기능이 제공됩니까?
+### 컨트롤 패널의 기능에는 어떤 것이 있나요?
 
 컨트롤 패널에서는 스토리지 추적, 허용 목록에 IP 추가, 요구에 따라 SFTP 서버용 SSH 키 직접 관리 등의 작업을 수행할 수 있습니다.
 
 자세한 내용은 컨트롤 패널에서 지원되는 작업 설명서를 참조하십시오.
 
-### Campaign v8에서는 지원되지 않지만, Campaign Classic v7에서는 사용할 수 있는 기능{#v8-restrictions}
+### Campaign v8에서는 지원하지 않지만 Campaign Classic v7에서는 사용할 수 있는 기능{#v8-restrictions}
 
 하위 도메인 및 인증서 관리 관련 기능은 아직 Campaign v8의 Campaign 컨트롤 패널을 통해 지원되지 않습니다. 관련 지원이 필요하면 Campaign 고객 지원 센터에 문의하십시오.
 
-### 컨트롤 패널은 Adobe Campaign에만 사용할 수 있습니까?
+### 컨트롤 패널은 Adobe Campaign 전용인가요?
 
 예. 컨트롤 패널에서는 Adobe Campaign의 설정만 관리할 수 있습니다.
 
-### 컨트롤 패널은 누가 사용할 수 있습니까?
+### 컨트롤 패널을 사용하기 위한 자격이 있나요?
 
 AWS에서 Adobe Campaign을 호스팅하는 현재 Adobe 고객의 제품 관리자만 컨트롤 패널을 열 수 있습니다. 하이브리드 환경은 아직 지원되지 않습니다.
 
 관리자가 아닌데 컨트롤 패널에 액세스하려는 경우에는 제품 관리자에게 연락하여 자신을 관리자로 추가해 줄 것을 요청해야 합니다.
 
-### Campaign Classic v7 사용자는 컨트롤 패널에 액세스하는 조건은 무엇입니까? {#v7-restrictions}
+### Campaign Classic v7 사용자가 컨트롤 패널에 액세스하기 위한 조건이 있나요? {#v7-restrictions}
 
 Campaign 컨트롤 패널은 관리 사용자만 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)
 
-Campaign Classic v7의 경우 인스턴스는 Amazon 웹 서비스(AWS)에서 호스팅되어야 하며 최신 [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses) 빌드로 업그레이드해야 합니다. [이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ko#getting-your-campaign-version)에서 사용 중인 Campaign Classic의 버전을 확인하는 방법을 알아봅니다. Campaign Classic 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 섹션](#hosted-aws)에 자세히 나와 있는 단계를 따르십시오.
+Campaign Classic v7의 경우 인스턴스를 AWS(Amazon Web Services)에서 호스팅하고 최신 [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses) 빌드로 업그레이드해야 합니다. [이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ko#getting-your-campaign-version)에서 사용 중인 Campaign Classic의 버전을 확인하는 방법을 알아볼 수 있습니다. 사용하는 Campaign Classic 인스턴스가 AWS에서 호스팅되는지 확인하는 단계는 [이 섹션](#hosted-aws)에서 자세히 설명하고 있습니다.
 
-### 컨트롤 패널에는 어떻게 액세스할 수 있습니까?
+### 컨트롤 패널에는 어떻게 액세스할 수 있나요?
 
-컨트롤 패널 액세스 설명서의 자세한 지침을 따르십시오.
+컨트롤 패널 액세스 설명서의 자세한 지침을 따라 액세스합니다.
 
-### 컨트롤 패널 사용 시 추가 요금이 부과됩니까?
+### 컨트롤 패널 사용 시 추가 요금이 부과되나요?
 
 아니요. 현재 Adobe Campaign의 고객인 경우 추가 비용은 없습니다.
 
 ## IMS 조직 ID {#ims-org-id}
 
-### IMS 조직 ID란 무엇입니까?
+### IMS 조직 ID란 무엇인가요?
 
 Adobe Experience Cloud에 처음 로그인할 때 인스턴스에 제공되는 고유 ID입니다. 이 ID는 xxx@AdobeOrg 형식입니다.
 
-자세한 내용은 [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en)를 참조하십시오.
+자세한 내용은 [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)를 참조하십시오.
 
-### IMS 조직 ID는 어디에서 찾을 수 있습니까?
+### IMS 조직 ID는 어디에서 확인할 수 있나요?
 
-[Adobe Experience Cloud 홈](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**(으)로 이동하는 방법이 있습니다. 관리 **[!UICONTROL Quick Access]** 섹션 아래쪽에서 IMS 조직 ID를 확인할 수 있습니다. [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en)에서 자세한 정보를 찾을 수 있습니다.
+[Adobe Experience Cloud 홈](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**(으)로 이동하는 방법이 있습니다. 관리 **[!UICONTROL Quick Access]** 섹션 아래쪽에서 IMS 조직 ID를 확인할 수 있습니다. [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)에서 자세한 정보를 찾을 수 있습니다.
 
 **관리 콘솔**&#x200B;을 시작하여 ID를 확인할 수도 있습니다. IMS 조직 ID는 https://adminconsole.adobe.com/xxx@AdobeOrg/overview와 같은 형태로 URL에 표시됩니다.
 
-### IMS 조직 ID를 알고 있어야 하는 이유는 무엇입니까?
+### IMS 조직 ID를 알고 있어야 하는 이유는 무엇인가요?
 
 회사에서 여러 인스턴스를 사용하는 경우 인스턴스의 설정을 관리하려면 적절한 인스턴스의 올바른 정보를 파악할 수 있어야 합니다.
 
-### IMS 조직 ID가 여러 개일 경우 어떻게 해야 합니까?
+### IMS 조직 ID가 여러 개일 경우 어떻게 하나요?
 
 여러 Adobe 솔루션 액세스 권한이 있는 경우에는 IMS 조직 ID가 여러 개일 수 있습니다. 이 경우 사용해야 하는 올바른 IMS 조직 ID는 Adobe Campaign 인스턴스 아래에 표시되는 ID입니다.
 
@@ -84,7 +84,7 @@ Adobe Experience Cloud에 처음 로그인할 때 인스턴스에 제공되는 �
 >
 >Adobe Campaign 및 Adobe Analytics용 IMS 조직 ID가 다르다면 고객 지원 센터에 연락하여 ID를 통일하십시오.
 
-### Adobe Campaign 인스턴스가 AWS에서 호스팅되는지 여부는 어떻게 확인할 수 있습니까?{#hosted-aws}
+### Adobe Campaign 인스턴스가 AWS에서 호스팅되는지 여부는 어떻게 확인할 수 있나요?{#hosted-aws}
 
 인스턴스가 AWS에서 호스팅되는지 확인하려면 다음 단계를 수행합니다.
 
