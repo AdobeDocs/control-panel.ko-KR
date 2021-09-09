@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: 새 하위 도메인 설정
 description: Campaign 인스턴스용 새 하위 도메인을 설정하는 방법 알아보기
-feature: Campaign 컨트롤 패널
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
-workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1163'
+ht-degree: 100%
 
 ---
 
@@ -20,16 +20,16 @@ ht-degree: 97%
 >id="cp_subdomain_management"
 >title="새 하위 도메인 설정 및 인증서 관리"
 >abstract="Adobe Campaign을 사용하여 이메일 전송을 시작하거나 랜딩 페이지를 게시하려면 새 하위 도메인을 설정하고 하위 도메인의 SSL 인증서를 관리해야 합니다."
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="하위 도메인의 SSL 인증서를 모니터링하는 방법"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ko" text="하위 도메인의 SSL 인증서를 모니터링하는 방법"
 
 
 ## 반드시 알아야 할 사항 {#must-read}
 
 >[!IMPORTANT]
 >
->베타에서 Campaign 컨트롤 패널의 하위 도메인 위임 기능을 사용할 수 있으며, 별도의 공지 없이 업데이트 및 수정될 수 있습니다.
+>Campaign 컨트롤 패널의 하위 도메인 위임 기능은 베타 버전에서 사용할 수 있으며, 별도의 공지 없이 업데이트 및 수정될 수 있습니다.
 >
->이 기능은 Campaign v8에는 사용할 수 없습니다.
+>이 기능은 Campaign v8에서는 사용할 수 없습니다.
 
 이 페이지에서는 전체 하위 도메인 위임 또는 CNAME을 사용하여 새 하위 도메인을 설정하는 방법에 대한 정보를 제공합니다. 이 두 가지 방법에 대한 전체적인 개념이 다음의 섹션에 제공됩니다.[하위 도메인 브랜딩](../../subdomains-certificates/using/subdomains-branding.md).
 
@@ -69,7 +69,7 @@ ht-degree: 97%
 
    >[!NOTE]
    >
-   > Adobe Campaign Standard의 경우, 위임된 하위 도메인을 사용하면 **마케팅** 및 **트랜잭션** 통신을 모두 보낼 수 있습니다.
+   > Adobe Campaign Standard의 경우, 위임한 하위 도메인을 사용하여 **마케팅** 및 **트랜잭션** 메시지를 모두 보낼 수 있습니다.
 
    ![](assets/subdomain4.png)
 
