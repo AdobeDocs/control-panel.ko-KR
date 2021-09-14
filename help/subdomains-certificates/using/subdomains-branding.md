@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: 하위 도메인 브랜딩
 description: 하위 도메인 브랜딩에 대해 자세히 알아보기
-feature: Campaign 컨트롤 패널
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 80%
+source-wordcount: '705'
+ht-degree: 81%
 
 ---
 
@@ -20,16 +20,16 @@ ht-degree: 80%
 >id="cp_certificate_management"
 >title="하위 도메인 및 SSL 인증서"
 >abstract="하위 도메인 및 관련 SSL 인증서를 모니터링하는 방법을 알아봅니다."
->additional-url="https://docs.adobe.com/content/help/ko-KR/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="하위 도메인의 SSL 인증서를 모니터링하는 방법"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ko" text="하위 도메인의 SSL 인증서를 모니터링하는 방법"
 
 
 ## 하위 도메인을 설정하는 이유  {#why-setting-up-subdomains}
 
 >[!IMPORTANT]
 >
->베타에서 Campaign 컨트롤 패널의 하위 도메인 위임 기능을 사용할 수 있으며, 별도의 공지 없이 업데이트 및 수정될 수 있습니다.
+>Campaign 컨트롤 패널의 하위 도메인 위임 기능은 베타 버전에서 사용할 수 있으며, 별도의 공지 없이 업데이트 및 수정될 수 있습니다.
 >
->이 기능은 Campaign v8에는 사용할 수 없습니다.
+>이 기능은 Campaign v8에서는 사용할 수 없습니다.
 
 하위 도메인은 브랜드나 다양한 트래픽 유형(트랜잭션 메시지, 마케팅 정보 등)을 분리하는 데 사용할 수 있는 도메인의 개별 부분입니다.
 

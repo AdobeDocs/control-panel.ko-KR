@@ -8,7 +8,7 @@ role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 100%
 
@@ -125,7 +125,7 @@ Campaign Standard 및 Classic에서는 데이터베이스 디스크 공간 과�
 
 **데이터베이스 유지 관리**
 
-* 데이터베이스 정리 기술 워크플로우: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ko#list-of-technical-workflows) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=ko)
+* 데이터베이스 정리 기술 워크플로우: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=en#list-of-technical-workflows) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=en)
 * [데이터베이스 유지 관리 안내서](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=ko) (Campaign Classic)
 * [데이터베이스 성능 문제 해결](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=ko) (Campaign Classic)
 * [데이터베이스 관련 옵션](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ko#database) (Campaign Classic)
