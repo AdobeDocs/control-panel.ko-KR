@@ -3,13 +3,13 @@ product: campaign
 solution: Campaign
 title: URL 권한
 description: 컨트롤 패널에서 URL 권한을 관리하는 방법 알아보기
-feature: Campaign 컨트롤 패널
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '602'
 ht-degree: 88%
 
 ---
@@ -34,7 +34,7 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 
 추가한 URL은 인스턴스의 구성 파일(serverConf.xml)에서 참조됩니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=en#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html#instance-settings)
 
 **관련 항목:**
 
@@ -51,7 +51,7 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_url_add"
->title="새 URL 추가"
+>title="URL 정의"
 >abstract="Campaign 인스턴스에 연결할 수 있도록 URL을 추가합니다."
 
 인스턴스가 연결할 수 있는 URL을 추가하려면 다음 단계를 수행합니다.

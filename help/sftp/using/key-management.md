@@ -6,21 +6,20 @@ description: SFTP 서버에 연결하기 위해 키를 관리하는 방법 알�
 feature: Control Panel
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 94%
+source-wordcount: '642'
+ht-degree: 91%
 
 ---
-
 
 # 키 관리 {#key-management}
 
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
->title="키 관리"
->abstract="이 탭에서 공개 키를 관리할 수 있습니다."
+>title="공개 키 관리"
+>abstract="이 탭에서 공개 키를 만들고, 관리하고, 편집할 수 있습니다."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="데모 비디오 시청"
 
 Adobe는 모든 고객에게 **공개 및 개인 키 쌍**&#x200B;을 사용하여 SFTP 서버에 연결할 것을 권장합니다.
@@ -33,9 +32,9 @@ Adobe는 모든 고객에게 **공개 및 개인 키 쌍**&#x200B;을 사용하�
 >
 >현재는 SSH 공개 키를 삭제할 수 없습니다.
 
-![](assets/do-not-localize/how-to-video.png) Campaign Classicor  [Campaign Standard을 사용하여 비디오에서 이 ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management)   [기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png) 이 비디오에서 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html#sftp-management) 또는 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html#sftp-management)를 사용하여 해당 기능 살펴보기
 
-## 권장사항 {#best-practices}
+## 모범 사례 {#best-practices}
 
 **공개 SSH 키**
 
@@ -53,8 +52,8 @@ Adobe는 모든 고객에게 **공개 및 개인 키 쌍**&#x200B;을 사용하�
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
->title="새 공개 키 추가"
->abstract="인스턴스에 새 공개 키를 추가하는 방법을 설명합니다."
+>title="공개 키 추가"
+>abstract="인스턴스에 대한 공개 SSH 키를 생성한 다음 Campaign 컨트롤 패널에 추가하여 SFTP 서버에 액세스합니다."
 
 >[!IMPORTANT]
 >

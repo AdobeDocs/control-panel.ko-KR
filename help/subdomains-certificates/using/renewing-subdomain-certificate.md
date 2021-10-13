@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 89%
+source-wordcount: '850'
+ht-degree: 87%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 89%
 
 >[!CONTEXTUALHELP]
 >id="cp_add_ssl_certificate"
->title="SSL 인증서 추가"
->abstract="SSL 인증서를 추가하려면 CSR을 생성하고 하위 도메인용 SSL 인증서를 구매한 다음 인증서 번들을 설치해야 합니다."
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="CSR(인증서 서명 요청) 생성"
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="SSL 인증서 설치 방법"
+>title="SSL 인증서 갱신"
+>abstract="SSL 인증서를 갱신하려면 CSR을 생성하고 하위 도메인용 SSL 인증서를 구매한 다음 인증서 번들을 설치해야 합니다."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="CSR(인증서 서명 요청) 생성"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="SSL 인증서 설치"
 
 ## 인증서 갱신 {#about-certificate-renewal-process}
 
@@ -37,7 +37,7 @@ SSL 인증서 갱신 프로세스에는 다음의 세 단계를 수행합니다.
 1. **SSL 인증서 구매** CSR이 생성되면 다운로드하여 회사가 승인하는 인증 기관에서 SSL 인증서를 구매하는 데 사용할 수 있습니다.
 1. **SSL 인증서 설치** 구매한 SSL 인증서를 원하는 하위 도메인에 설치할 수 있습니다.
 
-![](assets/do-not-localize/how-to-video.png) 이 비디오에서 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) 또는 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)를 사용하여 해당 기능 살펴보기
+![](assets/do-not-localize/how-to-video.png) 이 비디오에서 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#subdomains-and-certificates) 또는 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#adding-ssl-certificates)를 사용하여 해당 기능 살펴보기
 
 ## CSR(인증서 서명 요청) 생성 {#generating-csr}
 
@@ -50,8 +50,8 @@ SSL 인증서 갱신 프로세스에는 다음의 세 단계를 수행합니다.
 >id="cp_select_subdomains"
 >title="CSR을 생성할 하위 도메인 선택"
 >abstract="인증서 서명 요청에는 모든 하위 도메인을 포함할 수도 있고 특정 하위 도메인만 포함할 수도 있습니다. 선택한 하위 도메인만 구매한 SSL 인증서를 통해 인증됩니다."
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="CSR(인증서 서명 요청) 생성"
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="하위 도메인 브랜딩"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="CSR(인증서 서명 요청) 생성"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="하위 도메인 브랜딩"
 
 CSR(인증서 서명 요청)을 생성하려면 다음 단계를 수행합니다.
 
@@ -101,7 +101,7 @@ CSR(인증서 서명 요청)을 생성하려면 다음 단계를 수행합니다
 >id="cp_install_ssl_certificate"
 >title="SSL 인증서 설치"
 >abstract="조직에서 승인한 인증 기관에서 구매한 SSL 인증서를 설치합니다."
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="하위 도메인 브랜딩"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="하위 도메인 브랜딩"
 
 구매한 SSL 인증서는 인스턴스에 설치할 수 있습니다. 계속 진행하기 전에 아래 사전 요구 사항을 숙지하십시오.
 

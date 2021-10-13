@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: IP 허용 목록
 description: 인스턴스 액세스를 위해 컨트롤 패널의 허용 목록에 IP 주소를 추가하는 방법을 배웁니다.
-feature: Campaign 컨트롤 패널
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 91%
+source-wordcount: '765'
+ht-degree: 89%
 
 ---
 
@@ -36,7 +36,7 @@ IP 주소를 허용 목록에 추가하지 않은 경우에는 해당 주소에�
 
 IP 주소를 허용 목록에 추가하고 나면 사용자가 인스턴스에 액세스할 수 있도록 Campaign 연산자를 만들어 IP 주소에 연결할 수 있습니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=en#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html#instance-settings)
 
 ## 모범 사례 {#best-practices}
 
@@ -50,7 +50,7 @@ IP 주소를 허용 목록에 추가하고 나면 사용자가 인스턴스에 �
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
->title="새 IP 범위 추가"
+>title="IP 범위 구성"
 >abstract="인스턴스에 연결할 허용 목록에 추가할 IP 범위를 정의합니다."
 
 허용 목록에 IP 주소를 추가하려면 다음 단계를 따르십시오.

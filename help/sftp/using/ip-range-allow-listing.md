@@ -6,14 +6,13 @@ description: SFTP 서버 액세스를 위한 허용 목록에 IP 범위를 추�
 feature: Control Panel
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 94%
+source-wordcount: '627'
+ht-degree: 96%
 
 ---
-
 
 # IP 범위 허용 목록 {#ip-range-allow-listing}
 
@@ -25,7 +24,7 @@ ht-degree: 94%
 
 SFTP 서버는 보호되어 있으므로 파일을 확인하거나 새 파일을 작성하기 위해 SFTP 서버에 액세스하려면 서버에 액세스하는 클라이언트나 시스템의 공개 IP 주소를 허용 목록에 추가해야 합니다.
 
-![](assets/do-not-localize/how-to-video.png) Campaign Classicor  [Campaign Standard을 사용하여 비디오에서 이 ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management)   [기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png) 이 비디오에서 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management) 또는 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management)를 사용하여 해당 기능 살펴보기
 
 ## CIDR 형식 {#about-cidr-format}
 
@@ -35,7 +34,7 @@ CIDR의 구문에는 IP 주소, &#39;/&#39; 문자, 십진수가 차례로 포�
 
 소유한 IP 범위를 CIDR 형식으로 변환하는 데 사용할 수 있는 무료 온라인 도구를 인터넷에서 검색할 수 있습니다.
 
-## 권장사항 {#best-practices}
+## 모범 사례 {#best-practices}
 
 컨트롤 패널에서 IP 주소를 허용 목록에 추가할 때는 아래 권장 사항과 제한을 따라야 합니다.
 
@@ -48,7 +47,7 @@ CIDR의 구문에는 IP 주소, &#39;/&#39; 문자, 십진수가 차례로 포�
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_add"
->title="새 IP 범위 추가"
+>title="IP 범위 구성"
 >abstract="SFTP 서버에 연결하기 위해 허용 목록에 추가할 IP 범위를 정의합니다."
 
 허용 목록에 IP 범위를 추가하려면 다음 단계를 수행합니다.
