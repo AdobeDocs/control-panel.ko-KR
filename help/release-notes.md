@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: eb7cfbd68bdaaf3761e8901feecebea2d8b3b38a
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 86%
+source-wordcount: '792'
+ht-degree: 72%
 
 ---
 
@@ -24,9 +24,29 @@ ht-degree: 86%
 >
 >Campaign Classic v7의 경우 인스턴스는 AWS에서 호스팅되어야 하고 최신 [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=ko) 빌드 또는 [최신 GA 빌드(21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ko#release-notes)로 업그레이드해야 합니다. [이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ko#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](faq.md)에 설명된 단계를 수행합니다.
 
+## 2021년 10월 {#october-2021}
+
+**IP 범위 및 공개 키 유효 기간**
+
+이제 IP 범위 및 공개 키의 가용성에 대한 기간을 설정할 수 있습니다. [IP 범위에서 더 읽어보려면 ](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) 및 [키 관리](sftp/using/key-management.md#installing-ssh-key) 섹션을 참조하십시오.
+
+**IP 범위 및 공개 키 편집**
+
+이제 만든 [IP 범위](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) 및 [공개 키](sftp/using/key-management.md#editing-public-keys)를 편집할 수 있습니다. 이 기능은 현재 Campaign 컨트롤 패널 릴리스 전에 생성된 항목에 사용할 수 없습니다.
+
+**Alerting on SFTP IP range and public key expiry**
+
+이제 이메일 경고 기능에는 SFTP IP에 대한 경고(만료 허용 및 SFTP 공개 키 만료)가 포함되어 있습니다. [자세히 표시](performance-monitoring/using/email-alerting.md)
+
+**Campaign v8을 통한 전체 지원**
+
+이제 **하위 도메인** 및 **인증서** 관리 기능은 Adobe Campaign v8의 Campaign 컨트롤 패널에서 지원합니다.
+
 ## 2021년 8월 {#august-2021}
 
-이제 **하위 도메인** 및 **인증서** 관리 기능을 제외하고 Adobe Campaign v8에서 Campaign 컨트롤 패널을 사용할 수 있습니다. 단, 아직 지원되지 않습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html)를 참조하십시오{target=&quot;_blank&quot;}
+**Campaign v8을 사용한 지원**
+
+Control Panel is now available for Adobe Campaign v8, except the **Subdomain** and **Certificate** management capabilities, which are not yet supported. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html)를 참조하십시오{target=&quot;_blank&quot;}
 
 ## 2020년 10월 {#october-2020}
 
