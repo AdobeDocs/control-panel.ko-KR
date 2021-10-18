@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: 1f422833e1495525612e760714e50a9aaf744db5
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ SSL 인증서 갱신 프로세스에는 다음의 세 단계를 수행합니다.
 1. **SSL 인증서 구매** CSR이 생성되면 다운로드하여 회사가 승인하는 인증 기관에서 SSL 인증서를 구매하는 데 사용할 수 있습니다.
 1. **SSL 인증서 설치** 구매한 SSL 인증서를 원하는 하위 도메인에 설치할 수 있습니다.
 
-![](assets/do-not-localize/how-to-video.png) 이 비디오에서 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#subdomains-and-certificates) 또는 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#adding-ssl-certificates)를 사용하여 해당 기능 살펴보기
+![](assets/do-not-localize/how-to-video.png) 이 비디오에서 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) 또는 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)를 사용하여 해당 기능 살펴보기
 
 ## CSR(인증서 서명 요청) 생성 {#generating-csr}
 
@@ -50,6 +50,7 @@ SSL 인증서 갱신 프로세스에는 다음의 세 단계를 수행합니다.
 >id="cp_select_subdomains"
 >title="CSR을 생성할 하위 도메인 선택"
 >abstract="인증서 서명 요청에는 모든 하위 도메인을 포함할 수도 있고 특정 하위 도메인만 포함할 수도 있습니다. 선택한 하위 도메인만 구매한 SSL 인증서를 통해 인증됩니다."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="CSR(인증서 서명 요청) 생성"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="하위 도메인 브랜딩"
 
 CSR(인증서 서명 요청)을 생성하려면 다음 단계를 수행합니다.

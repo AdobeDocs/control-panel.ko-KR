@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: 하위 도메인의 SSL 인증서 모니터링
 description: 하위 도메인의 SSL 인증서를 모니터링하는 방법 알아보기
-feature: Campaign 컨트롤 패널
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 >[!AVAILABILITY]
 >
->이 기능은 Campaign v8에는 사용할 수 없습니다.
+>이 기능은 Campaign v8에서는 사용할 수 없습니다.
 
 ## SSL 인증서 {#about-ssl-certificates}
 
@@ -37,7 +37,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_details"
 >title="하위 도메인 세부 사항"
->abstract="하위 도메인 관련 정보를 검색합니다."
+>abstract="하위 도메인의 SSL 인증서에 대한 정보를 검색합니다."
 
 **[!UICONTROL Subdomains & Certificates]** 카드를 선택하면 하위 도메인 목록에서 하위 도메인 SSL 인증서 상태를 바로 확인할 수 있습니다.
 

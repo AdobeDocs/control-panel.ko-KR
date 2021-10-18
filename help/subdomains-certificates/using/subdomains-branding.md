@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 81%
+source-wordcount: '753'
+ht-degree: 79%
 
 ---
 
@@ -20,8 +20,7 @@ ht-degree: 81%
 >id="cp_certificate_management"
 >title="하위 도메인 및 SSL 인증서"
 >abstract="하위 도메인 및 관련 SSL 인증서를 모니터링하는 방법을 알아봅니다."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ko" text="하위 도메인의 SSL 인증서를 모니터링하는 방법"
-
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ko" text="SSL 인증서 모니터링"
 
 ## 하위 도메인을 설정하는 이유  {#why-setting-up-subdomains}
 
@@ -60,6 +59,13 @@ ht-degree: 81%
 하위 도메인 구성 방법에 대해 질문이 있는 경우 Adobe 게재 가능성 팀에 문의하거나, 고객 지원 센터에 연락하여 Deliverability 컨설팅을 요청하십시오.
 
 ## 하위 도메인의 사용 사례(Campaign Classic){#subdomains-use-cases}
+
+>[!CONTEXTUALHELP]
+>id="cp_add_subdomain_usecase_selection"
+>title="하위 도메인의 사용 사례를 선택합니다"
+>abstract="메시지 배달 가능성을 높이려면 사용 사례별로 하위 도메인을 구분하는 것이 좋습니다. 이렇게 하면 각 하위 도메인의 평판을 독립적으로 보호할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko" text="새 하위 도메인 설정"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ko" text="하위 도메인 브랜딩"
 
 Campaign Classic 인스턴스에 대해 하위 도메인을 설정할 때 하위 도메인이 사용될 사용 사례를 선택해야 합니다( [새 하위 도메인 설정](../../subdomains-certificates/using/setting-up-new-subdomain.md) 참조).
 
