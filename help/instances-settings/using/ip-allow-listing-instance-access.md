@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: 83a6d002a5a21815a66d198c6e5e805f559d5ee2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '770'
+ht-degree: 87%
 
 ---
 
@@ -36,7 +36,7 @@ IP 주소를 허용 목록에 추가하지 않은 경우에는 해당 주소에�
 
 IP 주소를 허용 목록에 추가하고 나면 사용자가 인스턴스에 액세스할 수 있도록 Campaign 연산자를 만들어 IP 주소에 연결할 수 있습니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=en#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html#instance-settings)
 
 ## 모범 사례 {#best-practices}
 
@@ -53,13 +53,15 @@ IP 주소를 허용 목록에 추가하고 나면 사용자가 인스턴스에 �
 >title="IP 범위 구성"
 >abstract="인스턴스에 연결할 허용 목록에 추가할 IP 범위를 정의합니다."
 
+>[!NOTE]
+>
+>Campaign 컨트롤 패널 홈 페이지에 **[!UICONTROL Instance Settings]** 카드가 표시되지 않으면 IMS 조직 ID가 Adobe Campaign Classic v7 또는 Campaign v8 인스턴스와 연결되어 있지 않은 것입니다.
+
 허용 목록에 IP 주소를 추가하려면 다음 단계를 따르십시오.
 
 1. **[!UICONTROL Instances Settings card]**&#x200B;을(를) 열어 허용 목록에 IP 추가 탭에 액세스한 다음 **[!UICONTROL Add new IP Range]**&#x200B;을(를) 클릭합니다.
 
-   >[!NOTE]
-   >
-   >Campaign 컨트롤 패널 홈 페이지에 인스턴스 설정 카드가 표시되지 않으면 IMS 조직 ID가 Adobe Campaign Classic 인스턴스와 연결되어 있지 않은 것입니다
+
 
    ![](assets/ip_whitelist_list1.png)
 
@@ -90,9 +92,11 @@ IP 주소를 허용 목록에 추가하고 나면 사용자가 인스턴스에 �
 
 1. **[!UICONTROL Save]** 버튼을 클릭합니다. IP 범위가 허용 목록에 추가됩니다.
 
-   ![](assets/ip_whitelist_added.png)
+   <!--![](assets/ip_whitelist_added.png)-->
 
-허용 목록에서 IP 범위를 삭제하려면 해당 범위를 선택한 다음 **[!UICONTROL Delete IP range]** 버튼을 클릭합니다.
+허용 목록에서 하나 이상의 IP 범위를 삭제하려면 해당 범위를 선택한 다음 **[!UICONTROL Delete IP range]** 버튼을 클릭합니다.
+
+![](assets/ip_whitelist_delete.png)
 
 **관련 항목:**
 
