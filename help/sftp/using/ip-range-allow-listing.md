@@ -30,7 +30,7 @@ SFTP 서버는 보호되어 있으므로 파일을 확인하거나 새 파일을
 
 CIDR(Classless Inter-Domain Routing)은 컨트롤 패널 인터페이스를 사용하여 IP 범위를 추가할 때 지원되는 형식입니다.
 
-CIDR의 구문에는 IP 주소, &#39;/&#39; 문자, 십진수가 차례로 포함됩니다. The format and its syntax are fully detailed in [this article](https://whatismyipaddress.com/cidr){target=&quot;_blank&quot;}.
+CIDR의 구문에는 IP 주소, &#39;/&#39; 문자, 십진수가 차례로 포함됩니다. 형식과 구문은 [이 문서](https://whatismyipaddress.com/cidr){target=&quot;_blank&quot;}.
 
 소유한 IP 범위를 CIDR 형식으로 변환하는 데 도움이 되는 무료 온라인 도구를 인터넷에서 검색할 수 있습니다.
 
@@ -41,7 +41,7 @@ CIDR의 구문에는 IP 주소, &#39;/&#39; 문자, 십진수가 차례로 포�
 * 단일 IP 주소가 아닌 **허용 목록에 IP 범위를 추가합니다**. IP 주소 하나를 허용 목록에 추가하려면 범위에 IP가 하나만 포함되어 있음을 나타내는 &#39;/32&#39;를 추가합니다.
 * 예를 들어 265개를 초과하는 IP 주소 포함과 같은&#x200B;**허용 목록에 매우 넓은 범위를 추가하지 마십시오.** /0~/23 사이의 CIDR 형식 범위는 컨트롤 패널에서 거부됩니다.
 * **공개 IP 주소**&#x200B;만 허용 목록에 추가할 수 있습니다.
-* Make sure to **regularly delete IP addresses** that you do not need anymore from the allow list.
+* 다음을 확인하십시오 **정기적으로 IP 주소 삭제** 허용 목록에서 더 이상 필요하지 않습니다.
 
 ## 허용 목록에 IP 주소 추가 {#adding-ip-addresses-allow-list}
 
@@ -57,7 +57,7 @@ CIDR의 구문에는 IP 주소, &#39;/&#39; 문자, 십진수가 차례로 포�
 
    ![](assets/control_panel_add_range.png)
 
-1. Define the IP range that you want to add to the allow list. This field only accepts IP ranges in CIDR format, such as *192.150.5.0/24*.
+1. 허용 목록에 추가할 IP 범위를 정의합니다. 이 필드는 다음과 같은 CIDR 형식의 IP 범위만 허용합니다 *192.150.5.0/24*.
 
    ![](assets/control_panel_add_range4.png)
 
@@ -75,20 +75,20 @@ CIDR의 구문에는 IP 주소, &#39;/&#39; 문자, 십진수가 차례로 포�
 
    >[!NOTE]
    >
-   >**[!UICONTROL Label]** 필드에는 다음 특수 문자가 허용됩니다.
+   >에는 다음 특수 문자가 허용됩니다. **[!UICONTROL Label]** 필드:
    > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
 
-1. To better manage your IP allow list, you can set a duration for the availability of each IP range. 이렇게 하려면 **[!UICONTROL Type]** 드롭다운 목록에서 단위를 선택하고 해당 필드에 기간을 정의합니다. IP 범위 만료에 대한 자세한 내용은 [이 섹션](#expiry)을 참조하십시오.
+1. IP 허용 목록을 보다 효율적으로 관리하기 위해 각 IP 범위의 가용성에 대한 기간을 설정할 수 있습니다. 이렇게 하려면 **[!UICONTROL Type]** 드롭다운 목록을 나열하고 해당 필드에 기간을 정의합니다. IP 범위 만료에 대한 자세한 내용은 [이 섹션](#expiry).
 
    ![](assets/control_panel_add_range5.png)
 
    >[!NOTE]
    >
-   >By default, the **[!UICONTROL Type]** field is set to **[!UICONTROL Unlimited]**, which means that the IP range never expires.
+   >기본적으로 **[!UICONTROL Type]** 필드가 **[!UICONTROL Unlimited]**: IP 범위가 만료되지 않음을 의미합니다.
 
-1. In the **[!UICONTROL Comment]** field, you can indicate a reason for allowing this IP range (why, for whom, etc.).
+1. 에서 **[!UICONTROL Comment]** 필드에서는 이 IP 범위를 허용하는 이유(이유, 대상 등)를 표시할 수 있습니다.
 
-1. **[!UICONTROL Save]** 버튼을 클릭합니다. 요청이 완전히 처리될 때까지 허용 목록에 추가된 IP 범위가 **[!UICONTROL Pending]**&#x200B;로 표시되며 몇 초 이내에 완료됩니다.
+1. **[!UICONTROL Save]** 버튼을 클릭합니다. 허용 목록에 추가된 IP 범위가 **[!UICONTROL Pending]** 요청이 완전히 처리될 때까지. 요청은 몇 초 이내에 처리됩니다.
 
    ![](assets/control_panel_add_range6.png)
 
@@ -98,15 +98,15 @@ CIDR의 구문에는 IP 주소, &#39;/&#39; 문자, 십진수가 차례로 포�
 
 ## IP 범위 관리 {#managing-ip-ranges}
 
-만드는 IP 범위가 **[!UICONTROL IP Allow Listing]** 탭에 표시됩니다.
+만드는 IP 범위가 **[!UICONTROL IP Allow Listing]** 탭.
 
-You can sort the items based on the creation date or edition date, on the user who created or edited it, and on the IP range expiry.
+만든 날짜 또는 편집 날짜, 항목을 만들거나 편집한 사용자 및 IP 범위 만료에 따라 항목을 정렬할 수 있습니다.
 
-You can also search an IP range by starting to type a label, a range, a name or a comment.
+레이블, 범위, 이름 또는 설명을 입력하여 IP 범위를 검색할 수도 있습니다.
 
 ![](assets/control_panel_allow_list_sort.png)
 
-To edit one or more IP ranges, see [this section](#editing-ip-ranges).
+하나 이상의 IP 범위를 편집하려면 다음을 참조하십시오 [이 섹션](#editing-ip-ranges).
 
 허용 목록에서 하나 이상의 IP 범위를 삭제하려면 해당 범위를 선택한 다음 **[!UICONTROL Delete IP range]** 버튼을 클릭합니다.
 
@@ -114,17 +114,17 @@ To edit one or more IP ranges, see [this section](#editing-ip-ranges).
 
 ### 만료 {#expiry}
 
-**[!UICONTROL Expires]** 열에는 IP 범위가 만료될 때까지 남은 일 수가 표시됩니다.
+다음 **[!UICONTROL Expires]** 열에는 IP 범위가 만료될 때까지 남은 일 수가 표시됩니다.
 
-[이메일 경고](../../performance-monitoring/using/email-alerting.md)를 구독한 경우, IP 범위가 만료되기 10일 5일 전에 전자 메일로 알림을 받게 됩니다. 그리고 만료 기한입니다. Upon receiving the alert, you can [edit the IP range](#editing-ip-ranges) to extend its validity period if needed.
+구독한 경우 [이메일 경고](../../performance-monitoring/using/email-alerting.md)로 로그인하면 IP 범위가 만료되기 10일 5일 전에 전자 메일로 알림을 받게 되며 만료 예정일에 다시 알림이 전송됩니다. 경고를 받으면 다음 작업을 수행할 수 있습니다 [IP 범위 편집](#editing-ip-ranges) 필요한 경우 유효 기간을 연장합니다.
 
-만료된 IP 범위는 7일 후 자동으로 삭제됩니다. **[!UICONTROL Expires]** 열에 **[!UICONTROL Expired]**&#x200B;으로 표시됩니다. Within this 7 day-period:
+만료된 IP 범위는 7일 후 자동으로 삭제됩니다. 다음과 같이 표시됩니다 **[!UICONTROL Expired]** 에서 **[!UICONTROL Expires]** 열. 이 7일 이내:
 
 * 만료된 IP 범위를 더 이상 사용하여 SFTP 서버에 액세스할 수 없습니다.
 
 * 만료된 범위와 겹치는 다른 IP 범위를 만들 수 없습니다. 새 IP 범위를 만들려면 먼저 만료된 IP 범위를 삭제해야 합니다.
 
-* You can [edit](#editing-ip-ranges) an expired IP range and update its duration to make it available again.
+* 다음을 수행할 수 있습니다 [편집](#editing-ip-ranges) 만료된 IP 범위를 확인하고 기간을 업데이트하여 다시 사용할 수 있도록 합니다.
 
 * 허용 목록에서 삭제할 수 있습니다.
 
@@ -143,7 +143,7 @@ IP 범위를 편집하려면 아래 단계를 따르십시오.
 
 <!--Edition is not available for IP ranges that have been created before the Control Panel October 2021 release.-->
 
-1. Select one or more IP ranges from the **[!UICONTROL IP Allow Listing]** list.
+1. 에서 하나 이상의 IP 범위를 선택합니다 **[!UICONTROL IP Allow Listing]** 목록.
 
 1. **[!UICONTROL Update IP range]** 버튼을 클릭합니다.
 
@@ -161,7 +161,7 @@ IP 범위를 편집하려면 아래 단계를 따르십시오.
 
 ## 변경 사항 모니터링 {#monitoring-changes}
 
-The **[!UICONTROL Job Logs]** in the Control Panel home page let you track and monitor all changes that have been made to IP addresses on the allow list.
+다음 **[!UICONTROL Job Logs]** Campaign 컨트롤 패널 홈 페이지에서 허용 목록의 IP 주소에 대한 모든 변경 사항을 추적하고 모니터링할 수 있습니다.
 
 컨트롤 패널 인터페이스에 대한 자세한 내용은 [이 섹션](../../discover/using/discovering-the-interface.md)을 참조하십시오.
 

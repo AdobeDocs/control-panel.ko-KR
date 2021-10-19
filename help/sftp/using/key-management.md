@@ -19,7 +19,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
 >title="공개 키 관리"
->abstract="In this tab, create, manage, and edit your public keys."
+>abstract="이 탭에서 공개 키를 만들고, 관리하고, 편집합니다."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="데모 비디오 시청"
 
 Adobe는 모든 고객에게 **공개 및 개인 키 쌍**&#x200B;을 사용하여 SFTP 서버에 연결할 것을 권장합니다.
@@ -38,7 +38,7 @@ Adobe는 모든 고객에게 **공개 및 개인 키 쌍**&#x200B;을 사용하�
 
 **사용자 이름 및 암호와 API 통합**
 
-드물지만 암호 기반 인증을 사용할 수 있는 SFTP 서버도 있습니다. Adobe recommends that you use key-based authentication, as this method is more efficient and secure. You can request to switch to key-based authentication by contacting Customer Care.
+드물지만 암호 기반 인증을 사용할 수 있는 SFTP 서버도 있습니다. Adobe은 이 방법이 더 효율적이고 안전하므로 키 기반 인증을 사용할 것을 권장합니다. 고객 지원 센터에 연락하여 키 기반 인증으로의 전환을 요청할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -65,21 +65,21 @@ Adobe는 모든 고객에게 **공개 및 개인 키 쌍**&#x200B;을 사용하�
 
    >[!NOTE]
    >
-   >Control Panel will check if a given username is active on a given instance and enable you to activate the key on one or several instances.
+   >Campaign 컨트롤 패널이 해당 인스턴스에서 지정한 사용자 이름이 활성 상태인지 확인한 후에 인스턴스 하나 또는 여러 개에서 키를 활성화할 수 있습니다.
    >
    >각 사용자에 대해 공개 SSH 키를 하나 이상 추가할 수 있습니다.
 
-1. To better manage your public keys, you can set a duration for the availability of each key. 이렇게 하려면 **[!UICONTROL Type]** 드롭다운 목록에서 단위를 선택하고 해당 필드에 기간을 정의합니다. For more on public key expiry, see [this section](#expiry).
+1. 공개 키를 보다 효율적으로 관리하기 위해 각 키의 가용성에 대한 기간을 설정할 수 있습니다. 이렇게 하려면 **[!UICONTROL Type]** 드롭다운 목록을 나열하고 해당 필드에 기간을 정의합니다. 공개 키 만료에 대한 자세한 내용은 [이 섹션](#expiry).
 
    ![](assets/key_expiry.png)
 
    >[!NOTE]
    >
-   >By default, the **[!UICONTROL Type]** field is set to **[!UICONTROL Unlimited]**, which means that the public key never expires.
+   >기본적으로 **[!UICONTROL Type]** 필드가 **[!UICONTROL Unlimited]**&#x200B;즉, 공개 키가 만료되지 않습니다.
 
-1. In the **[!UICONTROL Comment]** field, you can indicate a reason for adding this public key (why, for whom, etc.).
+1. 에서 **[!UICONTROL Comment]** 필드에서 이 공개 키를 추가하는 이유(이유, 대상 등)를 표시할 수 있습니다.
 
-1. **[!UICONTROL Public Key]** 필드를 채우려면 공개 SSH 키를 생성해야 합니다. 운영 체제에 따라 아래 절차를 따르십시오.
+1. 을 채우려면 **[!UICONTROL Public Key]** 필드에서는 공개 SSH 키를 생성해야 합니다. 운영 체제에 따라 아래 절차를 따르십시오.
 
    **Linux 및 Mac:**
 
@@ -99,13 +99,13 @@ Adobe는 모든 고객에게 **공개 및 개인 키 쌍**&#x200B;을 사용하�
 
    >[!NOTE]
    >
-   >**[!UICONTROL Public Key]** 필드는 OpenSSH 형식만 허용합니다. 공개 SSH 키 크기는 **2048비트**&#x200B;여야 합니다.
+   >다음 **[!UICONTROL Public Key]** 필드는 OpenSSH 형식만 허용합니다. 공개 SSH 키 크기는 **2048비트**&#x200B;여야 합니다.
 
 1. **[!UICONTROL Save]** 버튼을 클릭하여 키를 만듭니다. Campaign 컨트롤 패널이 공개 키 및 연결된 지문(SHA256 형식으로 암호화됨)을 저장합니다.
 
 >[!IMPORTANT]
 >
->If the key you created is used to establish a connection with a system that has never been connected to the selected SFTP server before, you will need to add a public IP of that system to the allow list before you are able to use this system with the SFTP server. [이 섹션](ip-range-allow-listing.md)을 참조하십시오.
+>만든 키가 이전에 선택한 SFTP 서버에 연결되어 있지 않은 시스템과의 연결을 설정하는 데 사용되는 경우 SFTP 서버에서 이 시스템을 사용하려면 먼저 해당 시스템의 공개 IP를 허용 목록에 추가해야 합니다. [이 섹션](ip-range-allow-listing.md)을 참조하십시오.
 
 지문을 사용하면 컴퓨터에 저장된 개인 키와 Campaign 컨트롤 패널에 저장된 해당 공개 키를 일치시킬 수 있습니다.
 
@@ -117,7 +117,7 @@ Adobe는 모든 고객에게 **공개 및 개인 키 쌍**&#x200B;을 사용하�
 
 ## 공개 키 관리 {#managing-public-keys}
 
-만드는 공개 키가 **[!UICONTROL Key Management]** 탭에 표시됩니다.
+만든 공개 키가 **[!UICONTROL Key Management]** 탭.
 
 만든 날짜 또는 편집 날짜, 항목을 만들거나 편집한 사용자 및 IP 범위 만료에 따라 항목을 정렬할 수 있습니다.
 
@@ -125,23 +125,23 @@ Adobe는 모든 고객에게 **공개 및 개인 키 쌍**&#x200B;을 사용하�
 
 ![](assets/control_panel_key_management_sort.png)
 
-하나 이상의 IP 범위를 편집하려면 [이 섹션](#editing-public-keys)을 참조하십시오.
+하나 이상의 IP 범위를 편집하려면 다음을 참조하십시오 [이 섹션](#editing-public-keys).
 
-To delete on or more public keys from the list, select them, then click the **[!UICONTROL Delete public key]** button.
+목록에서 공개 키를 하나 이상 삭제하려면 해당 키를 선택한 다음 **[!UICONTROL Delete public key]** 버튼을 클릭합니다.
 
 ![](assets/control_panel_delete_key.png)
 
-### Expiry {#expiry}
+### 만료 {#expiry}
 
-**[!UICONTROL Expires]** 열은 공개 키가 만료될 때까지 남은 일수를 표시합니다.
+다음 **[!UICONTROL Expires]** 열에는 공개 키가 만료될 때까지 남은 일 수가 표시됩니다.
 
-[이메일 경고](../../performance-monitoring/using/email-alerting.md)를 구독한 경우, 공개 키가 만료되기 10일 5일 전에 전자 메일로 알림을 받게 되며, 만료될 날짜입니다. Upon receiving the alert, you can [edit the public key](#editing-public-keys) to extend its validity period if needed.
+구독한 경우 [이메일 경고](../../performance-monitoring/using/email-alerting.md)로 로그인하면 공개 키가 만료되기 10일 5일 전에 전자 메일로 알림을 받게 되며, 만료되는 날에 알림을 받게 됩니다. 경고를 받으면 다음 작업을 수행할 수 있습니다 [공개 키 편집](#editing-public-keys) 필요한 경우 유효 기간을 연장합니다.
 
-만료된 공개 키는 7일 후 자동으로 삭제됩니다. **[!UICONTROL Expires]** 열에 **[!UICONTROL Expired]**&#x200B;으로 표시됩니다. 이 7일 이내:
+만료된 공개 키는 7일 후 자동으로 삭제됩니다. 다음과 같이 표시됩니다 **[!UICONTROL Expired]** 에서 **[!UICONTROL Expires]** 열. 이 7일 이내:
 
 * 만료된 공개 키를 더 이상 사용하여 SFTP 서버에 연결할 수 없습니다.
 
-* [만료된 공개 키를 편집하고 기간을 업데이트하여 다시 사용할 수 있습니다.](#editing-public-keys)
+* 다음을 수행할 수 있습니다 [편집](#editing-public-keys) 만료된 공개 키를 만들고 해당 기간을 업데이트하여 다시 사용할 수 있도록 합니다.
 
 * 목록에서 삭제할 수 있습니다.
 
@@ -152,13 +152,13 @@ To delete on or more public keys from the list, select them, then click the **[!
 >title="공개 키 편집"
 >abstract="선택한 공개 키를 업데이트하여 SFTP 서버에 액세스합니다."
 
-To edit public keys, follow the steps below.
+공개 키를 편집하려면 아래 절차를 따르십시오.
 
 >[!NOTE]
 >
->You can only edit public keys that have been created since the Control Panel October 2021 release.
+>2021년 10월 Campaign 컨트롤 패널 릴리스 이후 생성된 공개 키만 편집할 수 있습니다.
 
-1. Select one or more items from the **[!UICONTROL Key Management]** list.
+1. 에서 하나 이상의 항목을 선택합니다 **[!UICONTROL Key Management]** 목록.
 1. **[!UICONTROL Update public key]** 버튼을 클릭합니다.
 
    ![](assets/control_panel_edit_key.png)
@@ -167,6 +167,6 @@ To edit public keys, follow the steps below.
 
    >[!NOTE]
    >
-   >To modify the username, instance and public key in OpenSSH format, delete the public key and create a new one corresponding to your needs.
+   >사용자 이름, 인스턴스 및 공개 키를 OpenSSH 형식으로 수정하려면 공개 키를 삭제하고 필요에 따라 새 키를 만듭니다.
 
 1. 변경 내용을 저장합니다.
