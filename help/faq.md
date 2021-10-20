@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 7998dba576488ca1e7e587a9d987458beec101b3
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 97%
+source-wordcount: '771'
+ht-degree: 91%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 97%
 
 자세한 내용은 컨트롤 패널에서 지원되는 작업 설명서를 참조하십시오.
 
-### Campaign v8에서는 지원하지 않지만 Campaign Classic v7에서는 사용할 수 있는 기능{#v8-restrictions}
+### Campaign v8에서는 아직 지원되지 않지만, Campaign Classic v7에서 사용할 수 있는 기능이 있습니까?{#v8-restrictions}
 
-하위 도메인 및 인증서 관리 관련 기능은 아직 Campaign v8의 Campaign 컨트롤 패널을 통해 지원되지 않습니다. 관련 지원이 필요하면 Campaign 고객 지원 센터에 문의하십시오.
+아니요. 이제 Campaign Classic v7에서 사용할 수 있는 모든 기능도 하위 도메인 및 인증서 관리 관련 기능을 포함하여 Campaign v8의 Campaign 컨트롤 패널을 통해 지원됩니다.
 
 ### 컨트롤 패널은 Adobe Campaign 전용인가요?
 
