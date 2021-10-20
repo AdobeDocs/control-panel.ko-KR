@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '745'
 ht-degree: 79%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 79%
 >[!IMPORTANT]
 >
 >Campaign 컨트롤 패널의 하위 도메인 위임 기능은 베타 버전에서 사용할 수 있으며, 별도의 공지 없이 업데이트 및 수정될 수 있습니다.
->
->이 기능은 Campaign v8에서는 사용할 수 없습니다.
 
 하위 도메인은 브랜드나 다양한 트래픽 유형(트랜잭션 메시지, 마케팅 정보 등)을 분리하는 데 사용할 수 있는 도메인의 개별 부분입니다.
 
@@ -54,7 +52,7 @@ ht-degree: 79%
 | **전체 위임** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 Adobe에서 Adobe Campaign에 필요한 모든 DNS 레코드를 구성합니다.<br/><br/>이 설정에서는 Adobe가 하위 도메인 및 모든 DNS 레코드를 관리를 전적으로 책임집니다. | 낮음 |
 | **CNAME, 사용자 지정 방법** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 Adobe에서 DNS 서버에 배치할 레코드를 제공하고 Adobe Campaign DNS 서버에서 해당 값을 구성합니다.<br/><br/>이 설정에서는 사용자와 Adobe가 DNS 유지 관리를 공동으로 수행합니다. | 높음 |
 
-도메인 구성에 대한 추가 정보는 [이 설명서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html)에서 확인할 수 있습니다.
+도메인 구성에 대한 추가 정보는 [이 설명서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
 
 하위 도메인 구성 방법에 대해 질문이 있는 경우 Adobe 게재 가능성 팀에 문의하거나, 고객 지원 센터에 연락하여 Deliverability 컨설팅을 요청하십시오.
 
@@ -67,7 +65,7 @@ ht-degree: 79%
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko" text="새 하위 도메인 설정"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ko" text="하위 도메인 브랜딩"
 
-Campaign Classic 인스턴스에 대해 하위 도메인을 설정할 때 하위 도메인이 사용될 사용 사례를 선택해야 합니다( [새 하위 도메인 설정](../../subdomains-certificates/using/setting-up-new-subdomain.md) 참조).
+Campaign Classic 인스턴스에 대해 하위 도메인을 설정할 때 하위 도메인을 사용할 사용 사례를 선택해야 합니다(참조 [새 하위 도메인 설정](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 가능한 사용 사례는 다음과 같습니다.
 
@@ -77,7 +75,7 @@ Campaign Classic 인스턴스에 대해 하위 도메인을 설정할 때 하위
 
 **메시지 배달 가능성을 높이려면 사용 사례에 따라 하위 도메인을 구분하는 것이 좋습니다**. 이렇게 하면 각 하위 도메인의 평판을 독립적으로 보호할 수 있습니다. 예를 들어 인터넷 서비스 공급자가 마케팅 커뮤니케이션용 하위 도메인을 차단 목록에 추가해도 트랜잭션 커뮤니케이션용 하위 도메인에는 아무런 영향이 없으므로 통신을 계속 전송할 수 있습니다.
 
-**마케팅 및 거래 사용 사례 둘 다에 대해 하위 도메인을 구성할 수 있습니다**.
+**마케팅 및 거래 사용 사례에 대해 하위 도메인을 구성할 수 있습니다**:
 
 * 마케팅 사용 사례의 경우 하위 도메인은 **MID**(미드 소싱) 인스턴스에 구성됩니다.
 * 거래 사용 사례의 경우 연결을 보장하기 위해 모든 **RT**(메시지 센터/실시간 메시징) 인스턴스에 하위 도메인이 구성됩니다. 따라서 하위 도메인이 모든 RT 인스턴스와 연동됩니다.

@@ -3,28 +3,24 @@ product: campaign
 solution: Campaign
 title: 하위 도메인의 SSL 인증서 모니터링
 description: 하위 도메인의 SSL 인증서를 모니터링하는 방법 알아보기
-feature: Campaign 컨트롤 패널
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 17%
+source-wordcount: '142'
+ht-degree: 16%
 
 ---
 
 # 하위 도메인 모니터링 {#monitoring-subdomains}
 
->[!AVAILABILITY]
->
->이 기능은 Campaign v8에는 사용할 수 없습니다.
-
 Adobe Campaign에서 작동하도록 하위 도메인을 모니터링하는 것이 중요합니다.
 
-각 프로덕션 인스턴스의 하위 도메인 목록은 **[!UICONTROL Subdomains & Certificates]** 카드를 선택할 때 직접 액세스할 수 있습니다.
+각 프로덕션 인스턴스의 하위 도메인 목록은 **[!UICONTROL Subdomains & Certificates]** 카드.
 
-**[!UICONTROL Last verification]** 열은 하위 도메인이 마지막으로 확인된 시점을 나타냅니다. 언제든지 **..** / **[!UICONTROL Verify subdomain]** 단추.
+다음 **[!UICONTROL Last verification]** 열은 마지막으로 하위 도메인을 확인한 시점을 나타냅니다. 언제든지 을(를) 클릭하여 확인을 시작할 수 있습니다 **...** / **[!UICONTROL Verify subdomain]** 버튼을 클릭합니다.
 
 ![](assets/subdomain_verification.png)
 
