@@ -7,14 +7,18 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
+source-git-commit: 8dce5b9d1eb59b7ebc8ef1f73f7552dcf61077a1
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '399'
 ht-degree: 91%
 
 ---
 
 # 하위 도메인의 SSL 인증서 모니터링 {#monitoring-ssl-certificates}
+
+>[!AVAILABILITY]
+>
+>이 기능은 Campaign v8에서는 사용할 수 없습니다.
 
 ## SSL 인증서 {#about-ssl-certificates}
 
