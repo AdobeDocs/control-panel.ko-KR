@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: eb7cfbd68bdaaf3761e8901feecebea2d8b3b38a
+source-git-commit: 8b0f652559e0296a22b3eac92057e6f4487215e1
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 72%
+source-wordcount: '771'
+ht-degree: 74%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 72%
 
 이제 이메일 경고 기능에는 SFTP IP에 대한 경고(만료 허용 및 SFTP 공개 키 만료)가 포함되어 있습니다. [자세히 표시](performance-monitoring/using/email-alerting.md)
 
-**Campaign v8을 통한 전체 지원**
+<!--**Full support with Campaign v8**
 
-다음 **하위 도메인** 및 **인증서** 관리 기능은 이제 Adobe Campaign v8의 Campaign 컨트롤 패널에서 지원됩니다.
+The **Subdomain** and **Certificate** management capabilities are now supported by Control Panel on Adobe Campaign v8.-->
 
 ## 2021년 8월 {#august-2021}
 
