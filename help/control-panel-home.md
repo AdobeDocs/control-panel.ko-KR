@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 056d5b91652b07ccf9ce8e46e11a4c29cccf6e70
+source-git-commit: 75d369f52be140732525411239ae18b7269e761f
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 90%
+source-wordcount: '243'
+ht-degree: 58%
 
 ---
 
@@ -25,13 +25,17 @@ ht-degree: 90%
 
 ## 새로운 기능
 
-**CNAME을 사용한 하위 도메인 구성**
+**IP 범위 유효 기간 및 에디션**
 
-이제 컨트롤 패널을 통해 인터페이스에서 직접 CNAME을 사용하여 Adobe에서 작동하도록 하위 도메인을 구성할 수 있습니다. [자세한 내용](subdomains-certificates/using/setting-up-new-subdomain.md)
+이제 IP 범위 가용성에 대한 기간을 설정하고 사용자가 만든 IP 범위를 편집할 수 있습니다. [자세히 표시](sftp/using/ip-range-allow-listing.md)
 
-**데이터베이스 모니터링 개선**
+**공개 키 유효 기간 및 에디션**
 
-추가 지표와 함께 **[!UICONTROL Database monitoring]** 탭이 개선되어 데이터베이스의 공간을 사용하는 리소스에 대한 자세한 정보를 얻을 수 있습니다. [자세히 알아보기](performance-monitoring/using/database-monitoring.md)
+마찬가지로 이제 공개 키의 가용성에 대한 기간을 설정하고 만든 공개 키를 편집할 수 있습니다. [자세히 표시](sftp/using/key-management.md)
+
+**Campaign v8을 사용한 지원**
+
+이제 Adobe Campaign v8에 대해 Campaign 컨트롤 패널을 사용할 수 있으며, **하위 도메인** 및 **인증서** 관리 기능. 아직 지원되지 않습니다.
 
 >[!CAUTION]
 >
