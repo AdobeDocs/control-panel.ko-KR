@@ -7,22 +7,18 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: 8dce5b9d1eb59b7ebc8ef1f73f7552dcf61077a1
+source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 21%
+source-wordcount: '142'
+ht-degree: 16%
 
 ---
 
 # 하위 도메인 모니터링 {#monitoring-subdomains}
 
->[!AVAILABILITY]
->
->이 기능은 Campaign v8에서는 사용할 수 없습니다.
-
 Adobe Campaign에서 작동하도록 하위 도메인을 모니터링하는 것이 중요합니다.
 
-The list of subdomains for each of your production instances is accessible directly when selecting the **[!UICONTROL Subdomains & Certificates]** card.
+각 프로덕션 인스턴스의 하위 도메인 목록은 **[!UICONTROL Subdomains & Certificates]** 카드.
 
 다음 **[!UICONTROL Last verification]** 열은 마지막으로 하위 도메인을 확인한 시점을 나타냅니다. 언제든지 을(를) 클릭하여 확인을 시작할 수 있습니다 **...** / **[!UICONTROL Verify subdomain]** 버튼을 클릭합니다.
 
@@ -30,7 +26,7 @@ The list of subdomains for each of your production instances is accessible direc
 
 >[!IMPORTANT]
 >
->Adobe does not recommend using subdomains with no certificate date as it could mean that these subdomains may be having some deliverability issues.
+>Adobe은 인증서 날짜가 없는 하위 도메인을 사용하는 것이 아니라 이러한 하위 도메인에 배달 가능성 문제가 있을 수 있다는 의미입니다.
 
 확인을 시작할 때 하위 도메인이 올바르게 구성되었는지( 인스턴스 테넌트 확인, 이메일 전송 테스트 등) 확인하는 여러 작업이 수행됩니다.
 

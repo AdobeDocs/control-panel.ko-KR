@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: 8dce5b9d1eb59b7ebc8ef1f73f7552dcf61077a1
+source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '828'
 ht-degree: 88%
 
 ---
@@ -21,15 +21,13 @@ ht-degree: 88%
 >title="SSL 인증서 갱신"
 >abstract="SSL 인증서를 갱신하려면 CSR을 생성하고 하위 도메인용 SSL 인증서를 구매한 다음 인증서 번들을 설치해야 합니다."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="CSR(인증서 서명 요청) 생성"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="Installing an SSL certificate"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="SSL 인증서 설치"
 
 ## 인증서 갱신 {#about-certificate-renewal-process}
 
 >[!IMPORTANT]
 >
 >Campaign 컨트롤 패널의 하위 도메인 위임 기능은 베타 버전에서 사용할 수 있으며, 별도의 공지 없이 업데이트 및 수정될 수 있습니다.
->
->이 기능은 Campaign v8에서는 사용할 수 없습니다.
 
 SSL 인증서 갱신 프로세스에는 다음의 세 단계를 수행합니다.
 
@@ -105,7 +103,7 @@ CSR(인증서 서명 요청)을 생성하려면 다음 단계를 수행합니다
 구매한 SSL 인증서는 인스턴스에 설치할 수 있습니다. 계속 진행하기 전에 아래 사전 요구 사항을 숙지하십시오.
 
 * 컨트롤 패널에서 CSR(인증서 서명 요청)을 생성한 상태여야 합니다. CSR을 생성하지 않은 경우에는 컨트롤 패널에서 인증서를 설치할 수 없습니다.
-* The certificate Signing Request (CSR) should match the subdomain that has been configured to work with Adobe. 예를 들어 구성된 하위 도메인은 더 이상 포함할 수 없습니다.
+* CSR(인증서 서명 요청)은 Adobe에서 작동하도록 구성된 하위 도메인과 일치해야 합니다. 예를 들어 구성된 하위 도메인은 더 이상 포함할 수 없습니다.
 * 인증서의 날짜가 현재 날짜여야 합니다. 날짜가 오늘 이후인 인증서는 설치할 수 없습니다. 또한 인증서가 만료되지 않은 상태이며, 시작 날짜와 종료 날짜가 유효해야 합니다.
 * Comodo, DigiCert, GoDaddy 등의 신뢰할 수 있는 CA(인증 기관)에서 발급한 인증서를 사용해야 합니다.
 * 인증서 크기는 2048비트여야 하며 알고리즘은 RSA여야 합니다.

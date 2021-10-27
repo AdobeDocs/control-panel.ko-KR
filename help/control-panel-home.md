@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 75d369f52be140732525411239ae18b7269e761f
+source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 58%
+source-wordcount: '232'
+ht-degree: 57%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 58%
 
 ## 새로운 기능
 
+**Campaign v8을 통한 전체 지원**
+
+다음을 포함한 모든 기능 **하위 도메인** 및 **인증서** 이제 Adobe Campaign v8의 Campaign 컨트롤 패널에서 관리를 지원합니다. [자세히 표시](faq.md#v8-restrictions)
+
 **IP 범위 유효 기간 및 에디션**
 
 이제 IP 범위 가용성에 대한 기간을 설정하고 사용자가 만든 IP 범위를 편집할 수 있습니다. [자세히 표시](sftp/using/ip-range-allow-listing.md)
@@ -33,17 +37,11 @@ ht-degree: 58%
 
 마찬가지로 이제 공개 키의 가용성에 대한 기간을 설정하고 만든 공개 키를 편집할 수 있습니다. [자세히 표시](sftp/using/key-management.md)
 
-**Campaign v8을 사용한 지원**
-
-이제 Adobe Campaign v8에 대해 Campaign 컨트롤 패널을 사용할 수 있으며, **하위 도메인** 및 **인증서** 관리 기능. 아직 지원되지 않습니다.
-
 >[!CAUTION]
 >
 >* Campaign 컨트롤 패널은 관리 사용자만 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
 >
 >* Campaign Classic v7의 경우 배포 제한이 적용됩니다. [자세히 알아보기](faq.md#v7-restrictions)
->
->* Campaign v8의 경우 일부 기능을 사용할 수 없습니다. [자세히 알아보기](faq.md#v8-restrictions)
 
 
 ## 추가 리소스 {#additional-resources}
