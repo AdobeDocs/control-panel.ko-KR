@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+workflow-type: ht
+source-wordcount: '987'
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_database"
->title="데이터베이스 모니터링 기본 정보"
->abstract="이 탭에서는 각 Campaign 인스턴스에 대한 최신 및 과거 데이터베이스 사용 및 진화에 대한 실시간 정보를 얻을 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="성능 모니터링"
+>title="데이터베이스 모니터링 정보"
+>abstract="이 탭에서는 각 Campaign 인스턴스의 최신 및 과거 데이터베이스 사용량 기록과 평가에 대하여 실시간으로 정보를 확인할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ko" text="성능 모니터링 정보"
 
 ![](assets/do-not-localize/how-to-video.png) 이 비디오에서 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=ko#performance-monitoring) 또는 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=ko#performance-monitoring)를 사용하여 해당 기능 살펴보기
 
@@ -70,8 +70,8 @@ Campaign 컨트롤 패널을 사용하면 각 캠페인 인스턴스에 대한 �
 
 >[!CONTEXTUALHELP]
 >id="cp_dbdetails_storagedetails"
->title="저장소 개요"
->abstract="이 탭에서 데이터베이스 공간을 사용하는 다른 Campaign 리소스에 대한 자세한 정보를 얻을 수 있습니다."
+>title="저장소 개요 정보"
+>abstract="이 탭에서는 데이터베이스 공간을 사용하는 다양한 Campaign 리소스에 대하여 자세한 정보를 확인할 수 있습니다."
 
 **[!UICONTROL Storage overview]** 영역은 다음과 같이 사용자가 사용 중인 공간을 그래픽으로 표시합니다.
 
@@ -115,7 +115,7 @@ Campaign 컨트롤 패널을 사용하면 각 캠페인 인스턴스에 대한 �
 
 ![](assets/database-top10-view.png)
 
-**[!UICONTROL Keep interim results]** 열의 값은 Campaign에서 옵션이 활성화되었는지(&quot;1&quot;), 비활성화되었는지(&quot;0&quot;)를 나타냅니다. 이 옵션을 사용하면 워크플로우의 다양한 활동 중에 전환 결과를 저장할 수 있습니다([Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=ko) 및 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html?lang=o#logs) 설명서 참조).
+**[!UICONTROL Keep interim results]** 열의 값은 Campaign에서 옵션이 활성화되었는지(&quot;1&quot;), 비활성화되었는지(&quot;0&quot;)를 나타냅니다. 이 옵션을 사용하면 워크플로우의 다양한 활동 중에 전환 결과를 저장할 수 있습니다([Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=ko) 및 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=ko#logs) 설명서 참조).
 
 >[!IMPORTANT]
 >
@@ -136,7 +136,7 @@ Campaign Standard 및 Classic에서는 데이터베이스 디스크 공간 과�
 
 **데이터베이스 유지 관리**
 
-* 데이터베이스 정리 기술 워크플로우: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=en#list-of-technical-workflows) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=en)
+* 데이터베이스 정리 기술 워크플로우: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ko#list-of-technical-workflows) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=ko)
 * [데이터베이스 유지 관리 안내서](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=ko) (Campaign Classic)
 * [데이터베이스 성능 문제 해결](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=ko) (Campaign Classic)
 * [데이터베이스 관련 옵션](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ko#database) (Campaign Classic)
