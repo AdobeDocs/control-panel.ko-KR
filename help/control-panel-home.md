@@ -8,7 +8,7 @@ exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 57%
+ht-degree: 66%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 57%
 >id="cp_overview"
 >title="컨트롤 패널"
 >abstract="컨트롤 패널 홈 페이지에서는 Campaign 인스턴스에서 수행 가능한 모든 작업에 액세스할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="인터페이스 살펴보기"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html" text="컨트롤 패널 액세스"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html?lang=ko" text="인터페이스 살펴보기"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=ko" text="컨트롤 패널 액세스"
 
 ![](assets/do-not-localize/banner.png)
 
@@ -39,7 +39,7 @@ ht-degree: 57%
 
 >[!CAUTION]
 >
->* Campaign 컨트롤 패널은 관리 사용자만 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
+>* Campaign 컨트롤 패널은 관리 사용자만 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)
 >
 >* Campaign Classic v7의 경우 배포 제한이 적용됩니다. [자세히 알아보기](faq.md#v7-restrictions)
 
@@ -63,7 +63,7 @@ ht-degree: 57%
         <td><b>Campaign v8</b><br/>
         <ul>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=ko">Campaign 컨트롤 패널 튜토리얼 비디오</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html">Campaign v8 제품 설명서</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko">Campaign v8 제품 설명서</a></li>
         </ul>
         </td>
     </tr>
