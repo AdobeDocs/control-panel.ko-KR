@@ -1,15 +1,14 @@
 ---
 product: adobe campaign
-sub-product: 컨트롤 패널
+sub-product: control panel
 audience: end-user
 user-guide-title: Campaign 컨트롤 패널 안내서
 feature: Control Panel
 role: Architect
 level: Beginner
-translation-type: ht
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: ht
-source-wordcount: '102'
+workflow-type: tm+mt
+source-wordcount: '98'
 ht-degree: 100%
 
 ---

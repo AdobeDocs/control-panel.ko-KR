@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1183'
+ht-degree: 9%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 0%
 >id="cp_instancesettings_gpg_management"
 >title="GPG 키"
 >abstract="이 탭에서 Campaign에서 전송된 데이터를 암호화하고 수신되는 데이터를 해독하기 위해 마케팅 인스턴스에 GPG 키를 설치 및/또는 생성할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="성능 모니터링"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ko" text="성능 모니터링 정보"
 
 ## GPG 암호화 정보 {#about-gpg-encryption}
 
-GPG 암호화를 사용하면 [OpenPGP](https://www.openpgp.org/about/standard/) 사양을 따르는 공개 개인 키 쌍 시스템을 사용하여 데이터를 보호할 수 있습니다.
+GPG 암호화를 사용하면 다음에 이어지는 공개-개인 키 쌍 시스템을 사용하여 데이터를 보호할 수 있습니다 [OpenPGP](https://www.openpgp.org/about/standard/) 사양.
 
 구현되면 전송 전에 수신 데이터의 암호 해독과 발신 데이터를 암호화하여 유효한 일치하는 키 쌍이 없는 사람이 해당 데이터에 액세스하지 못하도록 할 수 있습니다.
 
@@ -44,7 +44,7 @@ Campaign 컨트롤 패널을 사용하면 Adobe Campaign 인스턴스에서 나�
 
 ![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](#video)
 
-1. [OpenPGP 사양](https://www.openpgp.org/about/standard/) 다음에 나오는 PGP 암호화 도구를 사용하여 공개/개인 키 쌍을 생성합니다. 이렇게 하려면 GPG 유틸리티 또는 GNuGP 소프트웨어를 설치합니다.
+1. 다음 PGP 암호화 도구를 사용하여 공개/개인 키 쌍을 생성합니다. [OpenPGP 사양](https://www.openpgp.org/about/standard/). 이렇게 하려면 GPG 유틸리티 또는 GNuGP 소프트웨어를 설치합니다.
 
    >[!NOTE]
    >
@@ -58,7 +58,7 @@ Campaign 컨트롤 패널을 사용하면 Adobe Campaign 인스턴스에서 나�
 
    * **키 유형**: RSA
    * **키 길이**: 1024 - 4096비트
-   * **실제** 이름 및  **이메일 주소**: 키 쌍을 만든 사용자를 추적할 수 있습니다. 조직 또는 부서에 연결된 이름 및 이메일 주소를 입력합니다.
+   * **실제 이름** 및 **이메일 주소**: 키 쌍을 만든 사용자를 추적할 수 있습니다. 조직 또는 부서에 연결된 이름 및 이메일 주소를 입력합니다.
    * **댓글**: 주석 필드에 레이블을 추가하면 데이터를 암호화하는 데 사용할 키를 쉽게 식별할 수 있습니다.
    * **만료**: 만료 날짜가 없는 날짜 또는 &quot;0&quot;입니다.
    * **암호**
@@ -69,7 +69,7 @@ Campaign 컨트롤 패널을 사용하면 Adobe Campaign 인스턴스에서 나�
 
    `gpg -a --export <fingerprint>`
 
-1. 공개 키를 Campaign 컨트롤 패널에 설치하려면 **[!UICONTROL Instance settings]** 카드를 열고 **[!UICONTROL GPG keys]** 탭 및 원하는 인스턴스를 선택합니다.
+1. 공개 키를 Campaign 컨트롤 패널에 설치하려면 **[!UICONTROL Instance settings]** 카드를 선택한 다음 **[!UICONTROL GPG keys]** 탭하고 원하는 인스턴스를 만들 수 있습니다.
 
 1. **[!UICONTROL Install Key]** 버튼을 클릭합니다.
 
@@ -85,7 +85,7 @@ Campaign 컨트롤 패널을 사용하면 Adobe Campaign 인스턴스에서 나�
 
 1. **[!UICONTROL Install Key]** 버튼을 클릭합니다.
 
-공개 키가 설치되면 목록에 표시됩니다. **..** 단추를 클릭하여 다운로드하거나 지문을 복사합니다.
+공개 키가 설치되면 목록에 표시됩니다. 를 사용할 수 있습니다 **...** 단추를 클릭하여 다운로드하거나 지문을 복사합니다.
 
 ![](assets/gpg_install_download.png)
 
@@ -102,7 +102,7 @@ Campaign 컨트롤 패널을 사용하면 Adobe Campaign 인스턴스에서 나�
 
 **Campaign Standard:**
 
-* [암호화된 데이터 관리](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [암호화된 데이터 관리](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [사용 사례: Campaign 컨트롤 패널에 설치된 키를 사용하여 데이터 암호화 및 내보내기](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html#use-case-gpg-encrypt)
 
 ## 데이터 복호화 {#decrypting-data}
@@ -111,26 +111,26 @@ Campaign 컨트롤 패널을 사용하면 Adobe Campaign 인스턴스로 들어�
 
 이렇게 하려면 Campaign 컨트롤 패널에서 직접 GPG 키 쌍을 생성해야 합니다.
 
-* **공개 키**&#x200B;는 외부 시스템과 공유되며, 이 키를 사용하여 Campaign으로 보낼 데이터를 암호화합니다.
-* Campaign은 **개인 키**&#x200B;를 사용하여 들어오는 암호화된 데이터를 해독합니다.
+* 다음 **공개 키** 외부 시스템과 공유되며, 이 시스템은 Campaign으로 전송할 데이터를 암호화하는 데 사용됩니다.
+* 다음 **개인 키** 은 Campaign이 들어오는 암호화된 데이터를 해독하는 데 사용됩니다.
 
 ![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](#video)
 
 Campaign 컨트롤 패널에서 키 쌍을 생성하려면 다음 단계를 수행합니다.
 
-1. **[!UICONTROL Instance settings]** 카드를 열고 **[!UICONTROL GPG keys]** 탭 및 원하는 Adobe Campaign 인스턴스를 선택합니다.
+1. 를 엽니다. **[!UICONTROL Instance settings]** 카드를 선택한 다음 **[!UICONTROL GPG keys]** 탭 및 원하는 Adobe Campaign 인스턴스.
 
 1. **[!UICONTROL Generate Key]** 버튼을 클릭합니다.
 
    ![](assets/gpg_generate.png)
 
-1. 키 이름을 지정한 다음 **[!UICONTROL Generate Key]** 을 클릭합니다. 이 이름은 Campaign 워크플로우에서 암호 해독에 사용할 키를 식별하는 데 도움이 됩니다
+1. 키 이름을 지정한 다음 **[!UICONTROL Generate Key]**. 이 이름은 Campaign 워크플로우에서 암호 해독에 사용할 키를 식별하는 데 도움이 됩니다
 
    ![](assets/gpg_generate_name.png)
 
 키 쌍이 생성되면 공개 키가 목록에 표시됩니다. 암호 해독 키 쌍은 만료 날짜가 없는 상태로 생성됩니다.
 
-**..** 단추를 클릭하여 공개 키를 다운로드하거나 지문을 복사합니다.
+를 사용할 수 있습니다 **...** 단추를 클릭하여 공개 키를 다운로드하거나 지문을 복사합니다.
 
 ![](assets/gpg_generate_list.png)
 
@@ -145,12 +145,12 @@ Campaign 컨트롤 패널에서 키 쌍을 생성하려면 다음 단계를 수�
 
 **Campaign Standard:**
 
-* [암호화된 데이터 관리](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [사용 사례: Campaign 컨트롤 패널에서 생성한 키를 사용하여 암호화된 데이터 가져오기](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
+* [암호화된 데이터 관리](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [사용 사례: Campaign 컨트롤 패널에서 생성한 키를 사용하여 암호화된 데이터 가져오기](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## GPG 키 모니터링
 
-인스턴스에 대해 설치 및 생성된 GPG 키에 액세스하려면 **[!UICONTROL Instance settings]** 카드를 연 다음 **[!UICONTROL GPG keys]** 탭을 선택합니다.
+인스턴스용으로 설치 및 생성된 GPG 키에 액세스하려면 **[!UICONTROL Instance settings]** 카드를 선택한 다음 **[!UICONTROL GPG keys]** 탭.
 
 ![](assets/gpg_list.png)
 
@@ -174,7 +174,7 @@ Campaign 컨트롤 패널에서 키 쌍을 생성하려면 다음 단계를 수�
    >
    >Campaign 컨트롤 패널은 이메일 알림을 전송하지 않습니다.
 
-더 이상 필요하지 않은 키를 제거하는 것이 좋습니다. 이렇게 하려면 **..** 단추를 선택한 후 **[!UICONTROL Delete Key].**
+더 이상 필요하지 않은 키를 제거하는 것이 좋습니다. 이렇게 하려면 **...** 단추를 누른 후 선택 **[!UICONTROL Delete Key].**.
 
 ![](assets/gpg_delete.png)
 
@@ -186,6 +186,6 @@ Campaign 컨트롤 패널에서 키 쌍을 생성하려면 다음 단계를 수�
 
 아래 비디오에서는 데이터 암호화에 대한 GPG 키를 생성하고 설치하는 방법을 보여줍니다.
 
-GPG 키 관리와 관련된 추가 방법 비디오는 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings) 및 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings) 자습서 페이지에서 사용할 수 있습니다.
+GPG 키 관리와 관련된 추가 방법 비디오는에서 사용할 수 있습니다.  [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) 및 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) 자습서 페이지.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

@@ -10,7 +10,7 @@ exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 23c2cd3172a846c1006fc172acf07cae1f222a9c
 workflow-type: tm+mt
 source-wordcount: '792'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 72%
 
 >[!NOTE]
 >
->Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 섹션](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)에 자세히 설명되어 있습니다.
+>Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 섹션](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
 >
 >Campaign Classic v7의 경우 인스턴스는 AWS에서 호스팅하고 최신 버전으로 업그레이드해야 합니다 [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=ko) 빌드 또는 [최신 GA 빌드(21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ko#release-notes). [이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ko#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](faq.md)에 설명된 단계를 수행합니다.
 

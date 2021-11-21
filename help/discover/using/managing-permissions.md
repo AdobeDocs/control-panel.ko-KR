@@ -20,17 +20,17 @@ ht-degree: 6%
 
 ![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](../../discover/using/managing-permissions.md#video)
 
-1. [Adobe Experience Cloud 홈 페이지](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}로 이동합니다.
+1. 로 이동합니다 [Adobe Experience Cloud 홈페이지](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
 
-1. **빠른 액세스** 섹션 또는 오른쪽 상단 메뉴에서 사용 가능한 링크를 클릭하여 **Admin Console**&#x200B;을(를) 시작합니다.
+1. 시작 **Admin Console** 에서 사용 가능한 링크를 클릭하여 **빠른 액세스** 섹션을 클릭하거나 오른쪽 상단 메뉴에서 을 선택합니다.
 
    ![](assets/do-not-localize/control_panel_admin-console.png)
 
    >[!NOTE]
    >
-   >**Admin Console** 링크가 표시되지 않으면 조직에 대한 관리자 권한이 없음을 의미합니다. 조직 관리자에게 문의하여 해당 단계를 수행합니다.
+   >만약 **Admin Console** 링크가 표시되지 않습니다. 이는 조직에 대한 관리자 권한이 없음을 의미합니다. 조직 관리자에게 문의하여 해당 단계를 수행합니다.
 
-1. **Admin Console**&#x200B;의 **[!UICONTROL Products and services]** 목록에서 원하는 Campaign 제품을 선택합니다.
+1. 에서 **Admin Console**&#x200B;에서 원하는 Campaign 제품을 선택합니다 **[!UICONTROL Products and services]** 목록.
 
    ![](assets/do-not-localize/control_panel_product-list.png)
 
@@ -46,7 +46,7 @@ ht-degree: 6%
    >
    >각 Campaign 인스턴스에 대해 다른 관리자 사용자를 추가할 수 있습니다. 관리자 사용자는 자신이 속한 인스턴스의 Campaign 컨트롤 패널에 액세스합니다.
 
-1. 선택한 인스턴스에 대한 **[!UICONTROL Product Profiles]** 목록이 표시됩니다. 관리 사용자 목록에 액세스하려면 **[!UICONTROL Administrators]** 제품 프로필을 클릭하십시오.
+1. 목록 **[!UICONTROL Product Profiles]** 에 대해 선택한 인스턴스가 표시됩니다. 을(를) 클릭합니다. **[!UICONTROL Administrators]** 제품 프로필에서 관리자 사용자 목록에 액세스합니다.
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
@@ -54,7 +54,7 @@ ht-degree: 6%
    >
    >기본적으로 관리자 사용자는 &quot;관리자&quot; 제품 프로필에 속합니다. 조직 구성에 따라 제품 프로필의 이름을 다르게 지정할 수 있습니다(&quot;관리자&quot;, &quot;관리자&quot; 등).
 
-1. 관리자 사용자 목록이 표시됩니다. **[!UICONTROL Add User]** 단추를 클릭하여 원하는 사용자를 추가합니다.
+1. 관리자 사용자 목록이 표시됩니다. 을(를) 클릭합니다. **[!UICONTROL Add User]** 버튼을 클릭하여 원하는 사용자를 추가합니다.
 
    ![](assets/do-not-localize/control_panel_add_user_6.png)
 

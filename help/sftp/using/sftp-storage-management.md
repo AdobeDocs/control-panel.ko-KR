@@ -10,7 +10,7 @@ exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
 source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 90%
+ht-degree: 93%
 
 ---
 
@@ -44,6 +44,6 @@ ht-degree: 90%
 ## 스토리지 용량 부족 시의 모범 사례 {#best-practices-when-capacity-runs-out}
 
 1. **SFTP 서버에서 오래된 파일이나 필요하지 않은 파일을 정리**&#x200B;합니다. SFTP 서버 폴더에 액세스하는 방법과 관련된 자세한 내용은 [이 섹션](../../sftp/using/logging-into-sftp-server.md)을 참조하십시오.
-1. SFTP 서버를 정리하는 **워크플로우**&#x200B;가 정상적으로 실행되는지 확인합니다. Adobe Campaign의 기술 워크플로우와 관련된 자세한 내용은 전용 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) 및 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html) 설명서를 참조하십시오.
+1. SFTP 서버를 정리하는 **워크플로우**&#x200B;가 정상적으로 실행되는지 확인합니다. Adobe Campaign의 기술 워크플로우와 관련된 자세한 내용은 전용 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) 및 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ko) 설명서를 참조하십시오.
 1. 계정 팀에 연락하여 **추가 스토리지를 요청**&#x200B;합니다(추가 비용이 발생할 수 있음).
 1. 문제가 있다고 생각되면 **고객 지원 센터**&#x200B;에 문의하십시오.

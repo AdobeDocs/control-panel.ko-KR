@@ -48,7 +48,7 @@ SSL 인증서 갱신 프로세스에는 다음의 세 단계를 수행합니다.
 >id="cp_select_subdomains"
 >title="CSR을 생성할 하위 도메인 선택"
 >abstract="인증서 서명 요청에는 모든 하위 도메인을 포함할 수도 있고 특정 하위 도메인만 포함할 수도 있습니다. 선택한 하위 도메인만 구매한 SSL 인증서를 통해 인증됩니다."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="하위 도메인 브랜딩"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ko" text="하위 도메인 브랜딩"
 
 CSR(인증서 서명 요청)을 생성하려면 다음 단계를 수행합니다.
 
