@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -25,17 +25,17 @@ ht-degree: 66%
 
 ## 새로운 기능
 
-**Campaign v8을 통한 전체 지원**
+**Campaign v8에서 모든 기능 지원**
 
-다음을 포함한 모든 기능 **하위 도메인** 및 **인증서** 이제 Adobe Campaign v8의 Campaign 컨트롤 패널에서 관리를 지원합니다. [자세히 표시](faq.md#v8-restrictions)
+이제 **하위 도메인**&#x200B;과 **인증서** 관리 등 모든 기능을 Adobe Campaign v8의 [컨트롤 패널]을 통해 지원합니다. [자세히 표시](faq.md#v8-restrictions)
 
-**IP 범위 유효 기간 및 에디션**
+**IP 범위 유효 기간 및 편집**
 
-이제 IP 범위 가용성에 대한 기간을 설정하고 사용자가 만든 IP 범위를 편집할 수 있습니다. [자세히 표시](sftp/using/ip-range-allow-listing.md)
+이제 IP 범위를 사용할 수 있는 기간을 설정하고 사용자가 만든 IP 범위를 편집할 수 있습니다. [자세히 표시](sftp/using/ip-range-allow-listing.md)
 
-**공개 키 유효 기간 및 에디션**
+**공개 키 유효 기간 및 편집**
 
-마찬가지로 이제 공개 키의 가용성에 대한 기간을 설정하고 만든 공개 키를 편집할 수 있습니다. [자세히 표시](sftp/using/key-management.md)
+마찬가지로 이제 공개 키를 사용할 수 있는 기간을 설정하고 만든 공개 키를 편집할 수 있습니다. [자세히 표시](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
