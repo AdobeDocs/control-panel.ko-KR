@@ -8,7 +8,7 @@ role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1334'
 ht-degree: 100%
 
@@ -62,13 +62,13 @@ ht-degree: 100%
 >id="cp_add_subdomain_create_delegate"
 >title="하위 도메인 만들기 및 위임"
 >abstract="Adobe Campaign에 사용할 하위 도메인을 호스팅 솔루션에서 만든 후 Adobe에 위임합니다."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="새 하위 도메인 설정"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko" text="새 하위 도메인 설정"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_submit"
 >title="하위 도메인 제출"
 >abstract="이전 단계에서 구성한 하위 도메인을 확인하고 제출합니다."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="새 하위 도메인 설정"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko" text="새 하위 도메인 설정"
 
 하위 도메인을 Adobe Campaign에 완전히 위임하려면 아래 단계를 따르십시오.
 
@@ -110,19 +110,19 @@ ht-degree: 100%
 >id="cp_add_cname_subdomain_create_delegate"
 >title="하위 도메인 구성"
 >abstract="이 화면에서는 CNAME을 사용하여 구성할 하위 도메인을 지정합니다."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="새 하위 도메인 설정"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko" text="새 하위 도메인 설정"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_records"
 >title="기록 생성"
 >abstract="이 화면에 표시된 DNS 기록 목록을 생성하려면 호스팅 솔루션으로 이동합니다."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="새 하위 도메인 설정"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko" text="새 하위 도메인 설정"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_subdomain_submit"
 >title="하위 도메인 제출"
 >abstract="이전 단계에서 구성한 하위 도메인을 확인하고 제출합니다."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="새 하위 도메인 설정"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko" text="새 하위 도메인 설정"
 
 CNAME을 사용하여 하위 도메인을 구성하려면 아래 단계를 따르십시오.
 
