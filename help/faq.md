@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: 47a57b38e9af8b03d277bf9ee6922b19f0298944
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '771'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 94%
 
 자세한 내용은 컨트롤 패널에서 지원되는 작업 설명서를 참조하십시오.
 
-### Campaign v8에서는 아직 지원되지 않지만, Campaign Classic v7에서 사용할 수 있는 기능이 있습니까?{#v8-restrictions}
+### Campaign v8에서 아직 지원하지 않지만 Campaign Classic v7에서는 사용할 수 있는 기능이 있나요?{#v8-restrictions}
 
-아니요. 이제 Campaign Classic v7에서 사용할 수 있는 모든 기능도 하위 도메인 및 인증서 관리 관련 기능을 포함하여 Campaign v8의 Campaign 컨트롤 패널을 통해 지원됩니다.
+아니요. 이제 [하위 도메인] 및 [인증서 관리] 관련 기능 등 Campaign Classic v7에서 사용할 수 있는 기능도 모두 Campaign v8의 [컨트롤 패널]을 통해 지원됩니다.
 
 ### 컨트롤 패널은 Adobe Campaign 전용인가요?
 
@@ -66,7 +66,7 @@ Adobe Experience Cloud에 처음 로그인할 때 인스턴스에 제공되는 �
 
 ### IMS 조직 ID는 어디에서 확인할 수 있나요?
 
-[Adobe Experience Cloud 홈](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**(으)로 이동하는 방법이 있습니다. 관리 **[!UICONTROL Quick Access]** 섹션 아래쪽에서 IMS 조직 ID를 확인할 수 있습니다. [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html)에서 자세한 정보를 찾을 수 있습니다.
+[Adobe Experience Cloud 홈](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**(으)로 이동하는 방법이 있습니다. 관리 **[!UICONTROL Quick Access]** 섹션 아래쪽에서 IMS 조직 ID를 확인할 수 있습니다. [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)에서 자세한 정보를 찾을 수 있습니다.
 
 **관리 콘솔**&#x200B;을 시작하여 ID를 확인할 수도 있습니다. IMS 조직 ID는 https://adminconsole.adobe.com/xxx@AdobeOrg/overview와 같은 형태로 URL에 표시됩니다.
 
