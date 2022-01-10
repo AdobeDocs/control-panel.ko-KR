@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 8c604e9b1f657be938b04d096ac22efed99e1cbe
+source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 73%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,19 +20,19 @@ ht-degree: 73%
 
 >[!NOTE]
 >
->Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 섹션](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
+>Campaign 컨트롤 패널은 관리자 사용자만 액세스할 수 있습니다. 사용 권한에 대해 자세히 알아보기 [이 섹션](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel).
 >
->Campaign Classic v7의 경우 인스턴스는 AWS에서 호스팅하고 최신 버전으로 업그레이드해야 합니다 [안정적인 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/rn-overview.html). [이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ko#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](faq.md)에 설명된 단계를 수행합니다.
+>Campaign Classic v7의 경우 인스턴스는 Amazon Web Services(AWS)에서 호스팅하고 최신 버전으로 업그레이드해야 합니다 [캠페인 안정적인 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses) (또는 빌드 9032 이상) [이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ko#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](faq.md#hosted-aws)에 설명된 단계를 수행합니다.
 
 ## 2021년 10월 {#october-2021}
 
 **IP 범위 및 공개 키 유효 기간**
 
-It is now possible to set a duration for the availability of IP ranges and public keys. Read more in the [IP range allow listing](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) and [Key management](sftp/using/key-management.md#installing-ssh-key) sections.
+이제 IP 범위 및 공개 키의 가용성에 대한 기간을 설정할 수 있습니다. 자세한 내용은 [IP 범위 허용 목록](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) 및 [키 관리](sftp/using/key-management.md#installing-ssh-key) 섹션에 자세히 설명되어 있습니다.
 
-**IP range and public key edition**
+**IP 범위 및 공개 키 편집**
 
-You can now edit the [IP ranges](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) and [public keys](sftp/using/key-management.md#editing-public-keys) that you create. Note that this feature is not available for the items created before the current Control Panel release.
+이제 를 편집할 수 있습니다 [IP 범위](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) 및 [공개 키](sftp/using/key-management.md#editing-public-keys) 생성하십시오. 이 기능은 현재 Campaign 컨트롤 패널 릴리스 전에 생성된 항목에 사용할 수 없습니다.
 
 **SFTP IP 범위 및 공개 키 만료 경고**
 
