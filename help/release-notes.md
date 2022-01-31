@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
+source-git-commit: 10c4cf41dc9502bb66566951780cf8f963b08aa9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '858'
+ht-degree: 65%
 
 ---
 
@@ -23,6 +23,20 @@ ht-degree: 0%
 >Campaign 컨트롤 패널은 관리자 사용자만 액세스할 수 있습니다. 사용 권한에 대해 자세히 알아보기 [이 섹션](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel).
 >
 >Campaign Classic v7의 경우 인스턴스는 Amazon Web Services(AWS)에서 호스팅하고 최신 버전으로 업그레이드해야 합니다 [캠페인 안정적인 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses) (또는 빌드 9032 이상) [이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ko#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](faq.md#hosted-aws)에 설명된 단계를 수행합니다.
+
+## 2022년 1월 {#january-2022}
+
+**활성 쿼리 모니터링**
+
+이제 Campaign 컨트롤 패널을 통해 인스턴스에서 가장 오랫동안 실행되는 쿼리를 모니터링할 수 있습니다. [자세히 표시](performance-monitoring/using/database-active-queries.md)
+
+**처리량 및 지연 모니터링**
+
+이제 인스턴스의 일정 시간 동안 게재 처리량과 지연 시간이 어떻게 트렌드인지 모니터링할 수 있습니다. [자세히 표시](performance-monitoring/using/thoughputs-latencies.md)
+
+**새 하위 도메인에서 SSL 인증서 작업**
+
+이제 게재 기능 감사가 진행 중인 경우에도 새로 설정된 하위 도메인에서 SSL 인증서 작업을 수행할 수 있습니다. [자세히 표시](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## 2021년 10월 {#october-2021}
 

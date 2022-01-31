@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
-workflow-type: ht
-source-wordcount: '1334'
-ht-degree: 100%
+source-git-commit: 278788a69f06865b6a38d8a901077866e1bc88ee
+workflow-type: tm+mt
+source-wordcount: '1354'
+ht-degree: 96%
 
 ---
 
@@ -38,9 +38,7 @@ ht-degree: 100%
 
  **프로덕션** 인스턴스의 경우에만 하위 도메인을 위임할 수 있습니다.
 
-마법사에서 선택하는 인스턴스에 이전에 설정한 하위 도메인이 없는 경우, 처음 구성된 하위 도메인이 해당 인스턴스에 대해 **주 하위 도메인**&#x200B;이 되고 나중에 변경할 수 없습니다.
-
-따라서 이 주 하위 도메인을 사용하는 다른 하위 도메인에 대해 **역방향 DNS 레코드**&#x200B;이 만들어집니다. 다른 하위 도메인용 **회신 주소 및 바운스 주소**&#x200B;는 주 하위 도메인에서 생성됩니다.
+마법사에서 선택하는 인스턴스에 이전에 설정한 하위 도메인이 없는 경우, 처음 구성된 하위 도메인이 해당 인스턴스에 대해 **주 하위 도메인**&#x200B;이 되고 나중에 변경할 수 없습니다. 따라서 이 주 하위 도메인을 사용하는 다른 하위 도메인에 대해 **역방향 DNS 레코드**&#x200B;이 만들어집니다. 다른 하위 도메인용 **회신 주소 및 바운스 주소**&#x200B;는 주 하위 도메인에서 생성됩니다.
 
 ### 이름 서버 구성
 
@@ -62,13 +60,13 @@ ht-degree: 100%
 >id="cp_add_subdomain_create_delegate"
 >title="하위 도메인 만들기 및 위임"
 >abstract="Adobe Campaign에 사용할 하위 도메인을 호스팅 솔루션에서 만든 후 Adobe에 위임합니다."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko" text="새 하위 도메인 설정"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="새 하위 도메인 설정"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_submit"
 >title="하위 도메인 제출"
 >abstract="이전 단계에서 구성한 하위 도메인을 확인하고 제출합니다."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko" text="새 하위 도메인 설정"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="새 하위 도메인 설정"
 
 하위 도메인을 Adobe Campaign에 완전히 위임하려면 아래 단계를 따르십시오.
 
@@ -110,19 +108,19 @@ ht-degree: 100%
 >id="cp_add_cname_subdomain_create_delegate"
 >title="하위 도메인 구성"
 >abstract="이 화면에서는 CNAME을 사용하여 구성할 하위 도메인을 지정합니다."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko" text="새 하위 도메인 설정"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="새 하위 도메인 설정"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_records"
 >title="기록 생성"
 >abstract="이 화면에 표시된 DNS 기록 목록을 생성하려면 호스팅 솔루션으로 이동합니다."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko" text="새 하위 도메인 설정"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="새 하위 도메인 설정"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_subdomain_submit"
 >title="하위 도메인 제출"
 >abstract="이전 단계에서 구성한 하위 도메인을 확인하고 제출합니다."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko" text="새 하위 도메인 설정"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="새 하위 도메인 설정"
 
 CNAME을 사용하여 하위 도메인을 구성하려면 아래 단계를 따르십시오.
 
@@ -168,7 +166,7 @@ CNAME을 사용하여 하위 도메인을 구성하려면 아래 단계를 따�
 
    >[!NOTE]
    >
-   >하위 도메인 위임을 실행하는 동안에는 성능 문제를 방지하기 위해 Campaign 컨트롤 패널을 통해 제출하는 다른 요청은 큐에 저장되며 하위 도메인 위임이 완료된 후에만 수행됩니다.
+   >하위 도메인 구성이 실행되는 동안 성능 문제를 방지하기 위해 다른 Campaign 컨트롤 패널 요청은 큐에 저장되며 하위 도메인 구성이 완료된 후에만 수행됩니다.
 
 1. 이 두 가지 사항이 성공적으로 확인되면 Campaign 컨트롤 패널에서 DNS 레코드, 추가 URL, 받은 편지함 등으로 하위 도메인 설정을 시작합니다.
 
@@ -183,6 +181,8 @@ CNAME을 사용하여 하위 도메인을 구성하려면 아래 단계를 따�
    >[!IMPORTANT]
    >
    >이 프로세스의 게재 확인에는 피드백 루프, 스팸 위반 루프 테스트 등이 포함됩니다. 그러므로 감사가 완료되기 전에는 하위 도메인을 사용하지 않는 것이 좋습니다. 감사 완료 전에 하위 도메인을 사용하면 하위 도메인 평판이 낮아질 수 있기 때문입니다.
+   >
+   >그러나 게재 기능 감사가 계속 처리 중인 경우에도 하위 도메인에서 SSL 인증서와 관련된 작업을 수행할 수 있습니다.
 
 1. 프로세스가 종료되면 하위 도메인이 Adobe Campaign 인스턴스에서 사용 가능하도록 구성되며, 아래 요소가 작성됩니다.
 
