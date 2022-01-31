@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: a99c3753a2bf4378e981629feb934e39fdd410d8
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,17 +25,14 @@ ht-degree: 100%
 
 ## 새로운 기능
 
-**Campaign v8에서 모든 기능 지원**
+**활성 쿼리 모니터링**
 
-이제 **하위 도메인**&#x200B;과 **인증서** 관리 등 모든 기능을 Adobe Campaign v8의 [컨트롤 패널]을 통해 지원합니다. [자세히 표시](faq.md#v8-restrictions)
+이제 Campaign 컨트롤 패널을 통해 인스턴스에서 가장 오랫동안 실행되는 쿼리를 모니터링할 수 있습니다. [자세히 표시](performance-monitoring/using/database-active-queries.md)
 
-**IP 범위 유효 기간 및 편집**
+**처리량 및 지연 모니터링**
 
-이제 IP 범위를 사용할 수 있는 기간을 설정하고 사용자가 만든 IP 범위를 편집할 수 있습니다. [자세히 표시](sftp/using/ip-range-allow-listing.md)
+이제 인스턴스의 일정 시간 동안 게재 처리량과 지연 시간이 어떻게 트렌드인지 모니터링할 수 있습니다. [자세히 표시](performance-monitoring/using/thoughputs-latencies.md)
 
-**공개 키 유효 기간 및 편집**
-
-마찬가지로 이제 공개 키를 사용할 수 있는 기간을 설정하고 만든 공개 키를 편집할 수 있습니다. [자세히 표시](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
