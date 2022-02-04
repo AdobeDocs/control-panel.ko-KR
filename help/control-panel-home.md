@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: a99c3753a2bf4378e981629feb934e39fdd410d8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '197'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 **처리량 및 지연 모니터링**
 
-이제 인스턴스의 일정 시간 동안 게재 처리량과 지연 시간이 어떻게 트렌드인지 모니터링할 수 있습니다. [자세히 표시](performance-monitoring/using/thoughputs-latencies.md)
+이제 인스턴스의 일정 시간 동안 게재 처리량과 지연 시간이 어떤 트렌드인지 모니터링할 수 있습니다. [자세히 표시](performance-monitoring/using/thoughputs-latencies.md)
 
 
 >[!CAUTION]
