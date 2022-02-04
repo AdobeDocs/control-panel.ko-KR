@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 9a864f8a80ed0d34212e5e825cc8962e557345a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 94%
 
 + [제품 설명서](control-panel-home.md)
 + [릴리스 정보](release-notes.md)
-+ 컨트롤 패널 살펴보기 {#discover-control-panel}
++ Campaign 컨트롤 패널 살펴보기 {#discover-control-panel}
    + [주요 기능](discover/using/key-features.md)
-   + [컨트롤 패널 액세스](discover/using/accessing-control-panel.md)
-   + [컨트롤 패널에 대한 권한 관리](discover/using/managing-permissions.md)
-   + [컨트롤 패널 인터페이스 살펴보기](discover/using/discovering-the-interface.md)
+   + [Campaign 컨트롤 패널 액세스](discover/using/accessing-control-panel.md)
+   + [Campaign 컨트롤 패널에 대한 권한 관리](discover/using/managing-permissions.md)
+   + [Campaign 컨트롤 패널 인터페이스 살펴보기](discover/using/discovering-the-interface.md)
 + SFTP 관리 {#sftp-management}
-   + [SFTP 관리](sftp/using/about-sftp-management.md)
+   + [SFTP 관리 정보](sftp/using/about-sftp-management.md)
    + [SFTP 스토리지 관리](sftp/using/sftp-storage-management.md)
    + [IP 범위 허용 목록](sftp/using/ip-range-allow-listing.md)
    + [키 관리](sftp/using/key-management.md)
@@ -38,11 +38,11 @@ ht-degree: 94%
    + [SSL 인증서 갱신](subdomains-certificates/using/renewing-subdomain-certificate.md)
    + [TXT 레코드 관리](subdomains-certificates/using/managing-txt-records.md)
 + 성능 모니터링 {#performance-monitoring}
-   + [성능 모니터링](performance-monitoring/using/about-performance-monitoring.md)
+   + [성능 모니터링 정보](performance-monitoring/using/about-performance-monitoring.md)
    + 데이터베이스 모니터링 {#database-monitoring}
       + [데이터베이스 모니터링 정보](performance-monitoring/using/database-monitoring.md)
       + [데이터베이스 사용률](performance-monitoring/using/database-utilization.md)
-      + [저장소 개요](performance-monitoring/using/database-storage-overview.md)
+      + [스토리지 개요](performance-monitoring/using/database-storage-overview.md)
       + [상위 10개의 임시 리소스](performance-monitoring/using/database-top-ten-resources.md)
       + [활성 쿼리 모니터링](performance-monitoring/using/database-active-queries.md)
       + [데이터베이스 오버로드 방지](performance-monitoring/using/database-preventing-overload.md)
