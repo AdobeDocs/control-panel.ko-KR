@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
-source-git-commit: 6249776ef4981cd3d706bf1946be0e054b471fb6
+source-git-commit: ec83878e93536c979c39da52ed07b465f4fbbcb1
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
@@ -43,3 +43,5 @@ Campaign 컨트롤 패널은 보다 유연하게 작업을 수행할 수 있도�
 * **SFTP IP 허용 목록 만료**: 정의한 IP 범위 중 하나가 만료되었거나 10일 이내에 만료될 예정입니다. 자세한 내용은 [IP 범위 허용 목록](../../sftp/using/ip-range-allow-listing.md).
 
 * **SFTP 공개 키 만료**: 정의한 공개 키 중 하나가 만료되었거나 10일 이내에 만료될 예정입니다. 자세한 내용은 [키 관리](../../sftp/using/key-management.md).
+
+* **긴 실행 쿼리**: 인스턴스 중 하나에서 24시간 이상 쿼리를 실행했습니다. 자세한 내용은 [활성 쿼리 모니터링](database-active-queries.md).
