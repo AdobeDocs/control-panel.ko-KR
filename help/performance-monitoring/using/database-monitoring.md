@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: 71dce2340ccc3da406e29b9a650c9bcf6a5d938c
+source-git-commit: 65f4603e6ff6c232479bf567981871e92b1cfa1c
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '376'
 ht-degree: 84%
 
 ---
@@ -51,8 +51,9 @@ Campaign 컨트롤 패널을 사용하면 각 캠페인 인스턴스에 대한 �
 인스턴스 데이터베이스의 사용을 분석하는 데 도움이 되는 추가 지표를 이 대시보드에서 사용할 수 있습니다. 이러한 내용은 다음 섹션에 자세히 설명되어 있습니다.
 
 * [데이터베이스 사용률](../../performance-monitoring/using/database-utilization.md)
-* [저장소 개요](../../performance-monitoring/using/database-storage-overview.md)
+* [스토리지 개요](../../performance-monitoring/using/database-storage-overview.md)
 * [상위 10개의 임시 리소스](../../performance-monitoring/using/database-top-ten-resources.md)
-* [활성 쿼리](../../performance-monitoring/using/database-active-queries.md)
+
+<!--* [Active queries](../../performance-monitoring/using/database-active-queries.md)-->
 
 ![](assets/do-not-localize/how-to-video.png) 이 비디오에서 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=ko#performance-monitoring) 또는 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=ko#performance-monitoring)를 사용하여 해당 기능 살펴보기

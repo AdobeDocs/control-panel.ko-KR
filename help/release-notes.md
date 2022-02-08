@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 10c4cf41dc9502bb66566951780cf8f963b08aa9
+source-git-commit: 65f4603e6ff6c232479bf567981871e92b1cfa1c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '834'
+ht-degree: 70%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 0%
 
 ## 2022년 1월 {#january-2022}
 
-**활성 쿼리 모니터링**
+<!-- **Active queries monitoring**
 
-이제 Campaign 컨트롤 패널을 통해 인스턴스에서 가장 오랫동안 실행되는 쿼리를 모니터링할 수 있습니다. [자세히 표시](performance-monitoring/using/database-active-queries.md)
+Control Panel now allows you to monitor queries that have been running for the longest time on your instances. [Read more](performance-monitoring/using/database-active-queries.md)-->
 
 **처리량 및 지연 모니터링**
 
-이제 인스턴스의 일정 시간 동안 게재 처리량과 지연 시간이 어떻게 트렌드인지 모니터링할 수 있습니다. [자세히 표시](performance-monitoring/using/thoughputs-latencies.md)
+이제 인스턴스의 일정 시간 동안 게재 처리량과 지연 시간이 어떤 트렌드인지 모니터링할 수 있습니다. [자세히 표시](performance-monitoring/using/thoughputs-latencies.md)
 
 **새 하위 도메인에서 SSL 인증서 작업**
 

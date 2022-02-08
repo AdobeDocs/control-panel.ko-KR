@@ -6,9 +6,9 @@ user-guide-title: Campaign 컨트롤 패널 안내서
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 9a864f8a80ed0d34212e5e825cc8962e557345a7
-workflow-type: ht
-source-wordcount: '118'
+source-git-commit: 65f4603e6ff6c232479bf567981871e92b1cfa1c
+workflow-type: tm+mt
+source-wordcount: '115'
 ht-degree: 100%
 
 ---
@@ -44,7 +44,6 @@ ht-degree: 100%
       + [데이터베이스 사용률](performance-monitoring/using/database-utilization.md)
       + [스토리지 개요](performance-monitoring/using/database-storage-overview.md)
       + [상위 10개의 임시 리소스](performance-monitoring/using/database-top-ten-resources.md)
-      + [활성 쿼리 모니터링](performance-monitoring/using/database-active-queries.md)
       + [데이터베이스 오버로드 방지](performance-monitoring/using/database-preventing-overload.md)
    + [활성 프로필 모니터링](performance-monitoring/using/active-profiles-monitoring.md)
    + [처리량 및 지연 모니터링](performance-monitoring/using/thoughputs-latencies.md)
