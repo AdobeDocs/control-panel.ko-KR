@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 source-git-commit: 12e9326ba220776874654705587152bf3978949c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -23,6 +23,6 @@ ht-degree: 50%
 
 >[!IMPORTANT]
 >
->쿼리 중 하나가 24시간 이상 활성 상태인 경우, 을 구독하면 전자 메일로 알림을 받게 됩니다 [이메일 경고](email-alerting.md).
+>[이메일 경고](email-alerting.md)를 구독했다면 쿼리 중 하나가 24시간 이상 활성 상태인 경우 이메일로 알림을 받게 됩니다.
 >
->이 경우 문제를 식별하고 해결하도록 고객 지원 센터에 문의하십시오. 이 사용자에게 **[!UICONTROL PID]** 열 값 - 쿼리의 고유 식별자입니다.
+>이 경우 고객 지원 센터에서 문제를 식별하고 해결할 수 있도록 문의하세요. 쿼리의 고유 식별자인 **[!UICONTROL PID]** 열 값을 제공해야 합니다.
