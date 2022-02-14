@@ -5,9 +5,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 65f4603e6ff6c232479bf567981871e92b1cfa1c
+source-git-commit: 76301a1e222da17a2b4fd58d68d24efd04b07b1c
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '197'
 ht-degree: 100%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 100%
 
 ## 새로운 기능
 
-<!--**Active queries monitoring**
+**활성 쿼리 모니터링**
 
-Control Panel now allows you to monitor queries that have been running for the longest time on your instances. [Read more](performance-monitoring/using/database-active-queries.md)-->
+이제 Campaign 컨트롤 패널을 통해 인스턴스에서 가장 오랫동안 실행되는 쿼리를 모니터링할 수 있습니다. [자세히 표시](performance-monitoring/using/database-active-queries.md)
 
 **처리량 및 지연 모니터링**
 
