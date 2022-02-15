@@ -6,7 +6,7 @@ description: Campaign 컨트롤 패널에서 Campaign 데이터베이스 사용�
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 12e9326ba220776874654705587152bf3978949c
+source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 89%
