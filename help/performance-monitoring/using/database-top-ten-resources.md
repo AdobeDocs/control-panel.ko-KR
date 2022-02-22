@@ -6,10 +6,11 @@ description: Campaign 데이터베이스의 워크플로우 및 게재로 생성
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
+exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
+source-git-commit: b17abddf6bad7e58cb7bd825cd97322427a0b21f
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 92%
+source-wordcount: '175'
+ht-degree: 69%
 
 ---
 
@@ -21,24 +22,10 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->일반적으로 **40개 이상의 열**&#x200B;이 기본 제공 리소스가 아닌 곳에 있는 상황을 피하는 것이 좋습니다.
+>일반적으로 **40개 이상의 열**&#x200B;이 기본 제공 리소스가 아닌 곳에 있는 상황을 피하는 것이 좋습니다. 워크플로우에 테이블 수가 많거나 데이터베이스 크기가 큰 경우, 워크플로우를 검토하여 너무 많은 데이터를 생성하는 이유를 조사하는 것이 좋습니다.
+>
+>Campaign Standard 및 Classic 지침도 [이 페이지](database-preventing-overload.md) 데이터베이스 오버로드를 방지하는 데 도움이 됩니다.
 
 ![](assets/database-top10.png)
 
->[!NOTE]
->
->워크플로우에 테이블 수가 많거나 데이터베이스 크기가 큰 경우, 워크플로우를 검토하여 너무 많은 데이터를 생성하는 이유를 조사하는 것이 좋습니다.
->
->이 페이지 끝에 데이터베이스 오버로드를 방지하는 데 도움이 되는 Campaign Standard 및 Classic 리소스가 있습니다.
-
-**[!UICONTROL View all]** 단추를 사용하여 이러한 임시 리소스에 대한 자세한 정보에 액세스할 수 있습니다.
-
-![](assets/database-top10-view.png)
-
-**[!UICONTROL Keep interim results]** 열의 값은 Campaign에서 옵션이 활성화되었는지(&quot;1&quot;), 비활성화되었는지(&quot;0&quot;)를 나타냅니다. 이 옵션을 사용하면 워크플로우의 다양한 활동 중에 전환 결과를 저장할 수 있습니다([Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=ko) 및 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=ko#logs) 설명서 참조).
-
->[!IMPORTANT]
->
->프로덕션 워크플로우에서는 이 옵션을 체크해서는 안 됩니다. 결과를 분석하는 데 사용되며 테스트 목적으로만 설계되었기 때문에 개발 또는 스테이징 환경에서만 사용해야 합니다.
->
->Campaign 컨트롤 패널의 값이 워크플로우 중 하나에 대해 옵션이 활성화되었음을 나타내는 경우 Campaign에서 비활성화하는 것이 좋습니다.
+다음 **[!UICONTROL View all]** 버튼을 사용하여 **[!UICONTROL Storage overview]** 이러한 임시 리소스에 대한 자세한 정보를 얻기 위한 세부 정보입니다. 자세한 정보는 이 [페이지](database-storage-overview.md)를 참조하십시오.

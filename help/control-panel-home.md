@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 76301a1e222da17a2b4fd58d68d24efd04b07b1c
+source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 100%
+source-wordcount: '220'
+ht-degree: 90%
 
 ---
 
@@ -24,6 +24,11 @@ ht-degree: 100%
 ![](assets/do-not-localize/banner.png)
 
 ## 새로운 기능
+
+**워크플로우 매개 변수 모니터링**
+
+이제 인스턴스의 문제를 방지하기 위해 특정 주의가 필요한 워크플로우 매개 변수를 모니터링할 수 있습니다. [자세히 표시](performance-monitoring/using/workflow-monitoring.md)
+
 
 **활성 쿼리 모니터링**
 
