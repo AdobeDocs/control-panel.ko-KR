@@ -4,10 +4,11 @@ description: 인스턴스의 문제를 방지하기 위해 주의가 필요한 �
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 062fce923fe638925a9fee22aeab589a890cfa37
-workflow-type: tm+mt
+exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
+source-git-commit: f22a935769d74a2b8bae3f79cd53f2ee31d19737
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +50,7 @@ Adobe Campaign에서 일부 워크플로우 매개 변수는 인스턴스에 문
 
 ## **[!UICONTROL Keep interim results]** {#keep-results}
 
-활성화되면(값 &quot;1&quot;) 이 옵션은 워크플로우의 다양한 활동 간 전환 결과를 저장합니다. 추가 정보 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=ko) 및 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=ko#logs) 설명서.
+활성화되면(값 &quot;1&quot;) 이 옵션은 워크플로우의 다양한 활동 간 전환 결과를 저장합니다. 자세한 내용은 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=ko) 및 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=ko#logs) 설명서를 참조하세요.
 
 >[!IMPORTANT]
 >
@@ -59,9 +60,9 @@ Adobe Campaign에서 일부 워크플로우 매개 변수는 인스턴스에 문
 
 ## **[!UICONTROL Show SQL log]** {#sql}
 
-이 옵션이 활성화되면 워크플로우 실행 중에 데이터베이스로 전송된 SQL 쿼리가 Adobe Campaign에 표시됩니다. 추가 정보 [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=en) 및 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en#execution) 설명서.
+이 옵션이 활성화되면 워크플로우 실행 중에 데이터베이스로 전송된 SQL 쿼리가 Adobe Campaign에 표시됩니다. 자세한 정보는 [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=ko) 및 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=ko#execution) 설명서를 참조하세요.
 
-값 &quot;1&quot;은 워크플로우가 **심각도** 필드를 &quot;프로덕션&quot;으로 설정하고 SQL 쿼리 로그 옵션을 사용하도록 설정합니다.
+값 &quot;1&quot;은 워크플로우가 **심각도** 필드를 &quot;프로덕션&quot;으로 설정하고 SQL 쿼리 로그 옵션이 활성화되었음을 나타냅니다.
 
 >[!IMPORTANT]
 >
@@ -71,8 +72,8 @@ Adobe Campaign에서 일부 워크플로우 매개 변수는 인스턴스에 문
 
 ## **[!UICONTROL Supervisors]** {#supervisors}
 
-이 필드에서는 워크플로우에 연산자를 할당할 수 있습니다. 워크플로우가 실패하면 관련 연산자에게 경고가 표시됩니다. 추가 정보 [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=en#error-management) 및 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en#error-management) 설명서.
+이 필드에서는 워크플로우에 연산자를 할당할 수 있습니다. 워크플로우가 실패하면 관련 연산자에게 경고가 표시됩니다. 자세한 정보는 [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=ko#error-management) 및 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=ko#error-management) 설명서를 참조하세요.
 
-값 &quot;1&quot;은 워크플로우가 **심각도** 필드가 &quot;프로덕션&quot;으로 설정되어 있고 상위자 그룹이 워크플로우에 할당되지 않았습니다.
+값 &quot;1&quot;은 워크플로우가 **심각도** 필드가 &quot;프로덕션&quot;으로 설정되어 있고 상위자 그룹이 워크플로우에 할당되지 않았음을 나타냅니다.
 
 ![](assets/wkf-monitoring-supervisors.png)
