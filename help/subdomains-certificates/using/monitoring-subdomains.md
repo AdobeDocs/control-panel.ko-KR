@@ -1,16 +1,16 @@
 ---
 product: campaign
 solution: Campaign
-title: 하위 도메인의 SSL 인증서 모니터링
-description: 하위 도메인의 SSL 인증서를 모니터링하는 방법 알아보기
+title: 하위 도메인 모니터링
+description: 하위 도메인을 모니터링하여 모든 하위 도메인이 Adobe Campaign에서 작동하도록 올바르게 구성되었는지 확인합니다.
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: fa45ec38ff06a0b02ab724e7ced79b7b5de2c766
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 16%
+source-wordcount: '148'
+ht-degree: 10%
 
 ---
 

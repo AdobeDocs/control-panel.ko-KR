@@ -1,16 +1,16 @@
 ---
 product: campaign
 solution: Campaign
-title: 컨트롤 패널 액세스
+title: Campaign 컨트롤 패널은 Adobe Campaign Standard 및/또는 Classic의 제품 관리자로서 작업의 효율성을 높이는 데 도움이 됩니다.
 description: 컨트롤 패널에 액세스하는 방법 알아보기
 feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
+source-git-commit: fa45ec38ff06a0b02ab724e7ced79b7b5de2c766
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '293'
+ht-degree: 83%
 
 ---
 
