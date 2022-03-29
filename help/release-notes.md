@@ -4,10 +4,10 @@ solution: Campaign
 title: 컨트롤 패널 릴리스
 description: 이 페이지에는 Campaign 컨트롤 패널의 새로운 기능과 개선 사항이 모두 포함되어 있습니다
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 35b849725711bfee9852cf8f503bc599f6d8eaff
+source-git-commit: 84fe0aeb10bc5e535a7ab54a3316a51a1a32b3ca
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 62%
+source-wordcount: '1017'
+ht-degree: 63%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 62%
 <tbody>
 <tr>
 <td>
-<p>이제 모든 Campaign Standard 및 v8 고객과 9032,9330, 9346 또는 9349 빌드 번호를 사용하는 Campaign V7 고객이 처리량 및 지연 모니터링을 사용할 수 있습니다(mid 인스턴스 없음).</p><p>자세한 내용은 <a href="performance-monitoring/using/thoughputs-latencies.md">자세한 설명서</a></p>
+<p>이제 중간 인스턴스가 없는 독립 실행형 Campaign Standard을 제공하는 빌드 번호 9032,9330, 9346 또는 9349를 사용하는 모든 및 v8 고객이 처리량 및 지연 모니터링을 사용할 수 있습니다.</p><p>자세한 내용은 <a href="performance-monitoring/using/thoughputs-latencies.md">자세한 설명서</a></p>
 </td>
 </tr>
 </tbody>

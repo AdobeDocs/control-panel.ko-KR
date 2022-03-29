@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 83a6d002a5a21815a66d198c6e5e805f559d5ee2
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 87%
+source-wordcount: '764'
+ht-degree: 88%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->이 기능은 Campaign Classic v7 및 Campaign v8 인스턴스에만 사용할 수 있습니다.
+>이 기능은 Campaign v7/v8 인스턴스에만 사용할 수 있습니다.
 
 기본적으로는 여러 IP 주소에서 Adobe Campaign 인스턴스에 액세스할 수 없습니다.
 
@@ -55,7 +55,7 @@ IP 주소를 허용 목록에 추가하고 나면 사용자가 인스턴스에 �
 
 >[!NOTE]
 >
->만약 **[!UICONTROL Instance Settings]** Campaign 컨트롤 패널 홈 페이지에 카드가 표시되지 않습니다. 이는 IMS 조직 ID가 Adobe Campaign Classic v7 또는 Campaign v8 인스턴스와 연결되어 있지 않음을 의미합니다.
+>만약 **[!UICONTROL Instance Settings]** Campaign 컨트롤 패널 홈 페이지에 카드가 표시되지 않습니다. 이는 IMS 조직 ID가 Adobe Campaign v7/v8 인스턴스와 연결되어 있지 않음을 의미합니다.
 
 허용 목록에 IP 주소를 추가하려면 다음 단계를 따르십시오.
 

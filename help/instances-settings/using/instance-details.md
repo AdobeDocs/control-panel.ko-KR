@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: d323fa76c5707b3284e5763b5f60a82974a6c045
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 86%
+source-wordcount: '530'
+ht-degree: 77%
 
 ---
 
@@ -20,14 +20,12 @@ ht-degree: 86%
 >id="cp_instancesettings_instancedetails"
 >title="인스턴스 세부 사항"
 >abstract="Adobe Campaign 인스턴스의 세부 사항을 봅니다. 유형, 이름, 빌드 정보 및 가능한 업그레이드 권장 사항."
->additional-url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html" text="Campaign Classic 릴리스 정보"
->additional-url="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html" text="Campaign Standard 릴리스 정보"
 
 ## 인스턴스 세부 사항 {#about-instance-details}
 
 >[!IMPORTANT]
 >
->이 기능은 Campaign Classic v7 및 Campaign v8 인스턴스에만 사용할 수 있습니다.
+>이 기능은 Campaign v7/v8 인스턴스에만 사용할 수 있습니다.
 
 마케팅 활동을 유동적으로 진행하기 위해 Adobe Campaign 인스턴스 아키텍처에 서버를 여러 개 포함할 수 있습니다. 예를 들어 인스턴스를 지원하는 마케팅, 실시간/메시지 센터 및 중간 소싱 서버를 포함할 수 있습니다.
 
@@ -35,7 +33,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->Adobe Campaign Classic에서 제공되는 최신 기능과 수정 사항을 활용하고 성능 저하를 방지하려면 매년 1회 이상 인스턴스를 업그레이드하는 것이 좋습니다.
+>Adobe Campaign v7/v8의 최신 기능과 수정 사항을 활용하고 성능 저하를 방지하려면 매년 1회 이상 인스턴스를 업그레이드하는 것이 좋습니다.
 
 **관련 항목:**
 
@@ -50,13 +48,13 @@ ht-degree: 86%
 
    >[!NOTE]
    >
-   >Campaign 컨트롤 패널 홈 페이지에 인스턴스 설정 카드가 표시되지 않으면 IMS 조직 ID가 Adobe Campaign Classic 인스턴스와 연결되어 있지 않은 것입니다
+   >Campaign 컨트롤 패널 홈 페이지에 인스턴스 설정 카드가 표시되지 않으면 IMS 조직 ID가 Adobe Campaign v7/v8 인스턴스와 연결되어 있지 않은 것입니다
 
 1. 왼쪽 창에서 원하는 Campaign 인스턴스를 선택합니다.
 
    >[!NOTE]
    >
-   >모든 Campaign 인스턴스가 왼쪽 창 목록에 표시됩니다. 인스턴스 세부 사항 기능은 Campaign Classic 인스턴스 전용이므로 Campaign Standard 인스턴스를 선택하면 &quot;미해당 인스턴스&quot; 메시지가 표시됩니다.
+   >모든 Campaign 인스턴스가 왼쪽 창 목록에 표시됩니다. 인스턴스 세부 사항 기능은 Campaign v7/v8 인스턴스 전용이므로 Campaign Standard 인스턴스를 선택하면 &quot;미해당 인스턴스&quot; 메시지가 표시됩니다.
 
 1. 인스턴스에 연결된 서버가 표시됩니다.
 

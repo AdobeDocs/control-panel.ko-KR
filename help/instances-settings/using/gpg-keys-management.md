@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1179'
 ht-degree: 9%
 
 ---
@@ -95,7 +95,7 @@ Campaign 컨트롤 패널을 사용하면 Adobe Campaign 인스턴스에서 나�
 
 이 항목에 대한 자세한 내용은 Adobe Campaign 설명서 을 참조하십시오.
 
-**Campaign Classic v7 및 Campaign v8:**
+**Campaign v7/v8:**
 
 * [파일 압축 또는 암호화](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
 * [사용 사례: Campaign 컨트롤 패널에 설치된 키를 사용하여 데이터 암호화 및 내보내기](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
@@ -138,7 +138,7 @@ Campaign 컨트롤 패널에서 키 쌍을 생성하려면 다음 단계를 수�
 
 자세한 내용은 Adobe Campaign 설명서 을 참조하십시오.
 
-**Campaign Classic v7 및 Campaign v8:**
+**Campaign v7 및 v8:**
 
 * [처리 전 파일 압축 해제 또는 암호 해독](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html)
 * [사용 사례: Campaign 컨트롤 패널에서 생성한 키를 사용하여 암호화된 데이터 가져오기](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html#use-case-gpg-decrypt)
@@ -186,6 +186,6 @@ Campaign 컨트롤 패널에서 키 쌍을 생성하려면 다음 단계를 수�
 
 아래 비디오에서는 데이터 암호화에 대한 GPG 키를 생성하고 설치하는 방법을 보여줍니다.
 
-GPG 키 관리와 관련된 추가 방법 비디오는에서 사용할 수 있습니다.  [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) 및 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) 자습서 페이지.
+GPG 키 관리와 관련된 추가 방법 비디오는에서 사용할 수 있습니다.  [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) 및 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) 자습서 페이지.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

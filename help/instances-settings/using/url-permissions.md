@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 88%
+source-wordcount: '600'
+ht-degree: 85%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->이 기능은 빌드 8850에서 Campaign v8 및 Campaign Classic v7 인스턴스에만 사용할 수 있습니다. 이전 빌드를 사용하는 경우 이 기능을 사용하려면 업그레이드해야 합니다.
+>이 기능은 빌드 8850의 Campaign v7/v8 인스턴스에만 사용할 수 있습니다. 이전 빌드를 사용하는 경우 이 기능을 사용하려면 업그레이드해야 합니다.
 
 Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 통해 호출할 수 있는 URL의 기본 목록은 제한되어 있습니다. 인스턴스는 이러한 URL이 있어야 정상 작동합니다.
 
@@ -72,7 +72,7 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
    >
    >모든 Campaign 인스턴스가 왼쪽 창 목록에 표시됩니다.
    >
-   >URL 권한 관리는 Campaign Classic 인스턴스 전용이므로 Campaign Standard 인스턴스를 선택하면 &quot;미해당 인스턴스&quot; 메시지가 표시됩니다.
+   >URL 권한 관리는 Campaign v7/v8 인스턴스 전용이므로 Campaign Standard 인스턴스를 선택하면 &quot;미해당 인스턴스&quot; 메시지가 표시됩니다.
 
 1. 권한을 부여할 URL과 관련 프로토콜(http, https, sftp)을 입력합니다.
 

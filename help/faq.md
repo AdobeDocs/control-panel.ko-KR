@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
-workflow-type: ht
-source-wordcount: '768'
-ht-degree: 100%
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+workflow-type: tm+mt
+source-wordcount: '767'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ### Campaign v8에서 아직 지원하지 않지만 Campaign Classic v7에서는 사용할 수 있는 기능이 있나요?{#v8-restrictions}
 
-아니요. 이제 [하위 도메인] 및 [인증서 관리] 관련 기능 등 Campaign Classic v7에서 사용할 수 있는 기능도 모두 Campaign v8의 [컨트롤 패널]을 통해 지원됩니다.
+아니요. 이제 [하위 도메인] 및 [인증서 관리] 관련 기능 등 Campaign v7에서 사용할 수 있는 기능도 모두 Campaign v8의 [컨트롤 패널]을 통해 지원됩니다.
 
 ### 컨트롤 패널은 Adobe Campaign 전용인가요?
 
@@ -46,7 +46,7 @@ AWS에서 Adobe Campaign을 호스팅하는 현재 Adobe 고객의 제품 관리
 
 Campaign 컨트롤 패널은 관리 사용자만 액세스할 수 있습니다. [자세히 알아보기](discover/using/managing-permissions.md)
 
-Campaign Classic v7의 경우 인스턴스를 AWS(Amazon Web Services)에서 호스팅하고 최신 [Campaign 안정적인 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses) 또는 빌드 9032 이상으로 업그레이드해야 합니다. [이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ko#getting-your-campaign-version)에서 사용 중인 Campaign Classic의 버전을 확인하는 방법을 알아볼 수 있습니다. 사용하는 Campaign Classic 인스턴스가 AWS에서 호스팅되는지 확인하는 단계는 [이 섹션](#hosted-aws)에서 자세히 설명하고 있습니다.
+Campaign v7의 경우 인스턴스를 AWS(Amazon Web Services)에서 호스팅하고 최신 [Campaign 안정적인 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses) 또는 빌드 9032 이상으로 업그레이드해야 합니다. 에서 Campaign Classic v7 버전을 확인하는 방법을 알아봅니다. [이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ko#getting-your-campaign-version). 사용하는 Campaign Classic 인스턴스가 AWS에서 호스팅되는지 확인하는 단계는 [이 섹션](#hosted-aws)에서 자세히 설명하고 있습니다.
 
 ### 컨트롤 패널에는 어떻게 액세스할 수 있나요?
 
@@ -66,7 +66,7 @@ Adobe Experience Cloud에 처음 로그인할 때 인스턴스에 제공되는 �
 
 ### IMS 조직 ID는 어디에서 확인할 수 있나요?
 
-[Adobe Experience Cloud 홈](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**(으)로 이동하는 방법이 있습니다. 관리 **[!UICONTROL Quick Access]** 섹션 아래쪽에서 IMS 조직 ID를 확인할 수 있습니다. [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)에서 자세한 정보를 찾을 수 있습니다.
+[Adobe Experience Cloud 홈](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**(으)로 이동하는 방법이 있습니다. 관리 **[!UICONTROL Quick Access]** 섹션 아래쪽에서 IMS 조직 ID를 확인할 수 있습니다. [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html)에서 자세한 정보를 찾을 수 있습니다.
 
 **관리 콘솔**&#x200B;을 시작하여 ID를 확인할 수도 있습니다. IMS 조직 ID는 https://adminconsole.adobe.com/xxx@AdobeOrg/overview와 같은 형태로 URL에 표시됩니다.
 

@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 79%
+source-wordcount: '748'
+ht-degree: 75%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 79%
 
 하위 도메인 구성 방법에 대해 질문이 있는 경우 Adobe 게재 가능성 팀에 문의하거나, 고객 지원 센터에 연락하여 Deliverability 컨설팅을 요청하십시오.
 
-## 하위 도메인의 사용 사례(Campaign Classic){#subdomains-use-cases}
+## 하위 도메인의 사용 사례(Campaign v7/v8){#subdomains-use-cases}
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_usecase_selection"
@@ -65,7 +65,7 @@ ht-degree: 79%
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko" text="새 하위 도메인 설정"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ko" text="하위 도메인 브랜딩"
 
-Campaign Classic 인스턴스에 대해 하위 도메인을 설정할 때 하위 도메인을 사용할 사용 사례를 선택해야 합니다(참조 [새 하위 도메인 설정](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+Campaign v7/v8 인스턴스용 하위 도메인을 설정할 때에는 하위 도메인이 사용될 사용 사례를 선택해야 합니다(참조) [새 하위 도메인 설정](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 가능한 사용 사례는 다음과 같습니다.
 
@@ -82,7 +82,7 @@ Campaign Classic 인스턴스에 대해 하위 도메인을 설정할 때 하위
 
 >[!NOTE]
 >
->Campaign Classic을 사용하는 경우 컨트롤 패널에서 현재 사용 중인 마케팅 인스턴스에 연결된 RT/MID 인스턴스를 확인할 수 있습니다. 자세한 내용은 [인스턴스 세부 정보](../../instances-settings/using/instance-details.md) 섹션을 참조하십시오.
+>Campaign v7/v8을 사용하는 경우 Campaign 컨트롤 패널을 통해 작업 중인 마케팅 인스턴스에 연결된 RT/MID 인스턴스를 확인할 수 있습니다. 자세한 내용은 [인스턴스 세부 정보](../../instances-settings/using/instance-details.md) 섹션을 참조하십시오.
 
 **관련 항목:**
 

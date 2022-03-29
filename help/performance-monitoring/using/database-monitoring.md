@@ -6,10 +6,11 @@ description: Campaign 컨트롤 패널에서 Campaign 데이터베이스를 모�
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
+exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 84%
+source-wordcount: '380'
+ht-degree: 81%
 
 ---
 
@@ -45,7 +46,7 @@ Campaign 컨트롤 패널을 사용하면 각 캠페인 인스턴스에 대한 �
 
 ![](assets/databases_dashboard.png)
 
-이 대시보드의 데이터는 **[!UICONTROL Database cleanup technical workflow]** Campaign 인스턴스에서 실행됩니다( [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ko#list-of-technical-workflows) 및 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=ko) 설명서). 워크플로우가 **[!UICONTROL Used Space]** 및 **[!UICONTROL Provided Space]** 지표 를 참조하십시오. 워크플로우가 3일 이상 실행된 적이 없는 경우, 워크플로우가 실행 중이 아닌 이유를 조사할 수 있도록 Adobe 고객 지원 센터에 문의하는 것이 좋습니다.
+이 대시보드의 데이터는 **[!UICONTROL Database cleanup technical workflow]** Campaign 인스턴스에서 실행됩니다( [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ko#list-of-technical-workflows) 및 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=ko) 설명서). 워크플로우가 **[!UICONTROL Used Space]** 및 **[!UICONTROL Provided Space]** 지표 를 참조하십시오. 워크플로우가 3일 이상 실행된 적이 없는 경우, 워크플로우가 실행 중이 아닌 이유를 조사할 수 있도록 Adobe 고객 지원 센터에 문의하는 것이 좋습니다.
 
 인스턴스 데이터베이스의 사용을 분석하는 데 도움이 되는 추가 지표를 이 대시보드에서 사용할 수 있습니다. 이러한 내용은 다음 섹션에 자세히 설명되어 있습니다.
 
@@ -54,4 +55,4 @@ Campaign 컨트롤 패널을 사용하면 각 캠페인 인스턴스에 대한 �
 * [상위 10개의 임시 리소스](../../performance-monitoring/using/database-top-ten-resources.md)
 * [활성 쿼리](../../performance-monitoring/using/database-active-queries.md)
 
-![](assets/do-not-localize/how-to-video.png) 이 비디오에서 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=ko#performance-monitoring) 또는 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=ko#performance-monitoring)를 사용하여 해당 기능 살펴보기
+![](assets/do-not-localize/how-to-video.png) 다음 방법으로 비디오에서 이 기능 살펴보기 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=ko#performance-monitoring) 또는 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=ko#performance-monitoring)

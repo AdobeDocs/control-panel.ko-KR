@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 278788a69f06865b6a38d8a901077866e1bc88ee
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1358'
+ht-degree: 91%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 하위 도메인을 Adobe Campaign에 완전히 위임하려면 아래 단계를 따르십시오.
 
-비디오에서 ![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=ko#subdomains-and-certificates) 또는 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=ko#subdomains-and-certificates)를 사용하여 이 기능 살펴보기
+![](assets/do-not-localize/how-to-video.png) 다음 방법으로 비디오에서 이 기능 살펴보기 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=ko#subdomains-and-certificates) 또는 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=ko#subdomains-and-certificates)
 
 1. **[!UICONTROL Subdomains & Certificates]**&#x200B;카드에서 원하는 프로덕션 인스턴스를 선택하고 **[!UICONTROL Setup new subdomain]**&#x200B;을(를) 클릭합니다.
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 1. 해당 Adobe 이름 서버 정보를 사용하여 하위 도메인을 만든 후 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-1. Campaign Classic 인스턴스를 선택한 경우, 다음과 같은 하위 도메인에 대해 원하는 사용 사례를 선택합니다.**마케팅 통신** 또는 **거래 및 운영 통신**. 하위 도메인의 사용 사례에 대한 전체 개념은 [이 섹션](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)에서 살펴볼 수 있습니다.
+1. Campaign v7/v8 인스턴스를 선택한 경우 하위 도메인에 대해 원하는 사용 사례를 선택합니다. **마케팅 커뮤니케이션** 또는 **트랜잭션 및 운영 커뮤니케이션**. 하위 도메인의 사용 사례에 대한 전체 개념은 [이 섹션](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)에서 살펴볼 수 있습니다.
 
    ![](assets/subdomain5.png)
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 CNAME을 사용하여 하위 도메인을 구성하려면 아래 단계를 따르십시오.
 
-비디오에서 ![](assets/do-not-localize/how-to-video.png) [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=ko#subdomains-and-certificates) 또는 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=ko)를 사용하여 이 기능 살펴보기
+![](assets/do-not-localize/how-to-video.png) 다음 방법으로 비디오에서 이 기능 살펴보기 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=ko#subdomains-and-certificates) 또는 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=ko)
 
 1. **[!UICONTROL Subdomains & Certificates]** 카드에서 원하는 프로덕션 인스턴스를 선택하고 **[!UICONTROL Setup new subdomain]**&#x200B;을(를) 클릭합니다.
 
@@ -134,7 +134,7 @@ CNAME을 사용하여 하위 도메인을 구성하려면 아래 단계를 따�
 
    ![](assets/cname-method-selection.png)
 
-1. Campaign Classic 인스턴스를 선택한 경우, 다음과 같은 하위 도메인에 대해 원하는 사용 사례를 선택합니다.**마케팅 통신** 또는 **거래 및 운영 통신**. 하위 도메인의 사용 사례에 대한 전체 개념은 [이 섹션](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)에서 살펴볼 수 있습니다.
+1. Campaign v7/v8 인스턴스를 선택한 경우 하위 도메인에 대해 원하는 사용 사례를 선택합니다. **마케팅 커뮤니케이션** 또는 **트랜잭션 및 운영 커뮤니케이션**. 하위 도메인의 사용 사례에 대한 전체 개념은 [이 섹션](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)에서 살펴볼 수 있습니다.
 
    ![](assets/cname-use-case.png)
 
