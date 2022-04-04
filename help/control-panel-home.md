@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 84%
 
 ![](assets/do-not-localize/banner.png)
 
-Campaign Campaign 컨트롤 패널을 사용하면 각 Campaign 인스턴스의 사용 방식을 추적하고 설정을 관리하여 Campaign Standard 및 V7/v8의 제품 관리자 작업 효율성을 높일 수 있습니다.
+Campaign [컨트롤 패널]에서는 각 Campaign 인스턴스의 사용량을 추적하고 설정을 관리하여 Campaign Standard와 V7/V8 제품 관리자의 작업 효율성을 높일 수 있습니다.
 
 ## 새로운 기능
 
