@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: 84fe0aeb10bc5e535a7ab54a3316a51a1a32b3ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '314'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 73%
 >title="처리량 및 지연 모니터링 정보 "
 >abstract="이 탭에서는 인스턴스의 한 기간 동안 게재 처리량과 지연 시간이 어떤 트렌드인지 모니터링할 수 있습니다."
 
-Campaign 컨트롤 패널을 사용하면 각 인스턴스에 대한 게재 처리량과 지연을 모니터링할 수 있습니다.
+Campaign 컨트롤 패널을 사용하면 각 인스턴스의 게재 처리량과 지연을 모니터링할 수 있습니다.
 
 >[!IMPORTANT]
 >
->이 기능은 모든 Campaign Standard 및 v8 고객과 9032,9330, 9346 또는 9349라는 빌드 번호를 사용하는 Campaign V7 고객에게 제공됩니다 [독립형](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html) 배포(mid 인스턴스 없음)
+>이 기능은 모든 Campaign Standard 및 v8 고객과, Campaign V7 고객으로서 빌드 번호가 9032, 9330, 9346 또는 9349인 [독립형](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=ko) 배포 버전(중간 인스턴스 없음)을 보유한 고객에게 제공됩니다.
 
-게재 처리량 및 지연 시간이 일정 기간 동안 어떤 트렌드인지 모니터링하려면 인스턴스의 사용을 이해하고 제대로 작동하는지 확인해야 합니다.
+게재 처리량 및 지연 시간이 일정 기간 동안 어떤 트렌드를 보이는지 모니터링하려면 인스턴스의 사용을 이해하고 제대로 작동하는지 확인해야 합니다.
 
 이 정보는 각 Campaign 인스턴스에 대해 [컨트롤 패널]의 **[!UICONTROL Throughputs & Latency]** 탭에 있는 **[!UICONTROL Performance Monitoring]** 카드에서 사용할 수 있습니다(컨트롤 패널에서 숫자를 표시하는 데 최대 1시간이 소요될 수 있습니다).
 
@@ -35,7 +35,7 @@ Campaign 컨트롤 패널을 사용하면 각 인스턴스에 대한 게재 처�
 
    >[!NOTE]
    >
-   >Campaign v7/v8의 경우 표시되는 처리량 수는 MID(중간 소싱) 인스턴스에서 달성한 처리량입니다. MKT(독립형 마케팅) 배포의 경우(MID 인스턴스 없음) MKT 인스턴스의 처리량이 대신 표시됩니다.
+   >Campaign v7/v8의 경우 표시되는 처리량의 수는 MID(중간 소싱) 인스턴스에서 달성한 처리량입니다. 독립형 MKT(마케팅) 배포(MID 인스턴스 없음)의 경우 MKT 인스턴스의 처리량이 대신 표시됩니다.
 
 * 다음 **[!UICONTROL Latency]** 영역에서는 실시간 트랜잭션 통신을 전송할 때 선택한 인스턴스에서 발생하는 지연에 대한 정보를 제공합니다. 지연은 95 및 99 백분위수에서 캡처되고 시각화되므로, 요청의 95% 및 99%가 지정된 지연보다 빨라야 합니다.
 
