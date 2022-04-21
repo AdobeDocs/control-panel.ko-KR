@@ -6,10 +6,10 @@ user-guide-title: Campaign 컨트롤 패널 안내서
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 03f88c50e0eff20654dfcb90c711bb3d381591ed
+source-git-commit: 9dc288986f11cd64f187ba9253e4e4ff9f1b00b3
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 93%
+source-wordcount: '124'
+ht-degree: 95%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 93%
    + [Campaign 컨트롤 패널 액세스](discover/using/accessing-control-panel.md)
    + [Campaign 컨트롤 패널에 대한 권한 관리](discover/using/managing-permissions.md)
    + [Campaign 컨트롤 패널 인터페이스 살펴보기](discover/using/discovering-the-interface.md)
++ [주요 연락처 및 이벤트 모니터링](service-events/service-events.md)
 + SFTP 관리 {#sftp-management}
    + [SFTP 관리 정보](sftp/using/about-sftp-management.md)
    + [SFTP 스토리지 관리](sftp/using/sftp-storage-management.md)
@@ -55,5 +56,4 @@ ht-degree: 93%
    + [URL 권한](instances-settings/using/url-permissions.md)
    + [인스턴스 세부 사항](instances-settings/using/instance-details.md)
    + [GPG 키 관리](instances-settings/using/gpg-keys-management.md)
-+ [인스턴스의 주요 연락처 및 이벤트 식별](service-events/service-events.md)
 + [FAQ](faq.md)
