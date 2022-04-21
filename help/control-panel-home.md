@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
-workflow-type: ht
-source-wordcount: '228'
-ht-degree: 100%
+source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 82%
 
 ---
 
@@ -27,14 +27,9 @@ Campaign [컨트롤 패널]에서는 각 Campaign 인스턴스의 사용량을 �
 
 ## 새로운 기능
 
-**워크플로우 매개 변수 모니터링**
+**인스턴스 내 주요 연락처 및 이벤트 모니터링**
 
-이제 인스턴스의 문제를 방지하기 위해 특정 주의가 필요한 워크플로우 매개 변수를 모니터링할 수 있습니다. [자세히 표시](performance-monitoring/using/workflow-monitoring.md)
-
-**처리량 및 지연 모니터링**
-
-이제 인스턴스의 일정 시간 동안 게재 처리량과 지연 시간이 어떤 트렌드인지 모니터링할 수 있습니다. [자세히 표시](performance-monitoring/using/thoughputs-latencies.md)
-
+이제 인스턴스에서 발생하는 이전 및 예정된 릴리스 및 서비스 검토를 모니터링하고 요청 또는 문제에 대해 Adobe에서 주요 연락처 목록에 액세스할 수 있습니다. [자세히 표시](service-events/service-events.md)
 
 >[!CAUTION]
 >

@@ -4,10 +4,10 @@ solution: Campaign
 title: 컨트롤 패널 릴리스
 description: 이 페이지에는 Campaign 컨트롤 패널의 새로운 기능과 개선 사항이 모두 포함되어 있습니다
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 84fe0aeb10bc5e535a7ab54a3316a51a1a32b3ca
+source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 63%
+source-wordcount: '1070'
+ht-degree: 60%
 
 ---
 
@@ -21,6 +21,23 @@ ht-degree: 63%
 >
 >Campaign v7의 경우 인스턴스는 Amazon Web Services(AWS)에서 호스팅하고 최신 인스턴스로 업그레이드해야 합니다 [캠페인 안정적인 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses) (또는 빌드 9032 이상) [이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ko#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](faq.md#hosted-aws)에 설명된 단계를 수행합니다.
 
+## 2022년 4월 {#april-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>인스턴스 내 주요 연락처 및 이벤트 모니터링</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 인스턴스에서 발생하는 이전 및 예정된 릴리스 및 서비스 검토를 모니터링하고 요청 또는 문제에 대해 Adobe에서 주요 연락처 목록에 액세스할 수 있습니다.</p><p>자세한 내용은 <a href="service-events/service-events.md">자세한 설명서</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## 2022년 3월 {#march-2022}
 
 <table>
@@ -32,7 +49,7 @@ ht-degree: 63%
 <tbody>
 <tr>
 <td>
-<p>이제 중간 인스턴스가 없는 독립 실행형 Campaign Standard을 제공하는 빌드 번호 9032,9330, 9346 또는 9349를 사용하는 모든 및 v8 고객이 처리량 및 지연 모니터링을 사용할 수 있습니다.</p><p>자세한 내용은 <a href="performance-monitoring/using/thoughputs-latencies.md">자세한 설명서</a></p>
+<p>이제 모든 Campaign Standard 및 v8 고객과 9032,9330, 9346 또는 9349 빌드 번호를 사용하는 Campaign V7 고객이 처리량 및 지연 모니터링을 사용할 수 있습니다(mid 인스턴스 없음).</p><p>자세한 내용은 <a href="performance-monitoring/using/thoughputs-latencies.md">자세한 설명서</a></p>
 </td>
 </tr>
 </tbody>
