@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
-workflow-type: ht
-source-wordcount: '767'
-ht-degree: 100%
+source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
+workflow-type: tm+mt
+source-wordcount: '753'
+ht-degree: 94%
 
 ---
 
@@ -56,33 +56,33 @@ Campaign v7의 경우 인스턴스를 AWS(Amazon Web Services)에서 호스팅�
 
 아니요. 현재 Adobe Campaign의 고객인 경우 추가 비용은 없습니다.
 
-## IMS 조직 ID {#ims-org-id}
+## 조직 ID {#ims-org-id}
 
-### IMS 조직 ID란 무엇인가요?
+###  조직 ID란 무엇인가요?
 
 Adobe Experience Cloud에 처음 로그인할 때 인스턴스에 제공되는 고유 ID입니다. 이 ID는 xxx@AdobeOrg 형식입니다.
 
-자세한 내용은 [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)를 참조하십시오.
+자세한 내용은 [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko){_blank}.
 
-### IMS 조직 ID는 어디에서 확인할 수 있나요?
+###  조직 ID는 어디에서 확인할 수 있나요?
 
-[Adobe Experience Cloud 홈](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**(으)로 이동하는 방법이 있습니다. 관리 **[!UICONTROL Quick Access]** 섹션 아래쪽에서 IMS 조직 ID를 확인할 수 있습니다. [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)에서 자세한 정보를 찾을 수 있습니다.
+[Adobe Experience Cloud 홈](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**(으)로 이동하는 방법이 있습니다. 관리 **[!UICONTROL Quick Access]** 섹션 아래쪽에서 조직 ID를 확인할 수 있습니다. 에서 자세한 정보를 찾을 수 있습니다. [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){_blank}.
 
-**관리 콘솔**&#x200B;을 시작하여 ID를 확인할 수도 있습니다. IMS 조직 ID는 https://adminconsole.adobe.com/xxx@AdobeOrg/overview와 같은 형태로 URL에 표시됩니다.
+**관리 콘솔**&#x200B;을 시작하여 ID를 확인할 수도 있습니다. 조직 ID는 다음과 같은 형태로 URL에 표시됩니다. `https://adminconsole.adobe.com/xxx@AdobeOrg/overview`.
 
-### IMS 조직 ID를 알고 있어야 하는 이유는 무엇인가요?
+###  조직 ID를 알고 있어야 하는 이유는 무엇인가요?
 
 회사에서 여러 인스턴스를 사용하는 경우 인스턴스의 설정을 관리하려면 적절한 인스턴스의 올바른 정보를 파악할 수 있어야 합니다.
 
-### IMS 조직 ID가 여러 개일 경우 어떻게 하나요?
+###  조직 ID가 여러 개일 경우 어떻게 하나요?
 
-여러 Adobe 솔루션 액세스 권한이 있는 경우에는 IMS 조직 ID가 여러 개일 수 있습니다. 이 경우 사용해야 하는 올바른 IMS 조직 ID는 Adobe Campaign 인스턴스 아래에 표시되는 ID입니다.
+여러 Adobe 솔루션 액세스 권한이 있는 경우에는 조직 ID가 여러 개일 수 있습니다. 이 경우 사용해야 하는 올바른 조직 ID는 Adobe Campaign 인스턴스 아래에 표시되는 ID입니다.
 
 >[!NOTE]
 >
->Adobe Campaign과 Adobe Analytics용 IMS 조직 ID가 같으면 더 효율적입니다. 구매 중단 등의 복잡한 사용 사례를 활용하기 위해 솔루션을 통합하려는 경우(AA + AC)에는 Adobe Analytics와 Adobe Campaign 간 IMS 조직 ID가 같아야 합니다.
+>Adobe Campaign과 Adobe Analytics용 조직 ID가 같으면 더 효율적입니다. 구매 중단 등의 복잡한 사용 사례를 활용하기 위해 솔루션을 통합하려는 경우(AA + AC)에는 Adobe Analytics와 Adobe Campaign 간 조직 ID가 같아야 합니다.
 >
->Adobe Campaign 및 Adobe Analytics용 IMS 조직 ID가 다르다면 고객 지원 센터에 연락하여 ID를 통일하십시오.
+>Adobe Campaign 및 Adobe Analytics용 조직 ID가 다르다면 고객 지원 센터에 연락하여 ID를 통일하십시오.
 
 ### Adobe Campaign 인스턴스가 AWS에서 호스팅되는지 여부는 어떻게 확인할 수 있나요?{#hosted-aws}
 
