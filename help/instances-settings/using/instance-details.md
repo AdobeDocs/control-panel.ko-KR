@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
+source-git-commit: 3f68145c40f40df3e69f4fdfd889f3a7a2e995ab
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '530'
 ht-degree: 77%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 77%
 
    >[!NOTE]
    >
-   >Campaign 컨트롤 패널 홈 페이지에 인스턴스 설정 카드가 표시되지 않으면 조직 ID가 Adobe Campaign v7/v8 인스턴스와 연결되어 있지 않은 것입니다
+   >Campaign 컨트롤 패널 홈 페이지에 인스턴스 설정 카드가 표시되지 않으면 IMS 조직 ID가 Adobe Campaign v7/v8 인스턴스와 연결되어 있지 않은 것입니다
 
 1. 왼쪽 창에서 원하는 Campaign 인스턴스를 선택합니다.
 

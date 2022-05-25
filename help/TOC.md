@@ -6,10 +6,10 @@ user-guide-title: Campaign 컨트롤 패널 안내서
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: d8843ddcce0de7a29bbdd83af629c8d8f0d32920
+source-git-commit: 085d1854eda2c9fe05473760e1f1a30113de01a9
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 100%
+source-wordcount: '130'
+ht-degree: 95%
 
 ---
 
@@ -56,4 +56,5 @@ ht-degree: 100%
    + [URL 권한](instances-settings/using/url-permissions.md)
    + [인스턴스 세부 사항](instances-settings/using/instance-details.md)
    + [GPG 키 관리](instances-settings/using/gpg-keys-management.md)
+   + [MID/RT 인스턴스 추가(하이브리드 모델)](instances-settings/using/external-accounts.md)
 + [FAQ](faq.md)

@@ -4,10 +4,10 @@ solution: Campaign
 title: 컨트롤 패널 릴리스
 description: 이 페이지에는 Campaign 컨트롤 패널의 새로운 기능과 개선 사항이 모두 포함되어 있습니다
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
+source-git-commit: 87b28195ede08756d5084aad36bf1c95f621b5f5
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 60%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,6 +21,39 @@ ht-degree: 60%
 >
 >Campaign v7의 경우 인스턴스는 Amazon Web Services(AWS)에서 호스팅하고 최신 인스턴스로 업그레이드해야 합니다 [캠페인 안정적인 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses) (또는 빌드 9032 이상) [이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ko#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](faq.md#hosted-aws)에 설명된 단계를 수행합니다.
 
+## 2022년 5월 {#may-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>하이브리드 호스팅 모델에 대한 Campaign 컨트롤 패널 가용성</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 하이브리드 호스팅 모델을 사용하는 고객이 Campaign 컨트롤 패널을 사용할 수 있습니다. 이러한 고객은 Campaign 컨트롤 패널에서 마케팅 인스턴스에 구성된 MID/RT 인스턴스 URL을 제공하여 Campaign 컨트롤 패널의 기능을 활용할 수 있습니다.</p><p>자세한 내용은 <a href="instances-settings/using/external-accounts.md">자세한 설명서</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>처리량 및 대기 시간 모니터링 업데이트</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>처리량 및 대기 시간 모니터링 기능이 향상되었습니다.<ul><li>이제 인스턴스의 처리량에 기여하는 상위 5개 게재의 ID를 식별할 수 있습니다.</li><li>이제 Campaign Classic v7/v8 고객이 특정 채널에 대한 지연을 시각화할 수 있습니다.</p></li><p>자세한 내용은 <a href="performance-monitoring/using/thoughputs-latencies.md">자세한 설명서</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 ## 2022년 4월 {#april-2022}
 
 <table>
@@ -32,7 +65,7 @@ ht-degree: 60%
 <tbody>
 <tr>
 <td>
-<p>이제 인스턴스에서 발생하는 이전 및 예정된 릴리스 및 서비스 검토를 모니터링하고 요청 또는 문제에 대해 Adobe에서 주요 연락처 목록에 액세스할 수 있습니다.</p><p>자세한 내용은 <a href="service-events/service-events.md">자세한 설명서</a></p>
+<p>이제 인스턴스에서 발생하는 이전 및 예정된 릴리스 및 서비스 검토를 모니터링하고 요청 또는 문제에 관해 Adobe의 주요 연락처 목록에 액세스할 수 있습니다.</p><p>자세한 내용은 <a href="service-events/service-events.md">자세한 설명서</a></p>
 </td>
 </tr>
 </tbody>

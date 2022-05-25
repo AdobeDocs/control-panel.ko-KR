@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: f1f6388bd32927cb13359f8975748ca4a158e660
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '729'
 ht-degree: 75%
 
 ---
@@ -23,10 +23,6 @@ ht-degree: 75%
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ko" text="SSL 인증서 모니터링"
 
 ## 하위 도메인을 설정하는 이유  {#why-setting-up-subdomains}
-
->[!IMPORTANT]
->
->Campaign 컨트롤 패널의 하위 도메인 위임 기능은 베타 버전에서 사용할 수 있으며, 별도의 공지 없이 업데이트 및 수정될 수 있습니다.
 
 하위 도메인은 브랜드나 다양한 트래픽 유형(트랜잭션 메시지, 마케팅 정보 등)을 분리하는 데 사용할 수 있는 도메인의 개별 부분입니다.
 
