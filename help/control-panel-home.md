@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: d2d5f43b4fcd8f0161681b55d2834e753e388de4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ Campaign [컨트롤 패널]에서는 각 Campaign 인스턴스의 사용량을 �
 
 ## 새로운 기능
 
-**하이브리드 호스팅 모델에 대한 Campaign 컨트롤 패널 가용성**
+**하이브리드 호스팅 모델에 대한 컨트롤 패널 가용성**
 
-이제 하이브리드 호스팅 모델을 사용하는 고객이 Campaign 컨트롤 패널을 사용할 수 있습니다. 이러한 고객은 Campaign 컨트롤 패널에서 마케팅 인스턴스에 구성된 MID/RT 인스턴스 URL을 제공하여 Campaign 컨트롤 패널의 기능을 활용할 수 있습니다. [자세히 보기](instances-settings/using/external-accounts.md)
+이제 하이브리드 호스팅 모델을 사용하는 고객은 컨트롤 패널을 사용할 수 있습니다. 이러한 고객은 컨트롤 패널에서 마케팅 인스턴스에 구성된 MID/RT 인스턴스 URL을 제공하여 컨트롤 패널의 기능을 활용할 수 있습니다. [자세히 보기](instances-settings/using/external-accounts.md)
 
 
 **처리량 및 대기 시간 모니터링 업데이트**
