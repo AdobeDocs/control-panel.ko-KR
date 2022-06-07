@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: bcc9ae9e8f3d6ed88f6f930af81e46c98dfd3d89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Campaign 컨트롤 패널을 사용하면 각 인스턴스의 게재 처리량�
 
 >[!IMPORTANT]
 >
->이 기능은 모든 Campaign Standard, v8 고객 및 빌드 번호 9032 이상이 있는 Campaign v7 고객이 사용할 수 있습니다. [독립형 배포](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=ko) (mid 인스턴스 없음)
+>이 기능은 (MID 인스턴스가 없는) [독립형 배포 버전](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=ko)을 포함한 모든 Campaign Standard 고객, v8 고객, Campaign v7 고객(빌드 번호 9032 이상)이 사용할 수 있습니다.
 
 게재 처리량 및 지연 시간이 일정 기간 동안 어떤 트렌드를 보이는지 모니터링하려면 인스턴스의 사용을 이해하고 제대로 작동하는지 확인해야 합니다.
 
