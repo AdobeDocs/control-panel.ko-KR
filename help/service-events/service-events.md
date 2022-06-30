@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
-source-git-commit: 281a1a5fc677c4e98fe32c53e0f2fe69e8c72888
-workflow-type: ht
-source-wordcount: '313'
-ht-degree: 100%
+source-git-commit: 8d1eda31cbe6ab915760d4894a03a4a0055a3130
+workflow-type: tm+mt
+source-wordcount: '497'
+ht-degree: 59%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cp_servicecalendar_serviceevents"
 >title="서비스 캘린더"
->abstract="주요 연락처 섹션에는 Adobe에서 인스턴스에 대한 요청이나 문제에 대해 연락할 수 있는 사람이 나열됩니다. 서비스 이벤트 캘린더 섹션에서 선택한 인스턴스에 대해 과거 및 예정된 릴리스 및 서비스 검토를 모두 식별할 수 있습니다."
+>abstract="주요 연락처 섹션에는 Adobe에서 인스턴스에 대한 요청이나 문제에 대해 연락할 수 있는 사람이 나열됩니다. 서비스 이벤트 달력 섹션에서 선택한 인스턴스에 대한 릴리스 및 서비스 검토를 식별하고 예정된 이벤트에 대한 미리 알림을 설정할 수 있습니다."
 
 >[!IMPORTANT]
 >
@@ -51,6 +51,8 @@ Campaign 컨트롤 패널을 사용하면 인스턴스에서 발생하는 릴리
 
 ## 이벤트 {#events}
 
+### 이벤트 모니터링 {#monitor-events}
+
 **[!UICONTROL Service Event Calendar]** 섹션에는 선택한 인스턴스에 대해 과거 및 예정된 릴리스 및 서비스 검토가 모두 표시됩니다.
 
 ![](assets/service-events-calendar.png)
@@ -68,3 +70,33 @@ Campaign 컨트롤 패널을 사용하면 인스턴스에서 발생하는 릴리
 예정된 하나 또는 여러 이벤트에 플래그를 할당하여 추적할 수 있습니다. 이렇게 하려면 이벤트 이름 옆에 있는 타원형 버튼을 클릭하십시오.
 
 ![](assets/service-events-flag.png)
+
+### 미리 알림 설정 {#reminders}
+
+서비스 달력을 사용하면 이벤트가 발생하기 전에 전자 메일로 알림을 받으려면 미리 알림을 설정할 수 있습니다.
+
+>[!NOTE]
+>
+>예정된 이벤트에 대한 알림을 받으려면 Campaign 컨트롤 패널에서 이메일 경고를 구독했는지 확인하십시오. [자세히 알아보기](../performance-monitoring/using/email-alerting.md)
+
+이벤트에 대한 경고를 설정하려면 다음 단계를 수행합니다.
+
+1. 상기할 이벤트 옆에 있는 타원 단추를 클릭한 다음 을 선택합니다 **[!UICONTROL Set Reminder]**.
+
+1. 미리 보기에 제목을 지정한 다음, 이벤트가 발생하기 전에 알림을 받을 날짜를 선택합니다.
+
+   ![](assets/service-events-set-reminder.png)
+
+   >[!NOTE]
+   >
+   >Campaign 컨트롤 패널 경고를 구독하지 않은 경우 메시지가 표시되고 등록하여 이메일 알림을 받을 수 있습니다.
+
+1. 이제 선택한 이벤트에 대해 미리 알림이 설정됩니다. 언제든지 마우스로 가리키면 제목을 표시할 수 있습니다.
+
+   ![](assets/service-events-reminder.png)
+
+   >[!NOTE]
+   >
+   >동일한 이벤트에 대해 최대 2개의 미리 알림을 설정할 수 있습니다.
+
+1. 미리 알림에 지정된 날짜에 예정된 이벤트에 대해 알리는 이메일이 전송되며 미리 알림은 자동으로 **[!UICONTROL Reminders]** 서비스 달력 메뉴에서 카운트합니다.

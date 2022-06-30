@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 8db39899be5dfe610f39a6cecc23bd5f969078c6
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 84%
+source-wordcount: '388'
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="cp_storage"
 >title="스토리지 용량"
->abstract="이 탭에서는 SFTP 서버의 스토리지 용량 및 사용률 정보를 확인할 수 있습니다. 여기에는 액세스 권한이 있는 SFTP 서버만 표시됩니다. 다른 SFTP 서버 액세스 권한을 요청하려면 관리자에게 문의하십시오."
+>abstract="이 탭에서는 SFTP 서버의 스토리지 용량 및 사용률 정보를 확인할 수 있습니다. SFTP 서버의 이름을 클릭하여 SFTP 서버의 공간을 가장 많이 사용하는 상위 10개 파일을 나열할 수도 있습니다. 여기에는 액세스 권한이 있는 SFTP 서버만 표시됩니다. 다른 SFTP 서버 액세스 권한을 요청하려면 관리자에게 문의하십시오."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4" text="데모 비디오 시청"
 
 계약 약관에 따라 SFTP 서버에서 다른 스토리지 용량을 프로비저닝할 수 있습니다.
@@ -38,6 +38,10 @@ ht-degree: 84%
 
 * **주황**: 인스턴스 용량을 80% 넘게 사용했습니다.
 * **빨강**: 인스턴스 용량을 90% 넘게 사용했습니다.
+
+SFTP 서버의 이름을 클릭하여 SFTP 서버의 공간을 가장 많이 사용하는 상위 10개 파일을 식별할 수도 있습니다.
+
+![](assets/sftp-top10.png)
 
 서버의 용량이 거의 소진되면 진행해야 하는 단계를 파악할 수 있도록 추가 팁도 제공됩니다.
 

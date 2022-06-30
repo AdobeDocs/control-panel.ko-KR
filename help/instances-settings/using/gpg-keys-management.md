@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 140a84657325a3cb0e209996ca1aed7d6c1a3282
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 9%
+source-wordcount: '1189'
+ht-degree: 8%
 
 ---
 
@@ -41,6 +41,10 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 Campaign 
 Campaign 컨트롤 패널을 사용하면 Adobe Campaign 인스턴스에서 나오는 데이터를 암호화할 수 있습니다.
 
 이렇게 하려면 PGP 암호화 도구에서 GPG 키 쌍을 생성한 다음 공개 키를 Campaign 컨트롤 패널에 설치해야 합니다. 그런 다음 인스턴스에서 데이터를 보내기 전에 암호화할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
+
+>[!NOTE]
+>
+>Campaign 컨트롤 패널에 최대 60개의 GPG 키를 설치할 수 있습니다.
 
 ![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](#video)
 
