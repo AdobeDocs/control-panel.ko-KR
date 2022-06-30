@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 66456eefea1bf442874e2b388f292af9df9ec186
+source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 73%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ Campaign [컨트롤 패널]에서는 각 Campaign 인스턴스의 사용량을 �
 
 **서비스 달력 미리 알림**
 
-이제 서비스 달력에서 이벤트가 인스턴스에서 발생되기 전에 전자 메일로 알림을 받기 위해 미리 알림을 설정할 수 있습니다. [자세히 보기](instances-settings/using/external-accounts.md)
+이제 서비스 달력에서 이벤트가 인스턴스에서 발생되기 전에 전자 메일로 알림을 받기 위해 미리 알림을 설정할 수 있습니다. [자세히 보기](service-events/service-events.md)
 
 **하위 도메인의 CSR 생성 개선 사항**
 

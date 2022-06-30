@@ -2,10 +2,10 @@
 title: 최신 릴리스
 description: 이 페이지에는 Campaign 컨트롤 패널의 새로운 기능과 개선 사항이 모두 포함되어 있습니다
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
+source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 49%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 49%
 <tbody>
 <tr>
 <td>
-<p>이제 서비스 달력에서 이벤트가 인스턴스에서 발생되기 전에 전자 메일로 알림을 받기 위해 미리 알림을 설정할 수 있습니다. <a href="../instances-settings/using/external-accounts.md">자세히 알아보기</a></p>
+<p>이제 서비스 달력에서 이벤트가 인스턴스에서 발생되기 전에 전자 메일로 알림을 받기 위해 미리 알림을 설정할 수 있습니다. <a href="../service-events/service-events.md">자세히 알아보기</a></p>
 <img src="../assets/do-not-localize/reminders.gif"/>
 </td>
 </tr>
