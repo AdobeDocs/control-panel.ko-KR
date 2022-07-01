@@ -6,9 +6,9 @@ user-guide-title: Campaign 컨트롤 패널 안내서
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
+source-git-commit: bf710d56b0f4d3834ab505633ae85cf9444b6ccf
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '153'
 ht-degree: 73%
 
 ---
@@ -20,9 +20,10 @@ ht-degree: 73%
 + 릴리스 정보 {#release-notes}
    + [최신 릴리스](rn/release-notes.md)
    + 이전 릴리스 {#previous-releases}
+      + [2022년 릴리스 정보](rn/release-notes-2022.md)
       + [2021년 릴리스 노트](rn/release-notes-2021.md)
       + [2020년 릴리스 정보](rn/release-notes-2020.md)
-      + [20219년 릴리스 정보](rn/release-notes-2019.md)
+      + [2019년 릴리스 정보](rn/release-notes-2019.md)
 + Campaign 컨트롤 패널 살펴보기 {#discover-control-panel}
    + [주요 기능](discover/using/key-features.md)
    + [컨트롤 패널 액세스](discover/using/accessing-control-panel.md)
