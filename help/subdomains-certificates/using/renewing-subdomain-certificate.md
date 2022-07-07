@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: 5a5ac1a604fe5bdce07479ff84184abdb2e0ddba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="cp_add_ssl_certificate"
 >title="SSL 인증서 갱신"
->abstract="SSL 인증서를 갱신하려면 CSR을 생성하고 하위 도메인용 SSL 인증서를 구매한 다음 인증서 번들을 설치해야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="CSR(인증서 서명 요청) 생성"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="SSL 인증서 설치"
+>abstract="SSL 인증서를 추가하려면 CSR을 생성하고 하위 도메인용 SSL 인증서를 구매한 다음 인증서 번들을 설치해야 합니다."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renew-ssl/renewing-subdomain-certificate.html?lang=ko" text="CSR(인증서 서명 요청) 생성"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renew-ssl/renewing-subdomain-certificate.html?lang=ko" text="SSL 인증서 설치"
 
 >[!IMPORTANT]
 >
->Campaign 컨트롤 패널의 SSL 인증서 갱신 기능은 베타로 제공되며, 별도의 고지 없이 자주 업데이트 및 수정될 수 있습니다.
+>Campaign 컨트롤 패널의 인증서 갱신 기능은 베타로 제공되며, 별도의 고지 없이 자주 업데이트 및 수정될 수 있습니다.
 >
 >하이브리드 호스팅 모델이 있는 인스턴스를 사용하는 경우 위임된 하위 도메인과 관련된 인증서만 볼 수 있으며 인증서를 갱신할 수 없습니다.
 
@@ -43,10 +43,10 @@ SSL 인증서 갱신 프로세스에는 다음의 세 단계를 수행합니다.
 
    구매한 SSL 인증서를 원하는 하위 도메인에 설치하여 보안을 설정합니다. [자세히 알아보기](install-ssl-certificate.md)
 
-![](assets/do-not-localize/how-to-video.png) 다음 방법으로 비디오에서 이 기능 살펴보기 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#subdomains-and-certificates) 또는 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#adding-ssl-certificates)
+![](assets/do-not-localize/how-to-video.png) 이 비디오에서 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=ko) 또는 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=ko)를 사용하여 해당 기능 살펴보기
 
 **관련 항목:**
 
-* [게재 기능 모범 사례 안내서 - Adobe Campaign에 대한 SSL 인증서 요청 프로세스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html)
+* [게재 기능 모범 사례 안내서 - Adobe Campaign에 대한 SSL 인증서 요청 프로세스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=ko)
 * [하위 도메인 브랜딩](../../subdomains-certificates/using/subdomains-branding.md)
 * [하위 도메인 모니터링](../../subdomains-certificates/using/monitoring-subdomains.md)
