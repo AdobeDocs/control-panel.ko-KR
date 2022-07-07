@@ -1,10 +1,10 @@
 ---
 title: 2021년 릴리스 정보
-description: 이 페이지에는 모든 2021 Campaign 컨트롤 패널 릴리스가 나열됩니다.
+description: 이 페이지에는 모든 Campaign 컨트롤 패널 릴리스가 나열됩니다.
 source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 10%
 <tbody>
 <tr>
 <td>
-<p>이제 를 편집할 수 있습니다 <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP 범위</a> 및 <a href="../sftp/using/key-management.md#editing-public-keys">공개 키</a> 생성하십시오. 이 기능은 현재 Campaign 컨트롤 패널 릴리스 전에 생성된 항목에 사용할 수 없습니다.
+<p>이제 생성하는 <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP 범위</a> 및 <a href="../sftp/using/key-management.md#editing-public-keys">공개 키</a>를 편집할 수 있습니다. 이 기능은 현재 Campaign 컨트롤 패널 릴리스 전에 생성된 항목에 사용할 수 없습니다.
 </td>
 </tr>
 </tbody>
@@ -51,7 +51,7 @@ ht-degree: 10%
 <tbody>
 <tr>
 <td>
-<p>이제 이메일 경고 기능에는 SFTP IP에 대한 경고(만료 허용 및 SFTP 공개 키 만료)가 포함되어 있습니다.</p><p>자세한 내용은 <a href="../performance-monitoring/using/email-alerting.md">세부 설명서</a>를 참조하세요.</p>
+<p>이제 이메일 경고 기능에는 SFTP IP에 대한 경고 만료 허용 및 SFTP 공개 키 만료가 포함되어 있습니다.</p><p>자세한 내용은 <a href="../performance-monitoring/using/email-alerting.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ ht-degree: 10%
 <tbody>
 <tr>
 <td>
-<p>다음 <strong>하위 도메인</strong> 및 <strong>인증서</strong> 관리 기능은 이제 Adobe Campaign v8의 Campaign 컨트롤 패널에서 지원됩니다.</a>.</p>
+<p>이제 <strong>하위 도메인</strong>과 <strong>인증서</strong> 관리 등 모든 기능을 Adobe Campaign v8의 [Campaign 컨트롤 패널]을 통해 지원합니다.</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -77,13 +77,13 @@ ht-degree: 10%
 <table>
 <thead>
 <tr>
-<th><strong>Campaign v8을 사용한 지원</strong><br/></th>
+<th><strong>Campaign v8에서 지원</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Adobe Campaign v8에 대해 Campaign 컨트롤 패널을 사용할 수 있으며, <strong>하위 도메인</strong> 및 <strong>인증서</strong> 관리 기능. 아직 지원되지 않습니다.</p><p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html" target="blank">Campaign v8 설명서</a>.</p>
+<p>이제 Adobe Campaign v8에서 Campaign 컨트롤 패널을 사용할 수 있지만 <strong>하위 도메인</strong> 및 <strong>인증서</strong> 관리 기능은 아직 지원되지 않습니다.</p><p>자세한 내용은 관련 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=ko" target="blank">Campaign v8 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
