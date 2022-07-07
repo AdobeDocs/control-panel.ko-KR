@@ -9,7 +9,7 @@ level: Beginner
 source-git-commit: bf710d56b0f4d3834ab505633ae85cf9444b6ccf
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 73%
       + [2019년 릴리스 정보](rn/release-notes-2019.md)
 + Campaign 컨트롤 패널 살펴보기 {#discover-control-panel}
    + [주요 기능](discover/using/key-features.md)
-   + [컨트롤 패널 액세스](discover/using/accessing-control-panel.md)
-   + [Campaign 컨트롤 패널 권한 관리](discover/using/managing-permissions.md)
-   + [Campaign 컨트롤 패널 인터페이스 검색](discover/using/discovering-the-interface.md)
+   + [Campaign 컨트롤 패널 액세스](discover/using/accessing-control-panel.md)
+   + [Campaign 컨트롤 패널에 대한 권한 관리](discover/using/managing-permissions.md)
+   + [Campaign 컨트롤 패널 인터페이스 살펴보기](discover/using/discovering-the-interface.md)
 + [주요 연락처 및 이벤트 모니터링](service-events/service-events.md)
 + SFTP 관리 {#sftp-management}
    + [SFTP 관리 정보](sftp/using/about-sftp-management.md)
@@ -44,7 +44,7 @@ ht-degree: 73%
    + [TXT 레코드 관리](subdomains-certificates/using/managing-txt-records.md)
    + [SSL 인증서 모니터링](subdomains-certificates/using/monitoring-ssl-certificates.md)
    + SSL 인증서 갱신 {#renew-ssl}
-      + [SSL 인증서 갱신](subdomains-certificates/using/renewing-subdomain-certificate.md)
+      + [SSL 인증서 갱신 정보](subdomains-certificates/using/renewing-subdomain-certificate.md)
       + [CSR 생성](subdomains-certificates/using/generate-csr.md)
       + [SSL 인증서 설치](subdomains-certificates/using/install-ssl-certificate.md)
 + 성능 모니터링 {#performance-monitoring}
