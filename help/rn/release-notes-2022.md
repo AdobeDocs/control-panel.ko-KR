@@ -1,27 +1,84 @@
 ---
 title: 2022년 릴리스 정보
-description: 이 페이지에는 모든 2022 Campaign 컨트롤 패널 릴리스가 나열됩니다.
-source-git-commit: 737ff99e60bb940980f3b7179672fdb984e6d4bf
+description: 이 페이지에는 2022년 Campaign 컨트롤 패널 릴리스가 모두 나열되어 있습니다.
+exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
+source-git-commit: c3c8d71e36cb1d55c2fcc8600b5063ea73d6e2e8
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 69%
+source-wordcount: '485'
+ht-degree: 100%
 
 ---
 
 # 2021년 릴리스 정보 {#rn-2022}
+
+## 2022년 6월 {#june-2022}
+
+### 새로운 기능?
+
+<table>
+<thead>
+<tr>
+<th><strong>SFTP 서버의 공간을 가장 많이 사용하는 상위 10개 파일</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 SFTP 서버에서 가장 많은 공간을 사용하는 상위 10개 파일을 식별할 수 있습니다. <a href="../sftp/using/sftp-storage-management.md">자세히 알아보기</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>서비스 캘린더 미리 알림</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 서비스 캘린더에서 이벤트가 인스턴스에서 발생되기 전에 이메일로 알림을 받기 위해 미리 알림을 설정할 수 있습니다. <a href="../service-events/service-events.md">자세히 알아보기</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>하위 도메인의 CSR 생성 개선 사항</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>CSR 생성 프로세스에 몇 가지 개선 사항이 있습니다. <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">자세히 알아보기</a></p><ul><li>이제 CSR을 생성할 때 포함된 하위 도메인 중 하나를 공통 이름으로 선택할 수 있습니다.</li><li>이제 CSR을 생성하기 전에 CSR 요약을 복사할 수 있습니다.</li><li>CSR이 생성되면 작업 로그에서 다시 다운로드할 수 있습니다. 이 기능은 이 릴리스 전에 생성된 인증서에는 적용되지 않습니다.</li></ul><p>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+### 개선 사항
+
+**인스턴스 설정**
+
+* Campaign 컨트롤 패널의 최대 GPG 키 수가 60개 키로 증가했습니다. [자세히 알아보기](../instances-settings/using/gpg-keys-management.md)
 
 ## 2022년 5월 {#may-2022}
 
 <table>
 <thead>
 <tr>
-<th><strong>하이브리드 호스팅 모델에 대한 컨트롤 패널 가용성</strong><br/></th>
+<th><strong>하이브리드 호스팅 모델에 대한 Campaign 컨트롤 패널 가용성</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 하이브리드 호스팅 모델을 사용하는 고객은 컨트롤 패널을 사용할 수 있습니다. 이러한 고객은 컨트롤 패널에서 마케팅 인스턴스에 구성된 MID/RT 인스턴스 URL을 제공하여 컨트롤 패널의 기능을 활용할 수 있습니다.</p><p>자세한 내용은 <a href="../instances-settings/using/external-accounts.md">자세한 설명서</a></p>
+<p>이제 하이브리드 호스팅 모델을 사용하는 고객은 Campaign 컨트롤 패널을 사용할 수 있습니다. 이러한 고객은 Campaign 컨트롤 패널에서 마케팅 인스턴스에 구성된 MID/RT 인스턴스 URL을 제공하여 Campaign 컨트롤 패널의 기능을 활용할 수 있습니다.</p><p>자세한 내용은 <a href="../instances-settings/using/external-accounts.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -36,7 +93,7 @@ ht-degree: 69%
 <tbody>
 <tr>
 <td>
-<p>처리량 및 대기 시간 모니터링 기능이 향상되었습니다:<ul><li>이제 인스턴스의 처리량에 기여하는 상위 5개 게재의 ID를 식별할 수 있습니다.</li><li>이제 Campaign Classic v7/v8 고객이 특정 채널에 대한 지연을 시각화할 수 있습니다.</p></li><p>자세한 내용은 <a href="../performance-monitoring/using/thoughputs-latencies.md">자세한 설명서</a></p>
+<p>처리량 및 대기 시간 모니터링 기능이 향상되었습니다:<ul><li>이제 인스턴스의 처리량에 기여하는 상위 5개 게재의 ID를 식별할 수 있습니다.</li><li>이제 Campaign Classic v7/v8 고객이 특정 채널에 대한 지연을 시각화할 수 있습니다.</p></li><p>자세한 내용은 <a href="../performance-monitoring/using/thoughputs-latencies.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -54,7 +111,7 @@ ht-degree: 69%
 <tbody>
 <tr>
 <td>
-<p>이제 인스턴스에서 발생하는 이전 및 예정된 릴리스 및 서비스 검토를 모니터링하고 요청 또는 문제에 관해 Adobe의 주요 연락처 목록에 액세스할 수 있습니다.</p><p>자세한 내용은 <a href="../service-events/service-events.md">자세한 설명서</a></p>
+<p>이제 인스턴스에서 발생하는 이전 및 예정된 릴리스 및 서비스 검토를 모니터링하고 요청 또는 문제에 관해 Adobe의 주요 연락처 목록에 액세스할 수 있습니다.</p><p>자세한 내용은 <a href="../service-events/service-events.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -71,7 +128,7 @@ ht-degree: 69%
 <tbody>
 <tr>
 <td>
-<p>이제 모든 Campaign Standard 및 v8 고객과 9032,9330, 9346 또는 9349 빌드 번호를 사용하는 Campaign V7 고객이 처리량 및 지연 모니터링을 사용할 수 있습니다(mid 인스턴스 없음).</p><p>자세한 내용은 <a href="../performance-monitoring/using/thoughputs-latencies.md">자세한 설명서</a></p>
+<p>이 기능은 모든 Campaign Standard 및 v8 고객은 물론, Campaign V7 고객으로서 빌드 번호가 9032, 9330, 9346 또는 9349인 독립형 배포 버전(중간 인스턴스 없음)을 보유한 고객에게도 제공됩니다.</p><p>자세한 내용은 <a href="../performance-monitoring/using/thoughputs-latencies.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
