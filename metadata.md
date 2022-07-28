@@ -3,15 +3,14 @@ cloud: Experience Cloud
 product: adobe campaign
 solution: Campaign
 feature-set: Campaign
-git-repo: https://git.corp.adobe.com/AdobeDocs/control-panel.ko-KR
+git-repo: https://github.com/AdobeDocs/control-panel.ko-KR
 index: true
-feature: Campaign 컨트롤 패널
+feature: Control Panel
 role: Architect
 level: Beginner
-translation-type: ht
 source-git-commit: 63491701dd099b12d22bf9a1eab3c8a290a2e6af
-workflow-type: ht
-source-wordcount: '10'
+workflow-type: tm+mt
+source-wordcount: '8'
 ht-degree: 100%
 
 ---
