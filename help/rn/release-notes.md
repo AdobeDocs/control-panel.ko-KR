@@ -3,15 +3,15 @@ title: 최신 릴리스
 description: 이 페이지에는 Campaign 컨트롤 패널의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: c3c8d71e36cb1d55c2fcc8600b5063ea73d6e2e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '59'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
 # 최신 릴리스 {#control-panel-releases}
 
-이 페이지에는 Campaign 컨트롤 패널에 대한 새로운 기능과 개선 사항이 나와 있습니다.
+이 페이지에는 Campaign 컨트롤 패널의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
 
 ## 2022년 7월 {#july-2022}
 
@@ -24,7 +24,7 @@ ht-degree: 42%
 <tbody>
 <tr>
 <td>
-<p><p>하이브리드 호스팅 모델을 사용하는 고객은 이제 Campaign 컨트롤 패널에서 하위 도메인의 SSL 인증서를 갱신할 수 있습니다.</p><p>자세한 내용은 <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">세부 설명서</a>를 참조하십시오.</p>
+<p><p>하이브리드 호스팅 모델을 사용하는 고객은 이제 컨트롤 패널에서 하위 도메인의 SSL 인증서를 갱신할 수 있습니다.</p><p>자세한 내용은 <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
