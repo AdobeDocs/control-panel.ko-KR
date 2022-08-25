@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 140a84657325a3cb0e209996ca1aed7d6c1a3282
+source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 8%
@@ -61,7 +61,7 @@ Campaign 컨트롤 패널을 사용하면 Adobe Campaign 인스턴스에서 나�
 1. 메시지가 표시되면 키에 원하는 매개 변수를 지정합니다. 필수 매개 변수는 다음과 같습니다.
 
    * **키 유형**: RSA
-   * **키 길이**: 1024 - 4096비트
+   * **키 길이**: 3072 - 4096비트
    * **실제 이름** 및 **이메일 주소**: 키 쌍을 만든 사용자를 추적할 수 있습니다. 조직 또는 부서에 연결된 이름 및 이메일 주소를 입력합니다.
    * **댓글**: 주석 필드에 레이블을 추가하면 데이터를 암호화하는 데 사용할 키를 쉽게 식별할 수 있습니다.
    * **만료**: 만료 날짜가 없는 날짜 또는 &quot;0&quot;입니다.
