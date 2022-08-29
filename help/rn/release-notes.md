@@ -2,10 +2,10 @@
 title: 최신 릴리스
 description: 이 페이지에는 Campaign 컨트롤 패널의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 6ba347d1cbcefa9b9d59b1f368a7d754d3eb92bb
+source-git-commit: 8310762a92f5db7fdf85520ce50d4862e7a45ee5
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 59%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
