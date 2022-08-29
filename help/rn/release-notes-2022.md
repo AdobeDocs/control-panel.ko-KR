@@ -2,14 +2,31 @@
 title: 2022년 릴리스 정보
 description: 이 페이지에는 2022년 Campaign 컨트롤 패널 릴리스가 모두 나열되어 있습니다.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: c3c8d71e36cb1d55c2fcc8600b5063ea73d6e2e8
-workflow-type: ht
-source-wordcount: '485'
+source-git-commit: 6ba347d1cbcefa9b9d59b1f368a7d754d3eb92bb
+workflow-type: tm+mt
+source-wordcount: '517'
 ht-degree: 100%
 
 ---
 
-# 2021년 릴리스 정보 {#rn-2022}
+# 2022년 릴리스 정보 {#rn-2022}
+
+## 2022년 7월 {#july-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>하위 도메인의 인증서는 하이브리드 호스팅 모델을 위한 설치를 인증합니다</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><p>하이브리드 호스팅 모델을 사용하는 고객은 이제 컨트롤 패널에서 하위 도메인의 SSL 인증서를 갱신할 수 있습니다.</p><p>자세한 내용은 <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2022년 6월 {#june-2022}
 
