@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 91%
+source-wordcount: '372'
+ht-degree: 90%
 
 ---
 
@@ -54,10 +54,6 @@ ht-degree: 91%
 ![](assets/subdomain_details.png)
 
 하위 도메인의 SSL 인증서 중 하나가 곧 만료되는 경우 컨트롤 패널에서 바로 갱신할 수 있습니다. 인증서 갱신과 관련된 자세한 내용은 [하위 도메인의 SSL 인증서 갱신](../../subdomains-certificates/using/renewing-subdomain-certificate.md) 섹션을 참조하십시오.
-
->[!IMPORTANT]
->
->컨트롤 패널의 인증서 갱신 기능은 베타로 제공되며, 별도의 고지 없이 자주 업데이트 및 수정될 수 있습니다.
 
 **관련 항목:**
 

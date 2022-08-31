@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 3f68145c40f40df3e69f4fdfd889f3a7a2e995ab
+source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '795'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,9 @@ ht-degree: 0%
 
 ### 컨트롤 패널을 사용하기 위한 자격이 있나요?
 
-AWS에서 Adobe Campaign을 호스팅하는 현재 Adobe 고객의 제품 관리자만 컨트롤 패널을 열 수 있습니다. 하이브리드 환경은 아직 지원되지 않습니다.
+AWS에서 Adobe Campaign을 호스팅하는 현재 Adobe 고객의 제품 관리자만 컨트롤 패널을 열 수 있습니다.
+
+컨트롤 패널을 통해 하이브리드 호스팅 모델을 사용하는 고객은 특정 컨트롤 패널 기능을 활용할 수 있습니다. 이를 위해 컨트롤 패널의 마케팅 인스턴스에 구성된 MID/RT 인스턴스 URL을 제공해야 합니다. [자세히 알아보기](instances-settings/using/external-accounts.md)
 
 관리자가 아닌데 컨트롤 패널에 액세스하려는 경우에는 제품 관리자에게 연락하여 자신을 관리자로 추가해 줄 것을 요청해야 합니다.
 
