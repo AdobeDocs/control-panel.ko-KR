@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 2458263ef5981a16d983912b498e320501df7889
+source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '837'
+ht-degree: 82%
 
 ---
 
@@ -57,7 +57,7 @@ IP 주소를 허용 목록에 추가하고 나면 사용자가 인스턴스에 �
 
 >[!NOTE]
 >
->만약 **[!UICONTROL Instance Settings]** Campaign 컨트롤 패널 홈 페이지에 카드가 표시되지 않습니다. 이는 IMS 조직 ID가 Adobe Campaign v7/v8 인스턴스와 연결되어 있지 않음을 의미합니다.
+>만약 **[!UICONTROL Instance Settings]** Campaign 컨트롤 패널 홈 페이지에 카드가 표시되지 않으면 [조직 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko) 는 Adobe Campaign v7/v8 인스턴스와 연결되어 있지 않습니다.
 
 허용 목록에 IP 주소를 추가하려면 다음 단계를 따르십시오.
 

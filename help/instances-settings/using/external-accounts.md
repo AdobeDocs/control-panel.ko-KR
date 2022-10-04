@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
+source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->컨트롤 패널에 액세스하는 데 문제가 발생하는 경우 마케팅 인스턴스가 조직 ID와 아직 매핑되지 않았을 수 있습니다. 이 설정을 완료하고 계속 진행하려면 고객 지원 센터에 문의하십시오. 연결에 성공하면 컨트롤 패널 홈 페이지가 표시됩니다.
+>컨트롤 패널에 액세스하는 데 문제가 발생하면 마케팅 인스턴스가 [조직 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko). 이 설정을 완료하고 계속 진행하려면 고객 지원 센터에 문의하십시오. 연결에 성공하면 컨트롤 패널 홈 페이지가 표시됩니다.
 
 컨트롤 패널 기능에 액세스하려면 **[!UICONTROL Instances Settings]** 카드에 MID/RT 인스턴스 정보를 제공해야 합니다. 이렇게 하려면 아래 단계를 수행합니다.
 
