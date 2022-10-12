@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '783'
+ht-degree: 100%
 
 ---
 
@@ -68,23 +68,23 @@ Adobe Experience Cloud에 처음 로그인할 때 인스턴스에 제공되는 �
 
 ### 조직 ID는 어디에서 찾을 수 있습니까?
 
-[Adobe Experience Cloud 홈](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**(으)로 이동하는 방법이 있습니다. 관리 맨 아래에 조직 ID가 있습니다 **[!UICONTROL Quick Access]** 섹션을 참조하십시오. [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html)에서 자세한 정보를 찾을 수 있습니다.
+[Adobe Experience Cloud 홈](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**(으)로 이동하는 방법이 있습니다. 관리 **[!UICONTROL Quick Access]** 섹션 아래쪽에서 조직 ID를 확인할 수 있습니다. [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)에서 자세한 정보를 찾을 수 있습니다.
 
-**관리 콘솔**&#x200B;을 시작하여 ID를 확인할 수도 있습니다. 조직 ID는 다음과 같은 형태로 URL에 표시됩니다. https://adminconsole.adobe.com/xxx@AdobeOrg/overview
+**관리 콘솔**&#x200B;을 시작하여 ID를 확인할 수도 있습니다. 조직 ID는 https://adminconsole.adobe.com/xxx@AdobeOrg/overview와 같은 형태로 URL에 표시됩니다.
 
-### 조직 ID를 알고 있어야 하는 이유는 무엇입니까?
+### 조직 ID를 알고 있어야 하는 이유는 무엇인가요?
 
 회사에서 여러 인스턴스를 사용하는 경우 인스턴스의 설정을 관리하려면 적절한 인스턴스의 올바른 정보를 파악할 수 있어야 합니다.
 
-### 조직 ID가 여러 개일 경우 어떻게 해야 합니까?
+### 조직 ID가 여러 개일 경우 어떻게 하나요?
 
-여러 Adobe 솔루션에 액세스할 수 있는 경우 조직 ID가 두 개 이상 있을 수 있습니다. 이 경우 사용해야 하는 올바른 조직 ID는 Adobe Campaign 인스턴스 아래에 표시되는 ID입니다.
+여러 Adobe 솔루션 액세스 권한이 있는 경우에는 조직 ID가 여러 개일 수 있습니다. 이 경우 사용해야 하는 올바른 조직 ID는 Adobe Campaign 인스턴스 아래에 표시되는 ID입니다.
 
 >[!NOTE]
 >
->Adobe Campaign 및 Adobe Analytics에 대한 조직 ID가 같으면 더 효율적입니다. 구매 중단 등의 복잡한 사용 사례를 활용하기 위해 Analytics와 Campaign 솔루션을 통합하려는 경우(AA + AC)에는 조직 ID가 같아야 합니다.
+>Adobe Campaign과 Adobe Analytics용 조직 ID가 같으면 좋습니다. 구매 중단 등의 복잡한 사용 사례를 활용하기 위해 솔루션을 통합하려는 경우(AA + AC)에는 Analytics와 Campaign 간 조직 ID가 같아야 합니다.
 >
->Adobe Campaign 및 Adobe Analytics에 대한 조직 ID가 다르다면 고객 지원 센터에 연락하여 ID를 통일하십시오.
+>Adobe Campaign과 Adobe Analytics용 조직 ID가 다르다면 고객 지원 센터에 연락하여 ID를 통일하십시오.
 
 ### Adobe Campaign 인스턴스가 AWS에서 호스팅되는지 여부는 어떻게 확인할 수 있나요?{#hosted-aws}
 
