@@ -5,9 +5,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
+source-git-commit: 9fc94d403a0cd4229feea112f460514bef9a2104
 workflow-type: ht
-source-wordcount: '252'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 100%
 >id="cp_overview"
 >title="컨트롤 패널"
 >abstract="컨트롤 패널 홈 페이지에서는 Campaign 인스턴스에서 수행 가능한 모든 작업에 액세스할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html?lang=ko" text="인터페이스 살펴보기"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=ko" text="컨트롤 패널 액세스"
 
 ![](assets/do-not-localize/banner.png)
