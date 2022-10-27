@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 80a5dc43-205e-4764-805a-85d2faabc20a
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+source-git-commit: 6430a1719528e6b4d8c219eb5a88b6ace93b209d
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 33%
+source-wordcount: '79'
+ht-degree: 36%
 
 ---
 
@@ -26,4 +26,3 @@ Campaign 컨트롤 패널은 인스턴스를 모니터링하고 최적의 성능
 >
 >향후 Campaign 컨트롤 패널 릴리스를 통해 이 카드에서 추가 모니터링 기능을 사용할 수 있습니다.
 
-또한 Campaign 컨트롤 패널을 사용하면 Campaign 인스턴스 중 하나에서 문제가 탐지될 때마다 이메일 알림을 수신하도록 등록할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../performance-monitoring/using/email-alerting.md)을 참조하십시오.

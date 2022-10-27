@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 07118637-cebd-4dd8-8374-2d7c20a47a89
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 95390bb1f8af21907ce8984279a6a73dd7828b00
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 72%
+source-wordcount: '174'
+ht-degree: 69%
 
 ---
 
@@ -32,7 +32,3 @@ Campaign Standard 및 Classic에서는 데이터베이스 디스크 공간 과�
 * [데이터베이스 성능 문제 해결](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=ko) (Campaign v7/v8)
 * [데이터베이스 관련 옵션](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ko#database) (Campaign v7/v8)
 * 데이터 유지: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/data-retention.html?lang=ko) - [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html?lang=ko#data-retention)
-
->[!NOTE]
->
->또한 데이터베이스 중 하나가 최대 용량에 도달하면 알림을 받을 수 있습니다. 이렇게 하려면 [이메일 경고](../../performance-monitoring/using/email-alerting.md)에 가입하십시오.

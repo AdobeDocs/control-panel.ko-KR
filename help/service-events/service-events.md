@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
-source-git-commit: 8d1eda31cbe6ab915760d4894a03a4a0055a3130
-workflow-type: ht
+source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
+workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -89,7 +89,7 @@ Campaign 컨트롤 패널을 사용하면 인스턴스에서 발생하는 릴리
 
    >[!NOTE]
    >
-   >Campaign 컨트롤 패널 경고를 구독하지 않은 경우 메시지가 표시되며, 등록하여 이메일 알림을 받을 수 있습니다.
+   >Campaign 컨트롤 패널 경고를 구독하지 않은 경우 메시지가 표시되고 등록하여 이메일 알림을 받을 수 있습니다.
 
 1. 이제 선택한 이벤트에 대해 미리 알림이 설정됩니다. 언제든지 마우스로 제목을 표시할 수 있습니다.
 
