@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
 source-git-commit: 641c5ef1a62c278972e6a90ed85c52851deddb56
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 93%
 
 각 SFTP 서버의 사용 가능한 공간을 정기적으로 모니터링해야 합니다. 이렇게 하지 않으면 서버에 파일을 추가로 저장할 수 없거나, 이 서버의 업데이트를 사용하는 워크플로우를 정상적으로 실행하지 못할 수 있습니다.
 
-구독한 경우 [이메일 경고](../../performance-monitoring/using/email-alerting.md), SFTP 서버 중 하나가 용량 80% 이상에 도달하면 이메일로 알림을 받게 됩니다. 자세한 내용은 [SFTP 스토리지 관리](../../sftp/using/sftp-storage-management.md).
+[이메일 경고](../../performance-monitoring/using/email-alerting.md)를 구독한 경우, SFTP 서버 중 하나가 용량 80% 이상에 도달하면 이메일로 알림을 받게 됩니다. [SFTP 스토리지 관리](../../sftp/using/sftp-storage-management.md)를 참조하세요.
 
 ![](assets/do-not-localize/how-to-video.png) 이 비디오에서 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=ko) 또는 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=ko)를 사용하여 해당 기능 살쳐보기
 
