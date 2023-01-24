@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: ht
-source-wordcount: '466'
-ht-degree: 100%
+source-git-commit: 803068a1f6dec68afba11a4ea49edae1eafcedd5
+workflow-type: tm+mt
+source-wordcount: '463'
+ht-degree: 98%
 
 ---
 
@@ -92,6 +92,6 @@ MID/RT 인스턴스가 컨트롤 패널에 추가되면 아래 나열된 기능�
 
 * [주요 연락처 및 이벤트 모니터링](../../service-events/service-events.md)
 * [인스턴스 세부 사항 보기](../../instances-settings/using/instance-details.md),
-* [허용 목록에 IP 주소 추가](../../instances-settings/using/ip-allow-listing-instance-access.md)(RT 인스턴스용),
+* [허용 목록에 IP 주소 추가](../../instances-settings/using/ip-allow-listing-instance-access.md),
 * [새 하위 도메인 설정](../../subdomains-certificates/using/setting-up-new-subdomain.md),
 * [하위 도메인의 SSL 인증서 갱신](../../subdomains-certificates/using/renewing-subdomain-certificate.md).

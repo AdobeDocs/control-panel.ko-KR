@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
+source-git-commit: b6ccd751ee9885bacd955dfaf1ee61e923e0c07f
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 82%
+source-wordcount: '812'
+ht-degree: 85%
 
 ---
 
@@ -27,8 +27,6 @@ ht-degree: 82%
 >[!IMPORTANT]
 >
 >이 기능은 Campaign v7/v8 인스턴스에만 사용할 수 있습니다.
->
->하이브리드 호스팅 모델이 있는 인스턴스를 사용하는 경우 RT 인스턴스에 대해 &quot;외부 API 연결&quot;에서 IP 주소만 추가할 수 있습니다.
 
 기본적으로는 여러 IP 주소에서 Adobe Campaign 인스턴스에 액세스할 수 없습니다.
 
@@ -90,9 +88,10 @@ IP 주소를 허용 목록에 추가하고 나면 사용자가 인스턴스에 �
    * **[!UICONTROL AEM connection]**: 지정한 AEM IP 주소가 마케팅 인스턴스에 연결할 수 있습니다.
    * **[!UICONTROL External API connection]**: 지정한 IP 주소를 사용하는 외부 API가 마케팅 및/또는 메시지 센터(RT) 인스턴스에 연결할 수 있습니다. RT 인스턴스는 콘솔에 연결하도록 설정되지 않습니다.
 
-      >[!NOTE]
-      >
-      >하이브리드 호스팅 모델이 있는 인스턴스를 사용하는 경우 RT 인스턴스에 대해 &quot;외부 API 연결&quot;에서 IP 주소만 추가할 수 있습니다.
+   >[!NOTE]
+   >
+   >하이브리드 호스팅 모델이 있는 인스턴스를 사용하는 경우 MID 및 RT 인스턴스에 대해 &quot;외부 API 연결&quot;에서 IP 주소만 추가할 수 있습니다.
+
    ![](assets/ip_whitelist_acesstype.png)
 
 1. **[!UICONTROL Save]** 버튼을 클릭합니다. IP 범위가 허용 목록에 추가됩니다.

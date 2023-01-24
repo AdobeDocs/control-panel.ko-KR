@@ -2,14 +2,18 @@
 title: 2022년 릴리스 정보
 description: 이 페이지에는 2022년 Campaign 컨트롤 패널 릴리스가 모두 나열되어 있습니다.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: 95390bb1f8af21907ce8984279a6a73dd7828b00
-workflow-type: ht
-source-wordcount: '558'
+source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
+workflow-type: tm+mt
+source-wordcount: '580'
 ht-degree: 100%
 
 ---
 
 # 2022년 릴리스 정보 {#rn-2022}
+
+## 2022년 10월 {#october-2022}
+
+이제 이메일 경고는 SSL 인증서 중 하나가 30일 이내에 만료될 때 알려줍니다. [자세히 알아보기](../performance-monitoring/using/email-alerting.md)
 
 ## 2022년 9월 {#september-2022}
 
