@@ -1,8 +1,8 @@
 ---
 source-git-commit: 2dbc05024c2c60341425fe73adc31f6332679177
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 # 참여
@@ -18,7 +18,7 @@ ht-degree: 97%
 
 ## 참여자 안내서 설명서
 
-[참여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)를 참조하십시오.
+[참여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ko)를 참조하십시오.
 
 ## 질문이 있습니까?
 
