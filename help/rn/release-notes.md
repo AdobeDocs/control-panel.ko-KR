@@ -5,7 +5,7 @@ exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: e72d3809eddc47cf0b41422f6c703671ebefad38
 workflow-type: tm+mt
 source-wordcount: '71'
-ht-degree: 42%
+ht-degree: 69%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 42%
 
 **새로운 하이브리드 호스팅 모델 기능**
 
-이제 하이브리드 호스팅 모델을 사용하는 고객은 MID 인스턴스에 액세스할 수 있도록 허용 목록에 IP 주소를 추가할 수 있습니다. [자세히 알아보기](../instances-settings/using/ip-allow-listing-instance-access.md)
+이제 하이브리드 호스팅 모델을 사용하는 고객은 MID 인스턴스 액세스 허용 목록에 IP 주소를 추가할 수 있습니다. [자세히 알아보기](../instances-settings/using/ip-allow-listing-instance-access.md)
 
 **CSR(인증서 서명 요청) 개선 사항**
 
