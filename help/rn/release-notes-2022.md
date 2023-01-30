@@ -2,8 +2,8 @@
 title: 2022년 릴리스 정보
 description: 이 페이지에는 2022년 Campaign 컨트롤 패널 릴리스가 모두 나열되어 있습니다.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
-workflow-type: ht
+source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 
@@ -123,7 +123,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>처리량 및 대기 시간 모니터링 기능이 향상되었습니다:<ul><li>이제 인스턴스의 처리량에 기여하는 상위 5개 게재의 ID를 식별할 수 있습니다.</li><li>이제 Campaign Classic v7/v8 고객이 특정 채널에 대한 지연을 시각화할 수 있습니다.</p></li><p>자세한 내용은 <a href="../performance-monitoring/using/thoughputs-latencies.md">세부 설명서</a>를 참조하십시오.</p>
+<p>처리량 및 대기 시간 모니터링 기능이 향상되었습니다:<ul><li>이제 인스턴스의 처리량에 기여하는 상위 5개 게재의 ID를 식별할 수 있습니다.</li><li>이제 Campaign Classic v7/v8 고객이 특정 채널에 대한 지연을 시각화할 수 있습니다.</p></li><p>자세한 내용은 <a href="../performance-monitoring/using/throughputs-latencies.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>이 기능은 모든 Campaign Standard 및 v8 고객은 물론, Campaign V7 고객으로서 빌드 번호가 9032, 9330, 9346 또는 9349인 독립형 배포 버전(중간 인스턴스 없음)을 보유한 고객에게도 제공됩니다.</p><p>자세한 내용은 <a href="../performance-monitoring/using/thoughputs-latencies.md">세부 설명서</a>를 참조하십시오.</p>
+<p>이 기능은 모든 Campaign Standard 및 v8 고객은 물론, Campaign V7 고객으로서 빌드 번호가 9032, 9330, 9346 또는 9349인 독립형 배포 버전(중간 인스턴스 없음)을 보유한 고객에게도 제공됩니다.</p><p>자세한 내용은 <a href="../performance-monitoring/using/throughputs-latencies.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -207,7 +207,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>이제 인스턴스의 일정 시간 동안 게재 처리량과 지연 시간이 어떤 트렌드인지 모니터링할 수 있습니다.</p><p>자세한 내용은 <a href="../performance-monitoring/using/thoughputs-latencies.md">세부 설명서</a>를 참조하세요.</p>
+<p>이제 인스턴스의 일정 시간 동안 게재 처리량과 지연 시간이 어떤 트렌드인지 모니터링할 수 있습니다.</p><p>자세한 내용은 <a href="../performance-monitoring/using/throughputs-latencies.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
