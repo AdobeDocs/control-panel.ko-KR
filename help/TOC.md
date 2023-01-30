@@ -6,8 +6,8 @@ user-guide-title: Campaign 컨트롤 패널 안내서
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
-workflow-type: ht
+source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ ht-degree: 100%
       + [워크플로우 모니터링](performance-monitoring/using/workflow-monitoring.md)
       + [데이터베이스 오버로드 방지](performance-monitoring/using/database-preventing-overload.md)
    + [활성 프로필 모니터링](performance-monitoring/using/active-profiles-monitoring.md)
-   + [처리량 및 지연 모니터링](performance-monitoring/using/thoughputs-latencies.md)
+   + [처리량 및 지연 모니터링](performance-monitoring/using/throughputs-latencies.md)
    + [인스턴스 액세스에 대한 IP 허용 목록](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL 권한](instances-settings/using/url-permissions.md)
    + [인스턴스 세부 사항](instances-settings/using/instance-details.md)
