@@ -6,7 +6,7 @@ user-guide-title: Campaign 컨트롤 패널 안내서
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+source-git-commit: 99241b1b4982049f844fcf51d307ace36ee70c94
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
@@ -31,7 +31,6 @@ ht-degree: 100%
    + [Campaign 컨트롤 패널 인터페이스 살펴보기](discover/using/discovering-the-interface.md)
 + [주요 연락처 및 이벤트 모니터링](service-events/service-events.md)
 + [이메일 경고](performance-monitoring/using/email-alerting.md)
-+ 인스턴스 설정 {#instances-settings}
 + SFTP 관리 {#sftp-management}
    + [SFTP 관리 정보](sftp/using/about-sftp-management.md)
    + [SFTP 저장소 관리](sftp/using/sftp-storage-management.md)
@@ -61,6 +60,7 @@ ht-degree: 100%
       + [데이터베이스 오버로드 방지](performance-monitoring/using/database-preventing-overload.md)
    + [활성 프로필 모니터링](performance-monitoring/using/active-profiles-monitoring.md)
    + [처리량 및 지연 모니터링](performance-monitoring/using/throughputs-latencies.md)
++ 인스턴스 설정 {#instances-settings}
    + [인스턴스 액세스에 대한 IP 허용 목록](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL 권한](instances-settings/using/url-permissions.md)
    + [인스턴스 세부 사항](instances-settings/using/instance-details.md)
