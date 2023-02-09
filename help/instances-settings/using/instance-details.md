@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
+source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 77%
+source-wordcount: '527'
+ht-degree: 72%
 
 ---
 
@@ -37,8 +37,8 @@ ht-degree: 77%
 
 **관련 항목:**
 
-* [빌드 업그레이드 수행](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)
-* [Adobe Campaign 업데이트](https://docs.campaign.adobe.com/doc/AC/en/PRO_Updating_Adobe_Campaign_Introduction.html)
+* [빌드 업그레이드 수행](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html)
+* [Adobe Campaign 업데이트](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html)
 
 ## 인스턴스 관련 정보 검색 {#retrieving-information-about-instances}
 
@@ -70,7 +70,7 @@ ht-degree: 77%
    * 노랑: 업그레이드를 고려해야 합니다. 최신 기능과 수정 사항이 설치되어 있지 않습니다.
    * 빨강: 최대한 빨리 업그레이드해야 합니다. 새 기능이 설치되어 있지 않아 서버 성능이 최적 상태가 아닐 수 있습니다.
 
-서버 중 하나를 업그레이드해야 하는 경우의 진행 방법에 대한 자세한 내용은 [이 설명서](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)를 참조하십시오.
+서버 중 하나를 업그레이드해야 하는 경우의 진행 방법에 대한 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html)를 참조하십시오.
 
 ## 일반적인 질문 {#common-questions}
 
