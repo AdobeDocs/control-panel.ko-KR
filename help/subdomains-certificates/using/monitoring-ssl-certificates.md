@@ -7,19 +7,14 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 349f97423b9a4834ab17c50c1f9cde226b99e4cc
+source-git-commit: a6a77cf6e564f4607c0c12facb2061cfb102a5a5
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 90%
 
 ---
 
 # 하위 도메인의 SSL 인증서 모니터링 {#monitoring-ssl-certificates}
-
->[!CONTEXTUALHELP]
->id="cp_subdomain_undelegate"
->title="하위 도메인 위임 "
->abstract="TBD"
 
 ## SSL 인증서 {#about-ssl-certificates}
 

@@ -7,14 +7,19 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: fa45ec38ff06a0b02ab724e7ced79b7b5de2c766
+source-git-commit: a6a77cf6e564f4607c0c12facb2061cfb102a5a5
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 10%
+source-wordcount: '207'
+ht-degree: 7%
 
 ---
 
 # 하위 도메인 모니터링 {#monitoring-subdomains}
+
+>[!CONTEXTUALHELP]
+>id="cp_subdomain_undelegate"
+>title="위임된 하위 도메인 제거 "
+>abstract="이 화면에서는 Campaign 컨트롤 패널에서 위임된 하위 도메인을 제거할 수 있습니다. 하위 도메인 제거는 취소할 수 없으며 제출되면 취소할 수 없습니다.<br>선택한 인스턴스에 대한 주 도메인을 제거하려고 하면 해당 도메인을 바꿀 도메인을 선택하라는 메시지가 표시됩니다."
 
 Adobe Campaign에서 작동하도록 하위 도메인을 모니터링하는 것이 중요합니다.
 
