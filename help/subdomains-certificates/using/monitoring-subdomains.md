@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: 76c42ba45b3430b1b93458f18b1b0e78f289fad1
+source-git-commit: f0c3df4727e89e3f6127fe4563908b955ccb820c
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '205'
 ht-degree: 7%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_undelegate"
->title="위임된 하위 도메인 제거 "
->abstract="이 화면에서는 Campaign 컨트롤 패널에서 위임된 하위 도메인을 제거할 수 있습니다. 하위 도메인 제거는 취소할 수 없으며 제출되면 취소할 수 없습니다.<br><br>선택한 인스턴스에 대한 주 도메인을 제거하려고 하면 해당 도메인을 바꿀 도메인을 선택하라는 메시지가 표시됩니다."
+>title="하위 도메인 위임 제거"
+>abstract="이 화면에서는 Adobe에 하위 도메인의 위임을 제거할 수 있습니다. 제출되면 이 프로세스를 취소하거나 중지할 수 없습니다.<br><br>선택한 인스턴스에 대해 주 도메인의 위임을 제거하려고 하면 도메인을 바꿀 도메인을 선택하라는 메시지가 표시됩니다."
 
 Adobe Campaign에서 작동하도록 하위 도메인을 모니터링하는 것이 중요합니다.
 
