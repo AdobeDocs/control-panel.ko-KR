@@ -6,10 +6,10 @@ user-guide-title: Campaign 컨트롤 패널 안내서
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 99241b1b4982049f844fcf51d307ace36ee70c94
+source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 100%
 + 릴리스 정보 {#release-notes}
    + [최신 릴리스](rn/release-notes.md)
    + 이전 릴리스 {#previous-releases}
+      + [2023년 릴리스 정보](rn/release-notes-2023.md)
       + [2022년 릴리스 정보](rn/release-notes-2022.md)
       + [2021년 릴리스 노트](rn/release-notes-2021.md)
       + [2020년 릴리스 정보](rn/release-notes-2020.md)
@@ -42,10 +43,11 @@ ht-degree: 100%
    + [하위 도메인 브랜딩](subdomains-certificates/using/subdomains-branding.md)
    + [하위 도메인 모니터링](subdomains-certificates/using/monitoring-subdomains.md)
    + [새 하위 도메인 설정](subdomains-certificates/using/setting-up-new-subdomain.md)
+   + [Adobe에 하위 도메인 위임 제거](subdomains-certificates/using/remove-delegated-subdomains.md)
    + [TXT 레코드 관리](subdomains-certificates/using/managing-txt-records.md)
-   + [SSL 인증서 모니터링](subdomains-certificates/using/monitoring-ssl-certificates.md)
-   + SSL 인증서 갱신 {#renew-ssl}
-      + [SSL 인증서 갱신 정보](subdomains-certificates/using/renewing-subdomain-certificate.md)
+   + SSL 인증서 관리 {#manage-certificates}
+      + [SSL 인증서 모니터링](subdomains-certificates/using/monitoring-ssl-certificates.md)
+      + [SSL 인증서 갱신](subdomains-certificates/using/renewing-subdomain-certificate.md)
       + [CSR 생성](subdomains-certificates/using/generate-csr.md)
       + [SSL 인증서 설치](subdomains-certificates/using/install-ssl-certificate.md)
 + 성능 모니터링 {#performance-monitoring}
