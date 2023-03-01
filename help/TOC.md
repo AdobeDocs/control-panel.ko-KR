@@ -43,7 +43,7 @@ ht-degree: 94%
    + [하위 도메인 브랜딩](subdomains-certificates/using/subdomains-branding.md)
    + [하위 도메인 모니터링](subdomains-certificates/using/monitoring-subdomains.md)
    + [새 하위 도메인 설정](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [Adobe에 하위 도메인 위임 제거](subdomains-certificates/using/remove-delegated-subdomains.md)
+   + [Adobe에 대한 하위 도메인 위임 제거](subdomains-certificates/using/remove-delegated-subdomains.md)
    + [TXT 레코드 관리](subdomains-certificates/using/managing-txt-records.md)
    + SSL 인증서 관리 {#manage-certificates}
       + [SSL 인증서 모니터링](subdomains-certificates/using/monitoring-ssl-certificates.md)
