@@ -2,10 +2,10 @@
 title: 최신 릴리스
 description: 이 페이지에는 Campaign 컨트롤 패널의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 975ed013a50c6f5e15178e3c8700c554c5baa34c
+source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 34%
+source-wordcount: '105'
+ht-degree: 30%
 
 ---
 
@@ -17,10 +17,13 @@ ht-degree: 34%
 
 **Adobe으로 위임된 하위 도메인에 대한 위임 제거**
 
-이제 CNAME 설정을 포함하여 Adobe에게 위임된 하위 도메인의 위임을 제거할 수 있습니다. [자세히 알아보기](../subdomains-certificates/using/remove-delegated-subdomains.md)
+이제 Adobe에 완전히 위임된 하위 도메인의 위임을 제거할 수 있습니다. [자세히 알아보기](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
 ![](assets/do-not-localize/gif-delegation.gif)
 
+>[!NOTE]
+>
+>현재 CNAME을 사용하여 설정한 하위 도메인에서는 위임 제거를 사용할 수 없습니다.
 
 **서비스 캘린더**
 

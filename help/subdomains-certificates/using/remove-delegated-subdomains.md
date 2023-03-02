@@ -6,9 +6,9 @@ description: Adobe에 대한 하위 도메인 위임을 제거하는 방법을 �
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: deb99ceb789f40c905de1a76cca8deca6b979765
+source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '509'
 ht-degree: 16%
 
 ---
@@ -20,7 +20,11 @@ ht-degree: 16%
 >title="하위 도메인 위임 제거"
 >abstract="이 화면에서는 하위 도메인의 Adobe 위임을 제거할 수 있습니다. 이 프로세스는 실행을 취소할 수 없으며 실행이 완료될 때까지 되돌릴 수 없습니다.<br><br>선택한 인스턴스에 대한 주 도메인의 위임을 제거하려고 하면 주 도메인을 대체할 도메인을 선택하라는 메시지가 표시됩니다."
 
-Campaign 컨트롤 패널을 사용하면 CNAME 설정을 포함하여 Adobe에게 위임된 하위 도메인의 위임을 제거할 수 있습니다.
+Campaign 컨트롤 패널을 사용하면 Adobe에게 위임된 하위 도메인의 위임을 제거할 수 있습니다.
+
+>[!NOTE]
+>
+>현재 CNAME을 사용하여 설정한 하위 도메인에서는 위임 제거를 사용할 수 없습니다.
 
 ## 중요 정보 {#important}
 
