@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: 상위 10개의 임시 리소스
-description: Campaign 데이터베이스의 워크플로우 및 게재로 생성된 10개의 가장 큰 임시 리소스를 Campaign 컨트롤 패널에서 모니터링하는 방법을 알아봅니다.
+description: Campaign 데이터베이스의 워크플로우 및 게재에서 생성된 가장 큰 10개의 임시 리소스를 Campaign 컨트롤 패널에서 모니터링하는 방법을 알아봅니다.
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -24,8 +24,8 @@ ht-degree: 69%
 >
 >일반적으로 **40개 이상의 열**&#x200B;이 기본 제공 리소스가 아닌 곳에 있는 상황을 피하는 것이 좋습니다. 워크플로우에 테이블 수가 많거나 데이터베이스 크기가 큰 경우, 워크플로우를 검토하여 너무 많은 데이터를 생성하는 이유를 조사하는 것이 좋습니다.
 >
->Campaign Standard 및 Classic 지침도 [이 페이지](database-preventing-overload.md) 데이터베이스 오버로드를 방지하는 데 도움이 됩니다.
+>Campaign Standard 및 Classic 지침도 제공됩니다. [이 페이지](database-preventing-overload.md) 데이터베이스 오버로드를 방지하기 위해
 
 ![](assets/database-top10.png)
 
-다음 **[!UICONTROL View all]** 버튼을 사용하여 **[!UICONTROL Storage overview]** 이러한 임시 리소스에 대한 자세한 정보를 얻기 위한 세부 정보입니다. 자세한 정보는 이 [페이지](database-storage-overview.md)를 참조하십시오.
+다음 **[!UICONTROL View all]** 버튼을 사용하여 **[!UICONTROL Storage overview]** 이러한 임시 리소스에 대한 자세한 정보를 얻을 수 있습니다. 자세한 정보는 이 [페이지](database-storage-overview.md)를 참조하십시오.

@@ -26,7 +26,7 @@ ht-degree: 83%
 
 >[!IMPORTANT]
 >
->이 기능은 빌드 8850의 Campaign v7/v8 인스턴스에만 사용할 수 있습니다. 이전 빌드를 사용하는 경우 이 기능을 사용하려면 업그레이드해야 합니다.
+>이 기능은 Campaign v7/v8 인스턴스(빌드 8850)에서만 사용할 수 있습니다. 이전 빌드를 사용하는 경우 이 기능을 사용하려면 업그레이드해야 합니다.
 
 Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 통해 호출할 수 있는 URL의 기본 목록은 제한되어 있습니다. 인스턴스는 이러한 URL이 있어야 정상 작동합니다.
 
@@ -60,7 +60,7 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 
    >[!NOTE]
    >
-   >Campaign 컨트롤 패널 홈 페이지에 인스턴스 설정 카드가 표시되지 않으면 [조직 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko) 어떤 Adobe Campaign 인스턴스와도 연결되어 있지 않습니다
+   >Campaign 컨트롤 패널 홈 페이지에 인스턴스 설정 카드가 표시되지 않으면 [조직 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko) 은(는) Adobe Campaign 인스턴스와 연결되어 있지 않습니다
    >
    >인스턴스가 연결할 수 있는 모든 외부 URL이 <b><span class="uicontrol">URL 권한</span></b> 탭에 나열됩니다. Campaign의 작동에 필요한 URL(예: 인프라의 각 요소 간 연결)은 이 목록에 포함되지 않습니다.
 

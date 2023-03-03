@@ -2,13 +2,13 @@
 product: campaign
 solution: Campaign
 title: 처리량 및 지연 모니터링
-description: Campaign 컨트롤 패널에서 Campaign 인스턴스 처리량 및 지연을 모니터링하는 방법을 알아봅니다.
+description: 컨트롤 패널에서 Campaign 인스턴스 처리량 및 지연을 모니터링하는 방법을 알아봅니다.
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >title="처리량 및 지연 모니터링 정보 "
 >abstract="이 탭에서는 인스턴스의 한 기간 동안 게재 처리량과 지연 시간이 어떤 트렌드인지 모니터링할 수 있습니다. 처리량에 영향을 주는 게재에 대해 자세히 확인하려면 표 형식으로 보기로 전환하세요."
 
-Campaign 컨트롤 패널을 사용하면 각 인스턴스의 게재 처리량과 지연을 모니터링할 수 있습니다.
+컨트롤 패널을 사용하면 각 인스턴스의 게재 처리량과 지연을 모니터링할 수 있습니다.
 
 >[!IMPORTANT]
 >

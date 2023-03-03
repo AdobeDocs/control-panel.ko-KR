@@ -2,13 +2,13 @@
 product: campaign
 solution: Campaign
 title: 활성 쿼리 모니터링
-description: Campaign 컨트롤 패널의 Campaign 인스턴스에서 활성 쿼리를 모니터링하는 방법을 알아봅니다.
+description: 컨트롤 패널의 Campaign 인스턴스에서 활성 쿼리를 모니터링하는 방법을 알아봅니다.
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a1ea14f9-ec1d-4e10-89ef-846065512e8c
 source-git-commit: 7078ff03bf2e4d156a71de4d900cbfcbd2ded312
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 100%
 

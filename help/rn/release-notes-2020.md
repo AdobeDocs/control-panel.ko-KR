@@ -1,8 +1,9 @@
 ---
 title: 2020년 릴리스 정보
-description: 이 페이지에는 2020년 Campaign 컨트롤 패널 릴리스가 모두 나열되어 있습니다.
-source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
-workflow-type: ht
+description: 이 페이지에는 2020년 컨트롤 패널 릴리스가 모두 나열되어 있습니다.
+exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
+source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
+workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 100%
 
@@ -21,7 +22,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>이제 Campaign 컨트롤 패널을 통해 인터페이스에서 직접 CNAME을 사용하여 Adobe에서 작동하도록 하위 도메인을 구성할 수 있습니다.</p><p>자세한 내용은 <a href="../subdomains-certificates/using/setting-up-new-subdomain.md">세부 설명서</a>를 참조하세요.</p>
+<p>이제 컨트롤 패널을 통해 인터페이스에서 직접 CNAME을 사용하여 Adobe에서 작동하도록 하위 도메인을 구성할 수 있습니다.</p><p>자세한 내용은 <a href="../subdomains-certificates/using/setting-up-new-subdomain.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -68,7 +69,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>이제 Campaign 컨트롤 패널에서 GPG 키 쌍을 관리할 수 있으므로 외부에서 Campaign으로 전송되는 데이터의 암호를 쉽게 해독할 수 있습니다. 또한 Campaign에서 전송되는 데이터를 암호화하기 위해 공개 GPG 키를 설치할 수 있는 기능도 추가되었습니다.</p><p>자세한 내용은 <a href="../instances-settings/using/gpg-keys-management.md">세부 설명서</a>를 참조하세요.</p>
+<p>이제 컨트롤 패널에서 GPG 키 쌍을 관리할 수 있으므로 외부에서 Campaign으로 전송되는 데이터의 암호를 쉽게 해독할 수 있습니다. 또한 Campaign에서 전송되는 데이터를 암호화하기 위해 공개 GPG 키를 설치할 수 있는 기능도 추가되었습니다.</p><p>자세한 내용은 <a href="../instances-settings/using/gpg-keys-management.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -83,7 +84,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>이제 Campaign 컨트롤 패널을 통해 인스턴스 및 대금 청구 용도로 계산되는 활성 프로필의 수를 모니터링할 수 있습니다.</p><p>자세한 내용은 <a href="../performance-monitoring/using/active-profiles-monitoring.md">세부 설명서</a>를 참조하세요.</p>
+<p>이제 컨트롤 패널을 통해 인스턴스 및 대금 청구 용도로 계산되는 활성 프로필의 수를 모니터링할 수 있습니다.</p><p>자세한 내용은 <a href="../performance-monitoring/using/active-profiles-monitoring.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -91,7 +92,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Campaign 컨트롤 패널의 활성 파일 모니터링은 베타로 제공되며, 별도의 고지 없이 자주 업데이트 및 수정될 수 있습니다.
+>컨트롤 패널의 활성 파일 모니터링은 베타로 제공되며, 별도의 고지 없이 자주 업데이트 및 수정될 수 있습니다.
 
 ## 2020년 5월 {#may-2020}
 
@@ -104,7 +105,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>이제 Campaign 컨트롤 패널에서 CNAME 방법을 통해 구성된 하위 도메인의 SSL 인증서를 갱신할 수 있습니다.</p><p>자세한 내용은 <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">세부 설명서</a>를 참조하세요.</p>
+<p>이제 컨트롤 패널에서 CNAME 방법을 통해 구성된 하위 도메인의 SSL 인증서를 갱신할 수 있습니다.</p><p>자세한 내용은 <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>

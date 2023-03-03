@@ -56,13 +56,13 @@ ht-degree: 92%
 >id="cp_add_subdomain_create_delegate"
 >title="하위 도메인 만들기 및 위임"
 >abstract="Adobe Campaign에 사용할 하위 도메인을 호스팅 솔루션에서 만든 후 Adobe에 위임합니다."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="새 하위 도메인 설정"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko" text="새 하위 도메인 설정"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_submit"
 >title="하위 도메인 제출"
 >abstract="이전 단계에서 구성한 하위 도메인을 확인하고 제출합니다."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="새 하위 도메인 설정"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko" text="새 하위 도메인 설정"
 
 하위 도메인을 Adobe Campaign에 완전히 위임하려면 아래 단계를 따르십시오.
 
@@ -86,7 +86,7 @@ ht-degree: 92%
 
 1. 해당 Adobe 이름 서버 정보를 사용하여 하위 도메인을 만든 후 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-1. Campaign v7/v8 인스턴스를 선택한 경우 하위 도메인에 대해 원하는 사용 사례를 선택합니다. **마케팅 커뮤니케이션** 또는 **트랜잭션 및 운영 커뮤니케이션**. 하위 도메인의 사용 사례에 대한 전체 개념은 [이 섹션](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)에서 살펴볼 수 있습니다.
+1. Campaign v7/v8 인스턴스를 선택한 경우, 하위 도메인에 대해 원하는 사용 사례를 선택합니다. **마케팅 커뮤니케이션** 또는 **트랜잭션 및 운영 커뮤니케이션**. 하위 도메인의 사용 사례에 대한 전체 개념은 [이 섹션](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)에서 살펴볼 수 있습니다.
 
    ![](assets/subdomain5.png)
 
@@ -96,7 +96,7 @@ ht-degree: 92%
 
    ![](assets/subdomain6.png)
 
-하위 도메인을 제출하면 Campaign 컨트롤 패널에서 다양한 검사 및 구성 단계를 수행합니다. 자세한 내용은 [하위 도메인 확인 및 구성](#subdomain-checks-and-configuration)을 참조하십시오.
+하위 도메인을 제출하면 컨트롤 패널에서 다양한 검사 및 구성 단계를 수행합니다. 자세한 내용은 [하위 도메인 확인 및 구성](#subdomain-checks-and-configuration)을 참조하십시오.
 
 ## CNAME을 사용한 하위 도메인 구성 {#use-cnames}
 
@@ -104,19 +104,19 @@ ht-degree: 92%
 >id="cp_add_cname_subdomain_create_delegate"
 >title="하위 도메인 구성"
 >abstract="이 화면에서는 CNAME을 사용하여 구성할 하위 도메인을 지정합니다."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="새 하위 도메인 설정"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko" text="새 하위 도메인 설정"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_records"
 >title="기록 생성"
 >abstract="이 화면에 표시된 DNS 기록 목록을 생성하려면 호스팅 솔루션으로 이동합니다."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="새 하위 도메인 설정"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko" text="새 하위 도메인 설정"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_subdomain_submit"
 >title="하위 도메인 제출"
 >abstract="이전 단계에서 구성한 하위 도메인을 확인하고 제출합니다."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="새 하위 도메인 설정"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko" text="새 하위 도메인 설정"
 
 CNAME을 사용하여 하위 도메인을 구성하려면 아래 단계를 따르십시오.
 
@@ -130,7 +130,7 @@ CNAME을 사용하여 하위 도메인을 구성하려면 아래 단계를 따�
 
    ![](assets/cname-method-selection.png)
 
-1. Campaign v7/v8 인스턴스를 선택한 경우 하위 도메인에 대해 원하는 사용 사례를 선택합니다. **마케팅 커뮤니케이션** 또는 **트랜잭션 및 운영 커뮤니케이션**. 하위 도메인의 사용 사례에 대한 전체 개념은 [이 섹션](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)에서 살펴볼 수 있습니다.
+1. Campaign v7/v8 인스턴스를 선택한 경우, 하위 도메인에 대해 원하는 사용 사례를 선택합니다. **마케팅 커뮤니케이션** 또는 **트랜잭션 및 운영 커뮤니케이션**. 하위 도메인의 사용 사례에 대한 전체 개념은 [이 섹션](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)에서 살펴볼 수 있습니다.
 
    ![](assets/cname-use-case.png)
 
@@ -152,19 +152,19 @@ CNAME을 사용하여 하위 도메인을 구성하려면 아래 단계를 따�
    >
    >나중에 레코드를 만들고 하위 도메인 구성을 제출하려면 두 번째 문을 선택하고 **[!UICONTROL Submit later]**&#x200B;을(를) 클릭합니다. 그런 다음 하위 도메인 관리 화면 **[!UICONTROL Processing]** 영역에서 바로 하위 도메인 구성을 다시 시작할 수 있습니다.
    >
-   >서버에 배치할 DNS 레코드는 Campaign 컨트롤 패널에 30일 동안 보관됩니다. 해당 기간이 지나면 하위 도메인을 처음부터 구성해야 합니다.
+   >서버에 배치할 DNS 레코드는 컨트롤 패널에 30일 동안 보관됩니다. 해당 기간이 지나면 하위 도메인을 처음부터 구성해야 합니다.
 
-하위 도메인을 제출하면 Campaign 컨트롤 패널에서 다양한 검사 및 구성 단계를 수행합니다. 자세한 내용은 [하위 도메인 확인 및 구성](#subdomain-checks-and-configuration)을 참조하십시오.
+하위 도메인을 제출하면 컨트롤 패널에서 다양한 검사 및 구성 단계를 수행합니다. 자세한 내용은 [하위 도메인 확인 및 구성](#subdomain-checks-and-configuration)을 참조하십시오.
 
 ## 하위 도메인 확인 및 구성 {#subdomain-checks-and-configuration}
 
-1. 하위 도메인을 제출하면 Campaign 컨트롤 패널에서 이 하위 도메인이 Adobe NS 레코드를 올바르게 가리키는지와 이 하위 도메인에 해당하는 SOA(권한 시작) 레코드가 없는지를 확인합니다.
+1. 하위 도메인을 제출하면 컨트롤 패널에서 이 하위 도메인이 Adobe NS 레코드를 올바르게 가리키는지와 이 하위 도메인에 해당하는 SOA(권한 시작) 레코드가 없는지를 확인합니다.
 
    >[!NOTE]
    >
-   >하위 도메인 구성이 실행되는 동안 성능 문제를 방지하기 위해 다른 Campaign 컨트롤 패널 요청은 큐에 저장되며 하위 도메인 구성이 완료된 후에만 수행됩니다.
+   >하위 도메인 구성이 실행되는 동안에는 성능 문제를 방지하기 위해 다른 Campaign 컨트롤 패널 요청이 대기열에 입력되고 하위 도메인 구성이 완료된 후에만 수행됩니다.
 
-1. 이 두 가지 사항이 성공적으로 확인되면 Campaign 컨트롤 패널에서 DNS 레코드, 추가 URL, 받은 편지함 등으로 하위 도메인 설정을 시작합니다.
+1. 이 두 가지 사항이 성공적으로 확인되면 컨트롤 패널에서 DNS 레코드, 추가 URL, 받은 편지함 등으로 하위 도메인 설정을 시작합니다.
 
    ![](assets/subdomain7.png)
 
@@ -178,7 +178,7 @@ CNAME을 사용하여 하위 도메인을 구성하려면 아래 단계를 따�
    >
    >이 프로세스의 게재 확인에는 피드백 루프, 스팸 위반 루프 테스트 등이 포함됩니다. 그러므로 감사가 완료되기 전에는 하위 도메인을 사용하지 않는 것이 좋습니다. 감사 완료 전에 하위 도메인을 사용하면 하위 도메인 평판이 낮아질 수 있기 때문입니다.
    >
-   >그러나 게재 기능 감사가 계속 처리 중인 경우에도 하위 도메인에서 SSL 인증서와 관련된 작업을 수행할 수 있습니다.
+   >그러나 게재 가능성 감사가 아직 처리 중인 경우에도 하위 도메인에서 SSL 인증서와 관련된 작업을 수행할 수 있습니다.
 
 1. 프로세스가 종료되면 하위 도메인이 Adobe Campaign 인스턴스에서 사용 가능하도록 구성되며, 아래 요소가 작성됩니다.
 

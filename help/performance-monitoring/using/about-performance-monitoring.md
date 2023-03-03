@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: 성능 모니터링 정보
-description: Campaign 컨트롤 패널에서 인스턴스 성능을 모니터링하는 방법을 알아봅니다
+description: Campaign 컨트롤 패널에서 인스턴스 성능을 모니터링하는 방법에 대해 알아봅니다
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -16,9 +16,9 @@ ht-degree: 36%
 
 # 성능 모니터링 정보 {#about-performance-monitoring}
 
-Campaign 컨트롤 패널은 인스턴스를 모니터링하고 최적의 성능을 보장하는 데 도움이 되는 몇 가지 기능을 제공합니다.
+컨트롤 패널은 인스턴스를 모니터링하고 최적의 성능을 보장하는 데 도움이 되는 몇 가지 기능을 제공합니다.
 
-다음 **[!UICONTROL Performance monitoring]** Campaign 컨트롤 패널 홈 페이지의 카드에서는 데이터베이스 용량과 같은 Campaign 인스턴스의 사용을 모니터링할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../performance-monitoring/using/database-monitoring.md)을 참조하십시오.
+다음 **[!UICONTROL Performance monitoring]** Campaign 컨트롤 패널 홈 페이지의 카드를 사용하면 데이터베이스 용량과 같은 Campaign 인스턴스의 사용을 모니터링할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../performance-monitoring/using/database-monitoring.md)을 참조하십시오.
 
 ![](assets/performance_card.png)
 

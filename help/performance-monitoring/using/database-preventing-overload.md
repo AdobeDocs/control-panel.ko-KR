@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: 데이터베이스 오버로드 방지
-description: Campaign 문서에서 리소스에 액세스하여 인스턴스에 대한 데이터베이스 오버로드를 방지하는 데 도움이 됩니다.
+description: Campaign 설명서에서 리소스에 액세스하여 인스턴스의 데이터베이스 오버로드를 방지합니다.
 feature: Control Panel
 role: Architect
 level: Experienced

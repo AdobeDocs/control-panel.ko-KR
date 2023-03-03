@@ -8,7 +8,7 @@ role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # FAQ(자주 묻는 질문) {#faq}
 
-## Campaign 컨트롤 패널 {#control-panel}
+## 컨트롤 패널 {#control-panel}
 
 ### 컨트롤 패널이란 무엇인가요?
 
@@ -46,7 +46,7 @@ AWS에서 Adobe Campaign을 호스팅하는 현재 Adobe 고객의 제품 관리
 
 ### Campaign Classic v7 사용자가 컨트롤 패널에 액세스하기 위한 조건이 있나요? {#v7-restrictions}
 
-Campaign 컨트롤 패널은 관리 사용자만 액세스할 수 있습니다. [자세히 알아보기](discover/using/managing-permissions.md)
+컨트롤 패널은 관리 사용자만 액세스할 수 있습니다. [자세히 알아보기](discover/using/managing-permissions.md)
 
 Campaign v7의 경우 인스턴스를 AWS(Amazon Web Services)에서 호스팅하고 [Campaign의 안정적인 최신 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses) 또는 빌드 9032 이상으로 업그레이드해야 합니다. 사용 중인 Campaign Classic v7의 버전을 확인하는 방법은 [이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ko#getting-your-campaign-version)에서 알아볼 수 있습니다. 사용하는 Campaign Classic 인스턴스가 AWS에서 호스팅되는지 확인하는 단계는 [이 섹션](#hosted-aws)에서 자세히 설명하고 있습니다.
 

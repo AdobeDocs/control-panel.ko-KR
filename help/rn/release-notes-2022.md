@@ -1,9 +1,9 @@
 ---
 title: 2022년 릴리스 정보
-description: 이 페이지에는 2022년 Campaign 컨트롤 패널 릴리스가 모두 나열되어 있습니다.
+description: 이 페이지에는 2022년 컨트롤 패널 릴리스가 모두 나열되어 있습니다.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 
@@ -95,20 +95,20 @@ ht-degree: 100%
 
 **인스턴스 설정**
 
-* Campaign 컨트롤 패널의 최대 GPG 키 수가 60개 키로 증가했습니다. [자세히 알아보기](../instances-settings/using/gpg-keys-management.md)
+* 컨트롤 패널의 최대 GPG 키 수가 60개 키로 증가했습니다. [자세히 알아보기](../instances-settings/using/gpg-keys-management.md)
 
 ## 2022년 5월 {#may-2022}
 
 <table>
 <thead>
 <tr>
-<th><strong>하이브리드 호스팅 모델에 대한 Campaign 컨트롤 패널 가용성</strong><br/></th>
+<th><strong>하이브리드 호스팅 모델에 대한 컨트롤 패널 가용성</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 하이브리드 호스팅 모델을 사용하는 고객은 Campaign 컨트롤 패널을 사용할 수 있습니다. 이러한 고객은 Campaign 컨트롤 패널에서 마케팅 인스턴스에 구성된 MID/RT 인스턴스 URL을 제공하여 Campaign 컨트롤 패널의 기능을 활용할 수 있습니다.</p><p>자세한 내용은 <a href="../instances-settings/using/external-accounts.md">세부 설명서</a>를 참조하십시오.</p>
+<p>이제 하이브리드 호스팅 모델을 사용하는 고객은 컨트롤 패널을 사용할 수 있습니다. 이러한 고객은 컨트롤 패널에서 마케팅 인스턴스에 구성된 MID/RT 인스턴스 URL을 제공하여 컨트롤 패널의 기능을 활용할 수 있습니다.</p><p>자세한 내용은 <a href="../instances-settings/using/external-accounts.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -192,7 +192,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>이제 Campaign 컨트롤 패널을 통해 인스턴스에서 가장 오랫동안 실행되는 쿼리를 모니터링할 수 있습니다.</p><p>자세한 내용은 <a href="../performance-monitoring/using/database-active-queries.md">세부 설명서</a>를 참조하세요.</p>
+<p>이제 컨트롤 패널을 통해 인스턴스에서 가장 오랫동안 실행되는 쿼리를 모니터링할 수 있습니다.</p><p>자세한 내용은 <a href="../performance-monitoring/using/database-active-queries.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>

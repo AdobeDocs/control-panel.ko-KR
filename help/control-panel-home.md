@@ -1,6 +1,6 @@
 ---
 title: 제품 설명서
-description: Campaign 컨트롤 패널 설명서.
+description: 컨트롤 패널 설명서.
 feature: Control Panel
 role: Architect
 level: Beginner
@@ -26,17 +26,17 @@ Campaign [컨트롤 패널]에서는 각 Campaign 인스턴스의 사용량을 �
 
 ## 새로운 기능
 
-**Adobe에 위임된 하위 도메인에 대한 위임 제거**
+**Adobe으로 위임된 하위 도메인에 대한 위임 제거**
 
-이제 CNAME 설정을 포함하여 Adobe에 위임된 하위 도메인의 위임을 제거할 수 있습니다. [자세히 알아보기](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
+이제 CNAME 설정을 포함하여 Adobe에게 위임된 하위 도메인의 위임을 제거할 수 있습니다. [자세히 알아보기](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
 
-**서비스 달력**
+**서비스 캘린더**
 
-이제 서비스 달력에서 인스턴스에서 발생하는 중요한 이벤트를 계속 추적할 수 있는 달력 보기를 제공합니다. 또한 Campaign 컨트롤 패널 경고를 구독한 사용자에게 전송된 알림에 대한 정보가 추가되었습니다. [자세히 알아보기](../help/service-events/service-events.md)
+이제 서비스 캘린더에서 인스턴스에 발생하는 중요한 이벤트를 추적할 수 있는 캘린더 보기를 제공합니다. 또한 Campaign 컨트롤 패널 경고를 구독한 사용자에게 전송된 알림에 대한 정보가 추가되었습니다. [자세히 알아보기](../help/service-events/service-events.md)
 
 >[!CAUTION]
 >
->* Campaign 컨트롤 패널은 관리 사용자만 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)
+>* 컨트롤 패널은 관리 사용자만 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)
 >
 >* Campaign v7의 경우 배포 제한이 적용됩니다. [자세히 알아보기](faq.md#v7-restrictions)
 
@@ -47,19 +47,19 @@ Campaign [컨트롤 패널]에서는 각 Campaign 인스턴스의 사용량을 �
     <tr>
         <td><b>Campaign Standard</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=ko">Campaign 컨트롤 패널 튜토리얼 비디오</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=ko">컨트롤 패널 튜토리얼 비디오</a></li>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ko">Campaign Standard 제품 설명서</a></li>
         </ul>
         </td>
         <td><b>Campaign v7</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=ko">Campaign 컨트롤 패널 튜토리얼 비디오</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=ko">컨트롤 패널 튜토리얼 비디오</a></li>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=ko">Campaign v7 제품 설명서</a></li>
         </ul>
         </td>
         <td><b>Campaign v8</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=ko">Campaign 컨트롤 패널 튜토리얼 비디오</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=ko">컨트롤 패널 튜토리얼 비디오</a></li>
             <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko">Campaign v8 제품 설명서</a></li>
         </ul>
         </td>

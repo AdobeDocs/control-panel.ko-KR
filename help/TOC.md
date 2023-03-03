@@ -2,7 +2,7 @@
 product: adobe campaign
 sub-product: control panel
 audience: end-user
-user-guide-title: Campaign 컨트롤 패널 안내서
+user-guide-title: 컨트롤 패널 안내서
 feature: Control Panel
 role: Architect
 level: Beginner
@@ -14,7 +14,7 @@ ht-degree: 94%
 ---
 
 
-# Campaign 컨트롤 패널 안내서 {#using}
+# 컨트롤 패널 안내서 {#using}
 
 + [제품 설명서](control-panel-home.md)
 + 릴리스 정보 {#release-notes}
@@ -25,11 +25,11 @@ ht-degree: 94%
       + [2021년 릴리스 노트](rn/release-notes-2021.md)
       + [2020년 릴리스 정보](rn/release-notes-2020.md)
       + [2019년 릴리스 정보](rn/release-notes-2019.md)
-+ Campaign 컨트롤 패널 살펴보기 {#discover-control-panel}
++ 컨트롤 패널 살펴보기 {#discover-control-panel}
    + [주요 기능](discover/using/key-features.md)
-   + [Campaign 컨트롤 패널 액세스](discover/using/accessing-control-panel.md)
-   + [Campaign 컨트롤 패널에 대한 권한 관리](discover/using/managing-permissions.md)
-   + [Campaign 컨트롤 패널 인터페이스 살펴보기](discover/using/discovering-the-interface.md)
+   + [컨트롤 패널 액세스](discover/using/accessing-control-panel.md)
+   + [컨트롤 패널에 대한 권한 관리](discover/using/managing-permissions.md)
+   + [컨트롤 패널 인터페이스 살펴보기](discover/using/discovering-the-interface.md)
 + [주요 연락처 및 이벤트 모니터링](service-events/service-events.md)
 + [이메일 경고](performance-monitoring/using/email-alerting.md)
 + SFTP 관리 {#sftp-management}
