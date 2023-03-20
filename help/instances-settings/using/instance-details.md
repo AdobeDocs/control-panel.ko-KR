@@ -19,13 +19,13 @@ ht-degree: 72%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
 >title="인스턴스 세부 사항"
->abstract="유형, 이름, 빌드 정보 및 가능한 업그레이드 권장 사항 등 Adobe Campaign 인스턴스의 세부 사항을 확인합니다."
+>abstract="Adobe Campaign 인스턴스의 세부 사항을 봅니다. 유형, 이름, 빌드 정보 및 가능한 업그레이드 권장 사항."
 
 ## 인스턴스 세부 사항 {#about-instance-details}
 
 >[!IMPORTANT]
 >
->이 기능은 Campaign v7/v8 인스턴스에서만 사용할 수 있습니다.
+>이 기능은 Campaign v7/v8 인스턴스에만 사용할 수 있습니다.
 
 마케팅 활동을 유동적으로 진행하기 위해 Adobe Campaign 인스턴스 아키텍처에 서버를 여러 개 포함할 수 있습니다. 예를 들어 인스턴스를 지원하는 마케팅, 실시간/메시지 센터 및 중간 소싱 서버를 포함할 수 있습니다.
 
@@ -33,7 +33,7 @@ ht-degree: 72%
 
 >[!NOTE]
 >
->성능 저하를 방지하고 Adobe Campaign v7/v8에서 제공하는 최신 기능 및 수정 사항을 활용할 수 있도록 매년 1회 이상 인스턴스를 업그레이드하는 것이 좋습니다.
+>Adobe Campaign v7/v8의 최신 기능과 수정 사항을 활용하고 성능 저하를 방지하려면 매년 1회 이상 인스턴스를 업그레이드하는 것이 좋습니다.
 
 **관련 항목:**
 

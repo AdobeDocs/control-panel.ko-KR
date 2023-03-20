@@ -26,7 +26,7 @@ ht-degree: 84%
 
 >[!IMPORTANT]
 >
->이 기능은 Campaign v7/v8 인스턴스에서만 사용할 수 있습니다.
+>이 기능은 Campaign v7/v8 인스턴스에만 사용할 수 있습니다.
 
 기본적으로는 여러 IP 주소에서 Adobe Campaign 인스턴스에 액세스할 수 없습니다.
 
@@ -55,7 +55,7 @@ IP 주소를 허용 목록에 추가하고 나면 사용자가 인스턴스에 �
 
 >[!NOTE]
 >
->다음과 같은 경우 **[!UICONTROL Instance Settings]** Campaign 컨트롤 패널의 홈페이지에 카드가 표시되지 않습니다. 즉, [조직 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko) Adobe Campaign v7/v8 인스턴스와 연결되어 있지 않습니다.
+>만약 **[!UICONTROL Instance Settings]** Campaign 컨트롤 패널 홈 페이지에 카드가 표시되지 않으면 [조직 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko) 는 Adobe Campaign v7/v8 인스턴스와 연결되어 있지 않습니다.
 
 허용 목록에 IP 주소를 추가하려면 다음 단계를 따르십시오.
 
@@ -90,7 +90,7 @@ IP 주소를 허용 목록에 추가하고 나면 사용자가 인스턴스에 �
 
    >[!NOTE]
    >
-   >하이브리드 호스팅 모델이 있는 인스턴스를 사용하는 경우 MID 및 RT 인스턴스에 대해 &quot;외부 API 연결&quot;에서만 IP 주소를 추가할 수 있습니다.
+   >하이브리드 호스팅 모델이 있는 인스턴스를 사용하는 경우 MID 및 RT 인스턴스에 대해 &quot;외부 API 연결&quot;에서 IP 주소만 추가할 수 있습니다.
 
    ![](assets/ip_whitelist_acesstype.png)
 
@@ -100,7 +100,7 @@ IP 주소를 허용 목록에 추가하고 나면 사용자가 인스턴스에 �
 
 기본적으로는 여러 IP 주소에서 Adobe Campaign 인스턴스에 액세스할 수 없습니다.
 
-허용 목록에서 하나 이상의 IP 범위를 삭제하려면 해당 범위를 선택한 다음 **[!UICONTROL Delete IP range]** 단추를 클릭합니다.
+허용 목록에서 하나 이상의 IP 범위를 삭제하려면 해당 범위를 선택한 다음 **[!UICONTROL Delete IP range]** 버튼을 클릭합니다.
 
 ![](assets/ip_whitelist_delete.png)
 

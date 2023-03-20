@@ -32,13 +32,13 @@ ht-degree: 80%
 >
 >페이스북과 트위터 채널은 고려되지 않습니다.
 
-활성 프로필에 대한 자세한 내용은 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) 및 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) 설명서를 참조하십시오.
+활성 프로필에 대한 자세한 내용은 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) 및 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) 설명서입니다.
 
 ## 활성 프로필 모니터링 {#monitoring-active-profiles}
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
->title="활성 프로필 모니터링 정보"
+>title="활성 프로필 모니터링"
 >abstract="이 탭에서는 각 Campaign 인스턴스에 대한 최신 및 과거 활성 프로필 사용 및 진화에 대한 실시간 정보를 얻을 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ko" text="성능 모니터링 정보"
 
@@ -59,7 +59,7 @@ ht-degree: 80%
 >활성 프로필은 인스턴스에서 매일 실행되는 전용 기술 워크플로우를 기반으로 계산됩니다.
 >
 >* Campaign Standard를 위한 [&quot;청구&quot;](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ko) 워크플로우
->* 다음 [&quot;활성 청구 프로필 수&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ko) campaign v7/v8용 워크플로우
+>* 다음 [&quot;활성 청구 프로필 수&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ko) campaign v7/v8에 대한 워크플로우입니다.
 
 
 아래쪽 영역은 지난 30일 동안 활성 프로필 사용의 그래픽 표현을 제공합니다. 오른쪽 위 모서리의 사용 가능한 필터를 사용하여 표시된 기간을 1년으로 변경할 수 있습니다.
