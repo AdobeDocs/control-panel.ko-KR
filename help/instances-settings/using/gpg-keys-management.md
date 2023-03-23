@@ -10,7 +10,7 @@ exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
 workflow-type: tm+mt
 source-wordcount: '1189'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_gpg_management"
->title="GPG 키"
->abstract="이 탭에서 Campaign에서 전송된 데이터를 암호화하고 수신되는 데이터를 해독하기 위해 마케팅 인스턴스에 GPG 키를 설치 및/또는 생성할 수 있습니다."
+>title="GPG 키 정보"
+>abstract="이 탭에서는 Campaign에서 전송된 데이터를 암호화하고 수신되는 데이터를 해독하기 위해 마케팅 인스턴스에 GPG 키를 설치 및/또는 생성합니다."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ko" text="성능 모니터링 정보"
 
 ## GPG 암호화 정보 {#about-gpg-encryption}

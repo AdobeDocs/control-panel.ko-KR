@@ -10,7 +10,7 @@ exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 72%
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 72%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
 >title="인스턴스 세부 사항"
->abstract="Adobe Campaign 인스턴스의 세부 사항을 봅니다. 유형, 이름, 빌드 정보 및 가능한 업그레이드 권장 사항."
+>abstract="유형, 이름, 빌드 정보, 가능한 업그레이드 관련 권장 사항 등 Adobe Campaign 인스턴스의 세부 사항을 확인하는 방법을 설명합니다."
 
 ## 인스턴스 세부 사항 {#about-instance-details}
 

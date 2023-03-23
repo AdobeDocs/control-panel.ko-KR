@@ -10,7 +10,7 @@ exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
 source-wordcount: '1048'
-ht-degree: 37%
+ht-degree: 39%
 
 ---
 
@@ -133,7 +133,7 @@ CIDR의 구문에는 IP 주소, &#39;/&#39; 문자, 십진수가 차례로 포�
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_update"
 >title="IP 범위 업데이트"
->abstract="SFTP 서버에 연결할 수 있는 선택한 IP 범위를 업데이트합니다."
+>abstract="SFTP 서버에 연결할 수 있는 선택된 IP 범위를 업데이트합니다."
 
 IP 범위를 편집하려면 아래 단계를 따르십시오.
 

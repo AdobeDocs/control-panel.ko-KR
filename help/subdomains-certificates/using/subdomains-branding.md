@@ -10,7 +10,7 @@ exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: f1f6388bd32927cb13359f8975748ca4a158e660
 workflow-type: tm+mt
 source-wordcount: '729'
-ht-degree: 75%
+ht-degree: 78%
 
 ---
 
@@ -56,8 +56,8 @@ ht-degree: 75%
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_usecase_selection"
->title="하위 도메인의 사용 사례를 선택합니다"
->abstract="메시지 배달 가능성을 높이려면 사용 사례별로 하위 도메인을 구분하는 것이 좋습니다. 이렇게 하면 각 하위 도메인의 평판을 독립적으로 보호할 수 있습니다."
+>title="하위 도메인의 사용 사례 선택"
+>abstract="메시지 게재 가능성을 높이려면 사용 사례에 따라 하위 도메인을 구분하는 것이 좋습니다. 이렇게 하면 각 하위 도메인의 평판을 독립적으로 보호할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko" text="새 하위 도메인 설정"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ko" text="하위 도메인 브랜딩"
 

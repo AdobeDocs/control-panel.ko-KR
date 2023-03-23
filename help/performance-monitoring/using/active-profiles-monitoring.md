@@ -10,7 +10,7 @@ exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 80%
+ht-degree: 87%
 
 ---
 
@@ -38,8 +38,8 @@ ht-degree: 80%
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
->title="활성 프로필 모니터링"
->abstract="이 탭에서는 각 Campaign 인스턴스에 대한 최신 및 과거 활성 프로필 사용 및 진화에 대한 실시간 정보를 얻을 수 있습니다."
+>title="활성 프로필 모니터링 정보"
+>abstract="이 탭에서는 각 Campaign 인스턴스의 최신 및 과거 활성 프로필 사용량 기록과 평가에 대하여 실시간으로 정보를 확인할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ko" text="성능 모니터링 정보"
 
 컨트롤 패널을 사용하면 각 캠페인 인스턴스에 대한 활성 프로필 사용을 모니터링할 수 있습니다.
