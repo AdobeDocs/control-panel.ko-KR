@@ -6,10 +6,10 @@ description: Adobe에 대한 하위 도메인 위임을 제거하는 방법을 �
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
+source-git-commit: dbd1b2dd31cf732609f8a515e9adc1c43cbf39c6
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '808'
+ht-degree: 61%
 
 ---
 
@@ -20,11 +20,7 @@ ht-degree: 100%
 >title="하위 도메인 위임 제거"
 >abstract="이 화면에서는 Adobe에 대한 하위 도메인 위임을 제거할 수 있습니다. 이 프로세스는 실행을 취소할 수 없으며 실행이 완료될 때까지 되돌릴 수 없습니다.<br><br>선택한 인스턴스에 대한 주 도메인의 위임을 제거하면 주 도메인을 대체할 도메인을 선택하라는 메시지가 표시됩니다."
 
-Campaign 컨트롤 패널을 사용하면 Adobe에 대한 하위 도메인 위임을 제거할 수 있습니다.
-
->[!NOTE]
->
->현재 CNAME을 사용하여 설정한 하위 도메인은 위임을 제거할 수 없습니다.
+Campaign 컨트롤 패널을 사용하면 CNAME을 사용하여 Adobe에 완전히 위임되거나 위임된 하위 도메인의 위임을 제거할 수 있습니다.
 
 ## 중요 정보 {#important}
 
@@ -52,6 +48,8 @@ Adobe에 대한 하위 도메인 위임을 제거하려면 다음 단계를 수�
 
    ![](assets/undelegate-subdomain-details.png)
 
+1. CNAME 유형 위임을 제거하거나 기본 도메인을 CNAME을 사용하여 위임한 도메인으로 바꾸는 경우 추가 **[!UICONTROL Action]** DNS 레코드를 관리하는 단계가 표시됩니다. [이 섹션에서 자세히 알아보기](#dns)
+
 1. 표시되는 요약을 검토합니다. 제거를 확정하려면 위임을 제거할 도메인의 URL을 입력하고 **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/undelegate-submit.png)
@@ -59,6 +57,39 @@ Adobe에 대한 하위 도메인 위임을 제거하려면 다음 단계를 수�
 위임 제거가 시작되면 완료될 때까지 보류 중인 작업이 작업 로그에 표시됩니다.
 
 ![](assets/undelegate-job.png)
+
+## DNS 레코드 관리 {#dns}
+
+CNAME을 사용하여 도메인 위임을 구성하려면 Campaign 컨트롤 패널에서 DNS 서버에 특정 레코드를 추가해야 합니다. [CNAME을 사용하여 하위 도메인을 설정하는 방법 알아보기](setting-up-new-subdomain.md#use-cnames)
+
+CNAME 유형 위임을 제거할 때는 다음을 수행해야 합니다 **다음 DNS 레코드 제거** 문제가 발생하지 않도록 서버 외부에서 확인하십시오. 또한 주 하위 도메인의 위임을 제거하고 CNAME을 사용하여 위임한 도메인으로 바꾸려면 다음을 수행해야 할 수 있습니다 **DNS 레코드 추가** 서버에 있는 사용자의 경우 하위 도메인에 대해 설정된 IP 친화성에 따라 다릅니다.
+
+아래 표에는 제거 중인 위임 유형 및 대체 도메인을 설정하는 데 사용되는 위임 유형에 따라 수행할 작업이 나열되어 있습니다.
+
+| 위임을 제거했습니다. | 대체 도메인 | 필요한 작업 |
+|  ---  |  ---  |  ---  |
+| 전체 | 교체 도메인 없음 | 필요한 작업 없음 |
+| 전체 | CNAME | DNS 레코드 추가(IP 관심도에 따라 선택 사항) |
+| 전체 | 전체 | 필요한 작업 없음 |
+| CNAME | 교체 도메인 없음 | DNS 레코드 삭제 |
+| CNAME | CNAME | DNS 레코드 삭제 및 추가(IP 관심도에 따라 선택 사항) |
+| CNAME | 전체 | DNS 레코드 삭제 |
+
+이렇게 하려면 추가 **[!DNL Action]** 위임 제거를 확인하기 전에 단계가 표시됩니다. 이 화면에는 컨텍스트에 따라 제거하거나 추가할 DNS 레코드가 나열됩니다.
+
+![](assets/action-step.png)
+
+### DNS 레코드 삭제
+
+1. DNS 서버로 이동하고 Campaign 컨트롤 패널에 나열된 레코드를 제거합니다.
+1. Campaign 컨트롤 패널으로 돌아가서 를 클릭합니다. **[!UICONTROL Next]** 위임 제거를 계속 진행합니다.
+
+### DNS 레코드 추가
+
+1. DNS 서버로 이동하여 Campaign 컨트롤 패널에 나열된 레코드를 추가합니다.
+1. DNS 추가가 유효할 때까지 기다립니다.
+1. Campaign 컨트롤 패널으로 돌아가서 를 클릭합니다. **[!UICONTROL Verify]**.
+1. 레코드 추가를 확인했으면 을 클릭합니다 **[!UICONTROL Next]** 위임 제거를 계속 진행합니다.
 
 ## 오류 코드 {#FAQ}
 
