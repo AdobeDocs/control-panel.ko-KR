@@ -6,10 +6,10 @@ description: Adobe에 대한 하위 도메인 위임을 제거하는 방법을 �
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: dbd1b2dd31cf732609f8a515e9adc1c43cbf39c6
+source-git-commit: 4cf7fc767deaff12ca63c844e5c0842eea558078
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 61%
+source-wordcount: '810'
+ht-degree: 60%
 
 ---
 
@@ -66,14 +66,16 @@ CNAME 유형 위임을 제거할 때는 다음을 수행해야 합니다 **다�
 
 아래 표에는 제거 중인 위임 유형 및 대체 도메인을 설정하는 데 사용되는 위임 유형에 따라 수행할 작업이 나열되어 있습니다.
 
-| 위임을 제거했습니다. | 대체 도메인 | 필요한 작업 |
+| 위임을 제거했습니다. | 대체 도메인 위임 | 필요한 작업 |
 |  ---  |  ---  |  ---  |
-| 전체 | 교체 도메인 없음 | 필요한 작업 없음 |
-| 전체 | CNAME | DNS 레코드 추가(IP 관심도에 따라 선택 사항) |
-| 전체 | 전체 | 필요한 작업 없음 |
 | CNAME | 교체 도메인 없음 | DNS 레코드 삭제 |
-| CNAME | CNAME | DNS 레코드 삭제 및 추가(IP 관심도에 따라 선택 사항) |
+| CNAME | CNAME | DNS 레코드 삭제<br/>DNS 레코드 추가 *(IP 관심도에 따라 선택 사항)* |
 | CNAME | 전체 | DNS 레코드 삭제 |
+| 전체 | 교체 도메인 없음 | 필요한 작업 없음 |
+| 전체 | CNAME | DNS 레코드 추가 *(IP 관심도에 따라 선택 사항)* |
+| 전체 | 전체 | 필요한 작업 없음 |
+
+{style="table-layout:auto"}
 
 이렇게 하려면 추가 **[!DNL Action]** 위임 제거를 확인하기 전에 단계가 표시됩니다. 이 화면에는 컨텍스트에 따라 제거하거나 추가할 DNS 레코드가 나열됩니다.
 
