@@ -6,10 +6,11 @@ description: Adobe에 대한 하위 도메인 위임을 제거하는 방법을 �
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 4cf7fc767deaff12ca63c844e5c0842eea558078
-workflow-type: ht
-source-wordcount: '810'
-ht-degree: 100%
+exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c
+source-git-commit: ea738ea3764e4651e0eb7b4bcc68a9f7b3c8d1e5
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +35,7 @@ ht-degree: 100%
 
 Adobe에 대한 하위 도메인 위임을 제거하려면 다음 단계를 수행합니다.
 
-1. 위임을 제거할 도메인 옆에 있는 줄임표 버튼을 클릭하고 **[!UICONTROL Remove delegated subdomain]**&#x200B;을(를) 선택합니다.
+1. 위임을 제거할 도메인 옆에 있는 줄임표 버튼을 클릭하고 **[!UICONTROL Remove delegation]**&#x200B;을(를) 선택합니다.
 
    ![](assets/undelegate-subdomain.png)
 
@@ -77,7 +78,7 @@ CNAME 유형 위임을 제거할 때는 문제를 방지하기 위해 서버에�
 
 {style="table-layout:auto"}
 
-이를 위해 위임을 제거하겠다고 확인하기 전에 추가로 **[!DNL Action]** 단계가 표시됩니다. 이 화면에는 상황에 따라 제거하거나 추가할 DNS 레코드의 목록이 있습니다.
+위임을 제거하는 데 이러한 작업 중 하나가 필요한 경우 추가 작업을 수행합니다 **[!DNL Action]** 위임 제거를 확인하기 전에 단계가 표시됩니다. 이 화면에는 상황에 따라 제거하거나 추가할 DNS 레코드의 목록이 있습니다.
 
 ![](assets/action-step.png)
 
