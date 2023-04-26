@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: 8871a7bbd60ebebbca88ce274f3ec0a1d0bbd463
+source-git-commit: 96d18b56f70a6a8bf0270a5c94f5ba16923d0e9f
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -89,7 +89,7 @@ MID/RT URL을 추가할 때 URL의 정확성을 확인하기 위해 비동기 �
 
 ![](assets/external-account-logs.png)
 
-## 허용 목록에 MID/RT 인스턴스 IP 주소 추가 {#ip}
+## 허용 목록에 IP 주소 추가 {#ip}
 
 MID/RT 인스턴스가 추가되면 마케팅 인스턴스가 연결할 수 있도록 허용 목록에 해당 IP 주소를 추가해야 합니다.
 
