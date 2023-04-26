@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: 803068a1f6dec68afba11a4ea49edae1eafcedd5
+source-git-commit: 8871a7bbd60ebebbca88ce274f3ec0a1d0bbd463
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 100%
+source-wordcount: '558'
+ht-degree: 79%
 
 ---
 
@@ -21,7 +21,10 @@ ht-degree: 100%
 >title="외부 계정"
 >abstract="이 화면에서 하이브리드 호스팅 모델을 사용하는 고객은 컨트롤 패널 기능을 활용하기 위해 컨트롤 패널의 마케팅 인스턴스에 구성된 MID/RT 인스턴스 URL을 제공할 수 있습니다."
 
-컨트롤 패널을 통해 하이브리드 호스팅 모델을 사용하는 고객은 특정 컨트롤 패널 기능을 활용할 수 있습니다. 이를 위해 컨트롤 패널의 마케팅 인스턴스에 구성된 MID/RT 인스턴스 URL을 제공해야 합니다.
+컨트롤 패널을 통해 하이브리드 호스팅 모델을 사용하는 고객은 특정 컨트롤 패널 기능을 활용할 수 있습니다. 이를 위해서는 다음을 수행해야 합니다.
+
+* [MID/RT 인스턴스 URL 제공](#add) Campaign 컨트롤 패널의 마케팅 인스턴스에 구성,
+* [허용 목록에 MID/RT 인스턴스 IP 주소 추가](#ip) 마케팅 인스턴스가 연결할 수 있도록 하기 위한 것입니다.
 
 호스팅 모델에 대한 자세한 내용은 [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko)를 참조하십시오.
 
@@ -85,6 +88,14 @@ MID/RT URL을 추가할 때 URL의 정확성을 확인하기 위해 비동기 �
 **[!UICONTROL External Accounts]** 탭에서 수행되는 모든 작업을 **[!UICONTROL Job Logs]**&#x200B;의 MID/RT 인스턴스 URL에서 모니터링할 수 있습니다.
 
 ![](assets/external-account-logs.png)
+
+## 허용 목록에 MID/RT 인스턴스 IP 주소 추가 {#ip}
+
+MID/RT 인스턴스가 추가되면 마케팅 인스턴스가 연결할 수 있도록 허용 목록에 해당 IP 주소를 추가해야 합니다.
+
+이 작업은 **[!UICONTROL IP Allow Listing]** 탭에서 다음을 수행합니다. **[!UICONTROL Instances Settings]** 카드. [허용 목록에 IP 주소를 추가하는 방법 알아보기](ip-allow-listing-instance-access.md)
+
+완료되면 MID/RT 인스턴스에서 Campaign 컨트롤 패널 기능을 사용할 수 있습니다.
 
 ## 하이브리드 고객이 사용할 수 있는 기능 {#capabilities}
 
