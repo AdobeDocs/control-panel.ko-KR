@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: ea738ea3764e4651e0eb7b4bcc68a9f7b3c8d1e5
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '424'
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ![](assets/throughput-latencies-table.png)
 
-## 모니터 처리량 {#throughput}
+## 처리량 모니터링 {#throughput}
 
 다음 **[!UICONTROL Throughput]** 영역에서는 권한이 부여된 모든 통신 채널에 대해 선택한 Campaign 인스턴스에서 시간당 전송된 메시지 수에 대한 정보를 제공합니다.
 
