@@ -46,7 +46,7 @@ CSR(인증서 서명 요청)을 생성하려면 다음 단계를 수행합니다
    * **[!UICONTROL Organization]**: 공식 조직 이름
    * **[!UICONTROL Organization Unit]**: 하위 도메인에 연결된 사업부(예: 마케팅, IT)
    * **[!UICONTROL Instance]**(사전 입력되어 있음): 하위 도메인에 연결된 Campaign 인스턴스의 URL
-   * **[!UICONTROL Common name]**: 공통 이름이 기본적으로 선택되어 있으므로 필요한 경우 하위 도메인 중 하나를 선택할 수 있습니다.
+   * **[!UICONTROL Common name]**: 기본적으로 일반 이름이 선택되어 있으며 필요한 경우 하위 도메인 중 하나를 선택할 수 있습니다.
 
    ![](assets/renewal3.png)
 
@@ -64,22 +64,22 @@ CSR(인증서 서명 요청)을 생성하려면 다음 단계를 수행합니다
 
    >[!NOTE]
    >
-   >다음 **[!UICONTROL Copy CSR content]** 버튼을 사용하면 CSR(조직 ID, 인스턴스, 조직 이름, 일반 이름, 포함된 하위 도메인 등)과 관련된 모든 정보를 복사할 수 있습니다.
+   >다음 **[!UICONTROL Copy CSR content]** 버튼을 사용하면 CSR과 관련된 모든 정보(조직 ID, 인스턴스, 조직 이름, 일반 이름, 포함된 하위 도메인 등)를 복사할 수 있습니다.
 
-1. 선택한 항목에 해당하는 .csr 파일이 자동으로 생성되어 다운로드됩니다. 이제 이 파일을 사용하여 회사가 승인하는 인증 기관에서 SSL 인증서를 구매할 수 있습니다. CSR을 다시 다운로드해야 하는 경우, 다음에 자세히 설명된 단계를 따르십시오. [이 섹션](#download).
+1. 선택한 항목에 해당하는 .csr 파일이 자동으로 생성되어 다운로드됩니다. 이제 이 파일을 사용하여 회사가 승인하는 인증 기관에서 SSL 인증서를 구매할 수 있습니다. CSR을 다시 다운로드해야 하는 경우에서 자세히 설명한 단계를 수행합니다 [이 섹션](#download).
 
-CSR이 생성되어 다운로드되면, 이를 사용하여 조직에서 승인한 인증 기관에서 SSL 인증서를 구매할 수 있습니다.
+CSR이 생성되고 다운로드되면 이를 사용하여 조직에서 승인한 인증 기관에서 SSL 인증서를 구매할 수 있습니다.
 
-구매한 SSL 인증서는 하위 도메인을 보호하기 위해 인스턴스에 설치할 수 있습니다. [자세히 알아보기](install-ssl-certificate.md)
+구매한 SSL 인증서는 인스턴스에 설치하여 하위 도메인의 보안을 유지할 수 있습니다. [자세히 알아보기](install-ssl-certificate.md)
 
 ## CSR 다운로드 {#download}
 
 SSL 인증서를 구매하려면 먼저 인증서 서명 요청을 다운로드해야 합니다. CSR은 생성된 후 자동으로 다운로드됩니다. 작업 로그에서 언제든지 다시 다운로드할 수도 있습니다.
 
-1. 에서 **[!UICONTROL Job Logs]**&#x200B;에서 을(를) 선택합니다. **[!UICONTROL Finished]** 탭을 클릭한 다음 목록을 필터링하여 하위 도메인 관리와 관련된 작업을 표시합니다.
+1. 다음에서 **[!UICONTROL Job Logs]**&#x200B;를 선택하고 **[!UICONTROL Finished]** 탭을 클릭한 다음 목록을 필터링하여 하위 도메인 관리와 관련된 작업을 표시합니다.
 
    ![](assets/renewal-download.png)
 
-1. CSR 생성에 해당하는 작업을 연 다음 **[!UICONTROL Downbload]** 링크를 클릭하여 .csr 파일을 가져옵니다.
+1. CSR 생성에 해당하는 작업을 연 다음 **[!UICONTROL Downbload]** .csr 파일을 가져오려면 링크를 클릭하십시오.
 
    ![](assets/renewal-download-button.png)

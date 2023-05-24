@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: 스토리지 개요
-description: 인스턴스에서 데이터베이스 공간을 사용하는 다양한 Campaign 리소스를 Campaign 컨트롤 패널에서 모니터링하는 방법을 알아봅니다.
+description: Campaign 컨트롤 패널에서 인스턴스의 데이터베이스 공간을 사용하는 다양한 Campaign 리소스를 모니터링하는 방법을 알아봅니다.
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -35,8 +35,8 @@ ht-degree: 59%
 
 데이터베이스 공간을 사용하는 다른 자산에 대한 자세한 내용을 보려면 **[!UICONTROL View details]** 단추를 클릭합니다.
 
-드롭다운 목록을 사용하여 특정 자산 유형(워크플로우, 게재, 수신자)에서만 검색 및 표시 테이블을 세분화할 수 있습니다.
+드롭다운 목록을 사용하여 특정 에셋 유형(워크플로우, 게재, 수신자)에서만 검색 및 표시 테이블을 검색할 수 있습니다.
 
 ![](assets/database-storage-details.png)
 
-또한 이 화면에서는 인스턴스의 문제를 방지하기 위해 특정 주의가 필요한 워크플로우 매개 변수를 모니터링할 수도 있습니다. [이 페이지](workflow-monitoring.md)에서 자세히 알아보십시오.
+이 화면에서는 인스턴스의 문제를 방지하기 위해 특정 주의가 필요한 워크플로우 매개 변수를 모니터링할 수도 있습니다. [이 페이지](workflow-monitoring.md)에서 자세히 알아보십시오.
