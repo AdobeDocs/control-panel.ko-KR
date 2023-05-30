@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
+source-git-commit: e6b518e8a935b523972302c8efa92a889d36735f
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 12%
+source-wordcount: '1205'
+ht-degree: 11%
 
 ---
 
@@ -64,6 +64,11 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 컨트롤
    * **키 길이**: 3072 - 4096비트
    * **실명** 및 **이메일 주소**: 누가 키 쌍을 만들었는지 추적할 수 있습니다. 조직 또는 부서에 연결된 이름 및 이메일 주소를 입력합니다.
    * **댓글**: 댓글 필드에 레이블을 추가하면 데이터를 암호화하는 데 사용할 키를 쉽게 식별할 수 있습니다.
+
+      >[!IMPORTANT]
+      >
+      >이 필드가 비어 있지 않은지, 댓글이 입력되었는지 확인하십시오.
+
    * **만료**: 만료일이 없는 경우 Date 또는 &quot;0&quot;
    * **암호구**
 
