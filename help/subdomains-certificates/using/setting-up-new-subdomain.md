@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 05c199984ec1282a0135841dd168430dec374a2e
+source-git-commit: 503280181293df6ec5ffaf6c148042d54c5c1958
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="cp_managed_ssl"
 >title="하위 도메인의 SSL 인증서를 Adobe에 위임"
->abstract="Campaign 컨트롤 패널을 사용하면 하위 도메인의 SSL 인증서를 Adobe에서 관리할 수 있습니다. CNAME을 사용하여 하위 도메인을 설정하는 경우 도메인 호스팅 솔루션에 인증서를 생성하기 위해 인증서 레코드가 자동으로 생성되고 제공됩니다."
+>abstract="Campaign 컨트롤 패널을 사용하면 하위 도메인의 SSL 인증서를 Adobe에서 관리할 수 있습니다. CNAME을 사용하여 하위 도메인을 설정하는 경우 도메인 호스팅 솔루션에 인증서를 생성하기 위해 인증서 레코드가 자동으로 생성되고 제공됩니다. 이 기능은 새 하위 도메인을 설정할 때만 사용할 수 있습니다. 기존 위임된 하위 도메인에 대해서는 인증서를 위임할 수 없습니다."
 
 ## 반드시 알아야 할 사항 {#must-read}
 
