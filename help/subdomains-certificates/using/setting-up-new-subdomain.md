@@ -7,12 +7,13 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
+source-git-commit: 3b128832fa453981d358f225e160e3ef6c648b50
 workflow-type: tm+mt
-source-wordcount: '1339'
-ht-degree: 92%
+source-wordcount: '1501'
+ht-degree: 81%
 
 ---
+
 
 # 새 하위 도메인 설정 {#setting-up-subdomain}
 
@@ -21,6 +22,11 @@ ht-degree: 92%
 >title="새 하위 도메인 설정 및 인증서 관리"
 >abstract="Adobe Campaign을 사용하여 이메일 전송을 시작하거나 랜딩 페이지를 게시하려면 새 하위 도메인을 설정하고 하위 도메인의 SSL 인증서를 관리해야 합니다."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ko" text="SSL 인증서 모니터링"
+
+>[!CONTEXTUALHELP]
+>id="cp_managed_ssl"
+>title="하위 도메인의 SSL 인증서를 Adobe에 위임"
+>abstract="Campaign 컨트롤 패널을 사용하면 하위 도메인의 SSL 인증서를 Adobe에서 관리할 수 있습니다. CNAME을 사용하여 하위 도메인을 설정하는 경우 도메인 호스팅 솔루션에 인증서를 생성하기 위해 인증서 레코드가 자동으로 생성되고 제공됩니다."
 
 ## 반드시 알아야 할 사항 {#must-read}
 
@@ -94,6 +100,8 @@ ht-degree: 92%
 
    위임할 하위 도메인의 **전체 이름** 을 입력해야 합니다. 예를 들어 &quot;usoffers.email.weretail.com&quot; 하위 도메인을 위임하려면 &quot;usoffers.email.weretail.com&quot;을 입력합니다.
 
+1. 하위 도메인의 SSL 인증서 생성을 Adobe에 위임하려면 **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** 옵션을 선택합니다.
+
    ![](assets/subdomain6.png)
 
 하위 도메인을 제출하면 컨트롤 패널에서 다양한 검사 및 구성 단계를 수행합니다. 자세한 내용은 [하위 도메인 확인 및 구성](#subdomain-checks-and-configuration)을 참조하십시오.
@@ -134,25 +142,36 @@ CNAME을 사용하여 하위 도메인을 구성하려면 아래 단계를 따�
 
    ![](assets/cname-use-case.png)
 
-1. 만든 하위 도메인을 호스팅 솔루션에 입력하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+1. 만든 하위 도메인을 호스팅 솔루션에 입력합니다. 하위 도메인의 SSL 인증서 생성을 Adobe에 위임하려면 **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** 옵션을 선택합니다.
 
-   설정할 하위 도메인의 **전체 이름**&#x200B;을 입력해야 합니다. 예를 들어 &quot;usoffers.email.weretail.com&quot; 하위 도메인을 구성하려면 &quot;usoffers.email.weretail.com&quot;을 입력합니다.
+   ![](assets/cname-adobe-managed.png)
 
-   ![](assets/cname-submit.png)
+   >[!NOTE]
+   >
+   >설정할 하위 도메인의 **전체 이름**&#x200B;을 입력해야 합니다. 예를 들어 &quot;usoffers.email.weretail.com&quot; 하위 도메인을 구성하려면 &quot;usoffers.email.weretail.com&quot;을 입력합니다.
 
 1. DNS 서버에 배치할 레코드 목록이 표시됩니다. 이러한 레코드를 하나씩 복사하거나 CSV 파일을 다운로드하여 복사한 다음 도메인 호스팅 솔루션으로 이동하여 일치하는 DNS 레코드를 생성합니다.
 
    ![](assets/cname-generate-record.png)
 
-1. 이전 단계의 모든 DNS 레코드가 도메인 호스팅 솔루션에 생성되었는지 확인합니다. 모든 것이 올바르게 구성된 경우, 첫 번째 문을 선택한 다음 **[!UICONTROL Submit]**&#x200B;을(를) 클릭하여 확인합니다.
+1. 이전 단계의 모든 DNS 레코드가 도메인 호스팅 솔루션에 생성되었는지 확인합니다. 모든 것이 올바르게 구성된 경우, 첫 번째 문을 선택한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 확인합니다.
 
-   ![](assets/cname-confirmation.png)
+   나중에 레코드를 만들고 하위 도메인 구성을 제출하려면 두 번째 문을 선택합니다. 그런 다음 하위 도메인 관리 화면 **[!UICONTROL Processing]** 영역에서 바로 하위 도메인 구성을 다시 시작할 수 있습니다. 서버에 배치할 DNS 레코드는 컨트롤 패널에 30일 동안 보관됩니다. 해당 기간이 지나면 하위 도메인을 처음부터 구성해야 합니다.
+
 
    >[!NOTE]
    >
-   >나중에 레코드를 만들고 하위 도메인 구성을 제출하려면 두 번째 문을 선택하고 **[!UICONTROL Submit later]**&#x200B;을(를) 클릭합니다. 그런 다음 하위 도메인 관리 화면 **[!UICONTROL Processing]** 영역에서 바로 하위 도메인 구성을 다시 시작할 수 있습니다.
-   >
-   >서버에 배치할 DNS 레코드는 컨트롤 패널에 30일 동안 보관됩니다. 해당 기간이 지나면 하위 도메인을 처음부터 구성해야 합니다.
+   >SSL 인증서를 Adobe에 위임하지 않도록 선택한 경우 이 단계가 하위 도메인 구성의 마지막 단계입니다. **[!UICONTROL Submit]** 버튼을 클릭합니다.
+
+   ![](assets/cname-confirmation.png)
+
+1. 하위 도메인의 인증서를 Adobe에 위임하도록 선택하면 인증서가 자동으로 생성됩니다. 이러한 레코드를 하나씩 복사하거나 CSV 파일을 다운로드하여 복사한 다음 도메인 호스팅 솔루션으로 이동하여 일치하는 인증서를 생성합니다.
+
+   ![](assets/cname-csr-generation.png)
+
+1. 모든 인증서 레코드가 도메인 호스팅 솔루션에 생성되었는지 확인합니다. 모든 것이 올바르게 구성된 경우, 첫 번째 문을 선택한 다음 **[!UICONTROL Submit]**&#x200B;을(를) 클릭하여 확인합니다.
+
+   ![](assets/cnames-submit.png)
 
 하위 도메인을 제출하면 컨트롤 패널에서 다양한 검사 및 구성 단계를 수행합니다. 자세한 내용은 [하위 도메인 확인 및 구성](#subdomain-checks-and-configuration)을 참조하십시오.
 
