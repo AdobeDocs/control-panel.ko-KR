@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 3b128832fa453981d358f225e160e3ef6c648b50
+source-git-commit: 05c199984ec1282a0135841dd168430dec374a2e
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1502'
 ht-degree: 81%
 
 ---
@@ -165,7 +165,7 @@ CNAME을 사용하여 하위 도메인을 구성하려면 아래 단계를 따�
 
    ![](assets/cname-confirmation.png)
 
-1. 하위 도메인의 인증서를 Adobe에 위임하도록 선택하면 인증서가 자동으로 생성됩니다. 이러한 레코드를 하나씩 복사하거나 CSV 파일을 다운로드하여 복사한 다음 도메인 호스팅 솔루션으로 이동하여 일치하는 인증서를 생성합니다.
+1. 하위 도메인의 인증서를 Adobe에 위임하도록 선택하면 인증서 레코드가 자동으로 생성됩니다. 이러한 레코드를 하나씩 복사하거나 CSV 파일을 다운로드하여 복사한 다음 도메인 호스팅 솔루션으로 이동하여 일치하는 인증서를 생성합니다.
 
    ![](assets/cname-csr-generation.png)
 
