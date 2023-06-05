@@ -2,14 +2,20 @@
 title: 2023년 릴리스 정보
 description: 이 페이지에는 2023년 Campaign 컨트롤 패널 릴리스가 모두 나열되어 있습니다.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 11015d1a7c44abaeeb704138e2a3071d293715b7
+source-git-commit: f43dbc1d28ff22ca1f9092d6ca416c43eed2ebec
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '156'
 ht-degree: 100%
 
 ---
 
 # 2023년 릴리스 정보 {#rn-2023}
+
+## 2023년 3월 {#march-2023}
+
+**CNAME에 대한 하위 도메인 위임 제거**
+
+이제 CNAME을 사용하여 구성한 하위 도메인 위임을 제거할 수 있습니다. [자세히 알아보기](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
 ## 2023년 2월 {#february-2023}
 
