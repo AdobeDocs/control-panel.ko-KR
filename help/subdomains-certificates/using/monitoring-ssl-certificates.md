@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: a6a77cf6e564f4607c0c12facb2061cfb102a5a5
+source-git-commit: 0628e9eb12da4dcc33b2ea21c9ef31bb7ba4f9c4
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 92%
+source-wordcount: '478'
+ht-degree: 71%
 
 ---
 
@@ -27,6 +27,18 @@ ht-degree: 92%
 **SSL 인증서는 일정 기간**(1년, 60일 등) 동안 제공됩니다. 인증서가 만료되면 랜딩 페이지에 액세스하거나 하위 도메인의 리소스를 사용할 때 문제가 발생할 수 있습니다. 이러한 상황을 방지하기 위해 컨트롤 패널에서 하위 도메인의 SSL 인증서를 모니터링하고 인증서 갱신 프로세스를 시작할 수 있습니다.
 
 ![](assets/no_certificate.png)
+
+## 하위 도메인의 SSL 인증서를 Adobe에 위임
+
+새 하위 도메인을 설정할 때 SSL 인증서를 Adobe에서 관리할 수 있습니다. 인증서가 만료되기 전에 Adobe이 인증서를 자동으로 만들고 매년 갱신하므로 이 작업이 적극 권장됩니다.
+
+CNAME을 사용하여 하위 도메인 위임을 설정하는 경우 Adobe은 도메인 호스팅 솔루션에 사용할 인증서 레코드를 제공하여 인증서를 생성합니다.
+
+>[!NOTE]
+>
+>새 하위 도메인을 설정할 때만 SSL 인증서 위임을 사용할 수 있습니다. 이미 위임된 하위 도메인에는 사용할 수 없습니다.
+
+새 하위 도메인을 설정할 때 SSL 인증서 위임을 사용할 수 있습니다. 진행 방법 알아보기 [이 섹션](setting-up-new-subdomain.md).
 
 ## SSL 인증서 모니터링 {#monitoring-certificates}
 
