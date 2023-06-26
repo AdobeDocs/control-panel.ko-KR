@@ -2,14 +2,26 @@
 title: 2023년 릴리스 정보
 description: 이 페이지에는 2023년 Campaign 컨트롤 패널 릴리스가 모두 나열되어 있습니다.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: f43dbc1d28ff22ca1f9092d6ca416c43eed2ebec
-workflow-type: ht
-source-wordcount: '156'
-ht-degree: 100%
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 99%
 
 ---
 
 # 2023년 릴리스 정보 {#rn-2023}
+
+## 2023년 5월 개선 사항 {#june-2023}
+
+**Adobe에 하위 도메인의 SSL 인증서 위임**
+
+이제 Adobe에 하위 도메인의 SSL 인증서 관리를 위임할 수 있습니다. CNAME을 사용하여 하위 도메인을 설정하는 경우, 도메인 호스팅 솔루션에 인증서를 생성하기 위해 인증서 레코드가 자동으로 생성되고 제공됩니다.
+
+이 기능은 새 하위 도메인을 설정할 때만 사용할 수 있다는 점을 참고하십시오. 기존에 위임된 하위 도메인에 대한 인증서는 위임할 수 없습니다. [자세히 알아보기](../subdomains-certificates/using/setting-up-new-subdomain.md)
+
+>[!NOTE]
+>
+>Adobe 관리 SSL은 무료 기능으로, 사용자라면 비용 없이 사용할 수 있습니다.
 
 ## 2023년 3월 {#march-2023}
 

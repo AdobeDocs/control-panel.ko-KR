@@ -6,10 +6,10 @@ user-guide-title: 컨트롤 패널 안내서
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 100%
+source-wordcount: '165'
+ht-degree: 96%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 100%
    + [TXT 레코드 관리](subdomains-certificates/using/managing-txt-records.md)
    + SSL 인증서 관리 {#manage-certificates}
       + [SSL 인증서 모니터링](subdomains-certificates/using/monitoring-ssl-certificates.md)
+      + [Adobe에 SSL 인증서 위임](subdomains-certificates/using/delegate-ssl.md)
       + [SSL 인증서 갱신](subdomains-certificates/using/renewing-subdomain-certificate.md)
       + [CSR 생성](subdomains-certificates/using/generate-csr.md)
       + [SSL 인증서 설치](subdomains-certificates/using/install-ssl-certificate.md)

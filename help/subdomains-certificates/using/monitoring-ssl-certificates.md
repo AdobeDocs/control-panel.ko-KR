@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 0628e9eb12da4dcc33b2ea21c9ef31bb7ba4f9c4
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 71%
+source-wordcount: '413'
+ht-degree: 84%
 
 ---
 
@@ -30,15 +30,7 @@ ht-degree: 71%
 
 ## 하위 도메인의 SSL 인증서를 Adobe에 위임
 
-새 하위 도메인을 설정할 때 SSL 인증서를 Adobe에서 관리할 수 있습니다. 인증서가 만료되기 전에 Adobe이 인증서를 자동으로 만들고 매년 갱신하므로 이 작업이 적극 권장됩니다.
-
-CNAME을 사용하여 하위 도메인 위임을 설정하는 경우 Adobe은 도메인 호스팅 솔루션에 사용할 인증서 레코드를 제공하여 인증서를 생성합니다.
-
->[!NOTE]
->
->새 하위 도메인을 설정할 때만 SSL 인증서 위임을 사용할 수 있습니다. 이미 위임된 하위 도메인에는 사용할 수 없습니다.
-
-새 하위 도메인을 설정할 때 SSL 인증서 위임을 사용할 수 있습니다. 진행 방법 알아보기 [이 섹션](setting-up-new-subdomain.md).
+하위 도메인의 SSL 인증서를 Adobe으로 위임하는 것은 Adobe이 인증서를 자동으로 만들고 매년 인증서가 만료되기 전에 갱신하기 때문에 매우 좋습니다. [하위 도메인의 SSL 인증서를 Adobe에 위임하는 방법 알아보기](delegate-ssl.md)
 
 ## SSL 인증서 모니터링 {#monitoring-certificates}
 
