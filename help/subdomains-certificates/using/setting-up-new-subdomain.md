@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 80%
+source-wordcount: '1555'
+ht-degree: 84%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 80%
 
 새 하위 도메인을 설정할 때 SSL 인증서를 Adobe에서 관리할 수 있습니다. 인증서가 만료되기 전에 Adobe이 인증서를 자동으로 만들고 매년 갱신하므로 이 작업이 적극 권장됩니다.
 
-CNAME을 사용하여 하위 도메인 위임을 설정하는 경우 Adobe은 도메인 호스팅 솔루션에 사용할 인증서 레코드를 제공하여 인증서를 생성합니다.
+CNAME을 사용해 하위 도메인 위임을 설정하는 경우에는 Adobe에서 인증서를 생성하기 위한 도메인 호스팅 솔루션에 사용할 인증서 레코드를 제공합니다.
 
 >[!NOTE]
 >
->Adobe 관리 SSL은 무료 기능으로, 사용자라면 비용 없이 사용할 수 있습니다.
+>Adobe 관리 SSL은 무료이며 비용 없이 사용할 수 있습니다. [SSL 인증서 관리에 대해 자세히 알아보기](monitoring-ssl-certificates.md#management)
 
 ### 이름 서버 구성
 
@@ -170,7 +170,7 @@ CNAME을 사용하여 하위 도메인을 구성하려면 아래 단계를 따�
 
    ![](assets/cname-confirmation.png)
 
-1. 하위 도메인의 인증서를 Adobe에 위임하도록 선택하면 인증서 레코드가 자동으로 생성됩니다. 이러한 레코드를 하나씩 복사하거나 CSV 파일을 다운로드하여 복사한 다음 도메인 호스팅 솔루션으로 이동하여 일치하는 인증서를 생성합니다.
+1. 하위 도메인의 인증서를 Adobe에 위임하도록 선택하면 인증서 레코드가 자동으로 생성됩니다. 이 레코드를 하나씩 복사하거나 CSV 파일을 다운로드하여 복사한 다음 도메인 호스팅 솔루션으로 이동하여 레코드에 맞는 인증서를 생성합니다.
 
    ![](assets/cname-csr-generation.png)
 

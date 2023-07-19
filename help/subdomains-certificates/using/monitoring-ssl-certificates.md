@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 84%
+source-wordcount: '567'
+ht-degree: 61%
 
 ---
 
@@ -28,9 +28,21 @@ ht-degree: 84%
 
 ![](assets/no_certificate.png)
 
-## 하위 도메인의 SSL 인증서를 Adobe에 위임
+## SSL 인증서 관리 {#management}
 
-하위 도메인의 SSL 인증서를 Adobe으로 위임하는 것은 Adobe이 인증서를 자동으로 만들고 매년 인증서가 만료되기 전에 갱신하기 때문에 매우 좋습니다. [하위 도메인의 SSL 인증서를 Adobe에 위임하는 방법 알아보기](delegate-ssl.md)
+SSL 인증서 모니터링은 하위 도메인이 안전한지 확인하는 키입니다. Campaign 컨트롤 패널을 사용하면 직접 하위 도메인의 SSL 인증서를 설치 및 갱신하거나, Adobe에 위임하여 사용자 측의 작업 없이도 이 프로세스가 자동으로 수행됩니다.
+
+하위 도메인의 SSL 인증서 관리를 Adobe으로 위임하는 것이 좋습니다. Adobe은 인증서가 자동으로 생성되고 만료되기 전에 매년 갱신하기 때문입니다. 이렇게 하면 인증서를 수동으로 관리할 때 발생할 수 있는 오류 위험을 줄일 수 있습니다. [하위 도메인의 SSL 인증서를 Adobe에 위임하는 방법 알아보기](delegate-ssl.md)
+
+아래에서는 이 작업을 Adobe에 위임하는 것과 대조적으로 수동 인증서 관리와 관련된 포괄적인 영향 목록을 찾을 수 있습니다.
+
+|       | 고객 관리 인증서 | Adobe 관리 인증서 |
+|  ---  |  ---  |  ---  |
+| 인증서 공급자 | 서드파티 인증 기관 | AWS 인증서 관리자를 통한 Adobe |
+| 수동 단계 | CSR 생성, 인증서 구매 및 설치 | 없음 |
+| 갱신 프로세스 | 고객의 책임 | Adobe에서 자동으로 관리 |
+| 하위 도메인 보안 | 인증서를 설치/갱신하지 않는 한 도메인에는 보안되지 않은 하위 도메인(추적, 미러 및 복구)이 있을 수 있습니다. | 모든 새 도메인(Adobe 관리에 대해 선택된 경우)에는 기본적으로 모든 하위 도메인이 보호됩니다. |
+| 인증서 비용 | 인증서 비용은 고객이 부담합니다 | 무료 |
 
 ## SSL 인증서 모니터링 {#monitoring-certificates}
 
