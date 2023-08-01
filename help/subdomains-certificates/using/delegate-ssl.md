@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 83%
 >title="하위 도메인의 SSL 인증서를 Adobe에 위임"
 >abstract="컨트롤 패널을 사용하면 하위 도메인의 SSL 인증서를 Adobe에서 관리하도록 할 수 있습니다. CNAME을 사용하여 하위 도메인을 설정하는 경우, 도메인 호스팅 솔루션에 인증서를 생성하기 위해 인증서 레코드가 자동으로 생성되고 제공됩니다."
 
-Adobe은 인증서가 만료되기 전에 인증서를 자동으로 만들고 매년 갱신하므로 하위 도메인의 SSL 인증서 관리를 Adobe으로 위임하는 것이 좋습니다.
+하위 도메인의 SSL 인증서 관리를 Adobe으로 위임하는 것을 강력하게 권장합니다. Adobe에서 인증서를 자동으로 만들고 매년 인증서가 만료되기 전에 갱신하기 때문에 편리합니다.
 
 CNAME을 사용해 하위 도메인 위임을 설정하는 경우에는 Adobe에서 인증서를 생성하기 위한 도메인 호스팅 솔루션에 사용할 인증서 레코드를 제공합니다.
 
@@ -28,7 +28,7 @@ SSL 인증서를 Adobe에 위임하는 작업은 새 하위 도메인을 설정�
 
 >[!NOTE]
 >
->Adobe 관리 SSL은 무료이며 비용 없이 사용할 수 있습니다. 하위 도메인의 인증서를 Adobe에 위임하는 것은 투명하며 캠페인과 전달성에 영향을 주지 않습니다. [SSL 인증서 관리에 대해 자세히 알아보기](monitoring-ssl-certificates.md#management)
+>Adobe 관리 SSL은 무료이며 비용 없이 사용할 수 있습니다. 하위 도메인의 인증서를 Adobe에 위임하더라도 투명성이 보장되며 캠페인과 전달성에 영향을 주지 않습니다. [SSL 인증서 관리에 대해 자세히 알아보기](monitoring-ssl-certificates.md#management)
 
 
 ## 새 하위 도메인의 SSL 인증서 위임 {#new}
