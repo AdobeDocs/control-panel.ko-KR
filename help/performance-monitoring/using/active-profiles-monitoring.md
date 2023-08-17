@@ -61,7 +61,6 @@ ht-degree: 87%
 >* Campaign Standard를 위한 [&quot;청구&quot;](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ko) 워크플로우
 >* 다음 [&quot;활성 청구 프로필 수&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ko) campaign v7/v8용 워크플로우
 
-
 아래쪽 영역은 지난 30일 동안 활성 프로필 사용의 그래픽 표현을 제공합니다. 오른쪽 위 모서리의 사용 가능한 필터를 사용하여 표시된 기간을 1년으로 변경할 수 있습니다.
 
 그래프 막대 중 하나를 마우스로 가리키면 선택한 기간에 사용된 정확한 활성 프로필 수를 가져올 수 있습니다.

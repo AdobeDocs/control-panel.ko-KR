@@ -67,13 +67,13 @@ ht-degree: 100%
 
    * **[!UICONTROL URL]**: 인스턴스의 URL입니다. **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** 메뉴의 Campaign 클라이언트 콘솔에 있습니다.
 
-      ![](assets/external-account-url.png)
+     ![](assets/external-account-url.png)
 
    * **[!UICONTROL Operator]** / **[!UICONTROL Password]**: Adobe 관리자가 초기 프로비저닝 후 제공한 운영자의 자격 증명입니다.
 
-      >[!NOTE]
-      >
-      >이러한 세부 사항을 사용할 수 없는 경우 고객 지원 센터에 문의하십시오.
+     >[!NOTE]
+     >
+     >이러한 세부 사항을 사용할 수 없는 경우 고객 지원 센터에 문의하십시오.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 확인합니다.
 

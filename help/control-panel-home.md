@@ -40,7 +40,6 @@ Campaign [컨트롤 패널]에서는 각 Campaign 인스턴스의 사용량을 �
 >
 >* Campaign v7의 경우 배포 제한이 적용됩니다. [자세히 알아보기](faq.md#v7-restrictions)
 
-
 ## 추가 리소스 {#additional-resources}
 
 <table>

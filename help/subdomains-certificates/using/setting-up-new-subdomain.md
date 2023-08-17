@@ -10,7 +10,7 @@ exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
 workflow-type: tm+mt
 source-wordcount: '1555'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -166,7 +166,7 @@ CNAME을 사용하여 하위 도메인을 구성하려면 아래 단계를 따�
 
    >[!NOTE]
    >
-   >SSL 인증서를 Adobe에 위임하지 않도록 선택한 경우 이 단계가 하위 도메인 구성의 마지막 단계입니다. **[!UICONTROL Submit]** 버튼을 클릭합니다.
+   >SSL 인증서를 Adobe에 위임하지 않도록 선택한 경우 하위 도메인 구성의 마지막 단계입니다. **[!UICONTROL Submit]** 버튼을 클릭합니다.
 
    ![](assets/cname-confirmation.png)
 

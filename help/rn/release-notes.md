@@ -3,7 +3,7 @@ title: 최신 릴리스
 description: 이 페이지에는 컨트롤 패널의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 7dece51698349f792886b3a7cdb22b1e49e48b9e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 100%
 

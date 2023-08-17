@@ -25,7 +25,7 @@ ht-degree: 59%
 
 * **[!UICONTROL System resources]**
 
-   데이터베이스 공간에서 시스템 리소스로 용량이 많이 사용되는 경우 고객 지원 센터에 문의하십시오.
+  데이터베이스 공간에서 시스템 리소스로 용량이 많이 사용되는 경우 고객 지원 센터에 문의하십시오.
 
 * 기본적으로 Campaign 인스턴스와 함께 제공되는 **[!UICONTROL Out-of-the-box tables]**,
 * 워크플로우 및 게재별로 작성된 **[!UICONTROL Temporary tables]**,
