@@ -19,7 +19,7 @@ ht-degree: 75%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
 >title="인스턴스 세부 사항"
->abstract="유형, 이름, 빌드 정보, 가능한 업그레이드 관련 권장 사항 등 Adobe Campaign 인스턴스의 세부 사항을 확인하는 방법을 설명합니다."
+>abstract="유형, 이름, 빌드 정보, 가능한 업그레이드 관련 권장 사항 등 Adobe Campaign 인스턴스의 세부 사항 보여줍니다."
 
 ## 인스턴스 세부 사항 {#about-instance-details}
 
