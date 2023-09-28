@@ -2,16 +2,22 @@
 title: 2023년 릴리스 정보
 description: 이 페이지에는 2023년 Campaign 컨트롤 패널 릴리스가 모두 나열되어 있습니다.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '270'
 ht-degree: 100%
 
 ---
 
 # 2023년 릴리스 정보 {#rn-2023}
 
-## 2023년 5월 개선 사항 {#june-2023}
+## 2023년 6월 {#june-2023}
+
+* 이제 이미 위임한 하위 도메인의 SSL 인증서를 하위 도메인 목록에서 직접 Adobe에 위임할 수 있습니다. [자세히 알아보기](../subdomains-certificates/using/delegate-ssl.md)
+
+* 경고 이메일 발신 주소가 `"alert@notifications.campaign.adobe.com"`으로 변경되었습니다.
+
+## 2023년 5월 개선 사항 {#may-2023}
 
 **Adobe에 하위 도메인의 SSL 인증서 위임**
 

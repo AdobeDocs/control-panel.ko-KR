@@ -6,10 +6,10 @@ user-guide-title: 컨트롤 패널 안내서
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
+source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '181'
+ht-degree: 87%
 
 ---
 
@@ -45,7 +45,11 @@ ht-degree: 100%
    + 하위 도메인 위임 {#delegate-subdomains}
       + [새 하위 도메인 설정](subdomains-certificates/using/setting-up-new-subdomain.md)
       + [Adobe에 대한 하위 도메인 위임 제거](subdomains-certificates/using/remove-delegated-subdomains.md)
-      + [TXT 레코드 관리](subdomains-certificates/using/managing-txt-records.md)
+   + TXT 레코드 작업(Google, BIMI, DMARC) {#txt-records}
+      + [TXT 레코드 시작](subdomains-certificates/using/gs-txt-records.md)
+      + [Google 사이트 확인 레코드 추가](subdomains-certificates/using/managing-txt-records.md)
+      + [DMARC 레코드 추가](subdomains-certificates/using/dmarc.md)
+      + [BIMI 레코드 추가](subdomains-certificates/using/bimi.md)
    + 하위 도메인의 SSL 인증서 관리 {#manage-certificates}
       + [SSL 인증서 모니터링](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [Adobe에 SSL 인증서 위임](subdomains-certificates/using/delegate-ssl.md)
