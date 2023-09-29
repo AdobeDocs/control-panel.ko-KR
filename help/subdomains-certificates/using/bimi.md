@@ -6,9 +6,9 @@ description: 하위 도메인에 대한 BIMI 레코드를 추가하는 방법을
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 0ad4c1f12eb035c8d543777be2a8806d507be5be
+source-git-commit: dfb6f548c4d53df7eb807d9aa21065449927f945
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ BIMI(Brand Indicators for Message Identification)는 업계 표준으로, 승인
 
 1. 다음에서 **[!UICONTROL Company Logo URL]**&#x200B;로고가 포함된 SVG 파일의 URL을 지정합니다.
 
-1. 다음 **[!UICONTROL Certificate URL]** 필드는 선택 사항입니다. 이를 통해 스팸 메일 및 기타 악의적인 사용자가 소유하지 않은 브랜드 로고를 사용하지 못하도록 조직이 로고의 법적 소유자임을 입증하는 VMC(Verified Mark Certificate) URL을 추가할 수 있습니다.
+1. 그래도 **[!UICONTROL Certificate URL]** 는 선택 사항이며 사서함 시장의 80%를 차지하는 Gmail 및 Apple과 같은 일부 사서함 공급업체에 필요합니다. 따라서 BIMI를 실제로 활용하려면 VMC(Verified Mark Certificate)를 받는 것이 좋습니다.
 
    +++VMC를 받으려면 어떻게 해야 합니까?
 
@@ -56,6 +56,8 @@ BIMI(Brand Indicators for Message Identification)는 업계 표준으로, 승인
    1. 로고가 상표가 지정되었는지 확인한 후 DigiCert 또는 인증 기관(CA)에 문의하여 VMC를 요청하십시오.
 
    1. VMC가 승인되면 엔티티 인증서 PEM(개인 정보 보호 강화 메일) 파일을 받게 됩니다. CA에서 가져온 다른 중간 인증서를 이 PEM 파일에 추가합니다. PEM 파일(추가 파일과 함께)을 공용 웹 서버에 업로드하고 PEM 파일 URL을 기록해 둡니다. BIMI TXT 레코드의 URL을 사용하게 됩니다.
+
+   1. 특정 하위 도메인의 하위 도메인 세부 정보 페이지에 BIMI 레코드가 표시되면 BIMI 검사기를 사용할 수 있습니다 [여기](https://bimigroup.org/bimi-generator/) BIMI 레코드가 올바르게 작동하는지 확인합니다.
 
    BIMI 구현에 대한 자세한 내용은 [BIMI 표준 설명서](https://bimigroup.org/implementation-guide/)
 +++
