@@ -6,13 +6,13 @@ description: 하위 도메인에 대한 DMARC 레코드를 추가하는 방법�
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: f87a13c8553173e4303c9b95cfea5de05ff49cee
+exl-id: 2ca66983-5beb-495a-9639-a31905500cff
+source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
-
 
 # DMARC 레코드 추가 {#dmarc}
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 도메인 기반 메시지 인증, 보고 및 적합성(DMARC)은 조직이 피싱 및 스푸핑 공격으로부터 이메일 도메인을 보호할 수 있도록 도와주는 이메일 인증 프로토콜 표준입니다. 이를 통해 사서함 공급자가 SPF 및 DKIM 검사에 실패한 이메일을 처리하는 방법을 결정할 수 있으므로, 발신자의 도메인을 인증하고 악의적인 목적으로 도메인을 승인하지 않고 사용하는 것을 방지할 수 있습니다.
 
-<!--Detailed information on DMARC implementation is available in [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)-->
+DMARC 구현에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html)
 
 ## 제한 사항 및 사전 요구 사항 {#limitations}
 

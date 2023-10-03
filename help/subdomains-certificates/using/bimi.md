@@ -6,19 +6,21 @@ description: 하위 도메인에 대한 BIMI 레코드를 추가하는 방법을
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: dfb6f548c4d53df7eb807d9aa21065449927f945
+exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
+source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
-
 # BIMI 레코드 추가 {#dmarc}
 
 ## BIMI 레코드 정보 {#about}
 
-BIMI(Brand Indicators for Message Identification)는 업계 표준으로, 승인된 로고가 사서함 공급자의 받은 편지함에 있는 보낸 사람의 이메일 옆에 표시되어 브랜드 인지도와 신뢰를 높일 수 있습니다. DMARC 인증을 통해 발신자의 신원을 확인함으로써 이메일 스푸핑 및 피싱을 방지할 수 있어 악성 행위자가 이메일에서 합법적인 브랜드를 사칭하는 것이 더욱 어려워진다. BIMI 구현에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)
+BIMI(Brand Indicators for Message Identification)는 업계 표준으로, 승인된 로고가 사서함 공급자의 받은 편지함에 있는 보낸 사람의 이메일 옆에 표시되어 브랜드 인지도와 신뢰를 높일 수 있습니다. DMARC 인증을 통해 발신자의 신원을 확인함으로써 이메일 스푸핑 및 피싱을 방지할 수 있어 악성 행위자가 이메일에서 합법적인 브랜드를 사칭하는 것이 더욱 어려워진다.
+
+BIMI 구현에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)
 
 ![](assets/bimi-example.png){width="70%" align="center"}
 
