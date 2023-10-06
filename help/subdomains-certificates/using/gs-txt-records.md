@@ -6,20 +6,20 @@ description: 도메인 소유권 확인을 위해 TXT 레코드를 관리하는 
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 118fa4d722980e507d15647453e96a8b6189f837
+exl-id: 013d6674-0988-4553-a23e-b3ec23da5323
+source-git-commit: 9548bef1500498c1778ce5854017388490320595
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 25%
+ht-degree: 33%
 
 ---
-
 
 # TXT 레코드 시작 {#managing-txt-records}
 
 >[!CONTEXTUALHELP]
 >id="cp_siteverification_add"
 >title="TXT 레코드 관리"
->abstract="TXT 레코드는 외부 소스에서 읽을 수 있는 도메인 관련 텍스트 정보를 제공하는 데 사용되는 DNS 레코드 유형입니다. Campaign 컨트롤 패널을 사용하면 하위 도메인에 Google 사이트 확인, DMARC 및 BIMI 레코드의 세 가지 유형의 레코드를 추가할 수 있습니다."
+>abstract="TXT 레코드는 외부 소스에서 읽을 수 있는 도메인 관련 텍스트 정보를 제공하는 데 사용되는 DNS 레코드 유형입니다. 컨트롤 패널을 사용하면 하위 도메인에 Google 사이트 확인, DMARC, BIMI 레코드의 세 가지 유형의 레코드를 추가할 수 있습니다."
 
 ## TXT 레코드 {#about}
 
