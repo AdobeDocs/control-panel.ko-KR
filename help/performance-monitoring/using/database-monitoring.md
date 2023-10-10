@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
 source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 78%
+source-wordcount: '397'
+ht-degree: 68%
 
 ---
 
@@ -31,12 +31,12 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_database"
 >title="데이터베이스 모니터링 정보"
->abstract="이 탭에서는 각 Campaign 인스턴스의 최신 및 과거 데이터베이스 사용량 기록과 평가에 대하여 실시간으로 정보를 확인할 수 있습니다."
+>abstract="이 탭에서는 각 Campaign 인스턴스의 최신 및 과거 데이터베이스 사용량과 변화에 대하여 실시간으로 정보를 확인할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ko" text="성능 모니터링 정보"
 
-컨트롤 패널을 사용하면 각 캠페인 인스턴스에 대한 데이터베이스 사용량을 모니터링할 수 있습니다. 이 작업을 수행 하려면 **[!UICONTROL Performance Monitoring]**&#x200B;카드를 연 다음 **[!UICONTROL Databases]**&#x200B;탭을 선택합니다.
+컨트롤 패널을 사용하면 각 캠페인 인스턴스에 대한 데이터베이스 사용량을 모니터링할 수 있습니다. 이렇게 하려면 **[!UICONTROL 성능 모니터링]** 카드를 선택한 다음 **[!UICONTROL 데이터베이스]** 탭.
 
-**[!UICONTROL Instance List]**&#x200B;에서 원하는 인스턴스를 선택하여 인스턴스의 데이터베이스 용량 및 사용 공간에 대한 정보를 표시합니다.
+에서 원하는 인스턴스를 선택합니다. **[!UICONTROL 인스턴스 목록]** 인스턴스의 데이터베이스 용량 및 사용 공간에 대한 정보를 표시합니다.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ ht-degree: 78%
 
 ![](assets/databases_dashboard.png)
 
-이 대시보드의 데이터는 **[!UICONTROL Database cleanup technical workflow]** Campaign 인스턴스에서 실행됩니다( 참조) [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ko#list-of-technical-workflows) 및 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=ko) 설명서). 워크플로우가 아래에 마지막으로 실행된 시간을 확인할 수 있습니다. **[!UICONTROL Used Space]** 및 **[!UICONTROL Provided Space]** 지표. 워크플로우가 3일 이상 실행된 적이 없는 경우, 워크플로우가 실행 중이 아닌 이유를 조사할 수 있도록 Adobe 고객 지원 센터에 문의하는 것이 좋습니다.
+이 대시보드의 데이터는 **[!UICONTROL 데이터베이스 정리 기술 워크플로우]** Campaign 인스턴스에서 실행됩니다( 참조) [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ko#list-of-technical-workflows) 및 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=ko) 설명서). 워크플로우가 아래에 마지막으로 실행된 시간을 확인할 수 있습니다. **[!UICONTROL 사용된 공간]** 및 **[!UICONTROL 제공된 공간]** 지표. 워크플로우가 3일 이상 실행된 적이 없는 경우, 워크플로우가 실행 중이 아닌 이유를 조사할 수 있도록 Adobe 고객 지원 센터에 문의하는 것이 좋습니다.
 
 이 대시보드에서 추가 지표를 사용하여 인스턴스의 데이터베이스 사용량을 분석할 수 있습니다. 이러한 내용은 다음 섹션에 자세히 설명되어 있습니다.
 
