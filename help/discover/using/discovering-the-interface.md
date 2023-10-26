@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
-source-git-commit: 99409f462993191d8fb4d6dfacc77c1e4b973f68
+source-git-commit: ca503b824422227e762eeaf75a4cf5aeed4801f8
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 23%
+source-wordcount: '221'
+ht-degree: 19%
 
 ---
 
@@ -41,3 +41,22 @@ ht-degree: 23%
 다음 **[!UICONTROL Help Resources]** 섹션에서는 Campaign 컨트롤 패널 및 캠페인 제품을 사용하는 데 도움이 되는 유용한 설명서를 제공합니다. 그것을 탐구하는 것을 망설이지 마세요.
 
 ![](assets/helpresources.png)
+
+## 지원되는 언어 {#languages}
+
+Campaign 컨트롤 패널 사용자 인터페이스는 브라우저의 구성과 일치하는 언어를 표시하도록 설계되었습니다.
+
+Campaign 컨트롤 패널이 지원되지 않는 언어로 설정된 경우 브라우저에서 지원되는 언어를 찾을 때까지 브라우저의 언어 목록에 있는 처음 세 언어를 확인합니다. 처음 세 언어 중 Campaign 컨트롤 패널에서 지원하는 언어가 없는 경우 기본적으로 영어(미국)를 사용합니다.
+
+다음은 Campaign 컨트롤 패널에서 현재 지원하는 언어 목록입니다.
+
+* 영어(미국)
+* 독일어
+* 프랑스어
+* 자파나세
+* 이탈리아어(이탈리아)
+* 스페인어 (스페인)
+* 한국어
+* 포르투갈어(브라질)
+* 중국어 (간체)
+* 중국어 (번체)
