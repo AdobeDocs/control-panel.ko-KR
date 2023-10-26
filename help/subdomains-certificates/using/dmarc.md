@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: 14c873011782eef0413fe5fdb3b1a0eb357fa3bd
+workflow-type: tm+mt
+source-wordcount: '774'
+ht-degree: 92%
 
 ---
 
@@ -26,6 +26,9 @@ DMARC 구현에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내
 
 * SPF 및 DKIM 레코드는 DMARC 레코드를 만들기 위한 전제 조건입니다.
 * DMARC 레코드는 전체 하위 도메인 위임을 사용하는 하위 도메인에 대해서만 추가할 수 있습니다. [하위 도메인 구성 방법에 대해 자세히 알아보기](subdomains-branding.md#subdomain-delegation-methods)
+* 하위 도메인에 대한 DMARC 및 BIMI 레코드가 모두 있는 경우:
+   * DMARC 레코드는 삭제할 수 없습니다. DMARC 레코드를 삭제하려면 먼저 BIMI 레코드를 삭제하십시오.
+   * DMARC 레코드를 편집할 수 있지만 DMARC 정책이 &quot;없음&quot;으로 다운그레이드할 수 없으며 백분율 값을 &quot;100&quot;으로 설정해야 합니다.
 
 ## 하위 도메인에 대한 DMARC 레코드 추가 {#add}
 
@@ -55,7 +58,7 @@ DMARC 구현에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내
    >
    > DMARC 레코드 정책 유형이 “없음”으로 설정되어 있으면 BIMI 레코드를 만들 수 없습니다.
 
-1. DMARC 보고서를 받을 이메일 주소를 입력합니다. 이메일 중 하나가 실패하면 DMARC 보고서가 선택한 이메일 주소로 자동 전송됩니다.
+1. DMARC 보고서를 받을 이메일 주소를 입력합니다. 여러 개의 이메일 주소를 쉼표로 구분하여 추가할 수 있습니다. 이메일 중 하나가 실패하면 DMARC 보고서가 선택한 이메일 주소로 자동 전송됩니다.
 
    * Aggregate-DMARC 보고서는 지정된 기간 동안 실패한 이메일 수와 같은 대략적인 정보를 제공합니다.
    * 포렌식 DMARC 실패 보고서는 실패한 이메일의 출처 IP 주소와 같은 자세한 정보를 제공합니다.
