@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: ebebff05669160b97de7e0d58d898ba0e3a30df1
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 87%
+source-wordcount: '433'
+ht-degree: 41%
 
 ---
 
@@ -34,33 +34,30 @@ ht-degree: 87%
 
 활성 프로필에 대한 자세한 내용은 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) 및 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) 설명서를 참조하십시오.
 
-## 활성 프로필 모니터링 {#monitoring-active-profiles}
+## 활성 프로필 사용 모니터링 {#monitoring-active-profiles}
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
 >title="활성 프로필 모니터링 정보"
->abstract="이 탭에서는 각 Campaign 인스턴스의 최신 및 과거 활성 프로필 사용량 기록과 평가에 대하여 실시간으로 정보를 확인할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ko" text="성능 모니터링 정보"
+>abstract="이 탭에서는 Campaign 인스턴스 및 조직의 각 사용자에 대한 최신 및 과거 활성 프로필 사용 및 진화에 대한 실시간 정보를 얻을 수 있습니다."
 
-컨트롤 패널을 사용하면 각 캠페인 인스턴스에 대한 활성 프로필 사용을 모니터링할 수 있습니다.
+활성 프로필 사용 관련 정보는 전용 을 기반으로 Campaign 컨트롤 패널에서 업데이트됩니다 [!DNL Campaign] 인스턴스에서 매일 실행되는 기술 워크플로우:
+* Campaign Standard를 위한 [&quot;청구&quot;](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ko) 워크플로우
+* 다음 [&quot;활성 청구 프로필 수&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ko) campaign v7/v8용 워크플로우
 
-이렇게 하려면 다음 단계를 수행합니다.
 
-1. **[!UICONTROL Performance Monitoring]** 카드를 열고 **[!UICONTROL Active Profiles]** 탭을 선택합니다.
+Campaign 컨트롤 패널에서 활성 프로필 사용을 모니터링하려면 **[!UICONTROL Performance Monitoring]** 카드 > **[!UICONTROL Active Profiles]** 을 누르고 원하는 인스턴스를 선택합니다 **[!UICONTROL Instance List]**.
 
-1. **[!UICONTROL Instance List]**&#x200B;에서 원하는 인스턴스를 선택합니다.
-
-1. 인스턴스에 의해 사용된 활성 프로필 수와 인스턴스에서 청구 워크플로우를 마지막으로 실행한 시간도 표시됩니다.
+활성 프로필 사용에 대한 정보가 표시됩니다.
 
 ![](assets/active-profiles-graph.png)
 
->[!NOTE]
->
->활성 프로필은 인스턴스에서 매일 실행되는 전용 기술 워크플로우를 기반으로 계산됩니다.
->
->* Campaign Standard를 위한 [&quot;청구&quot;](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ko) 워크플로우
->* 다음 [&quot;활성 청구 프로필 수&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ko) campaign v7/v8용 워크플로우
+상단 섹션에는 다음 정보가 표시됩니다.
 
-아래쪽 영역은 지난 30일 동안 활성 프로필 사용의 그래픽 표현을 제공합니다. 오른쪽 위 모서리의 사용 가능한 필터를 사용하여 표시된 기간을 1년으로 변경할 수 있습니다.
+* 인스턴스에 대한 가장 최근 청구 워크플로우 실행의 타임스탬프와 함께 선택한 인스턴스에서 현재 사용된 활성 프로필 수입니다.
 
-그래프 막대 중 하나를 마우스로 가리키면 선택한 기간에 사용된 정확한 활성 프로필 수를 가져올 수 있습니다.
+* 모든 인스턴스 내에서 조직에서 사용된 총 활성 프로필 수입니다. 이 섹션은 조직과 연결된 인스턴스가 여러 개 있는 경우에만 표시됩니다.
+
+* 조직에 할당된 총 활성 프로필 수입니다.
+
+아래 섹션에서는 지난 30일 동안의 활성 프로필 사용에 대한 시각적 표현을 제공합니다. 오른쪽 위 모서리에 있는 필터를 사용하여 이 시간대를 1년으로 변경할 수 있습니다. 그래프 위로 마우스를 가져가면 선택한 기간에 사용된 정확한 활성 프로필 수를 가져올 수 있습니다.
