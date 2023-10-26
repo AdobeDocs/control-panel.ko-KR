@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: cb18dbcbb3a575d88d3c13fe3f22a657caea1e7e
+source-git-commit: ebebff05669160b97de7e0d58d898ba0e3a30df1
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 41%
@@ -56,11 +56,7 @@ Campaign 컨트롤 패널에서 활성 프로필 사용을 모니터링하려면
 
 * 인스턴스에 대한 가장 최근 청구 워크플로우 실행의 타임스탬프와 함께 선택한 인스턴스에서 현재 사용된 활성 프로필 수입니다.
 
-* 모든 인스턴스 내에서 조직에서 사용된 총 활성 프로필 수입니다.
-
-  >[!NOTE]
-  >
-  >이 섹션은 조직과 연결된 인스턴스가 여러 개 있는 경우에만 표시됩니다.
+* 모든 인스턴스 내에서 조직에서 사용된 총 활성 프로필 수입니다. 이 섹션은 조직과 연결된 인스턴스가 여러 개 있는 경우에만 표시됩니다.
 
 * 조직에 할당된 총 활성 프로필 수입니다.
 
