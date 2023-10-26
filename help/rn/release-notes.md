@@ -2,10 +2,10 @@
 title: 최신 릴리스
 description: 이 페이지에는 컨트롤 패널의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
-workflow-type: ht
-source-wordcount: '98'
-ht-degree: 100%
+source-git-commit: a8e2fb9789e9755aa6b9c55019816d7e748606ec
+workflow-type: tm+mt
+source-wordcount: '148'
+ht-degree: 26%
 
 ---
 
@@ -13,22 +13,21 @@ ht-degree: 100%
 
 이 페이지에는 컨트롤 패널의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
 
-## 2023년 9월 {#september-2023}
+## 2023년 10월 {#october-2023}
 
-<table>
-<thead>
-<tr>
-<th><strong>DMARC 및 BIMI 레코드 관리</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><p>이제 컨트롤 패널에서 직접 DMARC 및 BIMI 레코드를 추가할 수 있습니다.
+**사용자 인터페이스**
 
-<ul><li><strong>DMARC 레코드</strong>는 발신자의 도메인을 인증하고 악의적인 목적으로 도메인을 무단으로 사용하는 것을 방지하는 방법을 제공합니다. <a href="../subdomains-certificates/using/dmarc.md">DMARC 레코드를 추가하는 방법 알아보기</a></li>
-<li><strong>BIMI 레코드</strong>를 사용하면 사서함 공급자의 받은 편지함에서 이메일 옆에 승인된 로고를 표시하여 브랜드 인지도와 신뢰도를 높일 수 있습니다. <a href="../subdomains-certificates/using/bimi.md">BIMI 레코드를 추가하는 방법 알아보기</a></li></ul>
-</td>
-</tr>
-</tbody>
-</table>
+* 이제 Campaign 컨트롤 패널을 추가 언어로 사용할 수 있습니다. [자세히 알아보기](../discover/using/discovering-the-interface.md#supported-languages-languages)
+
+**활성 프로필 모니터링**
+
+* 이제 조직에 대해 권한이 부여된 활성 프로필 수와, 여러 인스턴스를 사용하는 경우 모든 인스턴스 내에서 조직에서 사용된 총 프로필 수를 모니터링할 수 있습니다. [자세히 알아보기](../performance-monitoring/using/active-profiles-monitoring.md)
+
+**레코드**
+
+* 이제 여러 이메일 주소에 집계 보고서 및 오류 보고서 이메일을 받을 수 있습니다. [자세히 알아보기](../subdomains-certificates/using/dmarc.md)
+* 하위 도메인에 대한 DMARC 및 BIMI 레코드가 모두 있는 경우 변경되었습니다.
+
+   * DMARC 레코드는 삭제할 수 없습니다. 하나를 삭제하려면 먼저 BIMI 레코드를 삭제해야 합니다.
+   * DMARC 레코드를 편집할 수 있지만, &quot;없음&quot;으로 다운그레이드하는 정책은 허용되지 않으며 해당 백분율 값은 100이어야 합니다.
+
