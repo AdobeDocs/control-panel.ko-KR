@@ -2,14 +2,34 @@
 title: 2023년 릴리스 정보
 description: 이 페이지에는 2023년 Campaign 컨트롤 패널 릴리스가 모두 나열되어 있습니다.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
+source-git-commit: a8e2fb9789e9755aa6b9c55019816d7e748606ec
 workflow-type: ht
-source-wordcount: '270'
+source-wordcount: '341'
 ht-degree: 100%
 
 ---
 
 # 2023년 릴리스 정보 {#rn-2023}
+
+## 2023년 9월 {#september-2023}
+
+<table>
+<thead>
+<tr>
+<th><strong>DMARC 및 BIMI 레코드 관리</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><p>이제 컨트롤 패널에서 직접 DMARC 및 BIMI 레코드를 추가할 수 있습니다.
+
+<ul><li><strong>DMARC 레코드</strong>는 발신자의 도메인을 인증하고 악의적인 목적으로 도메인을 무단으로 사용하는 것을 방지하는 방법을 제공합니다. <a href="../subdomains-certificates/using/dmarc.md">DMARC 레코드를 추가하는 방법 알아보기</a></li>
+<li><strong>BIMI 레코드</strong>를 사용하면 사서함 공급자의 받은 편지함에 있는 이메일 옆에 승인된 로고를 표시하여 브랜드 인지도와 신뢰도를 높일 수 있습니다. <a href="../subdomains-certificates/using/bimi.md">BIMI 레코드를 추가하는 방법 알아보기</a></li></ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2023년 6월 {#june-2023}
 
