@@ -5,7 +5,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 6a4db9712d3a92d8057758eb134b0178213f5ff8
+source-git-commit: 5980b9d978e20996ac58fb730a286f0c0b92b781
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 62%
@@ -19,8 +19,6 @@ ht-degree: 62%
 >title="컨트롤 패널"
 >abstract="컨트롤 패널 홈 페이지에서는 Campaign 인스턴스에서 수행 가능한 모든 작업에 액세스할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=ko" text="컨트롤 패널 액세스"
-
-![](assets/do-not-localize/banner.png)
 
 Campaign [컨트롤 패널]에서는 각 Campaign 인스턴스의 사용량을 추적하고 설정을 관리하여 Campaign Standard와 V7/V8 제품 관리자의 작업 효율성을 높일 수 있습니다.
 
