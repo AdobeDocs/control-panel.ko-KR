@@ -6,10 +6,10 @@ user-guide-title: 컨트롤 패널 안내서
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
-workflow-type: ht
-source-wordcount: '181'
-ht-degree: 100%
+source-git-commit: 9ce224c2d7c9f7c3f7691f000b5e1a43cef0853d
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 98%
 
 ---
 
@@ -30,8 +30,9 @@ ht-degree: 100%
    + [컨트롤 패널 액세스](discover/using/accessing-control-panel.md)
    + [컨트롤 패널에 대한 권한 관리](discover/using/managing-permissions.md)
    + [컨트롤 패널 인터페이스 살펴보기](discover/using/discovering-the-interface.md)
-+ [주요 연락처 및 이벤트 모니터링](service-events/service-events.md)
-+ [이메일 경고](performance-monitoring/using/email-alerting.md)
++ 이벤트 및 이메일 경고 {#alerts-events}
+   + [주요 연락처 및 이벤트 모니터링](service-events/service-events.md)
+   + [이메일 경고](performance-monitoring/using/email-alerting.md)
 + SFTP 관리 {#sftp-management}
    + [SFTP 관리 정보](sftp/using/about-sftp-management.md)
    + [SFTP 저장소 관리](sftp/using/sftp-storage-management.md)
