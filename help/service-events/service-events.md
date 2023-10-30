@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 주요 연락처 및 이벤트 식별
 description: Adobe 인스턴스 및 주요 연락처에서 발생하는 이벤트를 식별하는 방법을 알아봅니다.
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring
+role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
-source-git-commit: 5e2a5975a4a2ced4b23a18900309fc537daf13c0
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '749'
 ht-degree: 100%
