@@ -1,8 +1,11 @@
 ---
 title: 최신 릴리스
 description: 이 페이지에는 컨트롤 패널의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
+feature: Control Panel, Release Notes
+role: Admin
+level: Experienced
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: a8e2fb9789e9755aa6b9c55019816d7e748606ec
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 26%

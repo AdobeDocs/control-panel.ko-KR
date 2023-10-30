@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: SFTP 서버에 로그인
 description: SFTP 서버에 로그인하는 방법 알아보기
-feature: Control Panel
-role: Architect
+feature: Control Panel, SFTP Management
+role: Admin
 level: Experienced
 exl-id: 713f23bf-fa95-4b8a-b3ec-ca06a4592aa3
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 6%

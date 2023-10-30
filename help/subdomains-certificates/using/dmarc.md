@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: DMARC 레코드 추가
 description: 하위 도메인에 대한 DMARC 레코드를 추가하는 방법을 알아봅니다.
-feature: Control Panel
-role: Architect
+feature: Control Panel, Subdomains and Certificates
+role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: 14c873011782eef0413fe5fdb3b1a0eb357fa3bd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 92%

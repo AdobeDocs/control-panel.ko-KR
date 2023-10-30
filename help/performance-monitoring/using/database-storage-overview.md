@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 스토리지 개요
 description: Campaign 컨트롤 패널에서 인스턴스의 데이터베이스 공간을 사용하는 다양한 Campaign 리소스를 모니터링하는 방법을 알아봅니다.
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring
+role: Admin
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 59%

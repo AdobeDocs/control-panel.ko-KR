@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 하위 도메인의 SSL 인증서 모니터링
 description: 하위 도메인의 SSL 인증서를 모니터링하는 방법 알아보기
-feature: Control Panel
-role: Architect
+feature: Control Panel, Subdomains and Certificates
+role: Admin
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 65%

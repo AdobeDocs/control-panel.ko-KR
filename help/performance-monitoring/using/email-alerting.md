@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 이메일 경고
 description: Campaign 인스턴스에 문제가 있는 경우 이메일 알림을 받는 방법을 알아봅니다
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring
+role: Admin
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
-source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 3%

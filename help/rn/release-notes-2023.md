@@ -1,9 +1,12 @@
 ---
 title: 2023년 릴리스 정보
 description: 이 페이지에는 2023년 Campaign 컨트롤 패널 릴리스가 모두 나열되어 있습니다.
+feature: Control Panel, Release Notes
+role: Admin
+level: Experienced
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: a8e2fb9789e9755aa6b9c55019816d7e748606ec
-workflow-type: ht
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 100%
 

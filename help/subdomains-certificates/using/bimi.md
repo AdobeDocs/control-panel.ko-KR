@@ -3,12 +3,12 @@ product: campaign
 solution: Campaign
 title: BIMI 레코드 추가
 description: 하위 도메인에 대한 BIMI 레코드를 추가하는 방법을 알아봅니다.
-feature: Control Panel
-role: Architect
+feature: Control Panel, Subdomains and Certificates
+role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
-source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
-workflow-type: ht
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 100%
 

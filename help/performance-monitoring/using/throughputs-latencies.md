@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 처리량 및 지연 모니터링
 description: 컨트롤 패널에서 Campaign 인스턴스 처리량 및 지연을 모니터링하는 방법을 알아봅니다.
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring
+role: Admin
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
-source-git-commit: ea738ea3764e4651e0eb7b4bcc68a9f7b3c8d1e5
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%

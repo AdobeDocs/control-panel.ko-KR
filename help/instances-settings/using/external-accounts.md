@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: MID/RT 인스턴스 추가(하이브리드 모델)
 description: 하이브리드 호스팅 모델을 사용하여 컨트롤 패널에 MID/RT 인스턴스를 추가하는 방법을 알아봅니다.
-feature: Control Panel
-role: Architect
+feature: Control Panel, Access Management
+role: Admin
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: 96d18b56f70a6a8bf0270a5c94f5ba16923d0e9f
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 100%

@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: TXT 레코드 관리
 description: 도메인 소유권 확인을 위해 TXT 레코드를 관리하는 방법을 알아봅니다.
-feature: Control Panel
-role: Architect
+feature: Control Panel, Subdomains and Certificates
+role: Admin
 level: Experienced
 exl-id: 013d6674-0988-4553-a23e-b3ec23da5323
-source-git-commit: 9548bef1500498c1778ce5854017388490320595
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 97%

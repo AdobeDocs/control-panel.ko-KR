@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 하위 도메인 모니터링
 description: 하위 도메인을 모니터링하여 이 모두 Adobe Campaign에서 작동하도록 제대로 구성되었는지 확인합니다.
-feature: Control Panel
-role: Architect
+feature: Control Panel, Subdomains and Certificates
+role: Admin
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: acf0334e894649d6b5edf0b96877c3f643894763
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 10%

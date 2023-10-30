@@ -1,11 +1,11 @@
 ---
 title: 워크플로우 모니터링
 description: 인스턴스의 문제를 방지하기 위해 주의가 필요한 특정 워크플로우 매개 변수를 모니터링하는 방법을 알아봅니다.
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring, Workflows
+role: Admin
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: 485069285709a7cc5c074f8813b322328e2840c0
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 100%

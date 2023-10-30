@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 활성 프로필 모니터링
 description: 각 Campaign 인스턴스에 대한 최신 및 과거 활성 프로필 사용 및 진화에 대한 실시간 정보를 얻는 방법을 배웁니다.
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring
+role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: cb18dbcbb3a575d88d3c13fe3f22a657caea1e7e
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 41%

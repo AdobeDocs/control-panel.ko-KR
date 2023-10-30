@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 상위 10개의 임시 리소스
 description: Campaign 데이터베이스의 워크플로우 및 게재에서 생성된 가장 큰 10개의 임시 리소스를 Campaign 컨트롤 패널에서 모니터링하는 방법을 알아봅니다.
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring
+role: Admin
 level: Experienced
 exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
-source-git-commit: b17abddf6bad7e58cb7bd825cd97322427a0b21f
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 69%

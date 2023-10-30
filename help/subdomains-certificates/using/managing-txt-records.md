@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: 하위 도메인에 대한 Google 사이트 확인 레코드 추가
 description: 도메인 소유권 확인을 위해 하위 도메인에 대한 Google 사이트 확인 기록을 추가하는 방법을 알아봅니다.
-feature: Control Panel
-role: Architect
+feature: Control Panel, Subdomains and Certificates
+role: Admin
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 73%
+ht-degree: 83%
 
 ---
 
@@ -22,9 +22,9 @@ Gmail은 현재 가장 많은 사용자를 보유한 이메일 주소 공급자 
 
 Gmail 주소를 이메일로 보내는 데 사용되는 하위 도메인에 Google TXT 레코드를 추가하려면 다음 단계를 수행합니다.
 
-1. 하위 도메인 목록에서 원하는 하위 도메인 옆에 있는 줄임표 버튼을 클릭하고 을 선택합니다 **[!UICONTROL Subdomain details]**.
+1. 하위 도메인 목록에서 원하는 하위 도메인 옆에 있는 줄임표 버튼을 클릭하고 **[!UICONTROL Subdomain details]**&#x200B;을 선택합니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL Add TXT record]** 버튼을 누른 다음 선택 **[!UICONTROL Google Site Verification]** 다음에서 **[!UICONTROL Record Type]** 드롭다운 목록입니다.
+1. **[!UICONTROL Add TXT record]** 버튼을 클릭한 후 **[!UICONTROL Record Type]** 드롭다운 목록에서 **[!UICONTROL Google Site Verification]**&#x200B;을 선택합니다.
 
 1. G Suite 관리 도구에서 생성된 값을 입력합니다. 자세한 내용은 [G Suite 관리 도움말](https://support.google.com/a/answer/183895)을 참조하십시오.
 
