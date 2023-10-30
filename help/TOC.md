@@ -6,7 +6,7 @@ user-guide-title: 컨트롤 패널 안내서
 feature: Control Panel
 role: Admin
 level: Experienced
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a892d5ff82fd0160faca2dbe76d3cd1b71073cff
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 98%
@@ -30,6 +30,7 @@ ht-degree: 98%
    + [컨트롤 패널 액세스](discover/using/accessing-control-panel.md)
    + [컨트롤 패널에 대한 권한 관리](discover/using/managing-permissions.md)
    + [컨트롤 패널 인터페이스 살펴보기](discover/using/discovering-the-interface.md)
+   + [FAQ](faq.md)
 + 이벤트 및 이메일 경고 {#alerts-events}
    + [주요 연락처 및 이벤트 모니터링](service-events/service-events.md)
    + [이메일 경고](performance-monitoring/using/email-alerting.md)
@@ -73,4 +74,3 @@ ht-degree: 98%
    + [인스턴스 세부 사항](instances-settings/using/instance-details.md)
    + [GPG 키 관리](instances-settings/using/gpg-keys-management.md)
    + [MID/RT 인스턴스 추가(하이브리드 모델)](instances-settings/using/external-accounts.md)
-+ [FAQ](faq.md)
