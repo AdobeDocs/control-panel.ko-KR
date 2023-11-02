@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 41%
+source-wordcount: '1082'
+ht-degree: 38%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe는 모든 고객에게 **공개 및 개인 키 쌍**&#x200B;을 사용하�
 >
 >항상 SSH 키와 관련된 조직 지침을 따라야 합니다. 아래 단계는 SSH 키를 만드는 방법의 한 가지 예일 뿐이며, 팀이나 내부 네트워크 그룹에 요구 사항을 전달하는 데 유용한 참조 지점으로 사용할 수 있습니다.
 
-1. **[!UICONTROL Key Management]** 탭으로 이동하여 **[!UICONTROL Add new public key]** 버튼을 클릭합니다.
+1. 다음 위치로 이동 **[!UICONTROL 키 관리]** 탭을 클릭한 다음 **[!UICONTROL 새 공개 키 추가]** 단추를 클릭합니다.
 
    ![](assets/key0.png)
 
@@ -69,17 +69,17 @@ Adobe는 모든 고객에게 **공개 및 개인 키 쌍**&#x200B;을 사용하�
    >
    >각 사용자에 대해 공개 SSH 키를 하나 이상 추가할 수 있습니다.
 
-1. 공개 키를 더 잘 관리하기 위해 각 키의 사용 기간을 설정할 수 있습니다. 이렇게 하려면 **[!UICONTROL Type]** 드롭다운 목록을 표시하고 해당 필드에 기간을 정의합니다. 공개 키 만료에 대한 자세한 내용은 [이 섹션](#expiry).
+1. 공개 키를 더 잘 관리하기 위해 각 키의 사용 기간을 설정할 수 있습니다. 이렇게 하려면 **[!UICONTROL 유형]** 드롭다운 목록을 표시하고 해당 필드에 기간을 정의합니다. 공개 키 만료에 대한 자세한 내용은 [이 섹션](#expiry).
 
    ![](assets/key_expiry.png)
 
    >[!NOTE]
    >
-   >기본적으로 **[!UICONTROL Type]** 필드가 로 설정됨 **[!UICONTROL Unlimited]**&#x200B;즉, 공개 키가 만료되지 않습니다.
+   >기본적으로 **[!UICONTROL 유형]** 필드가 로 설정됨 **[!UICONTROL 제한 없음]**&#x200B;즉, 공개 키가 만료되지 않습니다.
 
-1. 다음에서 **[!UICONTROL Comment]** 필드에서는 이 공개 키를 추가하는 이유(이유, 대상 등)를 나타낼 수 있습니다.
+1. 다음에서 **[!UICONTROL 댓글]** 필드에서는 이 공개 키를 추가하는 이유(이유, 대상 등)를 나타낼 수 있습니다.
 
-1. 다음을 채울 수 있습니다. **[!UICONTROL Public Key]** 필드에서는 공개 SSH 키를 생성해야 합니다. 사용 중인 운영 체제에 따라 아래 단계를 수행합니다.
+1. 다음을 채울 수 있습니다. **[!UICONTROL 공개 키]** 필드에서는 공개 SSH 키를 생성해야 합니다. 사용 중인 운영 체제에 따라 아래 단계를 수행합니다.
 
    **Linux 및 Mac:**
 
@@ -99,9 +99,9 @@ Adobe는 모든 고객에게 **공개 및 개인 키 쌍**&#x200B;을 사용하�
 
    >[!NOTE]
    >
-   >다음 **[!UICONTROL Public Key]** 필드는 OpenSSH 형식만 허용합니다. 공개 SSH 키 크기는 **2048비트**&#x200B;여야 합니다.
+   >다음 **[!UICONTROL 공개 키]** 필드는 OpenSSH 형식만 허용합니다. 공개 SSH 키 크기는 **2048비트**&#x200B;여야 합니다.
 
-1. **[!UICONTROL Save]** 버튼을 클릭하여 키를 만듭니다. Campaign 컨트롤 패널은 공개 키와 관련 지문을 SHA256 형식으로 암호화하여 저장합니다.
+1. 다음을 클릭합니다. **[!UICONTROL 저장]** 단추를 클릭하여 키를 만듭니다. Campaign 컨트롤 패널은 공개 키와 관련 지문을 SHA256 형식으로 암호화하여 저장합니다.
 
 >[!IMPORTANT]
 >
@@ -117,7 +117,7 @@ Adobe는 모든 고객에게 **공개 및 개인 키 쌍**&#x200B;을 사용하�
 
 ## 공개 키 관리 {#managing-public-keys}
 
-만든 공개 키가에 **[!UICONTROL Key Management]** 탭.
+만든 공개 키가에 **[!UICONTROL 키 관리]** 탭.
 
 만든 날짜 또는 편집 날짜, 항목을 만들거나 편집한 사용자 및 IP 범위 만료일을 기준으로 항목을 정렬할 수 있습니다.
 
@@ -127,17 +127,17 @@ Adobe는 모든 고객에게 **공개 및 개인 키 쌍**&#x200B;을 사용하�
 
 하나 이상의 IP 범위를 편집하려면 다음을 참조하십시오 [이 섹션](#editing-public-keys).
 
-목록에서 공개 키를 삭제하려면 해당 키를 선택한 다음 **[!UICONTROL Delete public key]** 단추를 클릭합니다.
+목록에서 공개 키를 삭제하려면 해당 키를 선택한 다음 **[!UICONTROL 공개 키 삭제]** 단추를 클릭합니다.
 
 ![](assets/control_panel_delete_key.png)
 
 ### 만료 {#expiry}
 
-다음 **[!UICONTROL Expires]** 열에는 공개 키가 만료될 때까지 남은 일수가 표시됩니다.
+다음 **[!UICONTROL 만료]** 열에는 공개 키가 만료될 때까지 남은 일수가 표시됩니다.
 
 을(를) 구독한 경우 [이메일 경고](../../performance-monitoring/using/email-alerting.md), 공개 키가 만료되기 10일 5일 전 및 만료되는 날짜에 이메일로 알림을 받게 됩니다. 경고를 받으면 다음을 수행할 수 있습니다. [공개 키 편집](#editing-public-keys) 필요한 경우 유효 기간을 연장합니다.
 
-만료된 공개 키는 7일 후 자동으로 삭제됩니다. 다음과 같이 표시됩니다. **[!UICONTROL Expired]** 다음에서 **[!UICONTROL Expires]** 열. 이 7일 기간 내:
+만료된 공개 키는 7일 후 자동으로 삭제됩니다. 다음과 같이 표시됩니다. **[!UICONTROL 만료됨]** 다음에서 **[!UICONTROL 만료]** 열. 이 7일 기간 내:
 
 * 만료된 공개 키는 더 이상 SFTP 서버에 연결하는 데 사용할 수 없습니다.
 
@@ -158,8 +158,8 @@ Adobe는 모든 고객에게 **공개 및 개인 키 쌍**&#x200B;을 사용하�
 >
 >Campaign 컨트롤 패널 2021년 10월 릴리스 이후 생성된 공개 키만 편집할 수 있습니다.
 
-1. 에서 하나 이상의 항목 선택 **[!UICONTROL Key Management]** 목록을 표시합니다.
-1. **[!UICONTROL Update public key]** 버튼을 클릭합니다.
+1. 에서 하나 이상의 항목 선택 **[!UICONTROL 키 관리]** 목록을 표시합니다.
+1. 다음을 클릭합니다. **[!UICONTROL 공개 키 업데이트]** 단추를 클릭합니다.
 
    ![](assets/control_panel_edit_key.png)
 

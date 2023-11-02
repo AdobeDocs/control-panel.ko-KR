@@ -9,8 +9,8 @@ level: Experienced
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 13%
+source-wordcount: '177'
+ht-degree: 12%
 
 ---
 
@@ -48,10 +48,10 @@ Experience Cloud 플랫폼에서 Campaign 컨트롤 패널에 액세스할 수�
 
 1. Campaign Standard 제품을 엽니다.
 
-1. 다음 항목 선택 **[!UICONTROL Administration]** 메뉴 위치: **탐색** 창.
+1. 다음 항목 선택 **[!UICONTROL 관리]** 메뉴 위치: **탐색** 창.
 
    ![](assets/control_panel_access3.png)
 
-1. 다음을 클릭합니다. **[!UICONTROL Control Panel]** 아이콘.
+1. 다음을 클릭합니다. **[!UICONTROL Campaign 컨트롤 패널]** 아이콘.
 
    ![](assets/control_panel_access4.png)

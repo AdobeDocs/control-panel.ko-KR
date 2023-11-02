@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '288'
 ht-degree: 6%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 6%
    >
    >다음과 같은 경우 **Admin Console** 링크가 표시되지 않습니다. 이는 조직에 대한 관리자 권한이 없음을 의미합니다. 조직 관리자에게 문의하여 단계를 수행합니다.
 
-1. 다음에서 **Admin Console**&#x200B;에서 원하는 캠페인 제품을 선택합니다 **[!UICONTROL Products and services]** 목록을 표시합니다.
+1. 다음에서 **Admin Console**&#x200B;에서 원하는 캠페인 제품을 선택합니다 **[!UICONTROL 제품 및 서비스]** 목록을 표시합니다.
 
    ![](assets/do-not-localize/control_panel_product-list.png)
 
@@ -46,7 +46,7 @@ ht-degree: 6%
    >
    >각 Campaign 인스턴스에 대해 서로 다른 관리자 사용자를 추가할 수 있습니다. 관리자 사용자는 자신이 속한 인스턴스의 Campaign 컨트롤 패널에 액세스합니다.
 
-1. 의 목록 **[!UICONTROL Product Profiles]** 선택한 인스턴스에 대해 가 표시됩니다. 다음을 클릭합니다. **[!UICONTROL Administrators]** 제품 프로필 을 사용하십시오.
+1. 의 목록 **[!UICONTROL 제품 프로필]** 선택한 인스턴스에 대해 가 표시됩니다. 다음을 클릭합니다. **[!UICONTROL 관리자]** 제품 프로필 을 사용하십시오.
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
@@ -54,7 +54,7 @@ ht-degree: 6%
    >
    >기본적으로 관리자 사용자는 &quot;관리자&quot; 제품 프로필에 속합니다. 조직 구성에 따라 제품 프로필의 이름을 다르게 지정할 수 있습니다(&quot;admin&quot;, &quot;admins&quot; 등).
 
-1. 관리자 사용자 목록이 표시됩니다. 다음을 클릭합니다. **[!UICONTROL Add User]** 버튼을 클릭하여 원하는 사용자를 추가합니다.
+1. 관리자 사용자 목록이 표시됩니다. 다음을 클릭합니다. **[!UICONTROL 사용자 추가]** 버튼을 클릭하여 원하는 사용자를 추가합니다.
 
    ![](assets/do-not-localize/control_panel_add_user_6.png)
 

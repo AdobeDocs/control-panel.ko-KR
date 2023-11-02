@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '285'
 ht-degree: 3%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 3%
 
 이러한 경고를 구독하려면 다음 단계를 수행합니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL Alerting notifications]** Campaign 컨트롤 패널의 모든 위치에서 사용할 수 있는 단추를 클릭한 다음 **[!UICONTROL Subscribe]**.
+1. 다음을 클릭합니다. **[!UICONTROL 경고 알림]** Campaign 컨트롤 패널의 모든 위치에서 사용할 수 있는 단추를 클릭한 다음 **[!UICONTROL 구독]**.
 
    ![](assets/subscribing.png)
 

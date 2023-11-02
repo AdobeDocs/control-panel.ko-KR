@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '749'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '780'
+ht-degree: 71%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 100%
 
 Campaign 인스턴스를 효과적으로 모니터링하려면 인스턴스에 영향을 줄 수 있는 중요한 이벤트를 추적하는 것이 중요합니다. Campaign 컨트롤 패널을 통해 새로운 릴리스, 업그레이드, 패치, 핫픽스 등과 같은 이벤트를 식별할 수 있으며 모든 요청 또는 문제에 대한 주요 Adobe 연락처 목록을 제공합니다.
 
-이러한 정보는 Campaign 컨트롤 패널 홈페이지의 **[!UICONTROL Service Calendar]** 카드에서 액세스할 수 있습니다.
+이 정보는에서 액세스할 수 있습니다. **[!UICONTROL 서비스 캘린더]** Campaign 컨트롤 패널 홈페이지의 카드입니다.
 
 ## 주요 연락처 {#key-contacts}
 
-**[!UICONTROL Key contacts]** 섹션에는 인스턴스 관련 요청이나 문제에 대해 연락할 수 있는 Adobe 직원 목록이 있습니다.
+다음 **[!UICONTROL 주요 연락처]** 섹션에는 인스턴스 관련 요청이나 문제에 대해 연락할 수 있는 Adobe 담당자 목록이 있습니다.
 
 >[!NOTE]
 >
@@ -43,15 +43,15 @@ Campaign 인스턴스를 효과적으로 모니터링하려면 인스턴스에 �
 
 * **[!UICONTROL TAM]**: 기술 계정 관리자,
 * **[!UICONTROL CSM]**: 고객 성공 관리자,
-* **[!UICONTROL Deliverability]**: 게재 작업 담당자,
-* **[!UICONTROL Transition Manager]**: Managed Service 전환 관리자(Managed Service 계정만 해당),
-* **[!UICONTROL On-boarding Specialist]**: Campaign Classic 온보딩을 지원하기 위해 계정에 배정된 전문가(Managed Services 계정만 해당).
+* **[!UICONTROL 전달성]**: 게재 작업 담당자,
+* **[!UICONTROL 전환 관리자]**: Managed Services 전환 관리자(Managed Services 계정만 해당),
+* **[!UICONTROL 온보딩 전문가]**: Campaign Classic 온보딩을 지원하기 위해 계정에 배정된 전문가(Managed Services 계정만 해당).
 
 ## 중요한 이벤트 추적 {#events}
 
-**[!UICONTROL Service Event Calendar]** 섹션에는 모든 과거/예정된 릴리스와 사용자가 Campaign 컨트롤 패널 이메일 경고에서 구독한 경고가 표시됩니다. 또한 Campaign 컨트롤 패널에서는 사용자가 미리 알림을 설정하고 선택한 인스턴스에 대한 관련 이벤트에 플래그를 지정할 수 있어 보다 체계적이고 효율적으로 관리할 수 있습니다.
+다음 **[!UICONTROL 서비스 이벤트 캘린더]** 섹션에는 모든 과거 및 예정된 릴리스와 Campaign 컨트롤 패널 이메일 경고에서 가입한 사용자에게 경고가 표시됩니다. 또한 Campaign 컨트롤 패널에서는 사용자가 미리 알림을 설정하고 선택한 인스턴스에 대한 관련 이벤트에 플래그를 지정할 수 있어 보다 체계적이고 효율적으로 관리할 수 있습니다.
 
-이벤트는 캘린더 또는 목록에 표시됩니다. 섹션의 오른쪽 상단에 있는 **[!UICONTROL Calendar]** 및 **[!UICONTROL List]** 버튼을 사용하여 두 화면을 전환할 수 있습니다.
+이벤트는 캘린더 또는 목록에 표시됩니다. 를 사용하여 두 보기 간에 전환할 수 있습니다. **[!UICONTROL 캘린더]** 및 **[!UICONTROL 목록]** 섹션의 오른쪽 상단에 있는 단추입니다.
 
 ![](assets/service-events-calendar.png)
 
@@ -67,12 +67,12 @@ Campaign 인스턴스를 효과적으로 모니터링하려면 인스턴스에 �
 
 * **릴리스**&#x200B;는 인스턴스에 대한 과거/예정된 배포를 모두 보여주며, 캘린더 화면에서 각각 회색과 파란색으로 표시됩니다. 이벤트 세부 사항에는 각 배포와 관련된 릴리스 유형이 지정되어 있습니다.
 
-   * **[!UICONTROL General availability]**: 사용 가능한 안정적인 최신 빌드.
-   * **[!UICONTROL Limited availability]**: 주문형 배포만 가능.
-   * **[!UICONTROL Release candidate]**: 엔지니어링 유효성 검사. 프로덕션 교정을 기다리는 중입니다.
-   * **[!UICONTROL Pre release]**: 특정한 고객 요구에 대한 사전 가용성.
-   * **[!UICONTROL No longer available]**: 빌드에 중요한 문제가 없지만 버그가 추가로 수정된 새 빌드를 사용할 수 있습니다. 업그레이드가 필요합니다.
-   * **[!UICONTROL Deprecated]**: 알려진 회귀가 포함된 빌드. 빌드는 더 이상 지원되지 않습니다. 업그레이드는 필수입니다.
+   * **[!UICONTROL 일반 출시]**: 사용 가능한 안정적인 최신 빌드.
+   * **[!UICONTROL 제한된 가용성]**: 주문형 배포만 가능.
+   * **[!UICONTROL 릴리스 후보]**: 엔지니어링 유효성 검사. 프로덕션 교정을 기다리는 중입니다.
+   * **[!UICONTROL 사전 릴리스]**: 특정 고객 요구에 대한 사전 가용성.
+   * **[!UICONTROL 더 이상 사용할 수 없음]**: 빌드에 중요한 문제가 없지만 버그가 추가로 수정된 새 빌드를 사용할 수 있습니다. 업그레이드가 필요합니다.
+   * **[!UICONTROL 더 이상 사용되지 않음]**: 알려진 회귀가 포함된 빌드. 빌드는 더 이상 지원되지 않습니다. 업그레이드는 필수입니다.
 
 예정된 하나 또는 여러 이벤트에 플래그를 할당하여 추적할 수 있습니다. 이렇게 하려면 이벤트 이름 옆에 있는 타원형 버튼을 클릭하십시오.
 
@@ -88,7 +88,7 @@ Campaign 인스턴스를 효과적으로 모니터링하려면 인스턴스에 �
 
 이벤트에 대한 경고를 설정하려면 다음 단계를 수행합니다.
 
-1. 알림을 받을 이벤트 위에 마우스를 올리거나 목록 보기에서 타원 버튼을 클릭한 다음 **[!UICONTROL Set Reminder]**&#x200B;을(를) 선택합니다.
+1. 알림을 받을 이벤트 위로 마우스를 이동하거나 목록 보기에서 타원 버튼을 클릭한 다음 을 선택합니다 **[!UICONTROL 미리 알림 설정]**.
 
 1. 알림의 제목을 입력한 다음 이벤트가 발생하기 전에 알림을 받을 날짜를 선택합니다.
 
@@ -106,4 +106,4 @@ Campaign 인스턴스를 효과적으로 모니터링하려면 인스턴스에 �
    >
    >동일한 이벤트에 대해 최대 2개의 미리 알림을 설정할 수 있습니다.
 
-1. 미리 알림에 지정된 날짜에 예정된 이벤트에 대해 알리는 이메일이 전송되며 미리 알림은 자동으로 서비스 달력 메뉴의 **[!UICONTROL Reminders]** 카운트에서 제거됩니다.
+1. 미리 알림에 지정된 날짜에 예정된 이벤트에 대해 알리는 이메일이 전송되며 미리 알림은 자동으로 다음에서 제거됩니다. **[!UICONTROL 알림 메시지]** 서비스 캘린더 메뉴에서 카운트합니다.

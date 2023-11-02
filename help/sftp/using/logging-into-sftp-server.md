@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 713f23bf-fa95-4b8a-b3ec-ca06a4592aa3
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '356'
 ht-degree: 6%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 6%
 
 SFTP 서버에 연결하려면 다음 단계를 따르십시오.
 
-1. Campaign 컨트롤 패널을 실행한 다음 **[!UICONTROL Key Management]** 의 탭 **[!UICONTROL SFTP]** 카드.
+1. Campaign 컨트롤 패널을 실행한 다음 **[!UICONTROL 키 관리]** 의 탭 **[!UICONTROL SFTP]** 카드.
 
    ![](assets/sftp_card.png)
 
@@ -38,11 +38,11 @@ SFTP 서버에 연결하려면 다음 단계를 따르십시오.
 
    ![](assets/do-not-localize/connect1.png)
 
-1. 다음에서 **[!UICONTROL SSH Private Key]** 필드에 컴퓨터에 저장된 개인 키 파일을 선택합니다. 이 파일은 &quot;.pub&quot; 확장자가 없는 공개 키와 동일한 이름을 가진 텍스트 파일에 해당합니다(예: &quot;enable&quot;).
+1. 다음에서 **[!UICONTROL SSH 개인 키]** 필드에 컴퓨터에 저장된 개인 키 파일을 선택합니다. 이 파일은 &quot;.pub&quot; 확장자가 없는 공개 키와 동일한 이름을 가진 텍스트 파일에 해당합니다(예: &quot;enable&quot;).
 
    ![](assets/do-not-localize/connect2.png)
 
-   다음 **[!UICONTROL Password]** 필드는 파일의 개인 키로 자동으로 채워집니다.
+   다음 **[!UICONTROL 암호]** 필드는 파일의 개인 키로 자동으로 채워집니다.
 
    ![](assets/do-not-localize/connect3.png)
 
@@ -56,6 +56,6 @@ SFTP 서버에 연결하려면 다음 단계를 따르십시오.
    >
    >`ssh-keygen -lf <path of the privatekey>`
 
-1. 모든 정보가 채워지면 다음을 클릭합니다. **[!UICONTROL Connect]** SFTP 서버에 로그인합니다.
+1. 모든 정보가 채워지면 다음을 클릭합니다. **[!UICONTROL 연결]** SFTP 서버에 로그인합니다.
 
    ![](assets/do-not-localize/sftpconnected.png)

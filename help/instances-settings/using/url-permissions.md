@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 84%
+source-wordcount: '612'
+ht-degree: 79%
 
 ---
 
@@ -56,7 +56,7 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 
 인스턴스가 연결할 수 있는 URL을 추가하려면 다음 단계를 수행합니다.
 
-1. **[!UICONTROL Instances Settings]** 카드를 열고 **[!UICONTROL URL Permissions]** 탭에 액세스합니다.
+1. **[!UICONTROL 인스턴스 설정]** 카드를 열어 **[!UICONTROL URL 권한]** 탭에 액세스합니다.
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
    >
    >인스턴스가 연결할 수 있는 모든 외부 URL이 <b><span class="uicontrol">URL 권한</span></b> 탭에 나열됩니다. Campaign의 작동에 필요한 URL(예: 인프라의 각 요소 간 연결)은 이 목록에 포함되지 않습니다.
 
-1. 왼쪽 창에서 원하는 인스턴스를 선택하고 **[!UICONTROL Add new URL]** 버튼을 클릭합니다.
+1. 왼쪽 창에서 원하는 인스턴스를 선택하고 **[!UICONTROL 새 URL 추가]** 단추를 클릭합니다.
 
    ![](assets/add_url1.png)
 
@@ -90,7 +90,7 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 
    ![](assets/add_url_listnew.png)
 
-언제든지 URL을 선택하고 **[!UICONTROL Delete URL]** 버튼을 클릭하면 URL을 삭제할 수 있습니다.
+언제든지 URL을 선택하고 **[!UICONTROL URL 삭제]** 단추를 클릭합니다.
 
 URL을 삭제하면 인스턴스가 해당 URL을 다시 호출할 수 없습니다.
 

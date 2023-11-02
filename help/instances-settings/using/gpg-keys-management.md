@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 11%
+source-wordcount: '1232'
+ht-degree: 10%
 
 ---
 
@@ -77,9 +77,9 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 컨트롤
 
    `gpg -a --export <fingerprint>`
 
-1. 공개 키를 Campaign 컨트롤 패널에 설치하려면 **[!UICONTROL Instance settings]** 카드를 선택한 다음 **[!UICONTROL GPG keys]** 및 원하는 인스턴스를 탭합니다.
+1. 공개 키를 Campaign 컨트롤 패널에 설치하려면 **[!UICONTROL 인스턴스 설정]** 카드를 선택한 다음 **[!UICONTROL GPG 키]** 및 원하는 인스턴스를 탭합니다.
 
-1. **[!UICONTROL Install Key]** 버튼을 클릭합니다.
+1. 다음을 클릭합니다. **[!UICONTROL 설치 키]** 단추를 클릭합니다.
 
    ![](assets/gpg_install_button.png)
 
@@ -91,7 +91,7 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 컨트롤
 
    ![](assets/gpg_install_paste.png)
 
-1. **[!UICONTROL Install Key]** 버튼을 클릭합니다.
+1. 다음을 클릭합니다. **[!UICONTROL 설치 키]** 단추를 클릭합니다.
 
 공개 키가 설치되면 목록에 표시됩니다. 다음을 사용할 수 있습니다. **...** 단추를 클릭하여 다운로드하거나 지문을 복사합니다.
 
@@ -126,13 +126,13 @@ Campaign 컨트롤 패널을 사용하면 Adobe Campaign 인스턴스로 들어�
 
 Campaign 컨트롤 패널에서 키 쌍을 생성하려면 다음 단계를 수행합니다.
 
-1. 를 엽니다. **[!UICONTROL Instance settings]** 카드를 선택한 다음 **[!UICONTROL GPG keys]** 탭과 원하는 Adobe Campaign 인스턴스
+1. 를 엽니다. **[!UICONTROL 인스턴스 설정]** 카드를 선택한 다음 **[!UICONTROL GPG 키]** 탭과 원하는 Adobe Campaign 인스턴스
 
-1. **[!UICONTROL Generate Key]** 버튼을 클릭합니다.
+1. 다음을 클릭합니다. **[!UICONTROL 키 생성]** 단추를 클릭합니다.
 
    ![](assets/gpg_generate.png)
 
-1. 키 이름을 지정한 다음 **[!UICONTROL Generate Key]**. 이 이름은 Campaign 워크플로우에서 암호 해독에 사용할 키를 식별하는 데 도움이 됩니다
+1. 키 이름을 지정한 다음 **[!UICONTROL 키 생성]**. 이 이름은 Campaign 워크플로우에서 암호 해독에 사용할 키를 식별하는 데 도움이 됩니다
 
    ![](assets/gpg_generate_name.png)
 
@@ -158,21 +158,21 @@ Campaign 컨트롤 패널에서 키 쌍을 생성하려면 다음 단계를 수�
 
 ## GPG 키 모니터링
 
-인스턴스에 대해 설치 및 생성된 GPG 키에 액세스하려면 **[!UICONTROL Instance settings]** 카드를 선택한 다음 **[!UICONTROL GPG keys]** 탭.
+인스턴스에 대해 설치 및 생성된 GPG 키에 액세스하려면 **[!UICONTROL 인스턴스 설정]** 카드를 선택한 다음 **[!UICONTROL GPG 키]** 탭.
 
 ![](assets/gpg_list.png)
 
 이 목록에는 인스턴스에 대해 설치되고 생성된 모든 암호화 및 암호 해독 GPG 키가 각 키에 대한 세부 정보와 함께 표시됩니다.
 
-* **[!UICONTROL Name]**: 키를 설치하거나 생성할 때 정의된 이름입니다.
-* **[!UICONTROL Use case]**: 이 열은 키의 사용 사례를 지정합니다.
+* **[!UICONTROL 이름]**: 키를 설치하거나 생성할 때 정의된 이름입니다.
+* **[!UICONTROL 사용 사례]**: 이 열은 키의 사용 사례를 지정합니다.
 
   ![](assets/gpg_icon_encrypt.png): 데이터 암호화를 위해 키가 설치되었습니다.
 
   ![](assets/gpg_icon_decrypt.png): 데이터 암호 해독을 허용하기 위한 키가 생성되었습니다.
 
-* **[!UICONTROL Fingerprint]**: 키의 지문입니다.
-* **[!UICONTROL Expires]**: 키의 만료 날짜입니다. Campaign 컨트롤 패널은 주요 만료 날짜가 다가옴에 따라 시각적 표시를 제공합니다.
+* **[!UICONTROL 지문]**: 키의 지문입니다.
+* **[!UICONTROL 만료]**: 키의 만료 날짜입니다. Campaign 컨트롤 패널은 주요 만료 날짜가 다가옴에 따라 시각적 표시를 제공합니다.
 
    * 30일 전에 긴급(빨간색)이 표시됩니다.
    * 경고(노란색)는 60일 전에 표시됩니다.
@@ -182,7 +182,7 @@ Campaign 컨트롤 패널에서 키 쌍을 생성하려면 다음 단계를 수�
   >
   >Campaign 컨트롤 패널은 이메일 알림을 보내지 않습니다.
 
-가장 좋은 방법은 더 이상 필요하지 않은 키를 제거하는 것입니다. 이렇게 하려면 **...** 버튼을 누른 다음 선택 **[!UICONTROL Delete Key].**.
+가장 좋은 방법은 더 이상 필요하지 않은 키를 제거하는 것입니다. 이렇게 하려면 **...** 버튼을 누른 다음 선택 **[!UICONTROL 키 삭제].**.
 
 ![](assets/gpg_delete.png)
 

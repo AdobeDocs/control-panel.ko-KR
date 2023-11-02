@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 75%
+source-wordcount: '536'
+ht-degree: 71%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 75%
 
 인스턴스에 연결된 서버 관련 정보를 확인하려면 다음 단계를 수행합니다.
 
-1. **[!UICONTROL Instances Settings]** 카드를 열고 **[!UICONTROL Instance Details]** 탭에 액세스합니다.
+1. **[!UICONTROL 인스턴스 설정]** 카드를 열어 **[!UICONTROL 인스턴스 세부 사항]** 탭에 액세스합니다.
 
    >[!NOTE]
    >
@@ -62,10 +62,10 @@ ht-degree: 75%
 
 제공되는 정보는 다음과 같습니다.
 
-* **[!UICONTROL Type]**: 서버 유형입니다. 가능한 값은 MKT(마케팅), MID(중간 소싱), RT(메시지 센터/실시간 메시징)입니다.
-* **[!UICONTROL Name]**: 서버 이름입니다.
-* **[!UICONTROL Build:]**: 서버에 설치된 빌드 버전입니다.
-* **[!UICONTROL Upgrade info]**: 이 열에는 서버 업데이트가 필요한지 여부가 표시됩니다.
+* **[!UICONTROL 유형]**: 서버 유형입니다. 가능한 값은 MKT(마케팅), MID(중간 소싱), RT(메시지 센터/실시간 메시징)입니다.
+* **[!UICONTROL 이름]**: 서버 이름입니다.
+* **[!UICONTROL 빌드:]** 서버에 설치된 빌드 버전.
+* **[!UICONTROL 업그레이드 정보]**: 이 열에는 서버 업데이트가 필요한지 여부가 표시됩니다.
    * 녹색: 서버가 최신 상태이므로 업그레이드할 필요가 없습니다.
    * 노랑: 업그레이드를 고려해야 합니다. 최신 기능과 수정 사항이 설치되어 있지 않습니다.
    * 빨강: 최대한 빨리 업그레이드해야 합니다. 새 기능이 설치되어 있지 않아 서버 성능이 최적 상태가 아닐 수 있습니다.

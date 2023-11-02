@@ -9,8 +9,8 @@ level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 10%
+source-wordcount: '154'
+ht-degree: 9%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 10%
 
 이 모두 Adobe Campaign에서 작동하도록 제대로 구성되었는지 확인하려면 하위 도메인을 모니터링해야 합니다.
 
-각 프로덕션 인스턴스의 하위 도메인 목록은 **[!UICONTROL Subdomains & Certificates]** 카드.
+각 프로덕션 인스턴스의 하위 도메인 목록은 **[!UICONTROL 하위 도메인 및 인증서]** 카드.
 
-다음 **[!UICONTROL Last verification]** 열은 하위 도메인이 마지막으로 확인된 시기를 나타냅니다. 다음을 클릭하여 언제든지 확인을 시작할 수 있습니다. **...** / **[!UICONTROL Verify subdomain]** 단추를 클릭합니다.
+다음 **[!UICONTROL 마지막 확인]** 열은 하위 도메인이 마지막으로 확인된 시기를 나타냅니다. 다음을 클릭하여 언제든지 확인을 시작할 수 있습니다. **...** / **[!UICONTROL 하위 도메인 확인]** 단추를 클릭합니다.
 
 ![](assets/subdomain_verification.png)
 

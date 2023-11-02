@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 39%
+source-wordcount: '1080'
+ht-degree: 35%
 
 ---
 
@@ -52,8 +52,8 @@ CIDR의 구문에는 IP 주소, &#39;/&#39; 문자, 십진수가 차례로 포�
 
 허용 목록에 IP 범위를 추가하려면 다음 단계를 수행합니다.
 
-1. **[!UICONTROL SFTP]** 카드를 열고 **[!UICONTROL IP Allow Listing]** 탭을 선택합니다.
-1. 허용 목록의 IP 주소 목록이 각 인스턴스에 대해 표시됩니다. 왼쪽 목록에서 원하는 인스턴스를 선택하고 **[!UICONTROL Add new IP range]** 버튼을 클릭합니다.
+1. 를 엽니다. **[!UICONTROL SFTP]** 카드를 선택한 다음 **[!UICONTROL IP 허용 목록]** 탭.
+1. 허용 목록의 IP 주소 목록이 각 인스턴스에 대해 표시됩니다. 왼쪽 목록에서 원하는 인스턴스를 선택하고 **[!UICONTROL 새 IP 범위 추가]** 단추를 클릭합니다.
 
    ![](assets/control_panel_add_range.png)
 
@@ -75,20 +75,20 @@ CIDR의 구문에는 IP 주소, &#39;/&#39; 문자, 십진수가 차례로 포�
 
    >[!NOTE]
    >
-   >에는 다음 특수 문자가 허용됩니다. **[!UICONTROL Label]** 필드:
+   >에는 다음 특수 문자가 허용됩니다. **[!UICONTROL 레이블]** 필드:
    > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
 
-1. IP 허용 목록을 더 잘 관리하기 위해 각 IP 범위의 가용성 기간을 설정할 수 있습니다. 이렇게 하려면 **[!UICONTROL Type]** 드롭다운 목록을 표시하고 해당 필드에 기간을 정의합니다. IP 범위 만료에 대한 자세한 내용은 [이 섹션](#expiry).
+1. IP 허용 목록을 더 잘 관리하기 위해 각 IP 범위의 가용성 기간을 설정할 수 있습니다. 이렇게 하려면 **[!UICONTROL 유형]** 드롭다운 목록을 표시하고 해당 필드에 기간을 정의합니다. IP 범위 만료에 대한 자세한 내용은 [이 섹션](#expiry).
 
    ![](assets/control_panel_add_range5.png)
 
    >[!NOTE]
    >
-   >기본적으로 **[!UICONTROL Type]** 필드가 로 설정됨 **[!UICONTROL Unlimited]**: IP 범위가 만료되지 않음을 의미합니다.
+   >기본적으로 **[!UICONTROL 유형]** 필드가 로 설정됨 **[!UICONTROL 제한 없음]**: IP 범위가 만료되지 않음을 의미합니다.
 
-1. 다음에서 **[!UICONTROL Comment]** 필드에서는 이 IP 범위를 허용하는 이유(이유, 대상 등)를 나타낼 수 있습니다.
+1. 다음에서 **[!UICONTROL 댓글]** 필드에서는 이 IP 범위를 허용하는 이유(이유, 대상 등)를 나타낼 수 있습니다.
 
-1. **[!UICONTROL Save]** 버튼을 클릭합니다. 허용 목록에 추가된 IP 범위는 다음과 같이 표시됩니다. **[!UICONTROL Pending]** 요청이 완전히 처리될 때까지(몇 초만 소요될 수 있음).
+1. 다음을 클릭합니다. **[!UICONTROL 저장]** 단추를 클릭합니다. 허용 목록에 추가된 IP 범위는 다음과 같이 표시됩니다. **[!UICONTROL 보류 중]** 요청이 완전히 처리될 때까지(몇 초만 소요될 수 있음).
 
    ![](assets/control_panel_add_range6.png)
 
@@ -98,7 +98,7 @@ CIDR의 구문에는 IP 주소, &#39;/&#39; 문자, 십진수가 차례로 포�
 
 ## IP 범위 관리 {#managing-ip-ranges}
 
-생성하는 IP 범위는에 표시됩니다 **[!UICONTROL IP Allow Listing]** 탭.
+생성하는 IP 범위는에 표시됩니다 **[!UICONTROL IP 허용 목록]** 탭.
 
 만든 날짜 또는 편집 날짜, 항목을 만들거나 편집한 사용자 및 IP 범위 만료일을 기준으로 항목을 정렬할 수 있습니다.
 
@@ -108,17 +108,17 @@ CIDR의 구문에는 IP 주소, &#39;/&#39; 문자, 십진수가 차례로 포�
 
 하나 이상의 IP 범위를 편집하려면 다음을 참조하십시오 [이 섹션](#editing-ip-ranges).
 
-허용 목록에서 하나 이상의 IP 범위를 삭제하려면 해당 범위를 선택한 다음 **[!UICONTROL Delete IP range]** 단추를 클릭합니다.
+허용 목록에서 하나 이상의 IP 범위를 삭제하려면 해당 범위를 선택한 다음 **[!UICONTROL IP 범위 삭제]** 단추를 클릭합니다.
 
 ![](assets/control_panel_delete_range.png)
 
 ### 만료 {#expiry}
 
-다음 **[!UICONTROL Expires]** 열에는 IP 범위가 만료될 때까지 남은 일수가 표시됩니다.
+다음 **[!UICONTROL 만료]** 열에는 IP 범위가 만료될 때까지 남은 일수가 표시됩니다.
 
 을(를) 구독한 경우 [이메일 경고](../../performance-monitoring/using/email-alerting.md), IP 범위가 만료되기 10일 5일 전 및 만료되는 날짜에 이메일로 알림을 받게 됩니다. 경고를 받으면 다음을 수행할 수 있습니다. [ip 범위 편집](#editing-ip-ranges) 필요한 경우 유효 기간을 연장합니다.
 
-만료된 IP 범위는 7일 후 자동으로 삭제됩니다. 다음과 같이 표시됩니다. **[!UICONTROL Expired]** 다음에서 **[!UICONTROL Expires]** 열. 이 7일 기간 내:
+만료된 IP 범위는 7일 후 자동으로 삭제됩니다. 다음과 같이 표시됩니다. **[!UICONTROL 만료됨]** 다음에서 **[!UICONTROL 만료]** 열. 이 7일 기간 내:
 
 * 만료된 IP 범위는 더 이상 SFTP 서버에 액세스하는 데 사용할 수 없습니다.
 
@@ -143,9 +143,9 @@ IP 범위를 편집하려면 아래 단계를 따르십시오.
 
 <!--Edition is not available for IP ranges that have been created before the Control Panel October 2021 release.-->
 
-1. 에서 IP 범위를 하나 이상 선택합니다. **[!UICONTROL IP Allow Listing]** 목록을 표시합니다.
+1. 에서 IP 범위를 하나 이상 선택합니다. **[!UICONTROL IP 허용 목록]** 목록을 표시합니다.
 
-1. **[!UICONTROL Update IP range]** 버튼을 클릭합니다.
+1. 다음을 클릭합니다. **[!UICONTROL IP 범위 업데이트]** 단추를 클릭합니다.
 
    ![](assets/control_panel_edit_range.png)
 
@@ -161,7 +161,7 @@ IP 범위를 편집하려면 아래 단계를 따르십시오.
 
 ## 변경 사항 모니터링 {#monitoring-changes}
 
-다음 **[!UICONTROL Job Logs]** Campaign 컨트롤 패널 홈 페이지에서는 허용 목록의 IP 주소에 대한 모든 변경 사항을 추적하고 모니터링할 수 있습니다.
+다음 **[!UICONTROL 작업 로그]** Campaign 컨트롤 패널 홈 페이지에서는 허용 목록의 IP 주소에 대한 모든 변경 사항을 추적하고 모니터링할 수 있습니다.
 
 컨트롤 패널 인터페이스에 대한 자세한 내용은 [이 섹션](../../discover/using/discovering-the-interface.md)을 참조하십시오.
 

@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '555'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 79%
 
 ---
 
@@ -53,11 +53,11 @@ ht-degree: 100%
 >
 >컨트롤 패널에 액세스하는 데 문제가 발생하는 경우 마케팅 인스턴스가 [조직 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)와 아직 매핑되지 않았을 수 있습니다. 이 설정을 완료하고 계속 진행하려면 고객 지원 센터에 문의하십시오. 연결에 성공하면 컨트롤 패널 홈 페이지가 표시됩니다.
 
-컨트롤 패널 기능에 액세스하려면 **[!UICONTROL Instances Settings]** 카드에 MID/RT 인스턴스 정보를 제공해야 합니다. 이렇게 하려면 아래 단계를 수행합니다.
+컨트롤 패널 기능에 액세스하려면 **[!UICONTROL 인스턴스 설정]** 카드. 이렇게 하려면 아래 단계를 수행합니다.
 
-1. **[!UICONTROL Instances Settings]** 카드에서 **[!UICONTROL External Accounts]** 탭을 선택합니다.
+1. 다음에서 **[!UICONTROL 인스턴스 설정]** 카드를 선택한 다음 **[!UICONTROL 외부 계정]** 탭.
 
-1. 드롭다운 목록에서 원하는 마케팅 인스턴스를 선택하고 **[!UICONTROL Add new URL]**&#x200B;을(를) 클릭합니다.
+1. 드롭다운 목록에서 원하는 마케팅 인스턴스를 선택하고 **[!UICONTROL 새 URL 추가]**.
 
    ![](assets/external-account-addbutton.png)
 
@@ -65,17 +65,17 @@ ht-degree: 100%
 
    ![](assets/external-account-add.png)
 
-   * **[!UICONTROL URL]**: 인스턴스의 URL입니다. **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** 메뉴의 Campaign 클라이언트 콘솔에 있습니다.
+   * **[!UICONTROL URL]**: 인스턴스의 URL입니다. Campaign 클라이언트 콘솔의 **[!UICONTROL 관리]** > **[!UICONTROL 플랫폼]** > **[!UICONTROL 외부 계정]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
      ![](assets/external-account-url.png)
 
-   * **[!UICONTROL Operator]** / **[!UICONTROL Password]**: Adobe 관리자가 초기 프로비저닝 후 제공한 운영자의 자격 증명입니다.
+   * **[!UICONTROL 연산자]** / **[!UICONTROL 암호]**: Adobe 관리자가 초기 프로비저닝 후 제공한 운영자의 자격 증명입니다.
 
      >[!NOTE]
      >
      >이러한 세부 사항을 사용할 수 없는 경우 고객 지원 센터에 문의하십시오.
 
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 확인합니다.
+1. 클릭 **[!UICONTROL 저장]** 확인할 수 있습니다.
 
 MID/RT URL을 추가할 때 URL의 정확성을 확인하기 위해 비동기 프로세스가 트리거됩니다. 이 작업은 몇 분 정도 걸릴 수 있습니다. MID/RT 인스턴스 URL의 유효성을 검사할 때까지 작업이 보류 상태로 유지됩니다. 유효성 검사가 완료되면 컨트롤 패널 기본 기능에 액세스할 수 있습니다.
 
@@ -85,7 +85,7 @@ MID/RT URL을 추가할 때 URL의 정확성을 확인하기 위해 비동기 �
 
 ![](assets/external-account-edit.png)
 
-**[!UICONTROL External Accounts]** 탭에서 수행되는 모든 작업을 **[!UICONTROL Job Logs]**&#x200B;의 MID/RT 인스턴스 URL에서 모니터링할 수 있습니다.
+에서 수행되는 모든 작업을 모니터링할 수 있습니다. **[!UICONTROL 외부 계정]** 에서 MID/RT 인스턴스 URL의 탭 **[!UICONTROL 작업 로그]**:
 
 ![](assets/external-account-logs.png)
 
@@ -93,7 +93,7 @@ MID/RT URL을 추가할 때 URL의 정확성을 확인하기 위해 비동기 �
 
 MID/RT 인스턴스 추가를 완료하면 마케팅 인스턴스가 연결할 수 있도록 허용 목록에 해당 IP 주소를 추가해야 합니다.
 
-이 작업은 **[!UICONTROL Instances Settings]** 카드의 **[!UICONTROL IP Allow Listing]** 탭에서 수행할 수 있습니다. [허용 목록에 IP 주소를 추가하는 방법 알아보기](ip-allow-listing-instance-access.md)
+이 작업은 다음에서 수행할 수 있습니다. **[!UICONTROL IP 허용 목록]** 의 탭 **[!UICONTROL 인스턴스 설정]** 카드. [허용 목록에 IP 주소를 추가하는 방법 알아보기](ip-allow-listing-instance-access.md)
 
 완료되면 MID/RT 인스턴스에서 컨트롤 패널 기능을 사용할 수 있습니다.
 

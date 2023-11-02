@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 100%
+source-wordcount: '795'
+ht-degree: 83%
 
 ---
 
@@ -34,17 +34,17 @@ DMARC 구현에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내
 
 하위 도메인에 대한 DMARC 레코드를 추가하려면 다음 단계를 수행하십시오.
 
-1. 하위 도메인 목록에서 원하는 하위 도메인 옆에 있는 줄임표 버튼을 클릭하고 **[!UICONTROL Subdomain details]**&#x200B;을 선택합니다.
+1. 하위 도메인 목록에서 원하는 하위 도메인 옆에 있는 줄임표 버튼을 클릭하고 을 선택합니다 **[!UICONTROL 하위 도메인 세부 정보]**.
 
-1. **[!UICONTROL Add TXT record]** 버튼을 클릭한 다음 **[!UICONTROL Record Type]** 드롭다운 목록에서 **[!UICONTROL DMARC]**&#x200B;을 선택합니다.
+1. 다음을 클릭합니다. **[!UICONTROL TXT 레코드 추가]** 버튼을 누른 다음 선택 **[!UICONTROL DMARC]** 다음에서 **[!UICONTROL 레코드 유형]** 드롭다운 목록입니다.
 
    ![](assets/dmarc-add.png)
 
-1. 이메일 중 하나가 실패할 경우 수신자 서버가 따라야 하는 **[!UICONTROL Policy Type]**&#x200B;을 선택합니다. 사용 가능한 정책 유형은 다음과 같습니다.
+1. 다음을 선택합니다. **[!UICONTROL 정책 유형]** 이메일 중 하나가 실패하면 수신자 서버가 따라야 합니다. 사용 가능한 정책 유형은 다음과 같습니다.
 
-   * **[!UICONTROL None]**,
-   * **[!UICONTROL Quarantine]**(스팸 폴더 배치),
-   * **[!UICONTROL Reject]**(이메일 차단).
+   * **[!UICONTROL 없음]**,
+   * **[!UICONTROL 격리]** (스팸 폴더 배치),
+   * **[!UICONTROL 거부]** (이메일을 차단합니다).
 
    모범 사례로서, DMARC의 잠재적 영향에 대한 DMARC 이해를 도우면서 DMARC 정책을 p=none에서 p=quarantine, p=reject로 단계적으로 확대하여 DMARC 구현을 천천히 롤아웃하는 것이 좋습니다.
 
@@ -73,15 +73,15 @@ DMARC 구현에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내
 
    ![](assets/dmarc-add2.png)
 
-1. DMARC 보고서는 24시간마다 전송됩니다. **[!UICONTROL Reporting Interval]** 필드에서 보고서 전송 빈도를 변경할 수 있습니다. 최소 인증 간격은 1시간이지만 최대 인증 값은 2,190시간(즉, 3개월)입니다.
+1. DMARC 보고서는 24시간마다 전송됩니다. 에서 보고서 전송 빈도를 변경할 수 있습니다. **[!UICONTROL 보고 간격]** 필드. 최소 인증 간격은 1시간이지만 최대 인증 값은 2,190시간(즉, 3개월)입니다.
 
-1. **SPF** 및 **[!UICONTROL DKIM Identifier Alignment]** 필드에서 이메일에 대한 SPF 및 DKIM 인증을 확인하는 동안 수신자 서버가 얼마나 엄격해야 하는지 지정합니다.
+1. 다음에서 **SPF** 및 **[!UICONTROL DKIM 식별자 정렬]** 필드에 이메일에 대한 SPF 및 DKIM 인증을 확인하면서 수신자 서버의 수준을 지정합니다.
 
-   * **[!UICONTROL Relaxed]** 모드: 하위 도메인에서 이메일을 보낸 경우에도 서버가 인증을 수락합니다.
-   * **[!UICONTROL Strict]** 모드는 발신자 도메인이 SPF 및 DKIM 도메인과 정확히 일치하는 경우에만 인증을 수락합니다.
+   * **[!UICONTROL 느슨한]** 모드: 하위 도메인에서 이메일을 보낸 경우에도 서버가 인증을 수락합니다.
+   * **[!UICONTROL 엄격함]** 발신자 도메인이 SPF 및 DKIM 도메인과 정확히 일치하는 경우에만 모드가 인증을 수락합니다.
 
    `http://www.luma.com` 도메인으로 작업한다고 가정해 보겠습니다. “완화” 모드에서는 `marketing.luma.com` 하위 도메인에서 오는 이메일이 서버에 의해 승인되지만 “엄격” 모드에서는 거부됩니다.
 
-1. DMARC 레코드 생성을 확인하려면 **[!UICONTROL Add]**&#x200B;을 클릭하십시오.
+1. 클릭 **[!UICONTROL 추가]** DMARC 레코드 만들기를 확인합니다.
 
 DMARC 레코드 생성이 처리되면(약 5분) 하위 도메인의 세부 정보 화면에 표시됩니다. [하위 도메인의 TXT 레코드를 모니터링하는 방법 알아보기](gs-txt-records.md#monitor)

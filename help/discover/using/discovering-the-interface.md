@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 100%
+source-wordcount: '226'
+ht-degree: 91%
 
 ---
 
@@ -26,19 +26,19 @@ ht-degree: 100%
 
 ## 작업 로그 {#job-logs}
 
-오른쪽 상단의 **[!UICONTROL Job Logs]** 버튼을 사용하면 조직의 사용자가 수행한 모든 변경 사항을 감사할 수 있습니다.
+오른쪽 상단의 **[!UICONTROL 작업 로그]** 버튼을 사용하면 조직의 사용자가 수행한 모든 변경 사항을 감사할 수 있습니다.
 
 ![](assets/control_panel_interface2.png)
 
 자세한 내용을 보려면 목록의 요소를 클릭하십시오.
 
-**[!UICONTROL Open]** 버튼을 사용하면 변경을 수행한 [컨트롤 패널] 탭에 직접 액세스할 수 있습니다.
+**[!UICONTROL 열기]** 버튼을 사용하면 변경된 제어판 탭에 직접 액세스할 수 있습니다.
 
 ![](assets/control_panel_logdetails.png)
 
 ## 도움말 리소스 {#help-resources}
 
-**[!UICONTROL Help Resources]** 섹션에서는 [컨트롤 패널] 및 Campaign 제품을 사용하는 데 도움이 되는 설명서를 제공합니다. 망설일 필요 없이 살펴보십시오.
+다음 **[!UICONTROL 도움말 리소스]** 섹션에서는 Campaign 컨트롤 패널 및 캠페인 제품을 사용하는 데 도움이 되는 유용한 설명서를 제공합니다. 망설일 필요 없이 살펴보십시오.
 
 ![](assets/helpresources.png)
 

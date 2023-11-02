@@ -9,8 +9,8 @@ level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '439'
+ht-degree: 93%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 * 해당 워크플로우는 Campaign v7/v8의 [“활성 과금 프로필 수”](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ko) 워크플로우입니다.
 
 
-[컨트롤 패널]에서 활성 프로필 사용량을 모니터링하려면 **[!UICONTROL Performance Monitoring]** 카드 > **[!UICONTROL Active Profiles]** 탭으로 이동하여 **[!UICONTROL Instance List]**&#x200B;에서 원하는 인스턴스를 선택합니다.
+Campaign 컨트롤 패널에서 활성 프로필 사용을 모니터링하려면 **[!UICONTROL 성능 모니터링]** 카드 > **[!UICONTROL 활성 프로필]** 을 누르고 원하는 인스턴스를 선택합니다 **[!UICONTROL 인스턴스 목록]**.
 
 활성 프로필 사용량에 대한 정보가 표시됩니다.
 

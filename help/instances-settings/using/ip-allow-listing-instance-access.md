@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 84%
+source-wordcount: '830'
+ht-degree: 68%
 
 ---
 
@@ -55,11 +55,11 @@ IP 주소를 허용 목록에 추가하고 나면 사용자가 인스턴스에 �
 
 >[!NOTE]
 >
->다음과 같은 경우 **[!UICONTROL Instance Settings]** Campaign 컨트롤 패널의 홈페이지에 카드가 표시되지 않습니다. 즉, [조직 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko) Adobe Campaign v7/v8 인스턴스와 연결되어 있지 않습니다.
+>다음과 같은 경우 **[!UICONTROL 인스턴스 설정]** Campaign 컨트롤 패널의 홈페이지에 카드가 표시되지 않습니다. 즉, [조직 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko) Adobe Campaign v7/v8 인스턴스와 연결되어 있지 않습니다.
 
 허용 목록에 IP 주소를 추가하려면 다음 단계를 따르십시오.
 
-1. **[!UICONTROL Instances Settings card]**&#x200B;을(를) 열어 허용 목록에 IP 추가 탭에 액세스한 다음 **[!UICONTROL Add new IP Range]**&#x200B;을(를) 클릭합니다.
+1. 를 엽니다. **[!UICONTROL 인스턴스 설정 카드]** ip 허용 목록 탭에 액세스한 다음 **[!UICONTROL 새 IP 범위 추가]**.
 
 
 
@@ -69,8 +69,8 @@ IP 주소를 허용 목록에 추가하고 나면 사용자가 인스턴스에 �
 
    ![](assets/ip_whitelist_add1.png)
 
-   * **[!UICONTROL Instance(s)]**: IP 주소가 연결할 수 있는 인스턴스입니다. 여러 인스턴스를 동시에 조작할 수 있습니다. 예를 들어 같은 단계를 통해 프로덕션 인스턴스와 단계 인스턴스 둘 다에서 IP를 허용 목록에 추가할 수 있습니다.
-   * **[!UICONTROL IP Range]**: 허용 목록에 추가할 IP 범위인 CIDR 형식입니다. IP 범위는 허용 목록의 기존 범위와 겹칠 수 없습니다. IP 범위가 겹치는 경우에는 겹치는 IP가 포함된 범위를 먼저 삭제하십시오.
+   * **[!UICONTROL 인스턴스]**: IP 주소가 연결할 수 있는 인스턴스입니다. 여러 인스턴스를 동시에 조작할 수 있습니다. 예를 들어 같은 단계를 통해 프로덕션 인스턴스와 단계 인스턴스 둘 다에서 IP를 허용 목록에 추가할 수 있습니다.
+   * **[!UICONTROL IP 범위]**: 허용 목록에 추가할 IP 범위인 CIDR 형식입니다. IP 범위는 허용 목록의 기존 범위와 겹칠 수 없습니다. IP 범위가 겹치는 경우에는 겹치는 IP가 포함된 범위를 먼저 삭제하십시오.
 
    >[!NOTE]
    >
@@ -78,14 +78,14 @@ IP 주소를 허용 목록에 추가하고 나면 사용자가 인스턴스에 �
    >
    >소유한 IP 범위를 CIDR 형식으로 변환하는 데 사용할 수 있는 무료 온라인 도구를 인터넷에서 검색할 수 있습니다.
 
-   * **[!UICONTROL Label]**: 허용 목록에 표시할 레이블입니다.
-   * **[!UICONTROL Name]**: 액세스 유형, 인스턴스(외부 API 연결의 경우) 및 IP 주소의 이름은 고유해야 합니다.
+   * **[!UICONTROL 레이블]**: 허용 목록에 표시할 레이블입니다.
+   * **[!UICONTROL 이름]**: 액세스 유형, 인스턴스(외부 API 연결의 경우) 및 IP 주소의 이름은 고유해야 합니다.
 
 1. IP 주소에 부여할 액세스 권한 유형을 지정합니다.
 
-   * **[!UICONTROL Campaign Console Access]**: IP 주소가 Campaign 클라이언트 콘솔에 연결할 수 있습니다. 마케팅 인스턴스만 콘솔에 액세스하도록 설정할 수 있습니다. MID 및 RT 인스턴스는 콘솔에 액세스할 수 없으므로 콘솔에 액세스하도록 설정되지 않습니다.
-   * **[!UICONTROL AEM connection]**: 지정한 AEM IP 주소가 마케팅 인스턴스에 연결할 수 있습니다.
-   * **[!UICONTROL External API connection]**: 지정한 IP 주소를 사용하는 외부 API가 마케팅 및/또는 메시지 센터(RT) 인스턴스에 연결할 수 있습니다. RT 인스턴스는 콘솔에 연결하도록 설정되지 않습니다.
+   * **[!UICONTROL Campaign 콘솔 액세스]**: IP 주소가 Campaign 클라이언트 콘솔에 연결할 수 있습니다. 마케팅 인스턴스만 콘솔에 액세스하도록 설정할 수 있습니다. MID 및 RT 인스턴스는 콘솔에 액세스할 수 없으므로 콘솔에 액세스하도록 설정되지 않습니다.
+   * **[!UICONTROL AEM 연결]**: 지정한 AEM IP 주소가 마케팅 인스턴스에 연결할 수 있습니다.
+   * **[!UICONTROL 외부 API 연결]**: 지정한 IP 주소를 사용하는 외부 API가 마케팅 및/또는 메시지 센터(RT) 인스턴스에 연결할 수 있습니다. RT 인스턴스는 콘솔에 연결하도록 설정되지 않습니다.
 
    >[!NOTE]
    >
@@ -93,13 +93,13 @@ IP 주소를 허용 목록에 추가하고 나면 사용자가 인스턴스에 �
 
    ![](assets/ip_whitelist_acesstype.png)
 
-1. **[!UICONTROL Save]** 버튼을 클릭합니다. IP 범위가 허용 목록에 추가됩니다.
+1. 다음을 클릭합니다. **[!UICONTROL 저장]** 단추를 클릭합니다. IP 범위가 허용 목록에 추가됩니다.
 
    <!--![](assets/ip_whitelist_added.png)-->
 
 기본적으로는 여러 IP 주소에서 Adobe Campaign 인스턴스에 액세스할 수 없습니다.
 
-허용 목록에서 하나 이상의 IP 범위를 삭제하려면 해당 범위를 선택한 다음 **[!UICONTROL Delete IP range]** 단추를 클릭합니다.
+허용 목록에서 하나 이상의 IP 범위를 삭제하려면 해당 범위를 선택한 다음 **[!UICONTROL IP 범위 삭제]** 단추를 클릭합니다.
 
 ![](assets/ip_whitelist_delete.png)
 
