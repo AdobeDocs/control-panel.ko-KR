@@ -7,10 +7,10 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 9d0686cd3bb0a037ae66b1a090c3f77d215ff61c
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 93%
+source-wordcount: '438'
+ht-degree: 85%
 
 ---
 
@@ -41,11 +41,6 @@ ht-degree: 93%
 >title="활성 프로필 모니터링 정보"
 >abstract="이 탭에서는 사용자의 Campaign 인스턴스 각각 및 조직의 최신 및 과거 활성 프로필 사용량 기록과 평가에 대하여 실시간으로 정보를 확인할 수 있습니다."
 
-활성 프로필 사용량 관련 정보는 인스턴스에서 매일 실행되는 전용 [!DNL Campaign] 기술 워크플로우를 기반으로 [컨트롤 패널]에 업데이트됩니다.
-* Campaign Standard를 위한 [“청구”](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ko) 워크플로우
-* 해당 워크플로우는 Campaign v7/v8의 [“활성 과금 프로필 수”](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ko) 워크플로우입니다.
-
-
 Campaign 컨트롤 패널에서 활성 프로필 사용을 모니터링하려면 **[!UICONTROL 성능 모니터링]** 카드 > **[!UICONTROL 활성 프로필]** 을 누르고 원하는 인스턴스를 선택합니다 **[!UICONTROL 인스턴스 목록]**.
 
 활성 프로필 사용량에 대한 정보가 표시됩니다.
@@ -65,3 +60,10 @@ Campaign 컨트롤 패널에서 활성 프로필 사용을 모니터링하려면
 * 조직에 할당된 총 활성 프로필 수.
 
 하단 섹션에서는 지난 30일 동안의 활성 프로필 사용량을 시각적으로 표시합니다. 오른쪽 위 모서리에 있는 필터를 사용하여 이 시간대를 1년으로 변경할 수 있습니다. 그래프 위에 마우스 커서를 올리면 선택한 기간에 사용한 활성 프로필의 정확한 수를 확인할 수 있습니다.
+
+활성 프로필 사용 관련 정보는 전용 을 기반으로 Campaign 컨트롤 패널에서 업데이트됩니다 [!DNL Campaign] 인스턴스에서 정기적으로 실행되는 &quot;청구&quot; 기술 워크플로우입니다.
+
+| Campaign 버전 | 기술 워크플로우 | 실행 |
+|  ---  |  ---  |  ---  |
+| Campaign Standard | [과금](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ko) | 일별 |
+| Campaign v7/v8 | [과금](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflowsadvanced-management/about-technical-workflows.html) | 월별 |
