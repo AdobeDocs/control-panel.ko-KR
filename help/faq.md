@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Adobe Experience Cloud에 처음 로그인할 때 인스턴스에 제공되는 �
 
 ### 조직 ID는 어디에서 찾을 수 있습니까?
 
-한 가지 방법은 [Adobe Experience Cloud 홈](https://experiencecloud.adobe.com/) > **[!UICONTROL 관리]**&#x200B;로 이동하는 것입니다. 관리 맨 아래에서 조직 ID를 확인할 수 있습니다 **[!UICONTROL 빠른 액세스]** 섹션. [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)에서 자세한 정보를 찾을 수 있습니다.
+한 가지 방법은 [Adobe Experience Cloud 홈](https://experiencecloud.adobe.com/) > **[!UICONTROL 관리]**&#x200B;로 이동하는 것입니다. 내 조직 ID는 관리 **[!UICONTROL 빠른 액세스]** 섹션 맨 아래에 있습니다. [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)에서 자세한 정보를 찾을 수 있습니다.
 
 **관리 콘솔**&#x200B;을 시작하여 ID를 확인할 수도 있습니다. 조직 ID는 https://adminconsole.adobe.com/xxx@AdobeOrg/overview와 같은 형태로 URL에 표시됩니다.
 
