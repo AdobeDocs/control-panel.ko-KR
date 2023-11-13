@@ -1,16 +1,16 @@
 ---
 product: campaign
 solution: Campaign
-title: Campaign 컨트롤 패널은 Adobe Campaign Standard 및/또는 Classic의 제품 관리자로서 작업의 효율성을 높이는 데 도움이 됩니다.
+title: '[컨트롤 패널]은 Adobe Campaign Standard 및/또는 Classic의 제품 관리자로서 하는 작업의 효율성을 높이는 데 도움이 됩니다.'
 description: 컨트롤 패널에 액세스하는 방법 알아보기
 feature: Control Panel, Overview
 role: Admin
 level: Experienced
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 79%
 >
 >컨트롤 패널은 관리 사용자만 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 섹션](managing-permissions.md)에 자세히 설명되어 있습니다.
 >
->Campaign v7/v8의 경우 인스턴스를 Amazon Web Services(AWS)에서 호스팅하고 최신 버전으로 업그레이드해야 합니다 [캠페인 안정적인 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses) 또는 9032 이상을 빌드합니다. [이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ko#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](../../faq.md#hosted-aws)에 설명된 단계를 수행합니다.
+>Campaign v7/v8의 경우 인스턴스를 AWS(Amazon Web Services)에서 호스팅하고 [Campaign의 안정적인 최신 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses) 또는 빌드 9032 이상으로 업그레이드해야 합니다. [이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ko#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](../../faq.md#hosted-aws)에 설명된 단계를 수행합니다.
 
 <table style="table-layout:fixed">
 <tr>
@@ -50,7 +50,7 @@ ht-degree: 79%
     <td>
         <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="조건" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>인스턴스 설정 관리</strong></a></div>
-        <em>인스턴스 설정 관리 방법을 알아봅니다(Campaign v7/v8에만 해당됨).</em>
+        <em>인스턴스 설정 관리 방법을 알아봅니다(Campaign v7/v8에만 해당).</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="조건" src="assets/do-not-localize/monitoring-performance.png"/></a>
