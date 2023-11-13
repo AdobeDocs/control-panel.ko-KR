@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 94%
 
 ## 스토리지 용량 정보 액세스 {#accessing-storage-capacity-information}
 
-액세스 권한이 있는 모든 인스턴스에서 사용하는 공간에 대한 정보는 **[!UICONTROL 스토리지]** SFTP 카드 탭 페이지를 새로 고칠 때마다 정보가 업데이트됩니다.
+액세스 권한이 있는 모든 인스턴스가 사용하는 공간에 대한 정보는 SFTP 카드의 **[!UICONTROL 스토리지]** 탭에서 확인할 수 있습니다. 페이지를 새로 고칠 때마다 정보가 업데이트됩니다.
 
 ![](assets/control_panel_space.png)
 
