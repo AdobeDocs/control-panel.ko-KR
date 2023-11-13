@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 91%
 
 ## 도움말 리소스 {#help-resources}
 
-다음 **[!UICONTROL 도움말 리소스]** 섹션에서는 Campaign 컨트롤 패널 및 캠페인 제품을 사용하는 데 도움이 되는 유용한 설명서를 제공합니다. 망설일 필요 없이 살펴보십시오.
+**[!UICONTROL 도움말 리소스]** 섹션에서는 [컨트롤 패널] 및 Campaign 제품을 사용하는 데 도움이 되는 설명서를 제공합니다. 망설일 필요 없이 살펴보십시오.
 
 ![](assets/helpresources.png)
 
