@@ -6,9 +6,9 @@ role: Admin
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ To clean paused and completed workflows, follow these steps:
 
 Monitor workflow parameters -->
 
-Adobe Campaign에서 일부 워크플로우 매개 변수는 인스턴스에 문제가 발생하지 않도록 특별히 주의를 기울여야 할 수 있습니다. Campaign 컨트롤 패널 **[!UICONTROL 저장소 개요]** 세부 정보를 사용하면 워크플로우에 대해 이러한 옵션이 활성화되어 있는지 확인할 수 있습니다.
+Adobe Campaign에서 일부 워크플로우 매개 변수는 인스턴스에 문제가 발생하지 않도록 특별히 주의를 기울여야 할 수 있습니다. 컨트롤 패널 **[!UICONTROL 스토리지 개요]** 세부 사항을 통해 이러한 옵션이 귀하의 워크플로우에 활성화되어 있는지 확인할 수 있습니다.
 
 ![](assets/wkf-monitoring-parameters.png)
 
