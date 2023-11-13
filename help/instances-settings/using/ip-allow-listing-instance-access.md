@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '830'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 68%
 
 >[!IMPORTANT]
 >
->이 기능은 Campaign v7/v8 인스턴스에서만 사용할 수 있습니다.
+>능이 기능은 Campaign v7/v8 인스턴스에서만 사용할 수 있습니다.
 
 기본적으로는 여러 IP 주소에서 Adobe Campaign 인스턴스에 액세스할 수 없습니다.
 
@@ -36,7 +36,7 @@ IP 주소를 허용 목록에 추가하지 않은 경우에는 해당 주소에�
 
 IP 주소를 허용 목록에 추가하고 나면 사용자가 인스턴스에 액세스할 수 있도록 Campaign 연산자를 만들어 IP 주소에 연결할 수 있습니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=ko#instance-settings)
 
 ## 모범 사례 {#best-practices}
 
@@ -55,11 +55,11 @@ IP 주소를 허용 목록에 추가하고 나면 사용자가 인스턴스에 �
 
 >[!NOTE]
 >
->다음과 같은 경우 **[!UICONTROL 인스턴스 설정]** Campaign 컨트롤 패널의 홈페이지에 카드가 표시되지 않습니다. 즉, [조직 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko) Adobe Campaign v7/v8 인스턴스와 연결되어 있지 않습니다.
+>컨트롤 패널의 홈 페이지에 **[!UICONTROL 인스턴스 설정]** 카드가 표시되지 않으면 [조직 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)가 Adobe Campaign v7/v8 인스턴스와 연결되어 있지 않은 것입니다.
 
 허용 목록에 IP 주소를 추가하려면 다음 단계를 따르십시오.
 
-1. 를 엽니다. **[!UICONTROL 인스턴스 설정 카드]** ip 허용 목록 탭에 액세스한 다음 **[!UICONTROL 새 IP 범위 추가]**.
+1. **[!UICONTROL 인스턴스 설정 카드]**&#x200B;를 열어 IP 허용 탭에 액세스한 다음 **[!UICONTROL 새 IP 범위 추가]**&#x200B;를 클릭합니다.
 
 
 
@@ -89,20 +89,20 @@ IP 주소를 허용 목록에 추가하고 나면 사용자가 인스턴스에 �
 
    >[!NOTE]
    >
-   >하이브리드 호스팅 모델이 있는 인스턴스를 사용하는 경우 MID 및 RT 인스턴스에 대해 &quot;외부 API 연결&quot;에서만 IP 주소를 추가할 수 있습니다.
+   >하이브리드 호스팅 모델이 있는 인스턴스를 사용하는 경우 MID 및 RT 인스턴스에 대해 “외부 API 연결”에서만 IP 주소를 추가할 수 있습니다.
 
    ![](assets/ip_whitelist_acesstype.png)
 
-1. 다음을 클릭합니다. **[!UICONTROL 저장]** 단추를 클릭합니다. IP 범위가 허용 목록에 추가됩니다.
+1. **[!UICONTROL 저장]** 버튼을 클릭합니다. IP 범위가 허용 목록에 추가됩니다.
 
    <!--![](assets/ip_whitelist_added.png)-->
 
 기본적으로는 여러 IP 주소에서 Adobe Campaign 인스턴스에 액세스할 수 없습니다.
 
-허용 목록에서 하나 이상의 IP 범위를 삭제하려면 해당 범위를 선택한 다음 **[!UICONTROL IP 범위 삭제]** 단추를 클릭합니다.
+허용 목록에서 하나 이상의 IP 범위를 삭제하려면 해당 범위를 선택한 다음 **[!UICONTROL IP 범위 삭제]** 버튼을 클릭합니다.
 
 ![](assets/ip_whitelist_delete.png)
 
 **관련 항목:**
 
-* [연산자에 보안 영역 연결](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html#linking-a-security-zone-to-an-operator)
+* [연산자에 보안 영역 연결](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html?lang=ko#linking-a-security-zone-to-an-operator)
