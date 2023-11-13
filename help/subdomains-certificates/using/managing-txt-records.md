@@ -2,15 +2,15 @@
 product: campaign
 solution: Campaign
 title: 하위 도메인에 대한 Google 사이트 확인 레코드 추가
-description: 도메인 소유권 확인을 위해 하위 도메인에 대한 Google 사이트 확인 기록을 추가하는 방법을 알아봅니다.
+description: 도메인 소유권 확인을 위해 하위 도메인에 대한 Google 사이트 확인 레코드를 추가하는 방법을 알아봅니다.
 feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -22,15 +22,15 @@ Gmail은 현재 가장 많은 사용자를 보유한 이메일 주소 공급자 
 
 Gmail 주소를 이메일로 보내는 데 사용되는 하위 도메인에 Google TXT 레코드를 추가하려면 다음 단계를 수행합니다.
 
-1. 하위 도메인 목록에서 원하는 하위 도메인 옆에 있는 줄임표 버튼을 클릭하고 을 선택합니다 **[!UICONTROL 하위 도메인 세부 정보]**.
+1. 하위 도메인 목록에서 원하는 하위 도메인 옆에 있는 줄임표 버튼을 클릭하고 **[!UICONTROL 하위 도메인 세부 사항]**&#x200B;을 선택합니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL TXT 레코드 추가]** 버튼을 누른 다음 선택 **[!UICONTROL Google 사이트 확인]** 다음에서 **[!UICONTROL 레코드 유형]** 드롭다운 목록입니다.
+1. **[!UICONTROL TXT 레코드 추가]** 버튼을 클릭한 후 **[!UICONTROL 레코드 유형]** 드롭다운 목록에서 **[!UICONTROL Google 사이트 확인]**&#x200B;을 선택합니다.
 
 1. G Suite 관리 도구에서 생성된 값을 입력합니다. 자세한 내용은 [G Suite 관리 도움말](https://support.google.com/a/answer/183895)을 참조하십시오.
 
    ![](assets/txt_addtxt.png)
 
-1. 다음을 클릭합니다. **[!UICONTROL 추가]** 단추를 클릭하여 확인합니다.
+1. **[!UICONTROL 추가]** 버튼을 클릭하여 확인합니다.
 
    ![](assets/txt_txtadded.png)
 
@@ -42,4 +42,4 @@ Gmail 주소를 이메일로 보내는 데 사용되는 하위 도메인에 Goog
 >
 >DNS 레코드 목록에서 삭제할 수 있는 레코드는 이전에 추가한 레코드(여기서는 Google TXT 레코드)뿐입니다.
 
-![](assets/do-not-localize/how-to-video.png) 이 비디오에서 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html#subdomains-and-certificates) 또는 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html#subdomains-and-certificates)를 사용하여 해당 기능 살펴보기
+![](assets/do-not-localize/how-to-video.png) 이 비디오에서 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=ko#subdomains-and-certificates) 또는 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=ko#subdomains-and-certificates)를 사용하여 해당 기능 살펴보기
