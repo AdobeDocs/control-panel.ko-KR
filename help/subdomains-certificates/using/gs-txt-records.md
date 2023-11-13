@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 013d6674-0988-4553-a23e-b3ec23da5323
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="cp_siteverification_add"
 >title="TXT 레코드 관리"
->abstract="TXT 레코드는 외부 소스에서 읽을 수 있는 도메인 관련 텍스트 정보를 제공하는 데 사용되는 DNS 레코드 유형입니다. 컨트롤 패널을 사용하면 하위 도메인에 세 가지 유형의 레코드를 추가할 수 있습니다. Google Site Verification, DMARC 및 BIMI 기록"
+>abstract="TXT 레코드는 외부 소스에서 읽을 수 있는 도메인 관련 텍스트 정보를 제공하는 데 사용되는 DNS 레코드 유형입니다. 컨트롤 패널을 사용하면 하위 도메인에 세 가지 유형의 레코드를 추가할 수 있습니다. Google 사이트 확인, DMARC, BIMI 레코드"
 
 ## TXT 레코드 소개 {#about}
 
