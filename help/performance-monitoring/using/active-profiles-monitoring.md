@@ -10,7 +10,7 @@ exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: 9d0686cd3bb0a037ae66b1a090c3f77d215ff61c
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 85%
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 85%
 >title="활성 프로필 모니터링 정보"
 >abstract="이 탭에서는 사용자의 Campaign 인스턴스 각각 및 조직의 최신 및 과거 활성 프로필 사용량 기록과 평가에 대하여 실시간으로 정보를 확인할 수 있습니다."
 
-Campaign 컨트롤 패널에서 활성 프로필 사용을 모니터링하려면 **[!UICONTROL 성능 모니터링]** 카드 > **[!UICONTROL 활성 프로필]** 을 누르고 원하는 인스턴스를 선택합니다 **[!UICONTROL 인스턴스 목록]**.
+[컨트롤 패널]에서 활성 프로필 사용량을 모니터링하려면 **[!UICONTROL 성능 모니터링]** 카드 > **[!UICONTROL 활성 프로필]** 탭으로 이동하여 **[!UICONTROL 인스턴스 목록]**&#x200B;에서 원하는 인스턴스를 선택합니다.
 
 활성 프로필 사용량에 대한 정보가 표시됩니다.
 

@@ -10,7 +10,7 @@ exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 71%
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
->title="인스턴스 세부 사항"
+>title="인스턴스 세부 사항 정보"
 >abstract="유형, 이름, 빌드 정보, 가능한 업그레이드 관련 권장 사항 등 Adobe Campaign 인스턴스의 세부 사항 보여줍니다."
 
-## 인스턴스 세부 사항 {#about-instance-details}
+## 인스턴스 세부 사항 정보 {#about-instance-details}
 
 >[!IMPORTANT]
 >
->이 기능은 Campaign v7/v8 인스턴스에서만 사용할 수 있습니다.
+>능이 기능은 Campaign v7/v8 인스턴스에서만 사용할 수 있습니다.
 
 마케팅 활동을 유동적으로 진행하기 위해 Adobe Campaign 인스턴스 아키텍처에 서버를 여러 개 포함할 수 있습니다. 예를 들어 인스턴스를 지원하는 마케팅, 실시간/메시지 센터 및 중간 소싱 서버를 포함할 수 있습니다.
 
@@ -33,12 +33,12 @@ ht-degree: 71%
 
 >[!NOTE]
 >
->성능 저하를 방지하고 Adobe Campaign v7/v8에서 제공하는 최신 기능 및 수정 사항을 활용할 수 있도록 매년 1회 이상 인스턴스를 업그레이드하는 것이 좋습니다.
+>성능 저하를 방지하고 Adobe Campaign v7/v8이 제공하는 최신 기능과 수정 사항을 활용할 수 있도록 인스턴스를 1년에 한 번 이상 업그레이드하는 것이 좋습니다.
 
 **관련 항목:**
 
-* [빌드 업그레이드 수행](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html)
-* [Adobe Campaign 업데이트](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html)
+* [빌드 업그레이드 수행](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=ko)
+* [Adobe Campaign 업데이트](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html?lang=ko)
 
 ## 인스턴스 관련 정보 검색 {#retrieving-information-about-instances}
 
@@ -48,13 +48,13 @@ ht-degree: 71%
 
    >[!NOTE]
    >
-   >Campaign 컨트롤 패널 홈 페이지에 인스턴스 설정 카드가 표시되지 않으면 조직 ID가 Adobe Campaign v7/v8 인스턴스와 연결되어 있지 않은 것입니다
+   >컨트롤 패널 홈 페이지에 인스턴스 설정 카드가 표시되지 않으면 조직 ID가 Adobe Campaign v7/v8 인스턴스와 연결되어 있지 않은 것입니다.
 
 1. 왼쪽 창에서 원하는 Campaign 인스턴스를 선택합니다.
 
    >[!NOTE]
    >
-   >모든 Campaign 인스턴스가 왼쪽 창 목록에 표시됩니다. 인스턴스 세부 사항 기능은 Campaign v7/v8 인스턴스 전용이므로 Campaign Standard 인스턴스를 선택하면 &quot;미해당 인스턴스&quot; 메시지가 표시됩니다.
+   >모든 Campaign 인스턴스가 왼쪽 창 목록에 표시됩니다. 인스턴스 세부 사항 기능은 Campaign v7/v8 인스턴스 전용이므로 Campaign Standard 인스턴스를 선택하면 “미해당 인스턴스” 메시지가 표시됩니다.
 
 1. 인스턴스에 연결된 서버가 표시됩니다.
 
@@ -63,14 +63,14 @@ ht-degree: 71%
 제공되는 정보는 다음과 같습니다.
 
 * **[!UICONTROL 유형]**: 서버 유형입니다. 가능한 값은 MKT(마케팅), MID(중간 소싱), RT(메시지 센터/실시간 메시징)입니다.
-* **[!UICONTROL 이름]**: 서버 이름입니다.
+* **[!UICONTROL 이름]**: 서버의 이름입니다.
 * **[!UICONTROL 빌드:]** 서버에 설치된 빌드 버전.
-* **[!UICONTROL 업그레이드 정보]**: 이 열에는 서버 업데이트가 필요한지 여부가 표시됩니다.
+* **[!UICONTROL 업그레이드 정보]**: 이 열은 서버에 업데이트가 필요한지 알려줍니다.
    * 녹색: 서버가 최신 상태이므로 업그레이드할 필요가 없습니다.
    * 노랑: 업그레이드를 고려해야 합니다. 최신 기능과 수정 사항이 설치되어 있지 않습니다.
    * 빨강: 최대한 빨리 업그레이드해야 합니다. 새 기능이 설치되어 있지 않아 서버 성능이 최적 상태가 아닐 수 있습니다.
 
-서버 중 하나를 업그레이드해야 하는 경우의 진행 방법에 대한 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html)를 참조하십시오.
+서버 중 하나를 업그레이드해야 하는 경우의 진행 방법에 대한 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=ko)를 참조하십시오.
 
 ## 일반적인 질문 {#common-questions}
 
