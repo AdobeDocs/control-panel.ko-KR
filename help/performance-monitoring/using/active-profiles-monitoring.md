@@ -7,10 +7,10 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: 9d0686cd3bb0a037ae66b1a090c3f77d215ff61c
+source-git-commit: a9b150a4f24447d22d5c1ecff5d456ca39cb65e2
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 92%
+source-wordcount: '442'
+ht-degree: 89%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->페이스북과 트위터 채널은 고려되지 않습니다.
+>Facebook 및 X(이전의 Twitter) 채널은 고려되지 않습니다.
 
 활성 프로필에 대한 자세한 내용은 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=ko) 및 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=ko#active-profiles) 설명서를 참조하십시오.
 
