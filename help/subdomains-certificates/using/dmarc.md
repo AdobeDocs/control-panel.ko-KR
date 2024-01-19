@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '795'
-ht-degree: 100%
+source-git-commit: aacaec4e6ed7b997c0d879c4a9d4bf85ddd18cf7
+workflow-type: tm+mt
+source-wordcount: '836'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,9 @@ DMARC 구현에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내
 
 * SPF 및 DKIM 레코드는 DMARC 레코드를 만들기 위한 전제 조건입니다.
 * DMARC 레코드는 전체 하위 도메인 위임을 사용하는 하위 도메인에 대해서만 추가할 수 있습니다. [하위 도메인 구성 방법에 대해 자세히 알아보기](subdomains-branding.md#subdomain-delegation-methods)
+
+  CNAME 기반 하위 도메인에 DMARC 레코드를 설정하려면 상위 도메인에서 DMARC 레코드를 구성할 수 있습니다. 이렇게 하면 CNAME을 통해 위임된 경우에도 연결된 모든 하위 도메인이 DMARC 레코드 매개 변수를 상속합니다.
+
 * 한 하위 도메인에 대해 DMARC 및 BIMI 레코드가 모두 있는 경우,
    * DMARC 레코드는 삭제할 수 없습니다. DMARC 레코드를 삭제하려면 먼저 BIMI 레코드를 삭제해야 합니다.
    * DMARC 레코드를 편집할 수는 있지만 DMARC 정책을 “없음”으로 다운그레이드할 수는 없으며 백분율 값을 “100”으로 설정해야 합니다.
