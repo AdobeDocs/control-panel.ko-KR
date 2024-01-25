@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 source-git-commit: e601f74ae9e53d3a008c55e1fd568013ca0196f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 86%
 
 BIMI(Brand Indicators for Message Identification)는 브랜드 인지도와 신뢰도를 높이기 위해 사서함 공급자의 받은 편지함에 있는 발신자의 이메일 옆에 승인된 로고를 표시할 수 있도록 하는 업계 표준입니다. DMARC 인증을 통해 발신자의 신원을 확인함으로써 이메일 스푸핑 및 피싱을 방지하는 데 도움이 되며, 악의적인 행위자가 이메일에서 합법적인 브랜드를 가장하는 것을 더 어렵게 만듭니다.
 
-주어진 하위 도메인에 대해 여러 로고를 가질 수 있습니다. 이렇게 하려면 각 로고에 대해 하나의 BIMI 레코드를 설정하고 각 레코드에 BIMI 선택기를 할당해야 합니다. [BIMI 레코드를 추가하는 방법 알아보기](#add)
+주어진 하위 도메인에 여러 로고를 사용할 수 있습니다. 이렇게 하려면 로고별로 BIMI 레코드를 하나씩 설정하고 각 레코드에 BIMI 선택기를 하나씩 할당해야 합니다. [BIMI 레코드를 추가하는 방법 알아보기](#add)
 
 BIMI 구현에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=ko)에서 확인할 수 있습니다.
 
@@ -47,7 +47,7 @@ BIMI 구현에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내�
 
    ![](assets/bimi-add.png)
 
-1. 다음 **[!UICONTROL 선택기]** 필드에서는 레코드에 대한 BIMI 선택기를 지정할 수 있습니다. BIMI 선택기는 BIMI 레코드에 지정할 수 있는 고유 식별자입니다. 이렇게 하면 주어진 하위 도메인에 대해 여러 로고를 정의할 수 있습니다.
+1. **[!UICONTROL 선택기]** 필드에서는 레코드에 대한 BIMI 선택기를 지정할 수 있습니다. BIMI 선택기는 BIMI 레코드에 할당할 수 있는 고유 식별자입니다. 이 방법으로 주어진 하위 도메인에 대해 여러 로고를 정의할 수 있습니다.
 
 1. **[!UICONTROL 회사 로고 URL]**&#x200B;에 로고가 포함된 SVG 파일의 URL을 지정합니다.
 
