@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: aacaec4e6ed7b997c0d879c4a9d4bf85ddd18cf7
-workflow-type: ht
-source-wordcount: '836'
-ht-degree: 100%
+source-git-commit: 80b9f62feb9f00758cf175762b1cf4dc26912ed8
+workflow-type: tm+mt
+source-wordcount: '885'
+ht-degree: 94%
 
 ---
 
@@ -65,6 +65,10 @@ DMARC 구현에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내
 
    * Aggregate-DMARC 보고서는 지정된 기간 동안 실패한 이메일 수와 같은 대략적인 정보를 제공합니다.
    * 포렌식 DMARC 실패 보고서는 실패한 이메일의 출처 IP 주소와 같은 자세한 정보를 제공합니다.
+
+   >[!CAUTION]
+   >
+   >보고서를 받기 위해 추가하려는 이메일 주소가 DMARC 레코드가 생성된 도메인 외부에 있는 경우 해당 외부 도메인에 이 도메인을 소유하는 DNS를 지정하도록 승인해야 합니다. 이렇게 하려면 다음에 설명된 단계를 수행합니다. [dmarc.org 설명서](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
 
 1. DMARC 정책이 “없음”으로 설정된 경우 이메일의 100%에 적용되는 백분율을 입력합니다.
 
