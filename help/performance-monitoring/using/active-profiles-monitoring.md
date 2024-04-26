@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: 73cf3102c0926728595e975ee4c85bf110f2a23d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -61,10 +61,10 @@ ht-degree: 88%
 
 하단 섹션에서는 지난 30일 동안의 활성 프로필 사용량을 시각적으로 표시합니다. 오른쪽 위 모서리에 있는 필터를 사용하여 이 시간대를 1년으로 변경할 수 있습니다. 그래프 위에 마우스 커서를 올리면 선택한 기간에 사용한 활성 프로필의 정확한 수를 확인할 수 있습니다.
 
-활성 프로필 사용 관련 정보는 전용 을 기반으로 Campaign 컨트롤 패널에서 업데이트됩니다 [!DNL Campaign] 인스턴스에서 정기적으로 실행되는 &quot;청구&quot; 기술 워크플로우입니다.
+활성 프로필 사용량과 관련된 정보는 인스턴스에서 정기적으로 실행되는 전용 [!DNL Campaign] “과금” 기술 워크플로우를 기반으로 제어판에서 업데이트됩니다.
 
 | Campaign 버전 | 기술 워크플로우 | 실행 |
 |  ---  |  ---  |  ---  |
-| Campaign Standard | [청구](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ko) | 일별 |
-| Campaign v7/v8 | [청구](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ko) | 월별 |
+| Campaign Standard | [과금](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ko) | 일별 |
+| Campaign v7/v8 | [과금](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ko) | 월별 |
 
