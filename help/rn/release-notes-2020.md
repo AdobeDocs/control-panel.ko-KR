@@ -4,11 +4,13 @@ description: 이 페이지에는 2020년 컨트롤 패널 릴리스가 모두 �
 feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
+hide: true
+hidefromtoc: true
 exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '429'
-ht-degree: 100%
+source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 96%
 
 ---
 
@@ -163,7 +165,7 @@ ht-degree: 100%
 
 ## 2020년 1월 {#january-2020}
 
-관리자가 컨트롤 패널에서 하위 도메인을 구성하고 SSL 인증서를 갱신할 수 있는 새 기능이 추가되었습니다.
+관리자가 Campaign 컨트롤 패널에서 하위 도메인을 구성하고 SSL 인증서를 갱신할 수 있는 새 기능이 추가되었습니다.
 
 자세한 내용은 다음 페이지를 참조하십시오.
 * [새 하위 도메인 설정](../subdomains-certificates/using/setting-up-new-subdomain.md)

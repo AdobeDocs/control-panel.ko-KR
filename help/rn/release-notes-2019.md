@@ -4,11 +4,13 @@ description: 이 페이지에는 모든 2019 컨트롤 패널 릴리스가 나�
 feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
+hide: true
+hidefromtoc: true
 exl-id: bb796bef-1a2b-4f2e-848e-ad682c6c7ea0
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '150'
-ht-degree: 100%
+source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 73%
 
 ---
 
@@ -23,7 +25,7 @@ Campaign v7/v8 인스턴스에 연결하기 위해 관리자가 허용 목록에
 
 ## 2019년 8월 {#august-2019}
 
-관리자가 도메인용 SSL 인증서 만료 전에 알림을 수신할 수 있는 새 기능이 추가되었습니다. 자세한 내용은 [세부 설명서](../subdomains-certificates/using/monitoring-ssl-certificates.md)를 참조하십시오.
+관리자가 도메인에 대한 SSL 인증서가 만료되기 전에 알림을 받을 수 있는 새로운 기능을 추가했습니다. 자세한 내용은 [세부 설명서](../subdomains-certificates/using/monitoring-ssl-certificates.md)를 참조하십시오.
 
 또한 관리자는 이제 SFTP 서버에 액세스하기 위해 추가한 SSH 키를 삭제할 수 있습니다.
 
