@@ -5,9 +5,9 @@ feature: Control Panel, Monitoring, Workflows
 role: Admin
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '320'
+source-git-commit: 360f2ca6fa1896ae5376143ee73b7e8b71d98be0
+workflow-type: tm+mt
+source-wordcount: '269'
 ht-degree: 100%
 
 ---
@@ -77,3 +77,4 @@ Adobe Campaign에서 일부 워크플로우 매개 변수는 인스턴스에 문
 값 &quot;1&quot;은 워크플로우가 **심각도** 필드가 &quot;프로덕션&quot;으로 설정되어 있고 상위자 그룹이 워크플로우에 할당되지 않았음을 나타냅니다.
 
 ![](assets/wkf-monitoring-supervisors.png)
+
