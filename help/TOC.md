@@ -8,8 +8,8 @@ role: Admin
 level: Experienced
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
       + [스토리지 개요](performance-monitoring/using/database-storage-overview.md)
       + [상위 10개의 임시 리소스](performance-monitoring/using/database-top-ten-resources.md)
       + [활성 쿼리](performance-monitoring/using/database-active-queries.md)
-      + [워크플로우 모니터링](performance-monitoring/using/workflow-monitoring.md)
+      + [워크플로 모니터링](performance-monitoring/using/workflow-monitoring.md)
       + [데이터베이스 오버로드 방지](performance-monitoring/using/database-preventing-overload.md)
    + [활성 프로필 모니터링](performance-monitoring/using/active-profiles-monitoring.md)
    + [처리량 및 지연 모니터링](performance-monitoring/using/throughputs-latencies.md)

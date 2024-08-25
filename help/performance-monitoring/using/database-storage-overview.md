@@ -9,8 +9,8 @@ level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
   데이터베이스 공간에서 시스템 리소스로 용량이 많이 사용되는 경우 고객 지원 센터에 문의하십시오.
 
 * Campaign 인스턴스와 함께 기본적으로 제공되는 **[!UICONTROL 기본 테이블]**,
-* 워크플로우 및 게재로 생성된 **[!UICONTROL 임시 테이블]**,
+* 워크플로 및 게재로 생성된 **[!UICONTROL 임시 테이블]**,
 * 사용자 정의 리소스 생성 후 생성된 **[!UICONTROL 기본 제공이 아닌 테이블]**.
 
 ![](assets/database-storage-overview.png)
@@ -39,4 +39,4 @@ ht-degree: 100%
 
 ![](assets/database-storage-details.png)
 
-이 화면에서는 인스턴스의 문제를 방지하기 위해 특정 주의가 필요한 워크플로우 매개 변수를 모니터링할 수도 있습니다. [이 페이지](workflow-monitoring.md)에서 자세히 알아보십시오.
+이 화면에서는 인스턴스의 문제를 방지하기 위해 특정 주의가 필요한 워크플로 매개 변수를 모니터링할 수도 있습니다. [이 페이지](workflow-monitoring.md)에서 자세히 알아보십시오.

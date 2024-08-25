@@ -7,8 +7,8 @@ level: Experienced
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -172,13 +172,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>워크플로우 매개 변수 모니터링</strong><br/></th>
+<th><strong>워크플로 매개 변수 모니터링</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 인스턴스의 문제를 방지하기 위해 특정 주의가 필요한 워크플로우 매개 변수를 모니터링할 수 있습니다. </p><p>자세한 내용은 <a href="../performance-monitoring/using/workflow-monitoring.md">세부 설명서</a>를 참조하세요.</p>
+<p>이제 인스턴스의 문제를 방지하기 위해 특정 주의가 필요한 워크플로 매개 변수를 모니터링할 수 있습니다. </p><p>자세한 내용은 <a href="../performance-monitoring/using/workflow-monitoring.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>

@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 ## 인스턴스 데이터베이스 정보 {#about-instances-databases}
 
-계약에 따라 각 Campaign 인스턴스에는 특정 양의 데이터베이스 공간으로 프로비전됩니다. 데이터베이스에는 Adobe Campaign에 저장된 모든 **자산**, **워크플로우** 및 **데이터**&#x200B;가 포함되어 있습니다.
+계약에 따라 각 Campaign 인스턴스에는 특정 양의 데이터베이스 공간으로 프로비전됩니다. 데이터베이스에는 Adobe Campaign에 저장된 모든 **자산**, **워크플로** 및 **데이터**&#x200B;가 포함되어 있습니다.
 
-시간이 지남에 따라, 특히 저장된 리소스를 인스턴스에서 삭제하지 않거나 일시 중지된 상태에 많은 워크플로우가 있는 경우 데이터베이스가 최대 용량에 도달할 수 있습니다.
+시간이 지남에 따라, 특히 저장된 리소스를 인스턴스에서 삭제하지 않거나 일시 중지된 상태에 많은 워크플로가 있는 경우 데이터베이스가 최대 용량에 도달할 수 있습니다.
 
 인스턴스 데이터베이스가 오버플로된 경우 문제(로그인, 이메일 보내기 불가 등)가 발생할 수 있습니다. 그러므로 최적의 성능을 보장하기 위해 인스턴스 데이터베이스를 모니터링하는 것이 필수입니다.
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 ![](assets/databases_dashboard.png)
 
-이 대시보드의 데이터는 Campaign 인스턴스에서 실행되는 **[!UICONTROL 데이터베이스 정리 기술 워크플로우]**&#x200B;를 기반으로 업데이트됩니다([Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ko#list-of-technical-workflows) 및 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=ko) 설명서 참조). **[!UICONTROL 사용된 공간]** 및 **[!UICONTROL 제공된 공간]** 메트릭 아래에서 워크플로우가 마지막으로 실행된 시간을 확인할 수 있습니다. 워크플로우가 3일 이상 실행된 적이 없는 경우, 워크플로우가 실행 중이 아닌 이유를 조사할 수 있도록 Adobe 고객 지원 센터에 문의하는 것이 좋습니다.
+이 대시보드의 데이터는 Campaign 인스턴스에서 실행되는 **[!UICONTROL 데이터베이스 정리 기술 워크플로]**&#x200B;를 기반으로 업데이트됩니다([Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=ko#list-of-technical-workflows) 및 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=ko) 설명서 참조). **[!UICONTROL 사용된 공간]** 및 **[!UICONTROL 제공된 공간]** 메트릭 아래에서 워크플로가 마지막으로 실행된 시간을 확인할 수 있습니다. 워크플로가 3일 이상 실행된 적이 없는 경우, 워크플로가 실행 중이 아닌 이유를 조사할 수 있도록 Adobe 고객 지원 센터에 문의하는 것이 좋습니다.
 
 이 대시보드에서 추가 메트릭을 사용하여 인스턴스의 데이터베이스 사용량을 분석할 수 있습니다. 이러한 내용은 다음 섹션에 자세히 설명되어 있습니다.
 

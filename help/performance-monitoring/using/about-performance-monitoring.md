@@ -2,15 +2,15 @@
 product: campaign
 solution: Campaign
 title: 성능 모니터링 정보
-description: 컨트롤 패널에서 인스턴스 세부 사항을 모니터링하는 방법 알아보기
+description: 컨트롤 패널에서 인스턴스 성능을 모니터링하는 방법 알아보기
 feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: 80a5dc43-205e-4764-805a-85d2faabc20a
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

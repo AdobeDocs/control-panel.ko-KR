@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: de33a10a168358d0f38ca776fbcd88e0ccf63ce2
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -97,7 +97,7 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 컨트롤
 
 ![](assets/gpg_install_download.png)
 
-그런 다음 Adobe Campaign 워크플로우에서 키를 사용할 수 있습니다. 데이터 추출 활동을 사용할 때 이를 사용하여 데이터를 암호화할 수 있습니다.
+그런 다음 Adobe Campaign 워크플로에서 키를 사용할 수 있습니다. 데이터 추출 활동을 사용할 때 이를 사용하여 데이터를 암호화할 수 있습니다.
 
 ![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](#video)
 
@@ -132,7 +132,7 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 컨트롤
 
    ![](assets/gpg_generate.png)
 
-1. 키 이름을 지정한 다음 **[!UICONTROL 키 생성]**&#x200B;을 클릭합니다. 이 이름은 Campaign 워크플로우에서 암호 해독에 사용할 키를 식별하는 데 도움이 됩니다.
+1. 키 이름을 지정한 다음 **[!UICONTROL 키 생성]**&#x200B;을 클릭합니다. 이 이름은 Campaign 워크플로에서 암호 해독에 사용할 키를 식별하는 데 도움이 됩니다.
 
    ![](assets/gpg_generate_name.png)
 
@@ -188,7 +188,7 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 컨트롤
 
 >[!IMPORTANT]
 >
->키를 제거하기 전에 실패를 방지하기 위해 어떤 Adobe Campaign 워크플로우에서도 이 키가 사용되지 않는지 확인하십시오.
+>키를 제거하기 전에 실패를 방지하기 위해 어떤 Adobe Campaign 워크플로에서도 이 키가 사용되지 않는지 확인하십시오.
 
 ## 튜토리얼 비디오 {#video}
 
