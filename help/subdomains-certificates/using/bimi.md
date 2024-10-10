@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 source-git-commit: c555a91ee0772fd615d38ebbb3964392649af907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '523'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 80%
 
 ## BIMI 레코드 정보 {#about}
 
-BIMI(Brand Indicators for Message Identification)는 업계 표준으로, 승인된 로고가 사서함 공급자의 받은 편지함에 있는 보낸 사람의 이메일 옆에 표시되어 브랜드 인지도와 신뢰를 높일 수 있습니다.
+BIMI(Brand Indicators for Message Identification)는 브랜드 인지도와 신뢰도를 높이기 위해 사서함 공급자의 받은 편지함에 있는 발신자의 이메일 옆에 승인된 로고를 표시할 수 있도록 하는 업계 표준입니다. 
 
 BIMI 구현에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=ko)에서 확인할 수 있습니다.
 
@@ -28,11 +28,11 @@ BIMI 구현에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내�
 
 * BIMI 레코드를 생성하려면 SPF, DKIM 및 DMARC 레코드가 필요합니다.
 
-* BIMI 레코드는 DNS에 게시해야 합니다. 완전히 위임된 도메인의 경우 Campaign 컨트롤 패널을 통해 가능합니다. [하위 도메인 구성 방법에 대해 자세히 알아보기](subdomains-branding.md#subdomain-delegation-methods)
+* BIMI 레코드는 DNS에 게시해야 합니다. 완전히 위임된 도메인의 경우 컨트롤 패널을 통해 가능합니다. [하위 도메인 구성 방법에 대해 자세히 알아보기](subdomains-branding.md#subdomain-delegation-methods)
 
 * DMARC 레코드 전제 조건:
 
-   * 조직 도메인의 레코드 정책 유형은 &quot;격리&quot; 또는 &quot;거부&quot;로 설정되어야 합니다. DMARC 정책 유형이 “없음”으로 설정되어 있으면 BIMI 레코드를 만들 수 없습니다.
+   * 조직 도메인의 레코드 정책 유형은 “격리” 또는 “거부”로 설정되어야 합니다. DMARC 정책 유형이 “없음”으로 설정되어 있으면 BIMI 레코드를 만들 수 없습니다.
    * DMARC 정책이 적용되는 이메일의 비율은 100%여야 합니다. BIMI는 이 비율이 100% 미만으로 설정된 DMARC 정책을 지원하지 않습니다.
 
 [DMARC 레코드 구성 방법 알아보기](dmarc.md)
@@ -47,11 +47,11 @@ BIMI 구현에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내�
 
    ![](assets/bimi-add.png)
 
-1. **[!UICONTROL 선택기]** 필드에서는 레코드에 대한 BIMI 선택기를 지정할 수 있습니다. BIMI 선택기는 BIMI 레코드에 할당할 수 있는 고유 식별자입니다. 이렇게 하면 주어진 하위 도메인에 대해 여러 로고를 정의할 수 있습니다. 지금은 사서함 공급자에서 지원되지 않습니다.
+1. **[!UICONTROL 선택기]** 필드에서는 레코드에 대한 BIMI 선택기를 지정할 수 있습니다. BIMI 선택기는 BIMI 레코드에 할당할 수 있는 고유 식별자입니다. 이 방법으로 주어진 하위 도메인에 대해 여러 로고를 정의할 수 있습니다. 현재 이 기능은 사서함 제공업체에서 지원하지 않습니다.
 
 1. **[!UICONTROL 회사 로고 URL]**&#x200B;에 로고가 포함된 SVG 파일의 URL을 지정합니다.
 
-1. **[!UICONTROL 인증서 URL]**&#x200B;은(는) 선택 사항이지만 Gmail 및 Apple과 같은 일부 사서함 공급자에 필요합니다. 따라서 BIMI를 실제로 활용하려면 VMC(Verified Mark Certificate)를 받는 것이 좋습니다.
+1. **[!UICONTROL 인증서 URL]**&#x200B;은 선택 사항이지만 Gmail 및 Apple 등 일부 사서함 제공업체에는 필요합니다. 따라서 BIMI를 실제로 활용하려면 VMC(Verified Mark Certificate)를 받는 것이 좋습니다.
 
    +++VMC를 받으려면 어떻게 해야 합니까?
 

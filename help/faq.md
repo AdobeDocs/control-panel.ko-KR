@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: 98cf425548884c3a5e503c35ce5ea5b7ceaee67f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Adobe Experience Cloud에 처음 로그인할 때 인스턴스에 제공되는 �
 
 ### 조직 ID가 여러 개일 경우 어떻게 하나요?
 
-구매 중단 등의 복잡한 사용 사례를 활용하기 위해 솔루션을 통합하려는 경우(Adobe Analytics + Adobe Campaign의 경우) Analytics와 Campaign 간에 조직 ID가 같아야 합니다. 여러 Adobe 솔루션 액세스 권한이 있는 경우에는 조직 ID가 여러 개일 수 있습니다. 이 경우 사용해야 하는 올바른 조직 ID는 Adobe Campaign 인스턴스 아래에 표시되는 ID입니다.
+구매 중단 등의 복잡한 사용 사례를 활용하기 위해 솔루션을 통합하려는 경우, 예를 들어 Adobe Analytics + Adobe Campaign 통합 시에는 Analytics와 Campaign에 같은 조직 ID를 사용해야 합니다. 여러 Adobe 솔루션 액세스 권한이 있는 경우에는 조직 ID가 여러 개일 수 있습니다. 이 경우 사용해야 하는 올바른 조직 ID는 Adobe Campaign 인스턴스 아래에 표시되는 ID입니다.
 
 <!--
 >[!NOTE]
@@ -90,7 +90,7 @@ Adobe Experience Cloud에 처음 로그인할 때 인스턴스에 제공되는 �
 
 인스턴스가 AWS에서 호스팅되는지 확인하려면 다음 단계를 수행합니다.
 
-1. 로그인 URL을 검색합니다. Campaign 인스턴스에 로그인하는 데 사용하는 URL이며 대부분 &quot;.campaign.adobe.com&quot; 또는 &quot;.neolane.net&quot;으로 끝납니다.
+1. 로그인 URL을 검색합니다. 이 URL은 Campaign 인스턴스에 로그인하는 데 사용하는 URL이며 대개 &quot;.campaign.adobe.com&quot; 또는 &quot;.neolane.net&quot;.으로 끝납니다.
 1. 터미널을 열고 로그인 URL에서 **[!DNL nslookup]** 작업을 실행합니다.
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
