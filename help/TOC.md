@@ -8,8 +8,8 @@ role: Admin
 level: Experienced
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '180'
+ht-degree: 88%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
       + [2021](rn/release-notes-2021.md)
       + [2020](rn/release-notes-2020.md)
       + [2019](rn/release-notes-2019.md)
-+ 컨트롤 패널 살펴보기 {#discover-control-panel}
++ Campaign 컨트롤 패널 탐색 {#discover-control-panel}
    + [주요 기능](discover/using/key-features.md)
    + [컨트롤 패널 액세스](discover/using/accessing-control-panel.md)
    + [컨트롤 패널에 대한 권한 관리](discover/using/managing-permissions.md)
