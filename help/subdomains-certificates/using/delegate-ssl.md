@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
 source-git-commit: 31d181770474428a7b42e96f2e603cc820db48d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -36,9 +36,9 @@ SSL 인증서를 Adobe에 위임하는 작업은 새 하위 도메인을 설정�
 
 새 하위 도메인을 설정할 때 SSL 인증서를 위임하려면 하위 도메인 구성 마법사의 **[!UICONTROL 하위 도메인용 Adobe 관리 SSL 선택]** 옵션을 활성화합니다. 인증서 생성 프로세스는 하위 도메인 위임 방법에 따라 다릅니다.
 
-* **전체 하위 도메인 위임**: 사용자의 작업 없이 Adobe에서 SSL 인증서를 자동으로 요청하고 설치합니다. 하위 도메인 구성을 제출하면 인증서 설치 요청이 하위 도메인 설정 워크플로의 일부로 즉시 처리됩니다. [전체 하위 도메인 위임에 대해 자세히 알아보기](setting-up-new-subdomain.md#full-subdomain-delegation)
+* **전체 하위 도메인 위임**: 사용자의 작업 없이 Adobe에서 자동으로 SSL 인증서를 요청하고 설치합니다. 하위 도메인 구성을 제출하면 인증서 설치 요청이 하위 도메인 설정 워크플로의 일부로 즉시 처리됩니다. [전체 하위 도메인 위임에 대해 자세히 알아보기](setting-up-new-subdomain.md#full-subdomain-delegation)
 
-* **CNAME 위임**: 호스팅 솔루션으로 복사할 인증서 레코드는 나중에 구성 마법사에서 제공됩니다. 하위 도메인 구성을 제출하기 전에 도메인 호스팅 솔루션에서 이러한 인증서 레코드를 생성해야 합니다. [CNAME 위임에 대해 자세히 알아보기](setting-up-new-subdomain.md#use-cnames)
+* **CNAME 위임**: 복사해서 호스팅 솔루션에 붙여 넣을 인증서 레코드를 나중에 구성 마법사에서 제공합니다. 하위 도메인 구성을 제출하기 전에 도메인 호스팅 솔루션에서 이 인증서 레코드를 생성해야 합니다. [CNAME 위임에 대해 자세히 알아보기](setting-up-new-subdomain.md#use-cnames)
 
 ![](assets/cname-adobe-managed.png){width="70%" align="left"}
 
@@ -52,7 +52,7 @@ SSL 인증서를 Adobe에 위임하는 작업은 새 하위 도메인을 설정�
 
 ### 완전히 위임된 하위 도메인
 
-전체 하위 도메인 위임을 사용하여 설정된 하위 도메인(Adobe 이름 서버 포함)의 경우 Adobe에서 SSL 인증서를 자동으로 요청하고 설치합니다. **[!UICONTROL 관리 SSL로 전환]**&#x200B;을 클릭하고 확인하면 추가 조치 없이 인증서 설치 요청이 즉시 제출됩니다.
+전체 하위 도메인 위임을 사용하여 설정된 하위 도메인(Adobe 이름 서버 사용)의 경우 Adobe에서 SSL 인증서를 자동으로 요청하고 설치합니다. **[!UICONTROL 관리 SSL로 전환]**&#x200B;을 클릭하고 확인하면 추가적으로 수행할 단계 없이 인증서 설치 요청이 즉시 제출됩니다.
 
 ### CNAME 위임된 하위 도메인
 

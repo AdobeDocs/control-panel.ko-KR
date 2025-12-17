@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 0b7cb860592508f7323bcd30345d1853e4a4ac94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1526'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ CNAME을 사용해 하위 도메인 위임을 설정하는 경우에는 Adobe에
 
    ![](assets/subdomain3.png)
 
-1. 조직에서 사용하는 호스팅 솔루션에서 원하는 하위 도메인 및 이름 서버를 만듭니다. 이렇게 하려면 마법사에 표시된 Adobe Nameserver 정보를 복사하여 붙여넣습니다. 호스팅 솔루션에서 하위 도메인을 만드는 방법에 대한 자세한 내용은 [튜토리얼 비디오](https://video.tv.adobe.com/v/32930?captions=kor)를 참조하십시오.
+1. 조직에서 사용하는 호스팅 솔루션에서 원하는 하위 도메인 및 이름 서버를 만듭니다. 이렇게 하려면 마법사에 표시된 Adobe Nameserver 정보를 복사하여 붙여넣습니다. 호스팅 솔루션에서 하위 도메인을 만드는 방법에 대한 자세한 내용은 [튜토리얼 비디오](https://video.tv.adobe.com/v/30175)를 참조하십시오.
 
    >[!NOTE]
    >
@@ -102,7 +102,7 @@ CNAME을 사용해 하위 도메인 위임을 설정하는 경우에는 Adobe에
 
 1. 만든 하위 도메인을 호스팅 솔루션에 입력하고 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 
-   위임할 하위 도메인의 **전체 이름** 을 입력해야 합니다. 예를 들어 &quot;email.weretail.com&quot; 하위 도메인을 위임하려면 &quot;email.weretail.com&quot;을 입력합니다.
+   위임할 하위 도메인의 **전체 이름** 을 입력해야 합니다. 예를 들어 “email.weretail.com” 하위 도메인을 위임하려면 “email.weretail.com”을 입력합니다.
 
 
 1. 하위 도메인의 SSL 인증서 생성을 Adobe에 위임하기 위해 **[!UICONTROL 하위 도메인에 Adobe 관리 SSL 사용]** 옵션을 활성화합니다. [SSL 인증서 위임에 대해 자세히 알아보기](delegate-ssl.md)
