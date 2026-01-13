@@ -18,7 +18,7 @@ ht-degree: 74%
 
 컨트롤 패널은 Campaign 인스턴스의 모든 관리 사용자가 사용할 수 있습니다. 사용자를 관리자 그룹에 할당하고 컨트롤 패널에 대한 액세스 권한을 부여하려면 아래 단계를 따르십시오.
 
-![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](../../discover/using/managing-permissions.md#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; 비디오에서 이 기능 살펴보기](../../discover/using/managing-permissions.md#video)
 
 1. [Adobe Experience Cloud 홈 페이지](https://experiencecloud.adobe.com/){target="_blank"}(으)로 이동합니다.
 
