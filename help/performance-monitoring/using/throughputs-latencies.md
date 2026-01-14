@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '444'
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 * 30일 보기의 경우 6시간 단위,
 * 6개월 보기의 경우 일 단위로 표시됩니다.
 
-정보를 그래프가 아닌 정렬 가능한 열을 사용하여 표 형식으로 시각화할 수도 있습니다. 이렇게 하려면 **[!UICONTROL 시각화 설정]** 버튼을 클릭한 다음 **[!UICONTROL 표]**&#x200B;를 선택하십시오.
+정보를 그래프가 아닌 정렬 가능한 열을 사용하여 테이블 형식으로 시각화할 수도 있습니다. 이렇게 하려면 **[!UICONTROL 시각화 설정]** 버튼을 클릭한 다음 **[!UICONTROL 테이블]**&#x200B;을 선택하십시오.
 
 ![](assets/throughput-latencies-table.png)
 

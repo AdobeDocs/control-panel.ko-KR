@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: de33a10a168358d0f38ca776fbcd88e0ccf63ce2
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1146'
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 컨트롤
 >
 >컨트롤 패널에 최대 60개의 GPG 키를 설치할 수 있습니다.
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; 비디오에서 이 기능 살펴보기](#video)
+![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](#video)
 
 1. [OpenPGP 사양](https://www.openpgp.org/about/standard/)에 따라 PGP 암호화 도구를 사용하여 공개/개인 키 쌍을 생성합니다. 이렇게 하려면 GPG 유틸리티 또는 GNuGP 소프트웨어를 설치합니다.
 
@@ -64,7 +64,6 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 컨트롤
    * **키 길이**: 3072~4096비트
    * **실명** 및 **이메일 주소**: 누가 키 쌍을 만들었는지 추적할 수 있습니다. 조직 또는 부서에 연결된 이름 및 이메일 주소를 입력합니다.
    * **주석**: 주석 필드에 레이블을 추가하면 데이터를 암호화하는 데 사용할 키를 쉽게 식별할 수 있습니다.
-
      >[!IMPORTANT]
      >
      >이 필드가 비어 있지 않은지, 주석이 입력되었는지 확인합니다.
@@ -100,7 +99,7 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 컨트롤
 
 그런 다음 Adobe Campaign 워크플로에서 키를 사용할 수 있습니다. 데이터 추출 활동을 사용할 때 이를 사용하여 데이터를 암호화할 수 있습니다.
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; 비디오에서 이 기능 살펴보기](#video)
+![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](#video)
 
 이 항목에 대한 자세한 내용은 Adobe Campaign 설명서를 참조하십시오.
 
@@ -123,7 +122,7 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 컨트롤
 * **공개 키**&#x200B;는 외부 시스템과 공유되며 이 키를 사용하여 Campaign으로 보낼 데이터를 암호화합니다.
 * **개인 키**&#x200B;는 Campaign에서 수신되는 암호화된 데이터의 암호를 해독하는 데 사용됩니다.
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; 비디오에서 이 기능 살펴보기](#video)
+![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](#video)
 
 컨트롤 패널에서 키 쌍을 생성하려면 다음 단계를 수행하십시오.
 
@@ -197,4 +196,4 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 컨트롤
 
 GPG 키 관리와 관련된 추가 방법 비디오는 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ko#instance-settings) 및 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ko#instance-settings) 튜토리얼 페이지에서 볼 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/327886?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

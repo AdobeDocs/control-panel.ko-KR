@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: bb796bef-1a2b-4f2e-848e-ad682c6c7ea0
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '156'
+ht-degree: 100%
 
 ---
 
@@ -31,6 +31,6 @@ Campaign v7/v8 인스턴스에 연결하기 위해 관리자가 허용 목록에
 
 ## 2019년 7월 {#july-2019}
 
-관리자가 Campaign v7/v8 인스턴스 설정을 더 자세히 제어할 수 있는 새 기능이 추가되었습니다. 새로운 컨트롤 기능에는 Adobe Campaign가 데이터/파일 전송을 위해 연결하는 URL을 추가하는 기능 등이 있습니다.
+관리자가 Campaign v7/v8 인스턴스 설정을 더 자세히 제어할 수 있는 새 기능이 추가되었습니다. 새로운 제어판 기능에는 Adobe Campaign가 데이터/파일 전송을 위해 연결하는 URL을 추가하는 기능 등이 있습니다.
 
 자세한 내용은 [세부 설명서](../instances-settings/using/url-permissions.md)를 참조하십시오.
