@@ -18,7 +18,7 @@ ht-degree: 100%
 
 아래 단계에서는 SFTP 클라이언트 애플리케이션을 통해 SFTP 서버를 연결하는 방법을 자세히 설명합니다.
 
-![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](https://video.tv.adobe.com/v/27263?quality=12)
+![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](https://video.tv.adobe.com/v/34787?captions=kor&quality=12)
 
 서버에 로그인하기 전에 다음을 확인하십시오.
 
