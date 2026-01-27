@@ -66,4 +66,4 @@ ht-degree: 100%
 
 ## 튜토리얼 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/34792?captions=kor&quality=12)
