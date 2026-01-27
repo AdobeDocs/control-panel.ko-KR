@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '572'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >이 기능은 빌드 8850의 Campaign v7/v8 인스턴스에서만 사용할 수 있습니다. 이전 빌드를 사용하는 경우 이 기능을 사용하려면 업그레이드해야 합니다.
 
-Campaign Classic 인스턴스에서 워크플로 등의 JavaScript 코드를 통해 호출할 수 있는 URL의 기본 목록은 Campaign 인스턴스에 의해 제한되어 있습니다. 인스턴스는 이러한 URL이 있어야 정상 작동합니다.
+Campaign 인스턴스에서 워크플로 등 JavaScript 코드를 통해 호출할 수 있는 URL의 기본 목록은 제한되어 있습니다. 인스턴스는 이러한 URL이 있어야 정상 작동합니다.
 
 기본적으로 인스턴스는 외부 URL에 연결할 수 없습니다. 컨트롤 패널에서는 인스턴스가 연결할 수 있도록 권한이 부여된 URL 목록에 일부 외부 URL을 추가할 수 있습니다. 이렇게 하면 파일 및/또는 데이터를 전송할 수 있도록 SFTP 서버나 웹 사이트 등의 외부 시스템에 Campaign 인스턴스를 연결할 수 있습니다.
 

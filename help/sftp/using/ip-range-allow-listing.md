@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1057'
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ CIDR의 구문에는 IP 주소, &#39;/&#39; 문자, 십진수가 차례로 포�
 
    ![](assets/control_panel_add_range.png)
 
-1. 허용 목록에 추가할 IP 범위를 정의합니다. 이 필드는 *192.150.5.0/24*&#x200B;와 같은 CIDR 형식의 IP 범위만 허용합니다.
+1. 허용 목록에 추가할 IP 범위를 정의합니다. 이 필드는 CIDR 형식의 IP 범위만 허용합니다(예: *192.150.5.0/24*)
 
    ![](assets/control_panel_add_range4.png)
 

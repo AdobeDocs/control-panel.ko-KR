@@ -1,14 +1,14 @@
 ---
 title: 2022년 릴리스 정보
-description: 이 페이지에는 2022년 컨트롤 패널 릴리스가 모두 나열되어 있습니다.
+description: 이 페이지에는 모든 2022 컨트롤 패널 릴리스가 나열됩니다.
 feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '601'
+ht-degree: 100%
 
 ---
 

@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
 source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 74%
 
 컨트롤 패널은 Campaign 인스턴스의 모든 관리 사용자가 사용할 수 있습니다. 사용자를 관리자 그룹에 할당하고 컨트롤 패널에 대한 액세스 권한을 부여하려면 아래 단계를 따르십시오.
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; 비디오에서 이 기능 살펴보기](../../discover/using/managing-permissions.md#video)
+![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](../../discover/using/managing-permissions.md#video)
 
-1. [Adobe Experience Cloud 홈 페이지](https://experiencecloud.adobe.com/){target="_blank"}(으)로 이동합니다.
+1. [Adobe Experience Cloud 홈페이지](https://experiencecloud.adobe.com/){target="_blank"}로 이동합니다.
 
 1. **바로 가기** 섹션이나 오른쪽 상단 메뉴에서 사용 가능한 링크를 클릭하여 **Admin Console**&#x200B;을 실행합니다.
 
@@ -52,9 +52,9 @@ ht-degree: 74%
 
    >[!IMPORTANT]
    >
-   >기본적으로 Campaign 컨트롤 패널은 &quot;관리자&quot; 제품 프로필에 속하는 관리자 사용자가 액세스할 수 있습니다. 조직 구성에 따라 제품 프로필의 이름을 다르게 지정할 수 있습니다(&quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot; 등). **이름에 &quot;admin&quot;이라는 단어가 포함된 모든 제품 프로필은 자동으로 Campaign 컨트롤 패널 액세스 권한을 부여합니다.**
+   >기본적으로 컨트롤 패널에는 &quot;관리자&quot; 제품 프로필에 속하는 관리자 사용자가 액세스할 수 있습니다. 조직 구성에 따라 제품 프로필의 이름을 다르게 지정할 수 있습니다(&quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot; 등). **이름에 &quot;admin&quot;이라는 단어가 포함된 모든 제품 프로필은 자동으로 컨트롤 패널 액세스 권한을 부여합니다.**
    >
-   >Admin Console에서 제품 프로필 이름 지정 규칙을 주의 깊게 검토하면 Campaign 인스턴스를 크게 변경할 수 있으므로 권한이 있는 사용자만 Campaign 컨트롤 패널에 액세스할 수 있습니다.
+   >제품 프로필의 이름 지정 규칙을 통해 Campaign 인스턴스를 크게 변경할 수 있으므로, 권한이 있는 사용자만 컨트롤 패널에 액세스하도록 하기 위해 Admin Console에서 이 규칙을 주의 깊게 검토해야 합니다.
 
 1. 관리 사용자 목록이 표시됩니다. 원하는 사용자를 추가하려면 **[!UICONTROL 사용자 추가]** 버튼을 클릭합니다.
 
@@ -66,4 +66,4 @@ ht-degree: 74%
 
 ## 튜토리얼 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/34792?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
