@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '1010'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1060'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ SSL 인증서 갱신 프로세스에는 다음의 세 단계를 수행합니다.
 
 **관련 항목:**
 
-* [게재 기능 모범 사례 안내서 - Adobe Campaign에 대한 SSL 인증서 요청 프로세스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=ko)
+* [전달성 모범 사례 안내서 - Adobe Campaign에 대한 SSL 인증서 요청 프로세스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=ko)
 * [하위 도메인 브랜딩](../../subdomains-certificates/using/subdomains-branding.md)
 * [하위 도메인 모니터링](../../subdomains-certificates/using/monitoring-subdomains.md)
 
