@@ -8,8 +8,8 @@ role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: 73cf3102c0926728595e975ee4c85bf110f2a23d
-workflow-type: ht
-source-wordcount: '418'
+workflow-type: tm+mt
+source-wordcount: '470'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 상단 섹션에는 다음 정보가 표시됩니다.
 
-* 선택한 인스턴스에서 현재 사용하는 활성 프로필 수와, 인스턴스에서 최근 실행한 과금 워크플로의 타임스탬프. 
+* 선택한 인스턴스에서 현재 사용하는 활성 프로필 수와, 인스턴스에서 최근 실행한 과금 워크플로의 타임스탬프.
 
 * 조직 전반의 모든 인스턴스 내에서 사용한 총 활성 프로필 수.
 

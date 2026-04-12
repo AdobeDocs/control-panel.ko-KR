@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '703'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '756'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >abstract="하위 도메인 및 관련 SSL 인증서를 모니터링하는 방법을 알아봅니다."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ko" text="SSL 인증서 모니터링"
 
-## 하위 도메인을 설정하는 이유  {#why-setting-up-subdomains}
+## 하위 도메인을 설정하는 이유 {#why-setting-up-subdomains}
 
 하위 도메인은 브랜드나 다양한 트래픽 유형(트랜잭션 메시지, 마케팅 정보 등)을 분리하는 데 사용할 수 있는 도메인의 개별 부분입니다.
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 | 구성 방법 | 작동 방법 | 작업량 |
 |---|---|---|
-| **전체 위임** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 Adobe에서 Adobe Campaign에 필요한 모든 DNS 레코드를 구성합니다.<br/><br/>이 설정에서는 Adobe가 하위 도메인 및 모든 DNS 레코드를 관리를 전적으로 책임집니다. | 낮음 |
+| **전체 위임** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 그런 다음 Adobe은 Adobe Campaign에 필요한 모든 DNS 레코드를 구성합니다.<br/><br/>이 설정에서는 Adobe이 하위 도메인 및 모든 DNS 레코드를 관리합니다. | 낮음 |
 | **CNAME, 사용자 지정 방법** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 Adobe에서 DNS 서버에 배치할 레코드를 제공하고 Adobe Campaign DNS 서버에서 해당 값을 구성합니다.<br/><br/>이 설정에서는 사용자와 Adobe가 DNS 유지 관리를 공동으로 수행합니다. | 높음 |
 
 도메인 구성에 대한 추가 정보는 [이 설명서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=ko)에서 확인할 수 있습니다.

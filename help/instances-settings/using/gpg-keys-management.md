@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: de33a10a168358d0f38ca776fbcd88e0ccf63ce2
-workflow-type: ht
-source-wordcount: '1146'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1348'
+ht-degree: 95%
 
 ---
 
@@ -106,12 +106,12 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 컨트롤
 **Campaign v7/v8:**
 
 * [파일 압축 또는 암호화](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=ko)
-* [사용 사례: 컨트롤 패널에 설치된 키를 사용하여 데이터 암호화 및 내보내기](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ko#use-case-gpg-encrypt)
+* [사용 사례: Campaign 컨트롤 패널에 설치된 키를 사용하여 데이터 암호화 및 내보내기](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ko#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
 * [암호화된 데이터 관리](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ko)
-* [사용 사례: 컨트롤 패널에 설치된 키를 사용하여 데이터 암호화 및 내보내기](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=ko#use-case-gpg-encrypt)
+* [사용 사례: Campaign 컨트롤 패널에 설치된 키를 사용하여 데이터 암호화 및 내보내기](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=ko#use-case-gpg-encrypt)
 
 ## 데이터 복호화 {#decrypting-data}
 
@@ -149,12 +149,12 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 컨트롤
 **Campaign v7 및 v8:**
 
 * [처리 전 파일 압축 해제 또는 암호 해독](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=ko)
-* [사용 사례: 컨트롤 패널에서 생성한 키를 사용하여 암호화된 데이터 가져오기](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=ko#use-case-gpg-decrypt)
+* [사용 사례: Campaign 컨트롤 패널에서 생성한 키를 사용하여 암호화된 데이터 가져오기](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=ko#use-case-gpg-decrypt)
 
 **Campaign Standard:**
 
 * [암호화된 데이터 관리](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ko)
-* [사용 사례: 컨트롤 패널에서 생성한 키를 사용하여 암호화된 데이터 가져오기](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ko#use-case-gpg-decrypt)
+* [사용 사례: Campaign 컨트롤 패널에서 생성한 키를 사용하여 암호화된 데이터 가져오기](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=ko#use-case-gpg-decrypt)
 
 ## GPG 키 모니터링
 
@@ -196,4 +196,4 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 컨트롤
 
 GPG 키 관리와 관련된 추가 방법 비디오는 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ko#instance-settings) 및 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ko#instance-settings) 튜토리얼 페이지에서 볼 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/327886?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
