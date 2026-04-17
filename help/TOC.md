@@ -6,7 +6,7 @@ user-guide-title: 컨트롤 패널 안내서
 feature: Control Panel
 role: Admin
 level: Experienced
-source-git-commit: d9bbc77dbb4593eee42f87570ecefcd6465a5fe2
+source-git-commit: 17583a8f809394adc0eb53180308d6daf464e746
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 98%
@@ -22,7 +22,7 @@ ht-degree: 98%
    + 이전 릴리스 {#previous-releases}
       + [2023](rn/release-notes-2023.md)
       + [2022](rn/release-notes-2022.md)
-      + {hide-from-toc}[2021 - 숨김](rn/release-notes-2021.md)
+      + {hide-from-toc}[2021 - 숨기기](rn/release-notes-2021.md)
       + {hide-from-toc}[2020](rn/release-notes-2020.md)
       + {hide-from-toc}[2019](rn/release-notes-2019.md)
 + Campaign 컨트롤 패널 탐색 {#discover-control-panel}
