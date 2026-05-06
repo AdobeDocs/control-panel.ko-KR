@@ -7,10 +7,10 @@ feature: Control Panel, Access Management
 role: Admin
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 99%
+source-wordcount: '857'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->능이 기능은 Campaign v7/v8 인스턴스에서만 사용할 수 있습니다.
+>이 기능은 AWS에서 호스팅되는 Campaign v7/v8 인스턴스와 Microsoft Azure에서 호스팅되는 Campaign v8 인스턴스에 대해 사용할 수 있습니다.
 
 기본적으로는 여러 IP 주소에서 Adobe Campaign 인스턴스에 액세스할 수 없습니다.
 

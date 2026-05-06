@@ -7,10 +7,10 @@ feature: Control Panel, SFTP Management
 role: Admin
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 100%
+source-wordcount: '1136'
+ht-degree: 97%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 100%
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98" text="데모 비디오 시청"
 
 SFTP 서버는 보호되어 있으므로 해당 서버에 액세스하여 파일을 보거나 새 파일을 작성하려면 해당 서버에 액세스하는 시스템이나 클라이언트의 공개 IP 주소를 허용 목록에 추가해야 합니다.
+
+>[!NOTE]
+>
+>SFTP 서버의 IP 허용 목록은 AWS에서 호스팅되는 Campaign v7/v8 인스턴스, Campaign Standard 인스턴스 및 Microsoft Azure에서 호스팅되는 Campaign v8 인스턴스에 대해 사용할 수 있습니다.
 
 ![](assets/do-not-localize/how-to-video.png) 이 비디오에서 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=ko#sftp-management) 또는 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=ko#sftp-management)를 사용하여 해당 기능 살펴보기
 

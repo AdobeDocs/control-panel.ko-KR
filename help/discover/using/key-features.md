@@ -7,10 +7,10 @@ feature: Control Panel, Overview
 role: Admin
 level: Experienced
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '281'
-ht-degree: 100%
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 95%
 
 ---
 
@@ -26,9 +26,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->컨트롤 패널은 관리 사용자만 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 섹션](managing-permissions.md)에 자세히 설명되어 있습니다.
->
->Campaign v7/v8의 경우 인스턴스를 AWS(Amazon Web Services)에서 호스팅하고 [Campaign의 안정적인 최신 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses) 또는 빌드 9032 이상으로 업그레이드해야 합니다. [이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=ko#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](../../faq.md#hosted-aws)에 설명된 단계를 수행합니다.
+>컨트롤 패널은 관리 사용자만 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 섹션](managing-permissions.md)에 자세히 설명되어 있습니다. 인스턴스 호스팅 요구 사항에 대한 필수 구성 요소는 [이 페이지](accessing-control-panel.md)를 참조하세요.
 
 <table style="table-layout:fixed">
 <tr>

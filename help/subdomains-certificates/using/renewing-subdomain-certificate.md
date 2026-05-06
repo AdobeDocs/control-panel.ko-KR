@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 98%
+source-wordcount: '1084'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 98%
 >[!NOTE]
 >
 >하위 도메인의 SSL 인증서 갱신은 해당 프로세스를 Adobe에 위임하지 않고 직접 인증서를 관리하기로 선택한 경우에만 필요한 과정입니다. 하위 도메인의 SSL 인증서 관리를 Adobe으로 위임하는 것을 강력하게 추천합니다. Adobe에서 인증서를 자동으로 만들고 매년 만료 전에 갱신하기 때문에 편리합니다. [SSL 인증서 관리에 대해 자세히 알아보기](monitoring-ssl-certificates.md#management)
+>
+>고객 관리 SSL 인증서 관리는 AWS에서 호스팅되는 Campaign v7/v8 인스턴스와 Microsoft Azure에서 호스팅되는 Campaign v8 인스턴스에 대해 사용할 수 있습니다.
 
 SSL 인증서 갱신 프로세스에는 다음의 세 단계를 수행합니다.
 

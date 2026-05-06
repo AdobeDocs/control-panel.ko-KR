@@ -7,10 +7,10 @@ feature: Control Panel
 role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 98cf425548884c3a5e503c35ce5ea5b7ceaee67f
-workflow-type: ht
-source-wordcount: '719'
-ht-degree: 100%
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
+workflow-type: tm+mt
+source-wordcount: '801'
+ht-degree: 93%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 ### 컨트롤 패널을 사용하기 위한 자격이 있나요?
 
-AWS에서 Adobe Campaign을 호스팅하는 현재 Adobe 고객의 제품 관리자만 컨트롤 패널을 열 수 있습니다.
+이 Campaign 컨트롤 패널은 AWS에서 Adobe Campaign을 호스팅한 고객의 제품 관리자에게 공개됩니다. Microsoft Azure에 호스팅된 Campaign v8 인스턴스에서도 인스턴스 액세스에 대한 IP 허용 목록, SFTP 서버에 대한 IP 허용 목록 및 고객 관리 SSL 인증서 관리와 같은 Campaign 컨트롤 패널 기능의 하위 집합에 액세스할 수 있습니다.
 
 컨트롤 패널을 통해 하이브리드 호스팅 모델을 사용하는 고객은 특정 컨트롤 패널 기능을 활용할 수 있습니다. 이를 위해 컨트롤 패널의 마케팅 인스턴스에 구성된 MID/RT 인스턴스 URL을 제공해야 합니다. [자세히 알아보기](instances-settings/using/external-accounts.md)
 
