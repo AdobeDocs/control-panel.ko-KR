@@ -8,9 +8,12 @@ role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 TQID: https://experienceleague.adobe.com/bASJhkj1kBwWQDiuSYzI0ULRLETI2Byw8y77wi7Acx0
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
 workflow-type: tm+mt
 source-wordcount: 1348
@@ -50,7 +53,7 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 컨트롤
 >
 >컨트롤 패널에 최대 60개의 GPG 키를 설치할 수 있습니다.
 
-![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; 비디오에서 이 기능 살펴보기](#video)
 
 1. [OpenPGP 사양](https://www.openpgp.org/about/standard/)에 따라 PGP 암호화 도구를 사용하여 공개/개인 키 쌍을 생성합니다. 이렇게 하려면 GPG 유틸리티 또는 GNuGP 소프트웨어를 설치합니다.
 
@@ -103,7 +106,7 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 컨트롤
 
 그런 다음 Adobe Campaign 워크플로에서 키를 사용할 수 있습니다. 데이터 추출 활동을 사용할 때 이를 사용하여 데이터를 암호화할 수 있습니다.
 
-![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; 비디오에서 이 기능 살펴보기](#video)
 
 이 항목에 대한 자세한 내용은 Adobe Campaign 설명서를 참조하십시오.
 
@@ -126,7 +129,7 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 컨트롤
 * **공개 키**&#x200B;는 외부 시스템과 공유되며 이 키를 사용하여 Campaign으로 보낼 데이터를 암호화합니다.
 * **개인 키**&#x200B;는 Campaign에서 수신되는 암호화된 데이터의 암호를 해독하는 데 사용됩니다.
 
-![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; 비디오에서 이 기능 살펴보기](#video)
 
 컨트롤 패널에서 키 쌍을 생성하려면 다음 단계를 수행하십시오.
 
