@@ -7,9 +7,12 @@ feature: Control Panel, SFTP Management
 role: Admin
 level: Experienced
 exl-id: 713f23bf-fa95-4b8a-b3ec-ca06a4592aa3
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '356'
+TQID: https://experienceleague.adobe.com/m02LjIAF8WJEB3TTSerLtktGejxwoDFu7HfGUpYsYok
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 357
 ht-degree: 100%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 100%
 
 아래 단계에서는 SFTP 클라이언트 애플리케이션을 통해 SFTP 서버를 연결하는 방법을 자세히 설명합니다.
 
-![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](https://video.tv.adobe.com/v/34787?captions=kor&quality=12)
+![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](https://video.tv.adobe.com/v/27263?quality=12)
 
 서버에 로그인하기 전에 다음을 확인하십시오.
 

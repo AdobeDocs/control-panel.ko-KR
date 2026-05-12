@@ -5,9 +5,12 @@ feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '350'
+TQID: https://experienceleague.adobe.com/SWhLlspsWRj3e0ToS-fSZZjCZ9ojv065Jx0ZHf0DivY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 351
 ht-degree: 100%
 
 ---
@@ -50,7 +53,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Adobe 관리 SSL은 무료 기능으로, 사용자라면 비용 없이 사용할 수 있습니다.
+>Adobe 관리 SSL은 무료이며 비용 없이 사용할 수 있습니다.
 
 ## 2023년 3월 {#march-2023}
 

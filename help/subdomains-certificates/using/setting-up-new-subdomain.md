@@ -7,13 +7,17 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 0b7cb860592508f7323bcd30345d1853e4a4ac94
+TQID: https://experienceleague.adobe.com/ghS8Qn4Zj8ST2IitfS79-oALE60jyzlxHqawExlBDAY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: 1686
 ht-degree: 100%
 
 ---
-
 
 # 새 하위 도메인 설정 {#setting-up-subdomain}
 
@@ -86,7 +90,7 @@ CNAME을 사용해 하위 도메인 위임을 설정하는 경우에는 Adobe에
 
    ![](assets/subdomain3.png)
 
-1. 조직에서 사용하는 호스팅 솔루션에서 원하는 하위 도메인 및 이름 서버를 만듭니다. 이렇게 하려면 마법사에 표시된 Adobe Nameserver 정보를 복사하여 붙여넣습니다. 호스팅 솔루션에서 하위 도메인을 만드는 방법에 대한 자세한 내용은 [튜토리얼 비디오](https://video.tv.adobe.com/v/32930?captions=kor)를 참조하십시오.
+1. 조직에서 사용하는 호스팅 솔루션에서 원하는 하위 도메인 및 이름 서버를 만듭니다. 이렇게 하려면 마법사에 표시된 Adobe Nameserver 정보를 복사하여 붙여넣습니다. 호스팅 솔루션에서 하위 도메인을 만드는 방법에 대한 자세한 내용은 [튜토리얼 비디오](https://video.tv.adobe.com/v/30175)를 참조하십시오.
 
    >[!NOTE]
    >
