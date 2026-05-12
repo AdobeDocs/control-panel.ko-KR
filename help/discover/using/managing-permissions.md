@@ -7,9 +7,16 @@ feature: Control Panel, Permissions
 role: Admin
 level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
-source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
-workflow-type: ht
-source-wordcount: '341'
+TQID: https://experienceleague.adobe.com/RXVkX8Iu0brbRaFNzg3jK-PBGclyTMiGiAFptpajAo8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 342
 ht-degree: 100%
 
 ---
