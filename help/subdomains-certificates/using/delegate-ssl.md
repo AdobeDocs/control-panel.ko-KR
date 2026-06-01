@@ -8,13 +8,10 @@ role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
 TQID: https://experienceleague.adobe.com/rkz8m-EBdNJEiimWc3YVlgsXSHYR9aA4R6y6cnZqRiw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: e0e2ccba4ec069124297a26da48d210599671b48
 workflow-type: tm+mt
 source-wordcount: 485
 ht-degree: 100%
@@ -47,13 +44,13 @@ SSL 인증서를 Adobe에 위임하는 작업은 새 하위 도메인을 설정�
 
 * **CNAME 위임**: 복사해서 호스팅 솔루션에 붙여 넣을 인증서 레코드를 나중에 구성 마법사에서 제공합니다. 하위 도메인 구성을 제출하기 전에 도메인 호스팅 솔루션에서 이 인증서 레코드를 생성해야 합니다. [CNAME 위임에 대해 자세히 알아보기](setting-up-new-subdomain.md#use-cnames)
 
-![](assets/cname-adobe-managed.png){width="70%" align="left"}
+![](assets/cname-adobe-managed.png){width="70%"}
 
 ## 이미 위임한 하위 도메인의 SSL 인증서 위임 {#delegated}
 
 이미 위임한 하위 도메인의 SSL 인증서를 위임하려면 원하는 하위 도메인 옆에 있는 줄임표 버튼을 클릭하고 **[!UICONTROL 관리 SSL로 전환]**&#x200B;을 클릭합니다.
 
-![](assets/delegate-ssl-list.png){width="70%" align="left"}
+![](assets/delegate-ssl-list.png){width="70%"}
 
 인증서 생성 프로세스는 하위 도메인이 원래 구성된 방식에 따라 다릅니다.
 
@@ -67,4 +64,4 @@ CNAME 위임을 사용하여 설정한 하위 도메인의 경우 Adobe에서 �
 
 모든 인증서 레코드가 도메인 호스팅 솔루션에 생성되었는지 확인합니다. 모두 올바르게 구성되었으면 레코드 생성을 확인한 다음 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 
-![](assets/delegate-ssl.png){width="70%" align="left"}
+![](assets/delegate-ssl.png){width="70%"}
