@@ -7,14 +7,12 @@ level: Experienced
 hide: true
 exl-id: ee974059-9ede-4c8e-9e77-d0e67bb4e849
 TQID: https://experienceleague.adobe.com/vx-DFjLWS2pyJOUYeWZJL18MC-2AlpPo-iyRWTEtaks
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
-source-wordcount: 193
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: 176
+ht-degree: 100%
 
 ---
 
@@ -46,7 +44,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>이제 생성하는 <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP 범위</a> 및 <a href="../sftp/using/key-management.md#editing-public-keys">공개 키</a>를 편집할 수 있습니다. 이 기능은 현재 컨트롤 패널 릴리스 전에 생성된 항목에 사용할 수 없습니다.
+<p>이제 만든 <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP 범위</a>와 <a href="../sftp/using/key-management.md#editing-public-keys">공개 키</a>를 편집할 수 있습니다. 이 기능은 현재 컨트롤 패널 릴리스 전에 만든 항목에는 사용할 수 없습니다.
 </td>
 </tr>
 </tbody>

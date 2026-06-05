@@ -8,18 +8,14 @@ role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 TQID: https://experienceleague.adobe.com/qV--ZZUxv3WImUWYbWhboXoO-Hyo1geHtIVvrvwcfMQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 787
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +30,7 @@ ht-degree: 96%
 >
 >서비스 캘린더는 베타로 제공되며, 별도의 고지 없이 자주 업데이트 및 수정될 수 있습니다.
 
-Campaign 인스턴스를 효과적으로 모니터링하려면 인스턴스에 영향을 줄 수 있는 중요한 이벤트를 추적하는 것이 중요합니다. Campaign 컨트롤 패널을 사용하면 새로운 릴리스, 업그레이드, 패치, 핫픽스 등과 같은 이벤트를 식별할 수 있고 요청 또는 문제에 대한 Adobe 주요 연락처 목록을 제공할 수 있습니다.
+Campaign 인스턴스를 효과적으로 모니터링하려면 인스턴스에 영향을 줄 수 있는 중요한 이벤트를 추적하는 것이 중요합니다. 컨트롤 패널을 사용하면 새로운 릴리스, 업그레이드, 패치, 핫픽스 등과 같은 이벤트를 식별할 수 있고 요청 또는 문제에 대한 Adobe 주요 연락처 목록을 제공할 수 있습니다.
 
 이 정보는 컨트롤 패널 홈페이지의 **[!UICONTROL 서비스 캘린더]** 카드에서 액세스할 수 있습니다.
 

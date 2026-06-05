@@ -8,18 +8,14 @@ role: Admin
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 TQID: https://experienceleague.adobe.com/-uCuc2B992O4JmoJhGOAfIuU-NGON1zTpKwd3roYIXo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 756
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +50,7 @@ ht-degree: 96%
 
 | 구성 방법 | 작동 방법 | 작업량 |
 |---|---|---|
-| **전체 위임** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 그런 다음 Adobe은 Adobe Campaign에 필요한 모든 DNS 레코드를 구성합니다.<br/><br/>이 설정에서는 Adobe이 하위 도메인 및 모든 DNS 레코드를 관리합니다. | 낮음 |
+| **전체 위임** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 Adobe가 Adobe Campaign에 필요한 모든 DNS 레코드를 구성할 것입니다.<br/><br/>이 설정에서는 Adobe가 하위 도메인 및 모든 DNS 레코드를 관리를 전적으로 책임집니다. | 낮음 |
 | **CNAME, 사용자 지정 방법** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 Adobe에서 DNS 서버에 배치할 레코드를 제공하고 Adobe Campaign DNS 서버에서 해당 값을 구성합니다.<br/><br/>이 설정에서는 사용자와 Adobe가 DNS 유지 관리를 공동으로 수행합니다. | 높음 |
 
 도메인 구성에 대한 추가 정보는 [이 설명서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=ko)에서 확인할 수 있습니다.

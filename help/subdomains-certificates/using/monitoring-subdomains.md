@@ -8,14 +8,12 @@ role: Admin
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
 TQID: https://experienceleague.adobe.com/49fMBOZ2iN7xs7PpnYRLDHpQO5eXMTvn-veAxpjeH7w
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 154
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +31,7 @@ ht-degree: 77%
 >
 >인증서 날짜가 없는 하위 도메인은 전달성에 문제가 있을 수 있으므로 사용하지 않는 것을 권장합니다.
 
-확인을 시작할 때 하위 도메인이 올바르게 구성되었는지 확인하기 위해 몇 가지 작업이 수행됩니다(인스턴스 테넌트 확인, 이메일 전송 테스트 등). 하위 도메인의 확인에 실패하는 경우 추가 조사를 위해 Adobe 고객 지원 센터에 문의하십시오.
+인증을 시작할 때 하위 도메인이 올바르게 구성되었는지 확인하기 위해 몇 가지 작업이 수행됩니다(인스턴스 테넌트 확인, 이메일 전송 테스트 등). 하위 도메인의 확인에 실패하는 경우 추가 조사를 위해 Adobe 고객 지원 센터에 문의하십시오.
 
 **관련 항목:**
 

@@ -8,16 +8,13 @@ role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 TQID: https://experienceleague.adobe.com/rTb49TVxUqe2IeONpjiEMmhu1vZ-o6sStCwHxcWcAms
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1084
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +49,7 @@ SSL 인증서 갱신 프로세스에는 다음의 세 단계를 수행합니다.
 
 **관련 항목:**
 
-* [전달성 모범 사례 안내서 - Adobe Campaign에 대한 SSL 인증서 요청 프로세스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=ko)
+* [게재 기능 모범 사례 안내서 - Adobe Campaign에 대한 SSL 인증서 요청 프로세스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=ko)
 * [하위 도메인 브랜딩](../../subdomains-certificates/using/subdomains-branding.md)
 * [하위 도메인 모니터링](../../subdomains-certificates/using/monitoring-subdomains.md)
 

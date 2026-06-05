@@ -8,25 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 TQID: https://experienceleague.adobe.com/QzCaKeB3zqjFQTyDXRI5JQ2YoM98F5pZxOoMK1J9bjE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-  - id: e739ee2b-6228-412e-878f-45de0791417d
-  - id: eff19c99-440a-4318-b319-444edc4d8d8f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e739ee2b-6228-412e-878f-45de0791417did: eff19c99-440a-4318-b319-444edc4d8d8f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 801
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +45,7 @@ ht-degree: 93%
 
 ### 컨트롤 패널을 사용하기 위한 자격이 있나요?
 
-이 Campaign 컨트롤 패널은 AWS에서 Adobe Campaign을 호스팅한 고객의 제품 관리자에게 공개됩니다. Microsoft Azure에 호스팅된 Campaign v8 인스턴스에서도 인스턴스 액세스에 대한 IP 허용 목록, SFTP 서버에 대한 IP 허용 목록 및 고객 관리 SSL 인증서 관리와 같은 Campaign 컨트롤 패널 기능의 하위 집합에 액세스할 수 있습니다.
+AWS에서 Adobe Campaign을 호스팅하는 고객의 제품 관리자가 컨트롤 패널을 열 수 있습니다. Microsoft Azure에서 호스팅되는 Campaign v8 인스턴스도 다음 컨트롤 패널 기능의 하위 집합에 액세스할 수 있습니다. 인스턴스 액세스에 대한 IP 허용 목록, SFTP 서버에 대한 IP 허용 목록, 고객 관리형 SSL 인증서 관리.
 
 컨트롤 패널을 통해 하이브리드 호스팅 모델을 사용하는 고객은 특정 컨트롤 패널 기능을 활용할 수 있습니다. 이를 위해 컨트롤 패널의 마케팅 인스턴스에 구성된 MID/RT 인스턴스 URL을 제공해야 합니다. [자세히 알아보기](instances-settings/using/external-accounts.md)
 
