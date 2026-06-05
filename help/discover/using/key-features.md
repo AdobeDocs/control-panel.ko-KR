@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
 source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->컨트롤 패널은 관리 사용자만 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 섹션](managing-permissions.md)에 자세히 설명되어 있습니다. 인스턴스 호스팅 요구 사항에 대한 필수 구성 요소는 [이 페이지](accessing-control-panel.md)를 참조하세요.
+>컨트롤 패널은 관리 사용자만 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 섹션](managing-permissions.md)에 자세히 설명되어 있습니다. 인스턴스 호스팅 요구 사항에 대한 필수 구성 요소는 [이 페이지](accessing-control-panel.md)를 참조하십시오.
 
 <table style="table-layout:fixed">
 <tr>

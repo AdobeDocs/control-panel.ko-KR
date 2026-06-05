@@ -7,9 +7,9 @@ feature: Control Panel
 role: Admin
 level: Experienced
 source-git-commit: 17583a8f809394adc0eb53180308d6daf464e746
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '181'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

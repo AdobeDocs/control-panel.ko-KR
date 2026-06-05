@@ -19,9 +19,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 632
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 91%
 >
 >이 기능은 빌드 8850의 Campaign v7/v8 인스턴스에서만 사용할 수 있습니다. 이전 빌드를 사용하는 경우 이 기능을 사용하려면 업그레이드해야 합니다.
 
-JavaScript 코드(워크플로우 등)로 호출할 수 있는 기본 URL 목록 제한되어 있습니다. 인스턴스는 이러한 URL이 있어야 정상 작동합니다.
+Campaign 인스턴스에서 워크플로 등 JavaScript 코드를 통해 호출할 수 있는 URL의 기본 목록은 제한되어 있습니다. 인스턴스는 이러한 URL이 있어야 정상 작동합니다.
 
 기본적으로 인스턴스는 외부 URL에 연결할 수 없습니다. 컨트롤 패널에서는 인스턴스가 연결할 수 있도록 권한이 부여된 URL 목록에 일부 외부 URL을 추가할 수 있습니다. 이렇게 하면 파일 및/또는 데이터를 전송할 수 있도록 SFTP 서버나 웹 사이트 등의 외부 시스템에 Campaign 인스턴스를 연결할 수 있습니다.
 
@@ -49,7 +49,7 @@ JavaScript 코드(워크플로우 등)로 호출할 수 있는 기본 URL 목록
 
 **관련 항목:**
 
-* [캠페인 서버 구성](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=ko)
+* [Campaign 서버 구성](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=ko)
 * [발신 연결 보호](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html?lang=ko#outgoing-connection-protection)
 
 ## 모범 사례 {#best-practices}
@@ -97,7 +97,7 @@ JavaScript 코드(워크플로우 등)로 호출할 수 있는 기본 URL 목록
 
    >[!NOTE]
    >
-   >&quot;/.*&quot; 문자는 유효성이 검사된 후 입력한 URL의 끝에 자동으로 추가되어 입력한 페이지의 모든 하위 페이지를 포함합니다.
+   >입력한 페이지의 모든 하위 페이지를 포함하기 위해 입력한 URL이 확인된 후 URL의 맨 뒤에 &quot;/.*&quot; 문자가 자동으로 추가됩니다.
 
    ![](assets/add_url_listnew.png)
 
