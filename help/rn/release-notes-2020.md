@@ -11,7 +11,7 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+source-git-commit: 602d1039a9725ad68de0e0a2e558108b67d62e6c
 workflow-type: tm+mt
 source-wordcount: 439
 ht-degree: 100%
@@ -172,6 +172,7 @@ ht-degree: 100%
 관리자가 컨트롤 패널에서 하위 도메인을 구성하고 SSL 인증서를 갱신할 수 있는 새 기능이 추가되었습니다.
 
 자세한 내용은 다음 페이지를 참조하십시오.
+
 * [새 하위 도메인 설정](../subdomains-certificates/using/setting-up-new-subdomain.md)
 * [하위 도메인의 SSL 인증서 갱신](../subdomains-certificates/using/renewing-subdomain-certificate.md)
 

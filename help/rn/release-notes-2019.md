@@ -11,7 +11,7 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+source-git-commit: 602d1039a9725ad68de0e0a2e558108b67d62e6c
 workflow-type: tm+mt
 source-wordcount: 156
 ht-degree: 100%
@@ -22,8 +22,7 @@ ht-degree: 100%
 
 ## 2019년 9월 {#september-2019}
 
-Campaign v7/v8 인스턴스에 연결하기 위해 관리자가 허용 목록에 IP 주소를 추가할 수 있는 새로운 기능이 추가되었습니다.
-또한 관리자는 이제 Campaign v7/v8 인스턴스 목록과 빌드 업그레이드 가능 여부를 확인할 수 있습니다.
+Campaign v7/v8 인스턴스에 연결하기 위해 관리자가 허용 목록에 IP 주소를 추가할 수 있는 새로운 기능이 추가되었습니다.또한 관리자는 이제 Campaign v7/v8 인스턴스 목록과 빌드 업그레이드 가능 여부를 확인할 수 있습니다.
 
 자세한 내용은 [해당 설명서](../instances-settings/using/ip-allow-listing-instance-access.md)를 참조하십시오.
 
@@ -38,3 +37,4 @@ Campaign v7/v8 인스턴스에 연결하기 위해 관리자가 허용 목록에
 관리자가 Campaign v7/v8 인스턴스 설정을 더 자세히 제어할 수 있는 새 기능이 추가되었습니다. 새로운 제어판 기능에는 Adobe Campaign가 데이터/파일 전송을 위해 연결하는 URL을 추가하는 기능 등이 있습니다.
 
 자세한 내용은 [세부 설명서](../instances-settings/using/url-permissions.md)를 참조하십시오.
+
