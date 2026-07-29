@@ -13,7 +13,7 @@ product_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 1106
 ht-degree: 100%
 
@@ -98,7 +98,7 @@ Adobe는 모든 고객에게 **공개 및 개인 키 쌍**&#x200B;을 사용하�
 
    동일한 “name.pub” 형식의 개인/공개 키 쌍을 생성하는 데 사용할 수 있는 서드파티 도구를 설치해야 할 수 있습니다.
 
-1. .pub 파일을 열고 “ssh...”로 시작하는 전체 문자열을 복사하여 컨트롤 패널에붙여넣습니다.
+1. .pub 파일을 열고 “ssh...”로 시작하는 전체 문자열을 복사하여 컨트롤 패널에 붙여넣습니다.
 
    ![](assets/publickey.png)
 

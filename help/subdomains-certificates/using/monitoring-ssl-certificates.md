@@ -9,8 +9,8 @@ level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 100%
+source-wordcount: '564'
+ht-degree: 97%
 
 ---
 
@@ -62,8 +62,8 @@ SSL 인증서 모니터링은 하위 도메인의 보안을 유지하는 데 중
 
 ![](assets/subdomains_list.png)
 
-하위 도메인에 대한 자세한 내용을 보려면 **[!UICONTROL 하위 도메인 세부 사항]** 버튼을 클릭합니다.
-모든 관련 하위 도메인 목록이 표시됩니다. 이 목록에는 보통 랜딩 페이지, 리소스 페이지 등의 하위 도메인이 포함됩니다.
+하위 도메인에 대한 자세한 내용을 보려면 **[!UICONTROL 하위 도메인 세부 정보]** 단추를 클릭하세요.
+모든 관련 하위 도메인 목록이 표시됩니다. 일반적으로 랜딩 페이지, 리소스 페이지 등의 하위 도메인이 포함됩니다.
 
 **[!UICONTROL 발신자 정보]** 탭은 구성된 받은 편지함(발신자, 회신 대상, 오류 이메일)에 대한 정보를 제공합니다.
 
