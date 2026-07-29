@@ -8,14 +8,11 @@ role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 TQID: https://experienceleague.adobe.com/bASJhkj1kBwWQDiuSYzI0ULRLETI2Byw8y77wi7Acx0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 1348
 ht-degree: 100%
 
@@ -181,9 +178,9 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 컨트롤
 * **[!UICONTROL 지문]**: 키의 지문입니다.
 * **[!UICONTROL 만료]**: 키의 만료 날짜입니다. 키의 만료 날짜가 가까워지면 컨트롤 패널에서 시각적 표시를 제공합니다.
 
-   * 30일 전에 긴급(빨간색)이 표시됩니다.
-   * 경고(노란색)는 60일 전에 표시됩니다.
-   * 키가 만료되면 “만료됨” 빨간색 배너가 표시됩니다.
+  * 30일 전에 긴급(빨간색)이 표시됩니다.
+  * 경고(노란색)는 60일 전에 표시됩니다.
+  * 키가 만료되면 “만료됨” 빨간색 배너가 표시됩니다.
 
   >[!NOTE]
   >
@@ -203,4 +200,4 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 컨트롤
 
 GPG 키 관리와 관련된 추가 방법 비디오는 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ko#instance-settings) 및 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ko#instance-settings) 튜토리얼 페이지에서 볼 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/327886?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

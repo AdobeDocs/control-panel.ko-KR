@@ -8,13 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 TQID: https://experienceleague.adobe.com/UQ6VccQByzkAi0wVcfHOhvmcl1DdhumLZ1lFW-OyTuw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
 workflow-type: tm+mt
 source-wordcount: 911
@@ -38,8 +34,8 @@ DMARC 구현에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내
   CNAME 기반 하위 도메인에 DMARC 레코드를 설정하려면 상위 도메인에서 DMARC 레코드를 구성할 수 있습니다. 이렇게 하면 CNAME을 통해 위임된 경우에도 연결된 모든 하위 도메인이 DMARC 레코드 매개 변수를 상속합니다.
 
 * 한 하위 도메인에 대해 DMARC 및 BIMI 레코드가 모두 있는 경우,
-   * DMARC 레코드는 삭제할 수 없습니다. DMARC 레코드를 삭제하려면 먼저 BIMI 레코드를 삭제해야 합니다.
-   * DMARC 레코드를 편집할 수는 있지만 DMARC 정책을 “없음”으로 다운그레이드할 수는 없으며 백분율 값을 “100”으로 설정해야 합니다.
+  * DMARC 레코드는 삭제할 수 없습니다. DMARC 레코드를 삭제하려면 먼저 BIMI 레코드를 삭제해야 합니다.
+  * DMARC 레코드를 편집할 수는 있지만 DMARC 정책을 “없음”으로 다운그레이드할 수는 없으며 백분율 값을 “100”으로 설정해야 합니다.
 
 ## 하위 도메인에 대한 DMARC 레코드 추가 {#add}
 

@@ -8,16 +8,12 @@ role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 TQID: https://experienceleague.adobe.com/qV--ZZUxv3WImUWYbWhboXoO-Hyo1geHtIVvrvwcfMQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 787
 ht-degree: 100%
 
@@ -76,12 +72,12 @@ Campaign 인스턴스를 효과적으로 모니터링하려면 인스턴스에 �
 
 * **릴리스**&#x200B;는 인스턴스에 대한 과거/예정된 배포를 모두 보여주며, 캘린더 화면에서 각각 회색과 파란색으로 표시됩니다. 이벤트 세부 사항에는 각 배포와 관련된 릴리스 유형이 지정되어 있습니다.
 
-   * **[!UICONTROL 일반 공급]**: 사용 가능한 안정적인 최신 빌드입니다.
-   * **[!UICONTROL 제한]**: 주문형 배포만 가능합니다.
-   * **[!UICONTROL 릴리스 후보]**: 엔지니어링 유효성이 검증되었습니다. 프로덕션 교정을 기다리는 중입니다.
-   * **[!UICONTROL 사전 릴리스]**: 특정 고객 요구에 대한 사전 공급입니다.
-   * **[!UICONTROL 더 이상 사용할 수 없음]**: 빌드에는 큰 문제가 없지만 추가 버그 수정이 포함된 새 빌드를 사용할 수 있습니다. 업그레이드가 필요합니다.
-   * **[!UICONTROL 사용되지 않음]**: 알려진 회귀 임베딩을 빌드합니다. 빌드는 더 이상 지원되지 않습니다. 업그레이드는 필수입니다.
+  * **[!UICONTROL 일반 공급]**: 사용 가능한 안정적인 최신 빌드입니다.
+  * **[!UICONTROL 제한]**: 주문형 배포만 가능합니다.
+  * **[!UICONTROL 릴리스 후보]**: 엔지니어링 유효성이 검증되었습니다. 프로덕션 교정을 기다리는 중입니다.
+  * **[!UICONTROL 사전 릴리스]**: 특정 고객 요구에 대한 사전 공급입니다.
+  * **[!UICONTROL 더 이상 사용할 수 없음]**: 빌드에는 큰 문제가 없지만 추가 버그 수정이 포함된 새 빌드를 사용할 수 있습니다. 업그레이드가 필요합니다.
+  * **[!UICONTROL 사용되지 않음]**: 알려진 회귀 임베딩을 빌드합니다. 빌드는 더 이상 지원되지 않습니다. 업그레이드는 필수입니다.
 
 예정된 하나 또는 여러 이벤트에 플래그를 할당하여 추적할 수 있습니다. 이렇게 하려면 이벤트 이름 옆에 있는 타원형 버튼을 클릭하십시오.
 

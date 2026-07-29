@@ -6,10 +6,8 @@ role: Admin
 level: Experienced
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 TQID: https://experienceleague.adobe.com/Q1kU0q1e-a-H0LvAyK-5yYhfrUpGco1hVHWUsz-syhY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
 workflow-type: tm+mt
 source-wordcount: 150
@@ -36,6 +34,6 @@ ht-degree: 100%
 * 이제 여러 이메일 주소에서 집계 보고서 및 오류 보고서 이메일을 받을 수 있습니다. [자세히 알아보기](../subdomains-certificates/using/dmarc.md)
 * 한 하위 도메인에 대해 DMARC와 BIMI 레코드 모두 있는 경우의 작업 조건을 변경했습니다.
 
-   * DMARC 레코드는 삭제할 수 없습니다. 삭제하려면 먼저 BIMI 레코드를 삭제해야 합니다.
-   * DMARC 레코드를 편집할 수는 있지만 “없음”으로 다운그레이드하는 정책은 허용되지 않으며 해당 백분율 값은 100이어야 합니다.
+  * DMARC 레코드는 삭제할 수 없습니다. 삭제하려면 먼저 BIMI 레코드를 삭제해야 합니다.
+  * DMARC 레코드를 편집할 수는 있지만 “없음”으로 다운그레이드하는 정책은 허용되지 않으며 해당 백분율 값은 100이어야 합니다.
 

@@ -8,13 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 TQID: https://experienceleague.adobe.com/gdmtHgMWI-8y3w6uzXdNxOatrjJMDdp6EWLuXz1mhhg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
 workflow-type: tm+mt
 source-wordcount: 543
@@ -40,10 +36,10 @@ BIMI 구현에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내�
 
 * DMARC 레코드 전제 조건:
 
-   * 조직 도메인의 레코드 정책 유형은 “격리” 또는 “거부”로 설정되어야 합니다. DMARC 정책 유형이 “없음”으로 설정되어 있으면 BIMI 레코드를 만들 수 없습니다.
-   * DMARC 정책이 적용되는 이메일의 비율은 100%여야 합니다. BIMI는 이 비율이 100% 미만으로 설정된 DMARC 정책을 지원하지 않습니다.
+  * 조직 도메인의 레코드 정책 유형은 “격리” 또는 “거부”로 설정되어야 합니다. DMARC 정책 유형이 “없음”으로 설정되어 있으면 BIMI 레코드를 만들 수 없습니다.
+  * DMARC 정책이 적용되는 이메일의 비율은 100%여야 합니다. BIMI는 이 비율이 100% 미만으로 설정된 DMARC 정책을 지원하지 않습니다.
 
-     [DMARC 레코드 구성 방법 알아보기](dmarc.md)
+    [DMARC 레코드 구성 방법 알아보기](dmarc.md)
 
 ## 하위 도메인에 대한 BIMI 레코드 추가 {#add}
 

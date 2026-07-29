@@ -8,12 +8,10 @@ role: Admin
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 TQID: https://experienceleague.adobe.com/kKfXYnZLuU5W0GX4KwGDjFsmL5pxkhBunBYrDVUUUsM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 556
 ht-degree: 100%
 
@@ -71,9 +69,9 @@ ht-degree: 100%
 * **[!UICONTROL 이름]**: 서버의 이름입니다.
 * **[!UICONTROL 빌드:]** 서버에 설치된 빌드 버전.
 * **[!UICONTROL 업그레이드 정보]**: 이 열은 서버에 업데이트가 필요한지 알려줍니다.
-   * 녹색: 서버가 최신 상태이므로 업그레이드할 필요가 없습니다.
-   * 노랑: 업그레이드를 고려해야 합니다. 최신 기능과 수정 사항이 설치되어 있지 않습니다.
-   * 빨강: 최대한 빨리 업그레이드해야 합니다. 새 기능이 설치되어 있지 않아 서버 성능이 최적 상태가 아닐 수 있습니다.
+  * 녹색: 서버가 최신 상태이므로 업그레이드할 필요가 없습니다.
+  * 노랑: 업그레이드를 고려해야 합니다. 최신 기능과 수정 사항이 설치되어 있지 않습니다.
+  * 빨강: 최대한 빨리 업그레이드해야 합니다. 새 기능이 설치되어 있지 않아 서버 성능이 최적 상태가 아닐 수 있습니다.
 
 서버 중 하나를 업그레이드해야 하는 경우의 진행 방법에 대한 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=ko)를 참조하십시오.
 
