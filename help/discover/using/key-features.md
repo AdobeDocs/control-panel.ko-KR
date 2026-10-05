@@ -7,13 +7,28 @@ feature: Control Panel, Overview
 role: Admin
 level: Experienced
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 100%
-
 ---
-
 # 주요 기능 {#key-features}
 
 컨트롤 패널에서는 각 인스턴스의 사용 방식을 추적하고 설정을 관리하여 Adobe Campaign Standard 및/또는 Classic의 제품 관리자 작업 효율성을 높일 수 있습니다. 컨트롤 패널의 직관적인 인터페이스를 활용하면 주요 자산의 사용을 손쉽게 모니터링할 수 있을 뿐만 아니라 허용 목록에 IP 주소 추가, SFTP 스토리지 모니터링, 키 관리 등의 관리 작업도 수행할 수 있습니다.

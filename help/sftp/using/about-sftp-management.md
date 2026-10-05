@@ -8,20 +8,29 @@ feature: Control Panel, SFTP Management
 role: Admin
 level: Intermediate
 exl-id: b2c3be80-0d1b-4998-87ab-5280c6213f3d
-TQID: https://experienceleague.adobe.com/UZHhTNCld6p1RFGh3DY-2r3VRiLNxCtP0anuPxPnWVE
+TQID: 'https://experienceleague.adobe.com/UZHhTNCld6p1RFGh3DY-2r3VRiLNxCtP0anuPxPnWVE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e8445399-14db-4931-a0bb-477780230387
+    internal-label: SFTP Management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+    internal-label: Intermediate
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
 workflow-type: tm+mt
-source-wordcount: 168
+source-wordcount: '168'
 ht-degree: 100%
-
 ---
-
 # SFTP 관리 정보 {#about-sftp-management}
 
 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 대부분의 인스턴스가 SFTP 서버에 연결되어 있습니다(경우에 따라 개발 및 스테이지 인스턴스가 SFTP 서버에 연결되어 있지 않을 수 있음).

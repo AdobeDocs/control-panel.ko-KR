@@ -6,18 +6,29 @@ role: Admin
 level: Experienced
 hide: true
 exl-id: ee974059-9ede-4c8e-9e77-d0e67bb4e849
-TQID: https://experienceleague.adobe.com/vx-DFjLWS2pyJOUYeWZJL18MC-2AlpPo-iyRWTEtaks
+TQID: 'https://experienceleague.adobe.com/vx-DFjLWS2pyJOUYeWZJL18MC-2AlpPo-iyRWTEtaks'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 602d1039a9725ad68de0e0a2e558108b67d62e6c
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
 workflow-type: tm+mt
-source-wordcount: 175
+source-wordcount: '192'
 ht-degree: 100%
-
 ---
-
 # 2021년 릴리스 정보 {#rn-2021}
 
 ## 2021년 10월 {#october-2021}
@@ -46,7 +57,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>이제 만든 <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP 범위</a>와 <a href="../sftp/using/key-management.md#editing-public-keys">공개 키</a>를 편집할 수 있습니다. 이 기능은 현재 컨트롤 패널 릴리스 전에 만든 항목에는 사용할 수 없습니다.
+<p>이제 생성하는 <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP 범위</a> 및 <a href="../sftp/using/key-management.md#editing-public-keys">공개 키</a>를 편집할 수 있습니다. 이 기능은 현재 컨트롤 패널 릴리스 전에 생성된 항목에 사용할 수 없습니다.
 </td>
 </tr>
 </tbody>

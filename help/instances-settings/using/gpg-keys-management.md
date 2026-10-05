@@ -7,20 +7,32 @@ feature: Control Panel, Encryption
 role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-TQID: https://experienceleague.adobe.com/bASJhkj1kBwWQDiuSYzI0ULRLETI2Byw8y77wi7Acx0
+TQID: 'https://experienceleague.adobe.com/bASJhkj1kBwWQDiuSYzI0ULRLETI2Byw8y77wi7Acx0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
+subfeature_v2:
+  - id: d0dbac2b-cbd2-42b3-956e-60af02966728
+    internal-label: Encryption
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+    internal-label: Security
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
 workflow-type: tm+mt
-source-wordcount: 1348
+source-wordcount: '1348'
 ht-degree: 100%
-
 ---
-
 # GPG 키 관리 {#gpg-keys-management}
 
 >[!CONTEXTUALHELP]
@@ -203,4 +215,4 @@ Campaign을 사용하여 GPG 암호화를 구현하려면 관리자가 컨트롤
 
 GPG 키 관리와 관련된 추가 방법 비디오는 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ko#instance-settings) 및 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=ko#instance-settings) 튜토리얼 페이지에서 볼 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/327886?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

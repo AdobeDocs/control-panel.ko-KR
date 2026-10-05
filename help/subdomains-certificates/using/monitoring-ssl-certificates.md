@@ -7,13 +7,28 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
+subfeature_v2:
+  - id: f807e46f-d823-43a9-98be-82e0b2f3a05c
+    internal-label: Subdomains and certificates
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 97%
-
+source-wordcount: '578'
+ht-degree: 100%
 ---
-
 # 하위 도메인의 SSL 인증서 모니터링 {#monitoring-ssl-certificates}
 
 ## SSL 인증서 정보 {#about-ssl-certificates}
@@ -62,8 +77,8 @@ SSL 인증서 모니터링은 하위 도메인의 보안을 유지하는 데 중
 
 ![](assets/subdomains_list.png)
 
-하위 도메인에 대한 자세한 내용을 보려면 **[!UICONTROL 하위 도메인 세부 정보]** 단추를 클릭하세요.
-모든 관련 하위 도메인 목록이 표시됩니다. 일반적으로 랜딩 페이지, 리소스 페이지 등의 하위 도메인이 포함됩니다.
+하위 도메인에 대한 자세한 내용을 보려면 **[!UICONTROL 하위 도메인 세부 사항]** 버튼을 클릭합니다.
+모든 관련 하위 도메인 목록이 표시됩니다. 이 목록에는 보통 랜딩 페이지, 리소스 페이지 등의 하위 도메인이 포함됩니다.
 
 **[!UICONTROL 발신자 정보]** 탭은 구성된 받은 편지함(발신자, 회신 대상, 오류 이메일)에 대한 정보를 제공합니다.
 
